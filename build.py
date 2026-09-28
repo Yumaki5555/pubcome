@@ -33,13 +33,24 @@ def short_title(title, limit=70):
     return t if len(t) <= limit else t[: limit - 1] + "…"
 
 
+def load_plain_titles():
+    """plain_titles.json（案件番号 → わかりやすい言い換え）を読む。"""
+    path = HERE / "plain_titles.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def display_title(item):
+    """わかりやすい言い換えがあればそれを、なければ正式名称を短くしたものを使う。"""
+    return item.get("plain") or short_title(item["title"])
+
+
 def share_text(item, main_hashtag, hashtag_of):
     """一覧ページの「Xでシェア」用の文章。リンク（23字として数える）込みで140字以内にする。"""
     d = datetime.fromisoformat(item["deadline"])
     tags = " ".join([main_hashtag] + [hashtag_of[t] for t in item["tags"]])
     make = lambda title: (f"「{title}」について、国が{d.month}/{d.day}まで意見を募集しています📣\n"
                           f"ひとことからでも、誰でも送れます🙆\n{tags}\n")
-    title = short_title(item["title"])
+    title = display_title(item)
     while len(make(title)) + 23 > 140 and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
     return make(title)
@@ -53,7 +64,10 @@ def main():
     now = datetime.now(JST).isoformat()
     open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
+    plain = load_plain_titles()
     for it in open_items:
+        if it["id"] in plain:
+            it["plain"] = plain[it["id"]]
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of)
     payload = {
         "updated": data["updated"],
@@ -138,6 +152,7 @@ ul.list{list-style:none;padding:0;margin:0 0 40px}
 .item h2{font-size:1rem;margin:4px 0 8px;font-weight:600;line-height:1.5}
 .item h2 a{color:var(--ink);text-decoration:none}
 .item h2 a:hover{text-decoration:underline}
+.official{font-size:.8rem;color:var(--sub);margin:-4px 0 8px;line-height:1.5}
 .foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:.82rem;color:var(--sub)}
 .actions{display:flex;gap:6px}
 .btn{display:inline-block;text-decoration:none;border-radius:8px;padding:5px 12px;font-size:.82rem;font-weight:600}
@@ -227,7 +242,7 @@ function render(){
   const items = D.items.filter(i =>
     (!state.tag || i.tags.includes(state.tag)) &&
     (!state.ministry || i.ministry === state.ministry) &&
-    (!state.q || (i.title + i.category + i.ministry).includes(state.q))
+    (!state.q || (i.title + (i.plain || '') + i.category + i.ministry).includes(state.q))
   );
   document.getElementById('count').textContent = `${items.length} 件を表示中（締切が近い順）`;
   const list = document.getElementById('list');
@@ -241,7 +256,8 @@ function render(){
     const first = i.tags[0];
     return `<li class="item${first ? ' focus' : ''}" style="${first ? '--tagc:' + tagColor[first] : ''}">
       <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>
-      <h2><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h2>
+      <h2><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.plain || i.title)}</a></h2>
+      ${i.plain ? `<p class="official">正式名：${esc(i.title)}</p>` : ''}
       <div class="foot"><span>${esc(i.ministry)}｜締切 ${fmt(i.deadline)} ${new Date(i.deadline).toTimeString().slice(0,5)}</span>
         <span class="actions"><a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">意見を出す</a>
         <a class="btn x" href="${xUrl}" target="_blank" rel="noopener">𝕏でシェア</a></span></div>

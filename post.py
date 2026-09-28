@@ -13,7 +13,7 @@ import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from build import short_title
+from build import display_title, load_plain_titles
 
 HERE = Path(__file__).parent
 JST = timezone(timedelta(hours=9))
@@ -55,6 +55,10 @@ def main():
     days_left = lambda it: math.ceil((datetime.fromisoformat(it["deadline"]) - now).total_seconds() / 86400)
     new_since = (now - timedelta(days=NEW_DAYS)).isoformat()
     is_new = lambda it: (it.get("published") or "") >= new_since
+    plain = load_plain_titles()
+    for it in open_items:
+        if it["id"] in plain:
+            it["plain"] = plain[it["id"]]
     focus = [it for it in open_items if it["tags"]]
 
     posts = []  # (見出し, 本文)
@@ -75,7 +79,7 @@ def main():
             f"「{title}」\n"
             f"{mmdd(it['deadline'])}まで、誰でも意見を送れます✉️\n"
             f"{it['url']}\n{main_tag} {t['hashtag']}"
-        ), short_title(it["title"]))))
+        ), display_title(it))))
 
     # 3) 注目テーマの締切間近
     for it in sorted([it for it in focus if days_left(it) <= CLOSING_DAYS], key=lambda it: it["deadline"]):
@@ -87,7 +91,7 @@ def main():
             f"{t['friendly']}に関する「{title}」\n"
             f"ひとことでも大丈夫。今ならまだ間に合います🙏\n"
             f"{it['url']}\n{main_tag} {t['hashtag']}"
-        ), short_title(it["title"]))))
+        ), display_title(it))))
 
     # 4) 注目テーマごとの紹介
     for t in tag_defs:
