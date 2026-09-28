@@ -221,7 +221,7 @@ footer{font-size:.78rem;color:var(--sub);margin-top:20px}
 <div class="deadline"><span class="left" id="left"></span><span><small>意見の締切</small>__DEADLINE__</span></div>
 
 <div class="btns">
-  <a class="btn go" href="__EGOV__" target="_blank" rel="noopener">e-Gov（国の公式ページ）で意見を出す →</a>
+  <a class="btn go" href="__EGOV__" target="_blank" rel="noopener">e-Gov（国のページ）で意見を出す</a>
   <button type="button" class="btn x" id="share">𝕏でシェアして広める</button>
 </div>
 
