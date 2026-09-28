@@ -338,6 +338,7 @@ footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid
 <body>
 <div class="wrap">
 <header>
+  <p style="font-size:.85rem;margin:0 0 10px">🏛️ 国版 ／ <a href="pref/">🗾 都道府県のパブコメはこちら</a></p>
   <h1>📣 __SITE_NAME__</h1>
   <p class="lead">__SITE_DESC__</p>
   <div class="stats"><span>募集中 <b id="total">__COUNT__</b> 件</span><span id="soon"></span><span id="updated"></span></div>
