@@ -7,7 +7,6 @@
 """
 import html
 import json
-import math
 import re
 import urllib.parse
 from datetime import datetime, timedelta, timezone
@@ -51,8 +50,8 @@ def main():
 
     now = datetime.now(JST)
     open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now.isoformat()]
-    # 一覧ページと同じく「あと◯日」は切り上げで数える
-    days_left = lambda it: math.ceil((datetime.fromisoformat(it["deadline"]) - now).total_seconds() / 86400)
+    # 締切日と今日の「日付」の差（今日が締切なら0）。一覧ページと同じ数え方
+    days_left = lambda it: (datetime.fromisoformat(it["deadline"]).date() - now.date()).days
     new_since = (now - timedelta(days=NEW_DAYS)).isoformat()
     is_new = lambda it: (it.get("published") or "") >= new_since
     plain = load_plain_titles()

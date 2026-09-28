@@ -109,7 +109,9 @@ const tagColor = Object.fromEntries(D.tags.map(t => [t.name, t.color]));
 const now = new Date();
 const state = { tag: '', q: '', ministry: '' };
 
-function daysLeft(iso){ return Math.ceil((new Date(iso) - now) / 86400000); }
+// 締切日と今日の「日付」の差（時刻は見ない）。今日が締切なら0
+function ymd(d){ return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()); }
+function daysLeft(iso){ return Math.round((ymd(new Date(iso)) - ymd(now)) / 86400000); }
 function fmt(iso){ const d = new Date(iso); return `${d.getMonth()+1}/${d.getDate()}`; }
 function esc(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
