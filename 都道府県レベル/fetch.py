@@ -274,7 +274,7 @@ def find_period(text, today):
 
 
 PUBCOME = re.compile(r"パブリック・?コメント|パブコメ|意見(の)?(募集|公募|提出|を募集)|ご?御?意見を(募集|お寄せ|伺)"
-                     r"|(県|道|都|府)民(の|から)?(御|ご)?意見|意見提出手続|意見公募|いけん")
+                     r"|(県|道|都|府|市|区|町|村)民(の|から)?(御|ご)?意見|意見提出手続|意見公募|いけん")
 NOT_PUBCOME = re.compile(r"終了|修了|締め切りました|結果|補助金|助成金|プロポーザル|募金|セミナー|奨学生|入寮|研修|広告"
                          r"|ネーミングライツ|公聴会|職員|講座|教室|参加者|出店|協力店|受講|説明会|支援事業")
 
@@ -294,7 +294,7 @@ NG_LINK = re.compile(
     r"結果|要綱|要領|制度の概要|流れ|Q\s*&\s*A|とは|問い?合わ?せ|サイトマップ|ホーム|トップページ|アクセシビリティ|プライバシー"
     r"|指定管理|事業者(の)?募集|委員(の)?募集|職員(の)?(採用|募集)|採用試験|入札|アンケート|イベント|前へ|次へ|戻る|PDF|キロバイト|KB\)|過去"
     r"|平成|終了|済|ご意見・|ご意見箱|提言|県政ポスト|予告|予定|実施しなかった|閲覧場所|実施せず|反映状況|提出状況|考え方")
-HUB_LINK = re.compile(r"募集中|実施中|現在|今年度|実施状況|実施案件|案件一覧|(意見|コメント|募集|案件).*一覧|一覧.*(意見|コメント)")
+HUB_LINK = re.compile(r"募集中|募集している|実施中|現在|今年度|実施状況|実施案件|案件一覧|(意見|コメント|募集|案件).*一覧|一覧.*(意見|コメント)")
 YEAR_LINK = re.compile(r"(令和\s*(\d+|元)|20\d\d)\s*年度")
 CASE_LINK = re.compile(r"案|計画|条例|規則|方針|ビジョン|プラン|戦略|指針|構想|評価書|基準|意見|募集|改正|改定|見直し|について|コメント")
 FILE_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|csv|jpg|png)(\?|#|$)", re.I)
@@ -323,6 +323,14 @@ def is_current_year_link(text, today):
     return True
 
 
+SECTION_NG = re.compile(r"案|計画|条例|規則|方針|ビジョン|プラン|戦略|指針|構想|評価書|基準|改正|改定|見直し")
+
+
+def is_section_link(text):
+    """「パブリックコメント」「意見公募（パブリックコメント）」のような、パブコメの入口（案件名ではない）リンクか。"""
+    return len(text) <= 25 and bool(PUBCOME.search(text)) and not SECTION_NG.search(text)
+
+
 def classify_links(page, page_url, today):
     """ページのリンクを「一覧ページ」と「案件ページ」に分ける。"""
     host = base_domain(urllib.parse.urlparse(page_url).hostname or "")
@@ -337,10 +345,13 @@ def classify_links(page, page_url, today):
             continue
         if FILE_EXT.search(u.path) or url in seen or url.rstrip("/") == page_url.rstrip("/"):
             continue
-        if NG_LINK.search(text) or not is_current_year_link(text, today):
+        if not is_current_year_link(text, today):
+            continue
+        if NG_LINK.search(text) and not (YEAR_LINK.search(text) and re.search(r"実施(予定|状況)", text)
+                                         and not re.search(r"結果|終了", text)) and "募集中" not in text:
             continue
         seen.add(url)
-        if HUB_LINK.search(text) or (YEAR_LINK.search(text) and not re.search(r"案|について", text)):
+        if HUB_LINK.search(text) or (YEAR_LINK.search(text) and not re.search(r"案|について", text)) or is_section_link(text):
             hubs.append((url, text))
         elif CASE_LINK.search(text):
             cases.append((url, text))
@@ -489,7 +500,7 @@ def crawl_prefecture(pref, cache, today, log):
                           if find_dates(body[m.end(): m.end() + 160], today))
         if (period_hits >= 3 or not end) and depth < MAX_DEPTH:
             hubs, cases = classify_links(page, final, today)
-            hub_like = PUBCOME.search(link_text + page.get("h1", "")) and HUB_LINK.search(link_text + page.get("h1", ""))
+            hub_like = PUBCOME.search(link_text + page.get("h1", ""))
             if cases and (period_hits >= 3 or (len(cases) >= 3 and hub_like)):
                 queue.append((final, depth + 1, page))
         if period_hits >= 3 or (end and not looks_like_pubcome(link_text, page, pos)):
@@ -567,9 +578,14 @@ def tag_item(item, tag_defs):
     return [t["name"] for t in tag_defs if any(k in item["title"] for k in t["keywords"])]
 
 
-def main():
+def main(list_file=PREF_FILE, data_file=DATA_FILE):
+    """list_file の一覧（都道府県や市区町村）を見回って data_file に保存する。
+    市区町村版（../市区町村レベル/fetch.py）もこの関数を使う。記録の "pref" には県名・市区町村名が入る。"""
+    global DATA_FILE
+    DATA_FILE = data_file
     only = set(sys.argv[1:])
-    prefs = [p for p in json.loads(PREF_FILE.read_text(encoding="utf-8"))["prefectures"]
+    listed = json.loads(list_file.read_text(encoding="utf-8"))
+    prefs = [p for p in listed.get("prefectures") or listed.get("areas")
              if not only or p["name"] in only]
     tag_defs = json.loads(KEYWORDS_FILE.read_text(encoding="utf-8"))["tags"]
     old = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else {}
@@ -623,7 +639,7 @@ def main():
         "items": items,
         "pages": pages,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"\n合計 募集中 {len(items)} 件（{len({it['pref'] for it in items})} 都道府県）")
+    print(f"\n合計 募集中 {len(items)} 件（{len({it['pref'] for it in items})} か所）")
     return 0
 
 

@@ -5,5 +5,12 @@
   "site_url": "https://yumaki5555.github.io/pubcome/pref/",
   "national_url": "https://yumaki5555.github.io/pubcome/",
   "main_hashtag": "#パブコメ",
-  "urgent_days": 7
+  "urgent_days": 7,
+  "out_dir": "pref",
+  "list_file": "prefectures.json",
+  "unit": "県",
+  "area_label": "都道府県",
+  "switch_html": "<a href=\"../\">🏛️ 国</a> ／ <b>🗾 都道府県</b> ／ <a href=\"../city/\">🏙️ 市区町村</a>",
+  "about_html": "都道府県が条例や計画（子育て・福祉・まちづくりなど）を決める前に、住民から広く意見を聞く制度です。多くの県では、その県に住んでいる人・通勤通学している人などが対象です（対象は案件ごとに確認してください）。",
+  "caution_html": "47都道府県のホームページを毎日自動で見回って、「意見の募集期間」が書かれているページを集めています。県ごとにページの作りがバラバラなため、<b>載っていない案件や、まちがって載る案件があります</b>。下の「都道府県ごとの公式ページ」から、各県の一覧も確認できます。"
 }

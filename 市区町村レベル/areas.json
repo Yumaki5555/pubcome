@@ -1,0 +1,635 @@
+{
+ "_説明": "市区町村のパブリックコメント一覧ページの住所です（第1段：政令指定都市・中核市・東京23区）。取れなくなったら url を書き換えてください。",
+ "areas": [
+  {
+   "name": "札幌市",
+   "pref": "北海道",
+   "kind": "政令市",
+   "url": "https://www.city.sapporo.jp/somu/pub-comment/index.html"
+  },
+  {
+   "name": "仙台市",
+   "pref": "宮城県",
+   "kind": "政令市",
+   "url": "https://www.city.sendai.jp/kochotoke-kocho/shise/koho/kocho/sonota/comment/index.html"
+  },
+  {
+   "name": "さいたま市",
+   "pref": "埼玉県",
+   "kind": "政令市",
+   "url": "https://www.city.saitama.lg.jp/006/002/index.html"
+  },
+  {
+   "name": "千葉市",
+   "pref": "千葉県",
+   "kind": "政令市",
+   "url": "https://www.city.chiba.jp/shisei/koho-kocho/iken/index.html"
+  },
+  {
+   "name": "横浜市",
+   "pref": "神奈川県",
+   "kind": "政令市",
+   "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/kocho/public/index.html"
+  },
+  {
+   "name": "川崎市",
+   "pref": "神奈川県",
+   "kind": "政令市",
+   "url": "https://www.city.kawasaki.jp/shisei/category/286-0-0-0-0-0-0-0-0-0.html"
+  },
+  {
+   "name": "相模原市",
+   "pref": "神奈川県",
+   "kind": "政令市",
+   "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_sanka/pubcome/index.html"
+  },
+  {
+   "name": "新潟市",
+   "pref": "新潟県",
+   "kind": "政令市",
+   "url": "https://www.city.niigata.lg.jp/shisei/kocho/public/index.html"
+  },
+  {
+   "name": "静岡市",
+   "pref": "静岡県",
+   "kind": "政令市",
+   "url": "https://www.city.shizuoka.lg.jp/p000254.html"
+  },
+  {
+   "name": "浜松市",
+   "pref": "静岡県",
+   "kind": "政令市",
+   "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html"
+  },
+  {
+   "name": "名古屋市",
+   "pref": "愛知県",
+   "kind": "政令市",
+   "url": "https://www.city.nagoya.jp/shisei/kouchou/index.html"
+  },
+  {
+   "name": "京都市",
+   "pref": "京都府",
+   "kind": "政令市",
+   "url": "https://www.city.kyoto.lg.jp/templates/pubcomment/0-Curr.html"
+  },
+  {
+   "name": "大阪市",
+   "pref": "大阪府",
+   "kind": "政令市",
+   "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-7-0-0-0-0-0-0-0.html"
+  },
+  {
+   "name": "堺市",
+   "pref": "大阪府",
+   "kind": "政令市",
+   "url": "https://www.city.sakai.lg.jp/shisei/koho/kocho/publiccomment/goikenboshu.html"
+  },
+  {
+   "name": "神戸市",
+   "pref": "兵庫県",
+   "kind": "政令市",
+   "url": "https://www.city.kobe.lg.jp/a63551/shise/kocho/comment/index.html"
+  },
+  {
+   "name": "岡山市",
+   "pref": "岡山県",
+   "kind": "政令市",
+   "url": "https://www.city.okayama.jp/shisei/category/4-21-0-0-0-0-0-0-0-0.html"
+  },
+  {
+   "name": "広島市",
+   "pref": "広島県",
+   "kind": "政令市",
+   "url": "https://www.city.hiroshima.lg.jp/shisei/kouchou/1021836/index.html"
+  },
+  {
+   "name": "北九州市",
+   "pref": "福岡県",
+   "kind": "政令市",
+   "url": "https://www.city.kitakyushu.lg.jp/contents/924_01294.html"
+  },
+  {
+   "name": "福岡市",
+   "pref": "福岡県",
+   "kind": "政令市",
+   "url": "https://www.city.fukuoka.lg.jp/shisei/iken-teian/publiccomment/index.html"
+  },
+  {
+   "name": "熊本市",
+   "pref": "熊本県",
+   "kind": "政令市",
+   "url": "https://www.city.kumamoto.jp/list04457.html"
+  },
+  {
+   "name": "函館市",
+   "pref": "北海道",
+   "kind": "中核市",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2024011400039/#public"
+  },
+  {
+   "name": "旭川市",
+   "pref": "北海道",
+   "kind": "中核市",
+   "url": "https://www.city.asahikawa.hokkaido.jp/1600/1602/index.html"
+  },
+  {
+   "name": "青森市",
+   "pref": "青森県",
+   "kind": "中核市",
+   "url": "https://www.city.aomori.aomori.jp/shisei/kouchou/1006880/index.html"
+  },
+  {
+   "name": "八戸市",
+   "pref": "青森県",
+   "kind": "中核市",
+   "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/7807.html"
+  },
+  {
+   "name": "盛岡市",
+   "pref": "岩手県",
+   "kind": "中核市",
+   "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/index.html"
+  },
+  {
+   "name": "秋田市",
+   "pref": "秋田県",
+   "kind": "中核市",
+   "url": "https://www.city.akita.lg.jp/shisei/iken/index.html"
+  },
+  {
+   "name": "山形市",
+   "pref": "山形県",
+   "kind": "中核市",
+   "url": "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/koho/1007031/index.html"
+  },
+  {
+   "name": "福島市",
+   "pref": "福島県",
+   "kind": "中核市",
+   "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/219.html"
+  },
+  {
+   "name": "郡山市",
+   "pref": "福島県",
+   "kind": "中核市",
+   "url": "https://www.city.koriyama.lg.jp/life/6/36/249/"
+  },
+  {
+   "name": "いわき市",
+   "pref": "福島県",
+   "kind": "中核市",
+   "url": "https://www.city.iwaki.lg.jp/www/genre/1000100000340/index.html"
+  },
+  {
+   "name": "水戸市",
+   "pref": "茨城県",
+   "kind": "中核市",
+   "url": "https://www.city.mito.lg.jp/life/6/42/197/"
+  },
+  {
+   "name": "宇都宮市",
+   "pref": "栃木県",
+   "kind": "中核市",
+   "url": "https://www.city.utsunomiya.lg.jp/shisei/koho/publiccomment/index.html"
+  },
+  {
+   "name": "前橋市",
+   "pref": "群馬県",
+   "kind": "中核市",
+   "url": "https://www.city.maebashi.gunma.jp/gyosei/1/5/2/index.html"
+  },
+  {
+   "name": "高崎市",
+   "pref": "群馬県",
+   "kind": "中核市",
+   "url": "https://www.city.takasaki.gunma.jp/page/3244.html"
+  },
+  {
+   "name": "川越市",
+   "pref": "埼玉県",
+   "kind": "中核市",
+   "url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/index.html"
+  },
+  {
+   "name": "川口市",
+   "pref": "埼玉県",
+   "kind": "中核市",
+   "url": "https://www.city.kawaguchi.lg.jp/shiseijoho/shisei_goiken/23922.html"
+  },
+  {
+   "name": "越谷市",
+   "pref": "埼玉県",
+   "kind": "中核市",
+   "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/ikenbosyuu/index.html"
+  },
+  {
+   "name": "船橋市",
+   "pref": "千葉県",
+   "kind": "中核市",
+   "url": "https://www.city.funabashi.lg.jp/shisei/kouchou/003/index.html"
+  },
+  {
+   "name": "柏市",
+   "pref": "千葉県",
+   "kind": "中核市",
+   "url": "https://www.city.kashiwa.lg.jp/koho/public_comment/index.html"
+  },
+  {
+   "name": "八王子市",
+   "pref": "東京都",
+   "kind": "中核市",
+   "url": "https://www.city.hachioji.tokyo.jp/shisei/001/002/003/p014724.html"
+  },
+  {
+   "name": "横須賀市",
+   "pref": "神奈川県",
+   "kind": "中核市",
+   "url": "https://www.city.yokosuka.kanagawa.jp/1210/cof/index.html"
+  },
+  {
+   "name": "富山市",
+   "pref": "富山県",
+   "kind": "中核市",
+   "url": "https://www.city.toyama.lg.jp/shisei/koho/1010749/index.html"
+  },
+  {
+   "name": "金沢市",
+   "pref": "石川県",
+   "kind": "中核市",
+   "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminkyodosuishinka/gyomuannai/1/1/index.html"
+  },
+  {
+   "name": "福井市",
+   "pref": "福井県",
+   "kind": "中核市",
+   "url": "https://www.city.fukui.lg.jp/sisei/kotyou/pabcom/index.html"
+  },
+  {
+   "name": "甲府市",
+   "pref": "山梨県",
+   "kind": "中核市",
+   "url": "https://www.city.kofu.yamanashi.jp/shise/kocho/publiccomment/index.html"
+  },
+  {
+   "name": "長野市",
+   "pref": "長野県",
+   "kind": "中核市",
+   "url": "https://www.city.nagano.nagano.jp/menu/8/6/9/index.html"
+  },
+  {
+   "name": "松本市",
+   "pref": "長野県",
+   "kind": "中核市",
+   "url": "https://www.city.matsumoto.nagano.jp/life/8/34/200/"
+  },
+  {
+   "name": "岐阜市",
+   "pref": "岐阜県",
+   "kind": "中核市",
+   "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/index.html"
+  },
+  {
+   "name": "豊橋市",
+   "pref": "愛知県",
+   "kind": "中核市",
+   "url": "https://www.city.toyohashi.lg.jp/2552.htm"
+  },
+  {
+   "name": "岡崎市",
+   "pref": "愛知県",
+   "kind": "中核市",
+   "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/index.html"
+  },
+  {
+   "name": "一宮市",
+   "pref": "愛知県",
+   "kind": "中核市",
+   "url": "https://www.city.ichinomiya.aichi.jp/shisei/kocho/1000074/index.html"
+  },
+  {
+   "name": "豊田市",
+   "pref": "愛知県",
+   "kind": "中核市",
+   "url": "https://www.city.toyota.aichi.jp/shisei/koho/1009544/index.html"
+  },
+  {
+   "name": "大津市",
+   "pref": "滋賀県",
+   "kind": "中核市",
+   "url": "https://www.city.otsu.lg.jp/shisei/kc/p/index.html"
+  },
+  {
+   "name": "豊中市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/ikenkobo/index.html"
+  },
+  {
+   "name": "吹田市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/index.html"
+  },
+  {
+   "name": "高槻市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.takatsuki.osaka.jp/site/public-comment/"
+  },
+  {
+   "name": "枚方市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.hirakata.osaka.jp/category/6-4-5-0-0.html"
+  },
+  {
+   "name": "八尾市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.yao.osaka.jp/shisei/kouchou/1010466/index.html"
+  },
+  {
+   "name": "寝屋川市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.neyagawa.osaka.jp/organization_list/keieikikaku/kikakunika/public_comment/index.html"
+  },
+  {
+   "name": "東大阪市",
+   "pref": "大阪府",
+   "kind": "中核市",
+   "url": "https://www.city.higashiosaka.lg.jp/category/20-18-0-0-0-0-0-0-0-0.html"
+  },
+  {
+   "name": "姫路市",
+   "pref": "兵庫県",
+   "kind": "中核市",
+   "url": "https://www.city.himeji.lg.jp/kurashi/0000005919.html"
+  },
+  {
+   "name": "尼崎市",
+   "pref": "兵庫県",
+   "kind": "中核市",
+   "url": "https://www.city.amagasaki.hyogo.jp/shisei/si_mirai/sprocess/index.html"
+  },
+  {
+   "name": "明石市",
+   "pref": "兵庫県",
+   "kind": "中核市",
+   "url": "https://www.city.akashi.lg.jp/community/s_kyoudou_shitsu/shise/sankaku/tetsuzuki/iken_bosyu.html"
+  },
+  {
+   "name": "西宮市",
+   "pref": "兵庫県",
+   "kind": "中核市",
+   "url": "http://www.city.nishinomiya.lg.jp/shisei/sankaku/publiccomment/ikenteishutsu.html"
+  },
+  {
+   "name": "奈良市",
+   "pref": "奈良県",
+   "kind": "中核市",
+   "url": "https://www.city.nara.lg.jp/site/ikenboshu/"
+  },
+  {
+   "name": "和歌山市",
+   "pref": "和歌山県",
+   "kind": "中核市",
+   "url": "https://www.city.wakayama.wakayama.jp/shisei/koucho_iken/1001169/index.html"
+  },
+  {
+   "name": "鳥取市",
+   "pref": "鳥取県",
+   "kind": "中核市",
+   "url": "https://www.city.tottori.lg.jp/life/7/54/247/"
+  },
+  {
+   "name": "松江市",
+   "pref": "島根県",
+   "kind": "中核市",
+   "url": "https://www.city.matsue.lg.jp/gyoseijoho/koho_kocho/public_comment/index.html"
+  },
+  {
+   "name": "倉敷市",
+   "pref": "岡山県",
+   "kind": "中核市",
+   "url": "https://www.city.kurashiki.okayama.jp/cityinfo/publicity/1011776/index.html"
+  },
+  {
+   "name": "呉市",
+   "pref": "広島県",
+   "kind": "中核市",
+   "url": "https://www.city.kure.lg.jp/life/4/40/165/"
+  },
+  {
+   "name": "福山市",
+   "pref": "広島県",
+   "kind": "中核市",
+   "url": "https://www.city.fukuyama.hiroshima.jp/life/4/25/"
+  },
+  {
+   "name": "下関市",
+   "pref": "山口県",
+   "kind": "中核市",
+   "url": "https://www.city.shimonoseki.lg.jp/soshiki/18/1406.html"
+  },
+  {
+   "name": "高松市",
+   "pref": "香川県",
+   "kind": "中核市",
+   "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shinotorikumi/public/index.html"
+  },
+  {
+   "name": "松山市",
+   "pref": "愛媛県",
+   "kind": "中核市",
+   "url": "https://www.city.matsuyama.ehime.jp/shisei/kocho/ikenkouboitiran.html"
+  },
+  {
+   "name": "高知市",
+   "pref": "高知県",
+   "kind": "中核市",
+   "url": "https://www.city.kochi.kochi.jp/joho/html/lp________01.htm"
+  },
+  {
+   "name": "久留米市",
+   "pref": "福岡県",
+   "kind": "中核市",
+   "url": "https://www.city.kurume.fukuoka.jp/1100keikaku/2045keikaku/3040public/2007-1226-1525-28.html"
+  },
+  {
+   "name": "長崎市",
+   "pref": "長崎県",
+   "kind": "中核市",
+   "url": "https://www.city.nagasaki.lg.jp/life/7/58/235/"
+  },
+  {
+   "name": "佐世保市",
+   "pref": "長崎県",
+   "kind": "中核市",
+   "url": "https://www.city.sasebo.lg.jp/shise/kocho/p-comment/index.html"
+  },
+  {
+   "name": "大分市",
+   "pref": "大分県",
+   "kind": "中核市",
+   "url": "https://www.city.oita.oita.jp/o029/shisejoho/kohokocho/1121998722785/index.html"
+  },
+  {
+   "name": "宮崎市",
+   "pref": "宮崎県",
+   "kind": "中核市",
+   "url": "https://www.city.miyazaki.miyazaki.jp/city/public_hearing/"
+  },
+  {
+   "name": "鹿児島市",
+   "pref": "鹿児島県",
+   "kind": "中核市",
+   "url": "https://www.city.kagoshima.lg.jp/shimin/shiminbunka/shiminkyodo/machizukuri/kocho/sankaku/index.html"
+  },
+  {
+   "name": "那覇市",
+   "pref": "沖縄県",
+   "kind": "中核市",
+   "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/sankaku-kyoudou/1002369/index.html"
+  },
+  {
+   "name": "千代田区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/index.html"
+  },
+  {
+   "name": "中央区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.chuo.lg.jp/kusei/kouhoukouchou/kouchou/publiccomment/index.html"
+  },
+  {
+   "name": "港区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/boshu.html"
+  },
+  {
+   "name": "新宿区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.shinjuku.lg.jp/kusei/index14.html"
+  },
+  {
+   "name": "文京区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.bunkyo.lg.jp/b003/p006165.html"
+  },
+  {
+   "name": "台東区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.taito.lg.jp/kusei/sanka/publiccomment/index.html"
+  },
+  {
+   "name": "墨田区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.sumida.lg.jp/iken_yobo/index.html"
+  },
+  {
+   "name": "江東区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.koto.lg.jp/kuse/kocho/paburikku/index.html"
+  },
+  {
+   "name": "品川区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-zyouhoukoukai/kuseizyoho-zyouhoukoukai-goikenhoka/index.html"
+  },
+  {
+   "name": "目黒区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.meguro.tokyo.jp/kusei/kouchou/publiccomment/index.html"
+  },
+  {
+   "name": "大田区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/index.html"
+  },
+  {
+   "name": "世田谷区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.setagaya.lg.jp/02002/7778.html"
+  },
+  {
+   "name": "渋谷区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/public-comment-boshu/"
+  },
+  {
+   "name": "中野区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.tokyo-nakano.lg.jp/kusei/public/tetsuzuki/index.html"
+  },
+  {
+   "name": "杉並区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.suginami.tokyo.jp/s013/1310.html"
+  },
+  {
+   "name": "豊島区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.toshima.lg.jp/public1/index.html"
+  },
+  {
+   "name": "北区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html"
+  },
+  {
+   "name": "荒川区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.arakawa.tokyo.jp/a001/kouhou/publiccomment/paburikkukomento.html"
+  },
+  {
+   "name": "板橋区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/index.html"
+  },
+  {
+   "name": "練馬区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/pubcom/index.html"
+  },
+  {
+   "name": "足立区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.adachi.tokyo.jp/ku/mado/p-comment/index.html"
+  },
+  {
+   "name": "葛飾区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.katsushika.lg.jp/opinions/1009924.html"
+  },
+  {
+   "name": "江戸川区",
+   "pref": "東京都",
+   "kind": "特別区",
+   "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/goiken/goikentoiawase.html"
+  }
+ ]
+}

@@ -1,4 +1,5 @@
-"""data.json から都道府県版の一覧ページ（docs/index.html）を作る。
+"""data.json から都道府県版の一覧ページ（../docs/pref/index.html）とスマホ用まとめを作る。
+市区町村版（../市区町村レベル/build.py）も、言葉と置き場所を config.json で差し替えてこの仕組みを使う。
 
 使い方:  python build.py
 """
@@ -9,13 +10,14 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 HERE = Path(__file__).parent
+BASE = HERE   # データや設定を読むフォルダ（市区町村版では 市区町村レベル/ になる）
 sys.path.insert(0, str(HERE.parent))
 from build import SHARE_JS, short_title  # 国版と共通の部品を使う
 
 
 def load_plain_titles():
     """plain_titles.json（案件番号 → わかりやすい言い換え）を読む。"""
-    path = HERE / "plain_titles.json"
+    path = BASE / "plain_titles.json"
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
@@ -23,7 +25,7 @@ def display_title(item):
     """わかりやすい言い換えがあればそれを、なければ正式名称を短くしたものを使う。"""
     return item.get("plain") or short_title(item["title"])
 
-OUT_DIR = HERE.parent / "docs" / "pref"   # 国版と同じ公開フォルダの中の pref/ に置く
+OUT_DIR = HERE.parent / "docs" / "pref"   # 国版と同じ公開フォルダの中の pref/ に置く（config の out_dir で変わる）
 JST = timezone(timedelta(hours=9))
 
 REGIONS = [
@@ -54,10 +56,13 @@ def share_text(item, main_hashtag, hashtag_of, site_url):
     return make(title) + site_url + summary_path(item)
 
 
-def main():
-    config = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
+def main(base=HERE):
+    global BASE, OUT_DIR
+    BASE = base
+    config = json.loads((BASE / "config.json").read_text(encoding="utf-8"))
+    OUT_DIR = HERE.parent / "docs" / config.get("out_dir", "pref")
     tags = json.loads((HERE.parent / "keywords.json").read_text(encoding="utf-8"))["tags"]
-    data = json.loads((HERE / "data.json").read_text(encoding="utf-8"))
+    data = json.loads((BASE / "data.json").read_text(encoding="utf-8"))
 
     today = datetime.now(JST).date().isoformat()
     open_items = [it for it in data["items"] if it["deadline"] >= today]
@@ -74,19 +79,30 @@ def main():
             "share": it["share"], "page": summary_path(it),
         })
     build_summary_pages(open_items, tags, config)
-    prefs = json.loads((HERE / "prefectures.json").read_text(encoding="utf-8"))["prefectures"]
+    listed = json.loads((BASE / config.get("list_file", "prefectures.json")).read_text(encoding="utf-8"))
+    prefs = listed.get("prefectures") or listed.get("areas")
+    if "pref" in prefs[0]:
+        # 市区町村版：都道府県ごとにまとめる（都道府県の並びは REGIONS の順）
+        order = [n for _, names in REGIONS for n in names]
+        groups = [(pn, [a["name"] for a in prefs if a["pref"] == pn]) for pn in order]
+        groups = [g for g in groups if g[1]]
+    else:
+        groups = REGIONS
     status = data.get("status", {})
     payload = {
         "updated": data["updated"],
         "items": items,
         "tags": [{"name": t["name"], "color": t["color"]} for t in tags],
-        "regions": REGIONS,
+        "regions": groups,
         "prefs": [{"name": p["name"], "url": p["url"],
                    "error": bool((status.get(p["name"]) or {}).get("error"))} for p in prefs],
         "urgentDays": config["urgent_days"],
     }
     page = TEMPLATE
     for key, value in {
+        "__SWITCH__": config.get("switch_html", ""),
+        "__ABOUT__": config.get("about_html", ""),
+        "__CAUTION__": config.get("caution_html", ""),
         "__SITE_NAME__": html.escape(config["site_name"]),
         "__SITE_DESC__": html.escape(config["site_description"]),
         "__SITE_URL__": html.escape(config["site_url"]),
@@ -97,9 +113,16 @@ def main():
     }.items():
         page = page.replace(key, value)
 
+    page = words(page, config)
     OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / "index.html").write_text(page, encoding="utf-8")
-    print(f"docs/pref/index.html を作りました（募集中 {len(items)} 件、{len({i['pref'] for i in items})} 都道府県）")
+    print(f"docs/{config.get('out_dir', 'pref')}/index.html を作りました"
+          f"（募集中 {len(items)} 件、{len({i['pref'] for i in items})} {config.get('area_label', '都道府県')}）")
+
+
+def words(page, config):
+    """ひな形の「__UNIT__（県）」「__AREA__（都道府県）」を、都道府県版・市区町村版の言葉に置き換える。"""
+    return page.replace("__UNIT__", config.get("unit", "県")).replace("__AREA__", config.get("area_label", "都道府県"))
 
 
 def build_summary_pages(items, tag_defs, config):
@@ -122,9 +145,9 @@ def build_summary_pages(items, tag_defs, config):
             s0 = datetime.fromisoformat(it["start"])
             start = f"{s0.month}月{s0.day}日から"
         howto = (f'<p class="quote">{lines(det["howto"])}</p>'
-                 f'<p class="sub">※県のページから自動で抜き出した文です。くわしくは県のページでご確認ください。</p>'
+                 f'<p class="sub">※__UNIT__のページから自動で抜き出した文です。くわしくは__UNIT__のページでご確認ください。</p>'
                  if det.get("howto") else
-                 '<p class="sub">意見の出し方（メール・入力フォーム・郵送など）は、県のページでご確認ください。</p>')
+                 '<p class="sub">意見の出し方（メール・入力フォーム・郵送など）は、__UNIT__のページでご確認ください。</p>')
         replace = {
             "__TITLE__": e(display_title(it)),
             "__OFFICIAL__": e(it["title"]),
@@ -134,8 +157,8 @@ def build_summary_pages(items, tag_defs, config):
             "__DEADLINE_ISO__": e(it["deadline"]),
             "__OFFICIAL_URL__": e(it["url"]),
             "__HOWTO__": howto,
-            "__FILES__": f'<ul class="files">{files}</ul>' if files else '<p class="sub">資料は県のページでご確認ください。</p>',
-            "__CONTACT__": lines(det["contact"]) if det.get("contact") else "県のページでご確認ください。",
+            "__FILES__": f'<ul class="files">{files}</ul>' if files else '<p class="sub">資料は__UNIT__のページでご確認ください。</p>',
+            "__CONTACT__": lines(det["contact"]) if det.get("contact") else "__UNIT__のページでご確認ください。",
             "__SHARE__": json.dumps(it["share"], ensure_ascii=False).replace("</", "<\\/"),
             "__SHARE_JS__": SHARE_JS,
             "__SITE_NAME__": e(config["site_name"]),
@@ -145,7 +168,7 @@ def build_summary_pages(items, tag_defs, config):
         page = SUMMARY_TEMPLATE
         for k, v in replace.items():
             page = page.replace(k, v)
-        (out / f"{it['id']}.html").write_text(page, encoding="utf-8")
+        (out / f"{it['id']}.html").write_text(words(page, config), encoding="utf-8")
 
 
 SUMMARY_TEMPLATE = r"""<!DOCTYPE html>
@@ -212,7 +235,7 @@ footer{font-size:.78rem;color:var(--sub);margin-top:20px}
   <h2>✍️ 意見の出し方</h2>
   <ol>
     <li>下の「資料」を開いて、どんな案か読む（概要だけでもOK）</li>
-    <li>下の「この案件の出し方」を確認する（メール・入力フォーム・郵送など、県によって違います）</li>
+    <li>下の「この案件の出し方」を確認する（メール・入力フォーム・郵送など、__UNIT__によって違います）</li>
     <li>意見を書いて送る（ひとことでも大丈夫）</li>
   </ol>
   <h2 style="margin-top:12px">📮 この案件の出し方</h2>
@@ -250,7 +273,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__SITE_NAME__｜いま意見を出せる都道府県の案件一覧</title>
+<title>__SITE_NAME__｜いま意見を出せる__AREA__の案件一覧</title>
 <meta name="description" content="__SITE_DESC__">
 <meta property="og:type" content="website">
 <meta property="og:title" content="__SITE_NAME__｜募集中のパブコメ __COUNT__件">
@@ -328,22 +351,22 @@ footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid
 <body>
 <div class="wrap">
 <header>
-  <p class="switch">🗾 都道府県版 ／ <a href="__NATIONAL_URL__">国（各省庁）のパブコメはこちら</a></p>
+  <p class="switch">__SWITCH__</p>
   <h1>📣 __SITE_NAME__</h1>
   <p class="lead">__SITE_DESC__</p>
   <div class="stats"><span>募集中 <b id="total">__COUNT__</b> 件</span><span id="npref"></span><span id="soon"></span><span id="updated"></span></div>
   <details class="box">
-    <summary>都道府県のパブコメってなに？ 意見の出し方</summary>
-    <p>都道府県が条例や計画（子育て・福祉・まちづくりなど）を決める前に、住民から広く意見を聞く制度です。多くの県では、その県に住んでいる人・通勤通学している人などが対象です（対象は案件ごとに確認してください）。</p>
+    <summary>__AREA__のパブコメってなに？ 意見の出し方</summary>
+    <p>__ABOUT__</p>
     <ol>
       <li>気になる案件の「スマホ用まとめ」で、中身と意見の出し方を確認する</li>
-      <li>県のページで、案の内容と「意見の出し方（メール・フォーム・郵送など）」を確認</li>
+      <li>__UNIT__のページで、案の内容と「意見の出し方（メール・フォーム・郵送など）」を確認</li>
       <li>書かれている方法で意見を送る（ひとことでも大丈夫）</li>
     </ol>
   </details>
   <details class="box">
     <summary>⚠️ このページの注意（自動で集めています）</summary>
-    <p>47都道府県のホームページを毎日自動で見回って、「意見の募集期間」が書かれているページを集めています。県ごとにページの作りがバラバラなため、<b>載っていない案件や、まちがって載る案件があります</b>。下の「都道府県ごとの公式ページ」から、各県の一覧も確認できます。</p>
+    <p>__CAUTION__</p>
   </details>
 </header>
 
@@ -351,20 +374,20 @@ footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid
   <div class="tagbar" id="tagbar" role="group" aria-label="注目テーマで絞り込み"></div>
   <div class="row">
     <input id="q" type="search" placeholder="キーワードで探す（例：子ども、条例）">
-    <select id="pref"><option value="">すべての都道府県</option></select>
+    <select id="pref"><option value="">すべての__AREA__</option></select>
   </div>
 </div>
 
 <p class="count" id="count"></p>
 <ul class="list" id="list"></ul>
 
-<h3 class="sec">都道府県ごとの公式ページ</h3>
-<p class="official">数字は、このページで見つけた募集中の件数です。0件でも、県のページに載っていることがあります。</p>
+<h3 class="sec">__AREA__ごとの公式ページ</h3>
+<p class="official">数字は、このページで見つけた募集中の件数です。0件でも、__UNIT__のページに載っていることがあります。</p>
 <div id="prefs"></div>
 
 <footer>
-  出典：各都道府県の公式ホームページ（毎日自動で更新）。
-  テーマ分けは案件名に含まれる言葉で自動判定しているため、漏れや誤りがある場合があります。必ず各都道府県の公式ページで内容をご確認ください。
+  出典：各__AREA__の公式ホームページ（毎日自動で更新）。
+  テーマ分けは案件名に含まれる言葉で自動判定しているため、漏れや誤りがある場合があります。必ず各__AREA__の公式ページで内容をご確認ください。
 </footer>
 </div>
 
@@ -437,7 +460,7 @@ function render(){
       <h2><a href="${esc(i.page)}">${esc(i.short)}</a></h2>${official}
       <div class="foot"><span>締切 ${fmt(i.deadline)}</span>
         <span class="actions"><a class="btn sum" href="${esc(i.page)}">スマホ用まとめ</a>
-        <a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">県のページへ</a>
+        <a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">__UNIT__のページへ</a>
         <button class="btn x" type="button" data-n="${D.items.indexOf(i)}">𝕏でシェア</button></span></div>
     </li>`;
   }).join('');
@@ -456,7 +479,7 @@ document.getElementById('prefs').innerHTML = D.regions.map(([region, names]) => 
 }).join('');
 
 const soon = D.items.filter(i => daysLeft(i.deadline) <= D.urgentDays).length;
-document.getElementById('npref').textContent = `（${Object.keys(countOf).length}都道府県）`;
+document.getElementById('npref').textContent = `（${Object.keys(countOf).length}__AREA__）`;
 document.getElementById('soon').textContent = soon ? `・${D.urgentDays}日以内に締切 ${soon} 件` : '';
 document.getElementById('updated').textContent = `・${D.updated.slice(0,10).replace(/-/g,'/')} 更新`;
 render();

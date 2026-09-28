@@ -1,10 +1,10 @@
 {
- "updated": "2026-09-29T00:05+09:00",
+ "updated": "2026-09-29T00:34+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
    "error": null,
-   "open": 7,
+   "open": 6,
    "checked": "2026-09-29"
   },
   "青森県": {
@@ -82,7 +82,7 @@
   "神奈川県": {
    "url": "https://www.pref.kanagawa.jp/pub/list-2.html",
    "error": null,
-   "open": 1,
+   "open": 2,
    "checked": "2026-09-29"
   },
   "新潟県": {
@@ -94,7 +94,7 @@
   "富山県": {
    "url": "https://www.pref.toyama.jp/kensei/kenseisanka/kenseisanka/publiccomment/index.html",
    "error": null,
-   "open": 4,
+   "open": 5,
    "checked": "2026-09-29"
   },
   "石川県": {
@@ -118,7 +118,7 @@
   "長野県": {
    "url": "https://www.pref.nagano.lg.jp/koho/kensei/koho/public/index.html",
    "error": null,
-   "open": 1,
+   "open": 0,
    "checked": "2026-09-29"
   },
   "岐阜県": {
@@ -226,7 +226,7 @@
   "愛媛県": {
    "url": "https://www.pref.ehime.jp/adv/ba.php?id=19",
    "error": null,
-   "open": 1,
+   "open": 2,
    "checked": "2026-09-29"
   },
   "高知県": {
@@ -803,27 +803,6 @@
    "tags": []
   },
   {
-   "id": "2e31dbb856",
-   "pref": "長野県",
-   "title": "長野県議会事務局の県民意見公募手続",
-   "url": "https://www.pref.nagano.lg.jp/gikai/chosa/index.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-14",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
-   "detail": {
-    "files": [
-     {
-      "name": "PDF版",
-      "url": "https://www.pref.nagano.lg.jp/gikai/chosa/documents/kouhou172.pdf"
-     }
-    ],
-    "howto": "県議会への\nご意見・ご感想\n議会広報\n正副議長日程\n広報紙\n「こんにちは県議会です」\n広報番組\n県政報告会・\nふれあいミーティング\n写真で見る活動報告\n議会のごあんない\n(パンフレット)",
-    "contact": "リンクについて\nウェブアクセシビリティ方針\n県庁フロア・アクセス案内\n長野県議会X運用方針\n長野県議会YouTube運用方針"
-   },
-   "tags": []
-  },
-  {
    "id": "e2f1d73291",
    "pref": "福島県",
    "title": "福島県地域福祉支援計画(素案)について",
@@ -1158,6 +1137,35 @@
    ]
   },
   {
+   "id": "68f6e877f0",
+   "pref": "富山県",
+   "title": "「富山県森づくりプラン(案)」に対する意見募集について",
+   "url": "https://www.pref.toyama.jp/1603/2026moridukuripuran.html",
+   "start": "2026-09-29",
+   "deadline": "2026-10-19",
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29",
+   "detail": {
+    "files": [
+     {
+      "name": "富山県森づくりプラン（案）【概要】",
+      "url": "https://www.pref.toyama.jp/documents/56858/2026purangaiyou.pdf"
+     },
+     {
+      "name": "富山県森づくりプラン（案）【全文】",
+      "url": "https://www.pref.toyama.jp/documents/56858/2026puranzenbun.pdf"
+     },
+     {
+      "name": "ご意見・ご提案提出用紙（ワード：19KB）",
+      "url": "https://www.pref.toyama.jp/documents/56858/2026kinyuuyoushi.docx"
+     }
+    ],
+    "howto": "(1) 郵 送 〒930-0004富山市桜橋通り5-13 富山興銀ビル4階\n富山県農林水産部森林政策課森づくり推進係 計画担当 あて\n(2) ファクシミリ 076-444-4428\n(3) 県ホームページ https://www.pref.toyama.jp/1021/pubcomme-form.html(別ウィンドウで開きます)\n(パブリックコメント専用フォームから入力することができます。)",
+    "contact": "所属課室:農林水産部森林政策課森づくり推進係\n〒930-0004 富山市桜橋通り5-13 富山興銀ビル4階\n電話番号:076-444-3385\nファックス番号:076-444-4428"
+   },
+   "tags": []
+  },
+  {
    "id": "86d2f7cfa7",
    "pref": "広島県",
    "title": "社会資本未来プラン​",
@@ -1302,6 +1310,39 @@
    "checked": "2026-09-29",
    "first_seen": "2026-09-29",
    "tags": []
+  },
+  {
+   "id": "27cd557312",
+   "pref": "神奈川県",
+   "title": "「神奈川県高等学校教育改革実行計画(仮称)」骨子案に関する意見の募集について",
+   "url": "https://www.pref.kanagawa.jp/docs/u5t/pub/c8993328.html",
+   "start": "2026-09-29",
+   "deadline": "2026-10-28",
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29",
+   "detail": {
+    "files": [
+     {
+      "name": "「神奈川県高等学校教育改革実行計画（仮称）」骨子案",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/zikkoukeikakukossian.pdf"
+     },
+     {
+      "name": "関係資料１ 高校教育改革に関する基本方針（グランドデザイン）【概要】",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/granddesignimage.pdf"
+     },
+     {
+      "name": "関係資料２ 高校教育改革に関する基本方針（グランドデザイン）",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/granddesign.pdf"
+     },
+     {
+      "name": "関係資料３ 「高等学校教育改革実行計画」策定の手引き",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/zikkoukeikakutebiki_1.pdf"
+     }
+    ],
+    "howto": "フォームメール(県立高校改革グループ)\n「神奈川県高等学校教育改革実行計画(仮称)」骨子案に対する意見である旨を記載のうえ、いずれかにより提出してください。\n(1)フォームメール\nフォームメールとは、ホームページの画面上でご意見を入力していただき、県にお送りいただくことができる仕組みです。\n(2)郵送 〒231-8588(住所の記載は不要です。)\n神奈川県教育委員会総務室県立高校改革グループ 宛\n(意見募集期間最終日までに必着とします。)\n手話を撮影・録画したDVDにより意見を提出される場合は、上記宛先に郵送してください。\n(3)ファクシミリ 045-210-8920\n案の公表方法\nこのホームページのほか、以下の窓口で印刷物でもご覧いただくことができます。\n県政情報センター",
+    "contact": ""
+   },
+   "tags": []
   }
  ],
  "pages": {
@@ -1410,16 +1451,6 @@
     "howto": "",
     "contact": "環境生活部くらし安全局道民生活課人権施策係\n〒060-8588札幌市中央区北3条西6丁目\n電話:\n011-206-6148\nFax:\n011-232-4820\nお問い合わせフォーム\n2026年4月15日"
    }
-  },
-  "https://www.pref.hokkaido.lg.jp/sm/gms/publiccomment/seidogaiyou.html": {
-   "id": "8c0f4d1130",
-   "pref": "北海道",
-   "title": "道民意見提出手続(パブリックコメント)のページ",
-   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/publiccomment/seidogaiyou.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
   },
   "https://www.pref.hokkaido.lg.jp/kn/tkn/keieikikaku/keieisenryaku.html": {
    "id": "f03ec326ec",
@@ -1537,46 +1568,6 @@
     ],
     "howto": "総合政策部国際局国際課",
     "contact": "総合政策部国際局国際課\n〒060-8588札幌市中央区北3条西6丁目\n電話:\n011-204-5113\nFax:\n011-232-4303\nお問い合わせフォーム\n2026年3月27日"
-   }
-  },
-  "https://www.pref.hokkaido.lg.jp/ns/shs/data/advance/240301.html": {
-   "id": "738539150b",
-   "pref": "北海道",
-   "title": "道民意見の募集について(パブリックコメント)",
-   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/data/advance/240301.html",
-   "start": "2026-11-21",
-   "deadline": "2026-12-22",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
-   "detail": {
-    "files": [
-     {
-      "name": "意見募集結果",
-      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/9/6/2/0/6/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E7%B5%90%E6%9E%9C.pdf"
-     },
-     {
-      "name": "意見募集結果(こどもの意見)",
-      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/9/6/2/0/7/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E7%B5%90%E6%9E%9C(%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E6%84%8F%E8%A6%8B).pdf"
-     },
-     {
-      "name": "道民意見提出手続の意見募集要領",
-      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/9/6/1/8/0/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%98.pdf"
-     },
-     {
-      "name": "・第２次北海道食品ロス削減推進計画（素案）",
-      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/9/6/1/8/1/_/%E7%AC%AC2%E6%AC%A1%E9%A3%9F%E5%93%81%E3%83%AD%E3%82%B9%E5%89%8A%E6%B8%9B%E6%8E%A8%E9%80%B2%E8%A8%88%E7%94%BB(%E7%B4%A0%E6%A1%88).pdf"
-     },
-     {
-      "name": "・第２次北海道食品ロス削減推進計画（素案）概要",
-      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/9/6/1/8/2/_/%E7%AC%AC2%E6%AC%A1%E9%A3%9F%E5%93%81%E3%83%AD%E3%82%B9%E5%89%8A%E6%B8%9B%E6%8E%A8%E9%80%B2%E8%A8%88%E7%94%BB(%E7%B4%A0%E6%A1%88)%E6%A6%82%E8%A6%81.pdf"
-     },
-     {
-      "name": "意見募集用紙 (DOCX 19.7KB)",
-      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/0/9/6/1/8/3/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E7%94%A8%E7%B4%99.docx"
-     }
-    ],
-    "howto": "農政部食の安全・みどりの農業推進局食品政策課",
-    "contact": "農政部食の安全・みどりの農業推進局食品政策課\n〒060-8588札幌市中央区北3条西6丁目\n電話:\n011-204-5427\nFax:\n011-232-7334\nお問い合わせフォーム\n2026年3月16日"
    }
   },
   "https://www.pref.hokkaido.lg.jp/kz/zhs/240641.html": {
@@ -1765,31 +1756,11 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.hokkaido.lg.jp/category/d001/c002/s003/": {
-   "id": "6a3f870201",
-   "pref": "北海道",
-   "title": "意見募集(パブリックコメント)",
-   "url": "https://www.pref.hokkaido.lg.jp/category/d001/c002/s003/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0001/": {
    "id": "2f542a8c04",
    "pref": "北海道",
    "title": "行政基本条例",
    "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0001/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0004/": {
-   "id": "b65092d23a",
-   "pref": "北海道",
-   "title": "道民意見提出手続(パブリックコメント)",
-   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0004/",
    "start": null,
    "deadline": null,
    "checked": "2026-09-28",
@@ -1814,6 +1785,146 @@
    "deadline": null,
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html": {
+   "id": "9dc0e389a4",
+   "pref": "北海道",
+   "title": "現行の「北海道食品ロス削減推進計画」",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/": {
+   "id": "578b2d2fe7",
+   "pref": "北海道",
+   "title": "北海道の「みどりの食料システム戦略」関連ポータルサイト",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/": {
+   "id": "686db6ee9c",
+   "pref": "北海道",
+   "title": "行政手続の審査基準等",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/": {
+   "id": "79978c8acf",
+   "pref": "北海道",
+   "title": "北海道ユースプランナー制度",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/100/247121/": {
+   "id": "6f75a44deb",
+   "pref": "北海道",
+   "title": "子ども・子育て支援金制度について",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/100/247121/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/80/": {
+   "id": "106b1fbb38",
+   "pref": "北海道",
+   "title": "5 保育事業者向け案内",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/80/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/dv/dvsoudan/": {
+   "id": "a3d7af748d",
+   "pref": "北海道",
+   "title": "DV相談について~ひとりで悩まず相談を",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/dv/dvsoudan/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/": {
+   "id": "53151824ea",
+   "pref": "北海道",
+   "title": "条例・計画・審議会",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/keikaku/": {
+   "id": "bcbca8501e",
+   "pref": "北海道",
+   "title": "北海道こども計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/keikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/kodomomiraikeikaku/": {
+   "id": "8a9b628bae",
+   "pref": "北海道",
+   "title": "北の大地☆子どもの未来づくり北海道計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/kodomomiraikeikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/hinkonkeikaku/": {
+   "id": "579a2e41a1",
+   "pref": "北海道",
+   "title": "北海道子どもの貧困対策推進計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/hinkonkeikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/": {
+   "id": "c8cccc0be9",
+   "pref": "北海道",
+   "title": "北海道困難な問題を抱える女性への支援等に関する基本計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/245373.html": {
+   "id": "9a8783b454",
+   "pref": "北海道",
+   "title": "「こどもの権利」についてのデジタルハンドブック・動画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/245373.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/225405.html": {
+   "id": "e1930df192",
+   "pref": "北海道",
+   "title": "「こどもの権利」等について学ぶ各種企画の実施について",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/225405.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
   },
   "https://www.pref.aomori.lg.jp/soshiki/nourin/rinsei/kyokakijun_iken.html": {
    "id": "08679e5b7d",
@@ -2279,16 +2390,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.iwate.jp/public_comment/1001636.html": {
-   "id": "87dbe503c0",
-   "pref": "岩手県",
-   "title": "パブリック・コメントについて",
-   "url": "https://www.pref.iwate.jp/public_comment/1001636.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://www.pref.iwate.jp/kensei/kanzai/kenchou/index.html": {
    "id": "606c816c6e",
    "pref": "岩手県",
@@ -2464,16 +2565,6 @@
    "pref": "宮城県",
    "title": "条例・制度",
    "url": "https://www.pref.miyagi.jp/life/sub/13/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.miyagi.jp/site/gyoseisabisu/list1840.html": {
-   "id": "21aa9769d4",
-   "pref": "宮城県",
-   "title": "パブリックコメント",
-   "url": "https://www.pref.miyagi.jp/site/gyoseisabisu/list1840.html",
    "start": null,
    "deadline": null,
    "checked": "2026-09-28",
@@ -2671,25 +2762,25 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.miyagi.jp/life/goikemboshu/index.html": {
-   "id": "5bd954e2e2",
+  "https://www.pref.miyagi.jp/site/hyoka/r8dai-iken.html": {
+   "id": "78c7a4694f",
    "pref": "宮城県",
-   "title": "各種行政評価に関するご意見募集",
-   "url": "https://www.pref.miyagi.jp/life/goikemboshu/index.html",
+   "title": "令和8年度大規模事業評価",
+   "url": "https://www.pref.miyagi.jp/site/hyoka/r8dai-iken.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
   },
-  "https://www.pref.miyagi.jp/soshiki/seisaku/gyousei_kenminikenbosyu.html": {
-   "id": "c0b09af5bf",
+  "https://www.pref.miyagi.jp/site/hyoka/r8sei-ikenboshu.html": {
+   "id": "7f9e77e942",
    "pref": "宮城県",
-   "title": "各種行政評価に関するご意見募集について",
-   "url": "https://www.pref.miyagi.jp/soshiki/seisaku/gyousei_kenminikenbosyu.html",
+   "title": "令和8年度政策評価・施策評価",
+   "url": "https://www.pref.miyagi.jp/site/hyoka/r8sei-ikenboshu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
   },
   "https://www.pref.miyagi.jp/site/hyoka/r7seika-hyoka.html": {
    "id": "fbe5168fa5",
@@ -2756,16 +2847,6 @@
    "pref": "山形県",
    "title": "県へのご意見",
    "url": "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.yamagata.jp/020023/kensei/joho/kocho/publiccomment/about_pcomment.html": {
-   "id": "b46dcb639f",
-   "pref": "山形県",
-   "title": "パブリック・コメント手続について",
-   "url": "https://www.pref.yamagata.jp/020023/kensei/joho/kocho/publiccomment/about_pcomment.html",
    "start": null,
    "deadline": null,
    "checked": "2026-09-28",
@@ -2913,16 +2994,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.tochigi.lg.jp/c05/question/kensei/paburikku/qa0208006.html": {
-   "id": "cf398f91f1",
-   "pref": "栃木県",
-   "title": "パブリック・コメントって?",
-   "url": "https://www.pref.tochigi.lg.jp/c05/question/kensei/paburikku/qa0208006.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://www.pref.tochigi.lg.jp/c05/kocho/iken.html": {
    "id": "cc1540eb6e",
    "pref": "栃木県",
@@ -2948,16 +3019,6 @@
    "pref": "栃木県",
    "title": "広告掲載のご案内",
    "url": "https://www.pref.tochigi.lg.jp/c05/kensei/kouhou/hp/banner.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.gunma.jp/page/16703.html": {
-   "id": "d9087574f5",
-   "pref": "群馬県",
-   "title": "県民意見提出制度実施細則",
-   "url": "https://www.pref.gunma.jp/page/16703.html",
    "start": null,
    "deadline": null,
    "checked": "2026-09-28",
@@ -4543,130 +4604,37 @@
    "checked": "2026-09-29",
    "first_seen": "2026-09-28"
   },
-  "https://www.my.metro.tokyo.lg.jp/w/021-20260915-267362627": {
-   "id": "721a8af55e",
-   "pref": "東京都",
-   "title": "「東京の自然公園ビジョンの改訂について(中間のまとめ)」への御意見を募集します",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260915-267362627",
-   "start": "2026-09-15",
-   "deadline": "2026-10-14",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
+  "https://www.pref.kanagawa.jp/docs/u5t/pub/c8993328.html": {
+   "id": "27cd557312",
+   "pref": "神奈川県",
+   "title": "「神奈川県高等学校教育改革実行計画(仮称)」骨子案に関する意見の募集について",
+   "url": "https://www.pref.kanagawa.jp/docs/u5t/pub/c8993328.html",
+   "start": "2026-09-29",
+   "deadline": "2026-10-28",
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29",
    "detail": {
-    "files": [],
-    "howto": "Webフォーム又は郵送のいずれかの方法で御意見をお寄せください。\n(1)Webフォーム\nWebフォーム(外部サイトへリンク)からご提出ください。\n(2)郵送\n「意見提出シート」により、以下の提出先まで御郵送ください。(当日消印有効)",
+    "files": [
+     {
+      "name": "「神奈川県高等学校教育改革実行計画（仮称）」骨子案",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/zikkoukeikakukossian.pdf"
+     },
+     {
+      "name": "関係資料１ 高校教育改革に関する基本方針（グランドデザイン）【概要】",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/granddesignimage.pdf"
+     },
+     {
+      "name": "関係資料２ 高校教育改革に関する基本方針（グランドデザイン）",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/granddesign.pdf"
+     },
+     {
+      "name": "関係資料３ 「高等学校教育改革実行計画」策定の手引き",
+      "url": "https://www.pref.kanagawa.jp/documents/138730/zikkoukeikakutebiki_1.pdf"
+     }
+    ],
+    "howto": "フォームメール(県立高校改革グループ)\n「神奈川県高等学校教育改革実行計画(仮称)」骨子案に対する意見である旨を記載のうえ、いずれかにより提出してください。\n(1)フォームメール\nフォームメールとは、ホームページの画面上でご意見を入力していただき、県にお送りいただくことができる仕組みです。\n(2)郵送 〒231-8588(住所の記載は不要です。)\n神奈川県教育委員会総務室県立高校改革グループ 宛\n(意見募集期間最終日までに必着とします。)\n手話を撮影・録画したDVDにより意見を提出される場合は、上記宛先に郵送してください。\n(3)ファクシミリ 045-210-8920\n案の公表方法\nこのホームページのほか、以下の窓口で印刷物でもご覧いただくことができます。\n県政情報センター",
     "contact": ""
    }
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/021-20260916-267453977": {
-   "id": "b604603e8c",
-   "pref": "東京都",
-   "title": "「第14次東京都鳥獣保護管理事業計画及び管理計画(シカ・ツキノワグマ)の策定について(中間のまとめ)」への御意見を募集します",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260916-267453977",
-   "start": "2026-09-15",
-   "deadline": "2026-10-14",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
-   "detail": {
-    "files": [],
-    "howto": "Webフォーム又は郵送のいずれかの方法で御意見をお寄せください。\n(1)Webフォーム\nWebフォーム(外部サイトへリンク)からご提出ください。\n(2)郵送\n「意見提出シート」により、以下の提出先まで御郵送ください。(当日消印有効)",
-    "contact": ""
-   }
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/021-20260908-266711609": {
-   "id": "c6fb0e7e31",
-   "pref": "東京都",
-   "title": "建築物環境計画書制度の改正についてご意見を募集します",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260908-266711609",
-   "start": "2026-09-09",
-   "deadline": "2026-10-09",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
-   "detail": {
-    "files": [],
-    "howto": "〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都環境局 気候変動対策部 環境都市づくり課 環境建築物担当 宛\n共通事項\nご意見の提出に当たっては、下記事項を記載してください。\n個人の方 氏名、お住まいの地域(区市町村名まで)\n法人の方 法人名、所在地(区市町村名まで)",
-    "contact": ""
-   }
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/information/press/2026/9/090701": {
-   "id": "3b38b68d1f",
-   "pref": "東京都",
-   "title": "9月7日 「身体障害者手帳の交付に関する事務に係る特定個人情報保護評価書(案)」意見募集",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/information/press/2026/9/090701",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702": {
-   "id": "392a29e670",
-   "pref": "東京都",
-   "title": "東京都国民健康保険運営方針中間見直し案について御意見を募集します",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.zaimu.metro.tokyo.lg.jp/zaisei/zaisei/zigyou_teian": {
-   "id": "3c73e5b194",
-   "pref": "東京都",
-   "title": "事業提案制度",
-   "url": "https://www.zaimu.metro.tokyo.lg.jp/zaisei/zaisei/zigyou_teian",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/information/press/r8/06/2026062602": {
-   "id": "457794e178",
-   "pref": "東京都",
-   "title": "河川整備計画(変更原案)についてご意見を募集します",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/information/press/r8/06/2026062602",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/021-20260625-260003734": {
-   "id": "8d06f1d01c",
-   "pref": "東京都",
-   "title": "低公害・低燃費車の導入義務制度の改正について御意見を募集します",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260625-260003734",
-   "start": "2026-06-25",
-   "deadline": "2026-07-24",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.metro.tokyo.lg.jp/search?keyword=&purpose=163050": {
-   "id": "2f8848161d",
-   "pref": "東京都",
-   "title": "ほかの「意見募集」に関する記事を探す",
-   "url": "https://www.metro.tokyo.lg.jp/search?keyword=&purpose=163050",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.soumu.metro.tokyo.lg.jp/01soumu-johokokaika/jyuyokohyo/2": {
-   "id": "bb0c4412e4",
-   "pref": "東京都",
-   "title": "計画等に係る意見公募",
-   "url": "https://www.soumu.metro.tokyo.lg.jp/01soumu-johokokaika/jyuyokohyo/2",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.my.metro.tokyo.lg.jp/search/?tag=187671": {
-   "id": "c7e0aa5dd7",
-   "pref": "東京都",
-   "title": "ポータルサイト「My TOKYO」新着記事(意見募集)",
-   "url": "https://www.my.metro.tokyo.lg.jp/search/?tag=187671",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
   },
   "https://www.pref.kanagawa.jp/docs/ga4/pub/c1401214.html": {
    "id": "3e14153dc7",
@@ -4737,16 +4705,6 @@
     "howto": "",
     "contact": "福祉保健部 健康づくり支援課\n母子保健係\n〒950-8570\n新潟県新潟市中央区新光町4番地1 新潟県庁行政庁舎\nTel:025-280-5197\n見つからないときは"
    }
-  },
-  "https://www.pref.toyama.jp/1021/pubcomme-form.html": {
-   "id": "ff2da27034",
-   "pref": "富山県",
-   "title": "パブリック・コメント専用フォーム",
-   "url": "https://www.pref.toyama.jp/1021/pubcomme-form.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
   },
   "https://www.pref.toyama.jp/1021/kensei/kouhou/0.html": {
    "id": "bb88224b46",
@@ -4838,6 +4796,34 @@
     ],
     "howto": "県ホームページのパブリックコメント専用フォームURL(https://www.pref.toyama.jp/1021/pubcomme-form.html)\n郵送 〒930-8501 富山市新総曲輪1番7号\n富山県地方創生局 多文化共生推進室 外国人共生社会推進課あて\nファクシミリ 076-444-9612(多文化共生推進室)\n意見提出時の留意事項\n提出様式は任意ですが、住所、氏名、電話番号を必ず記載してください。また、法人の場合は法人名、所在地、電話番号を必ず記載してください。(記載された個人情報は、当意見募集に係る利用目的以外の目的には使用いたしません。)\n電話でのご意見は受付できませんので、あらかじめご了承ください。\nご意見の取扱い\n皆様からいただいたご意見につきましては、外国人共生社会推進課でとりまとめ、「富山県多文化共生の地域づくりの推進に関する条例(仮称)」及び「とやま多文化共生推進基本計画(仮称)」の検討の参考とさせていただきます。",
     "contact": "所属課室:地方創生局多文化共生推進室外国人共生社会推進課\n〒930-8501 富山市新総曲輪1-7 県庁本館4階\n電話番号:076-444-8873\nファックス番号:076-444-9612"
+   }
+  },
+  "https://www.pref.toyama.jp/1603/2026moridukuripuran.html": {
+   "id": "68f6e877f0",
+   "pref": "富山県",
+   "title": "「富山県森づくりプラン(案)」に対する意見募集について",
+   "url": "https://www.pref.toyama.jp/1603/2026moridukuripuran.html",
+   "start": "2026-09-29",
+   "deadline": "2026-10-19",
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29",
+   "detail": {
+    "files": [
+     {
+      "name": "富山県森づくりプラン（案）【概要】",
+      "url": "https://www.pref.toyama.jp/documents/56858/2026purangaiyou.pdf"
+     },
+     {
+      "name": "富山県森づくりプラン（案）【全文】",
+      "url": "https://www.pref.toyama.jp/documents/56858/2026puranzenbun.pdf"
+     },
+     {
+      "name": "ご意見・ご提案提出用紙（ワード：19KB）",
+      "url": "https://www.pref.toyama.jp/documents/56858/2026kinyuuyoushi.docx"
+     }
+    ],
+    "howto": "(1) 郵 送 〒930-0004富山市桜橋通り5-13 富山興銀ビル4階\n富山県農林水産部森林政策課森づくり推進係 計画担当 あて\n(2) ファクシミリ 076-444-4428\n(3) 県ホームページ https://www.pref.toyama.jp/1021/pubcomme-form.html(別ウィンドウで開きます)\n(パブリックコメント専用フォームから入力することができます。)",
+    "contact": "所属課室:農林水産部森林政策課森づくり推進係\n〒930-0004 富山市桜橋通り5-13 富山興銀ビル4階\n電話番号:076-444-3385\nファックス番号:076-444-4428"
    }
   },
   "https://www.pref.ishikawa.lg.jp/johosei/digital/vision_pubkomments.html#477a8d4a81": {
@@ -5132,56 +5118,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/sodan/p-comment/index.html": {
-   "id": "d110567a4b",
-   "pref": "長野県",
-   "title": "長野県教育委員会の県民意見公募手続",
-   "url": "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/sodan/p-comment/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.nagano.lg.jp/police/shinsei/iken/pubco/index.html": {
-   "id": "5b43573352",
-   "pref": "長野県",
-   "title": "長野県警察の県民意見公募手続",
-   "url": "https://www.pref.nagano.lg.jp/police/shinsei/iken/pubco/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/index.html": {
-   "id": "ec15083245",
-   "pref": "長野県",
-   "title": "長野県企業局の県民意見公募手続",
-   "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.nagano.lg.jp/gikai/chosa/index.html": {
-   "id": "2e31dbb856",
-   "pref": "長野県",
-   "title": "長野県議会事務局の県民意見公募手続",
-   "url": "https://www.pref.nagano.lg.jp/gikai/chosa/index.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-14",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
-   "detail": {
-    "files": [
-     {
-      "name": "PDF版",
-      "url": "https://www.pref.nagano.lg.jp/gikai/chosa/documents/kouhou172.pdf"
-     }
-    ],
-    "howto": "県議会への\nご意見・ご感想\n議会広報\n正副議長日程\n広報紙\n「こんにちは県議会です」\n広報番組\n県政報告会・\nふれあいミーティング\n写真で見る活動報告\n議会のごあんない\n(パンフレット)",
-    "contact": "リンクについて\nウェブアクセシビリティ方針\n県庁フロア・アクセス案内\n長野県議会X運用方針\n長野県議会YouTube運用方針"
-   }
-  },
   "https://www.pref.nagano.lg.jp/koho/kensei/koho/kaikenjoannai/riyo.html": {
    "id": "58129a59fe",
    "pref": "長野県",
@@ -5231,6 +5167,156 @@
    "deadline": "2026-08-17",
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/saiyo-nyuushi/index.html": {
+   "id": "02d4b61052",
+   "pref": "長野県",
+   "title": "採用・試験・募集",
+   "url": "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/saiyo-nyuushi/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/police/kenkei/index.html": {
+   "id": "e478a0d657",
+   "pref": "長野県",
+   "title": "長野県警について",
+   "url": "https://www.pref.nagano.lg.jp/police/kenkei/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/police/shinsei/etc/keireki/shinsei.html": {
+   "id": "187ea3635d",
+   "pref": "長野県",
+   "title": "「犯罪経歴証明書」申請手続について",
+   "url": "https://www.pref.nagano.lg.jp/police/shinsei/etc/keireki/shinsei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/police/shinsei/etc/demo.html": {
+   "id": "4b0b506f26",
+   "pref": "長野県",
+   "title": "集会・デモ行進等の申請について",
+   "url": "https://www.pref.nagano.lg.jp/police/shinsei/etc/demo.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/police/shinsei/shinsasyori/imdex.html": {
+   "id": "7b189c0e3e",
+   "pref": "長野県",
+   "title": "審査基準・標準処理期間",
+   "url": "https://www.pref.nagano.lg.jp/police/shinsei/shinsasyori/imdex.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/police/shinsei/keisatugyoseisite.html": {
+   "id": "2e0fe06522",
+   "pref": "長野県",
+   "title": "警察の行政手続オンライン化について",
+   "url": "https://www.pref.nagano.lg.jp/police/shinsei/keisatugyoseisite.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/police/shinsei/kogatamujinki.html": {
+   "id": "b317c4c77a",
+   "pref": "長野県",
+   "title": "重要施設周辺地域の上空における小型無人機等の飛行に関する申請手続について",
+   "url": "https://www.pref.nagano.lg.jp/police/shinsei/kogatamujinki.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/soshiki.html": {
+   "id": "ef80fff735",
+   "pref": "長野県",
+   "title": "企業局について",
+   "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/soshiki.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/sekisankijun/shokehiritsu.html": {
+   "id": "8297cdfc78",
+   "pref": "長野県",
+   "title": "水道施設工事に関する積算基準を改定します(令和8年6月1日)",
+   "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/sekisankijun/shokehiritsu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/keieisenryaku2026.html": {
+   "id": "8349eb05aa",
+   "pref": "長野県",
+   "title": "「長野県公営企業経営戦略2026」を策定しました(令和8年4月2日)",
+   "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/keieisenryaku2026.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/kigyo/kensei/propo/260826proposal.html": {
+   "id": "67ee69c56e",
+   "pref": "長野県",
+   "title": "「企業局発電所PPP/PFI活用検討業務」の業務受託者を募集します",
+   "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/propo/260826proposal.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/kokyokoji/propo-shitoku.html": {
+   "id": "bbdc0b7b64",
+   "pref": "長野県",
+   "title": "令和8年度四徳発電所大規模改修工事の公募について",
+   "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/kokyokoji/propo-shitoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/gikai/gikai/bocho.html": {
+   "id": "5581e02d50",
+   "pref": "長野県",
+   "title": "傍聴のご案内",
+   "url": "https://www.pref.nagano.lg.jp/gikai/gikai/bocho.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/gikai/chosa/x-houshin.html": {
+   "id": "990df344fc",
+   "pref": "長野県",
+   "title": "長野県議会X運用方針",
+   "url": "https://www.pref.nagano.lg.jp/gikai/chosa/x-houshin.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagano.lg.jp/gikai/chosa/youtube-houshin.html": {
+   "id": "0114b52c28",
+   "pref": "長野県",
+   "title": "長野県議会YouTube運用方針",
+   "url": "https://www.pref.nagano.lg.jp/gikai/chosa/youtube-houshin.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
   },
   "https://www.pref.gifu.lg.jp/page/458461.html#6230edcc56": {
    "id": "5c0334c6c7",
@@ -5646,16 +5732,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.mie.lg.jp/common/07/ci600003073.htm": {
-   "id": "0b92c03145",
-   "pref": "三重県",
-   "title": "パブリックコメント",
-   "url": "https://www.pref.mie.lg.jp/common/07/ci600003073.htm",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://www.pref.mie.lg.jp/common/07/ci600003040.htm": {
    "id": "3926042ad0",
    "pref": "三重県",
@@ -5726,16 +5802,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.shiga.lg.jp/menu/27251.html": {
-   "id": "f087440569",
-   "pref": "滋賀県",
-   "title": "県民政策コメント(パブリック・コメント)",
-   "url": "https://www.pref.shiga.lg.jp/menu/27251.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://www.pref.shiga.lg.jp/ha03/32258.html": {
    "id": "16385c3061",
    "pref": "滋賀県",
@@ -5753,16 +5819,6 @@
    "url": "https://www.pref.kyoto.jp/comment/list.html",
    "start": "2026-07-06",
    "deadline": "2026-07-24",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/index.html": {
-   "id": "cb2b2258bf",
-   "pref": "大阪府",
-   "title": "パブリックコメント",
-   "url": "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/index.html",
-   "start": null,
-   "deadline": null,
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
@@ -6036,16 +6092,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://web.pref.hyogo.lg.jp/pref/cate3_668.html": {
-   "id": "4542a6842f",
-   "pref": "兵庫県",
-   "title": "パブリックコメント",
-   "url": "https://web.pref.hyogo.lg.jp/pref/cate3_668.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://web.pref.hyogo.lg.jp/kf13/20260731.html": {
    "id": "f5a7007fb0",
    "pref": "兵庫県",
@@ -6121,16 +6167,6 @@
    "pref": "兵庫県",
    "title": "〇県産木材の利用促進等に関する指針(案)について",
    "url": "https://web.pref.hyogo.lg.jp/nk14/paburikku_kekka.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.nara.lg.jp/n018/5699.html": {
-   "id": "198aa101bc",
-   "pref": "奈良県",
-   "title": "パブリックコメント手続の概要",
-   "url": "https://www.pref.nara.lg.jp/n018/5699.html",
    "start": null,
    "deadline": null,
    "checked": "2026-09-28",
@@ -6573,6 +6609,30 @@
    "deadline": "2026-07-24",
    "checked": "2026-09-29",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.ehime.jp/page/159882.html": {
+   "id": "4e1fa87379",
+   "pref": "愛媛県",
+   "title": "中川流域水害対策計画(素案)",
+   "url": "https://www.pref.ehime.jp/page/159882.html",
+   "start": null,
+   "deadline": "2026-10-28",
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29",
+   "detail": {
+    "files": [
+     {
+      "name": "1.中川流域水害対策計画計画（素案）の概要 [PDFファイル／18.31MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/190958.pdf"
+     },
+     {
+      "name": "2.中川流域水害対策計画計画（素案）（本文） [PDFファイル／27.27MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/190959.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 土木部 河川港湾局 河川課 計画係\nTel:089-912-2674 Fax:089-948-1475\n資料(PDFファイル)"
+   }
   },
   "https://www.pref.ehime.jp/page/149616.html": {
    "id": "0b4502ed40",
@@ -7202,16 +7262,6 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/": {
-   "id": "1fc65a10c9",
-   "pref": "長崎県",
-   "title": "広聴(意見募集・県民の声)",
-   "url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
   "https://www.pref.nagasaki.jp/organization/hisyokohosenryakubu/": {
    "id": "5ed33f7d48",
    "pref": "長崎県",
@@ -7251,6 +7301,26 @@
    "deadline": null,
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/": {
+   "id": "d0d100e90c",
+   "pref": "長崎県",
+   "title": "県政への提案・意見",
+   "url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/teian/": {
+   "id": "4cdfc9872c",
+   "pref": "長崎県",
+   "title": "知事への提案",
+   "url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/teian/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
   },
   "https://www.pref.kumamoto.jp/soshiki/85/270939.html#8d646be379": {
    "id": "4267da90b7",
@@ -7427,16 +7497,6 @@
    "pref": "宮崎県",
    "title": "サイトのご利用について",
    "url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/koho/index-02.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.kagoshima.jp/kohokocho/public/gaiyo/index.html": {
-   "id": "292b41e7a7",
-   "pref": "鹿児島県",
-   "title": "パブリック・コメントの概要",
-   "url": "https://www.pref.kagoshima.jp/kohokocho/public/gaiyo/index.html",
    "start": null,
    "deadline": null,
    "checked": "2026-09-28",
@@ -7687,6 +7747,121 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040827.html",
    "start": null,
    "deadline": "2026-08-25",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.my.metro.tokyo.lg.jp/w/021-20260915-267362627": {
+   "id": "721a8af55e",
+   "pref": "東京都",
+   "title": "「東京の自然公園ビジョンの改訂について(中間のまとめ)」への御意見を募集します",
+   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260915-267362627",
+   "start": "2026-09-15",
+   "deadline": "2026-10-14",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28",
+   "detail": {
+    "files": [],
+    "howto": "Webフォーム又は郵送のいずれかの方法で御意見をお寄せください。\n(1)Webフォーム\nWebフォーム(外部サイトへリンク)からご提出ください。\n(2)郵送\n「意見提出シート」により、以下の提出先まで御郵送ください。(当日消印有効)",
+    "contact": ""
+   }
+  },
+  "https://www.my.metro.tokyo.lg.jp/w/021-20260916-267453977": {
+   "id": "b604603e8c",
+   "pref": "東京都",
+   "title": "「第14次東京都鳥獣保護管理事業計画及び管理計画(シカ・ツキノワグマ)の策定について(中間のまとめ)」への御意見を募集します",
+   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260916-267453977",
+   "start": "2026-09-15",
+   "deadline": "2026-10-14",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28",
+   "detail": {
+    "files": [],
+    "howto": "Webフォーム又は郵送のいずれかの方法で御意見をお寄せください。\n(1)Webフォーム\nWebフォーム(外部サイトへリンク)からご提出ください。\n(2)郵送\n「意見提出シート」により、以下の提出先まで御郵送ください。(当日消印有効)",
+    "contact": ""
+   }
+  },
+  "https://www.my.metro.tokyo.lg.jp/w/021-20260908-266711609": {
+   "id": "c6fb0e7e31",
+   "pref": "東京都",
+   "title": "建築物環境計画書制度の改正についてご意見を募集します",
+   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260908-266711609",
+   "start": "2026-09-09",
+   "deadline": "2026-10-09",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28",
+   "detail": {
+    "files": [],
+    "howto": "〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都環境局 気候変動対策部 環境都市づくり課 環境建築物担当 宛\n共通事項\nご意見の提出に当たっては、下記事項を記載してください。\n個人の方 氏名、お住まいの地域(区市町村名まで)\n法人の方 法人名、所在地(区市町村名まで)",
+    "contact": ""
+   }
+  },
+  "https://www.fukushi.metro.tokyo.lg.jp/information/press/2026/9/090701": {
+   "id": "3b38b68d1f",
+   "pref": "東京都",
+   "title": "9月7日 「身体障害者手帳の交付に関する事務に係る特定個人情報保護評価書(案)」意見募集",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/information/press/2026/9/090701",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702": {
+   "id": "392a29e670",
+   "pref": "東京都",
+   "title": "東京都国民健康保険運営方針中間見直し案について御意見を募集します",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.zaimu.metro.tokyo.lg.jp/zaisei/zaisei/zigyou_teian": {
+   "id": "3c73e5b194",
+   "pref": "東京都",
+   "title": "事業提案制度",
+   "url": "https://www.zaimu.metro.tokyo.lg.jp/zaisei/zaisei/zigyou_teian",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.kensetsu.metro.tokyo.lg.jp/information/press/r8/06/2026062602": {
+   "id": "457794e178",
+   "pref": "東京都",
+   "title": "河川整備計画(変更原案)についてご意見を募集します",
+   "url": "https://www.kensetsu.metro.tokyo.lg.jp/information/press/r8/06/2026062602",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.my.metro.tokyo.lg.jp/w/021-20260625-260003734": {
+   "id": "8d06f1d01c",
+   "pref": "東京都",
+   "title": "低公害・低燃費車の導入義務制度の改正について御意見を募集します",
+   "url": "https://www.my.metro.tokyo.lg.jp/w/021-20260625-260003734",
+   "start": "2026-06-25",
+   "deadline": "2026-07-24",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.soumu.metro.tokyo.lg.jp/01soumu-johokokaika/jyuyokohyo/2": {
+   "id": "bb0c4412e4",
+   "pref": "東京都",
+   "title": "計画等に係る意見公募",
+   "url": "https://www.soumu.metro.tokyo.lg.jp/01soumu-johokokaika/jyuyokohyo/2",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.my.metro.tokyo.lg.jp/search/?tag=187671": {
+   "id": "c7e0aa5dd7",
+   "pref": "東京都",
+   "title": "ポータルサイト「My TOKYO」新着記事(意見募集)",
+   "url": "https://www.my.metro.tokyo.lg.jp/search/?tag=187671",
+   "start": null,
+   "deadline": null,
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   }
