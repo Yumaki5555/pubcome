@@ -1,6 +1,6 @@
 # 毎朝のクラウド作業の手順（Claude 用）
 
-このリポジトリは、国のパブリックコメント（意見募集）をまとめた公開サイトです。
+このリポジトリは、国と47都道府県のパブリックコメント（意見募集）をまとめた公開サイトです。
 毎朝、次の手順で「わかりやすい名前」を追加し、サイトを更新してください。
 
 ## 手順
@@ -12,10 +12,14 @@
 4. 各案件について、わかりやすい名前を書き、`plain_titles.json` に `"案件番号": "わかりやすい名前"` として追加する。
    - 既にある項目は変更しない。
    - JSON として正しいか確認する：`python -c "import json; json.load(open('plain_titles.json', encoding='utf-8'))"`
-5. `python build.py && python post.py` を実行する。
-6. 変更があれば `git add plain_titles.json data.json docs posts.txt` → コミット（メッセージ例：`毎朝の言い換え追加 2026-10-01`）→ `git push origin main`。
+5. 都道府県版も同じように行う。
+   - `python 都道府県レベル/missing_plain.py` で、言い換えがまだない案件を確認する（出力は「案件番号 | 都道府県 | 正式名」）。
+   - `都道府県レベル/plain_titles.json` に `"案件番号": "わかりやすい名前"` として追加する（書き方は下と同じ。県名は別に表示されるので名前に入れない）。
+   - JSON として正しいか確認する：`python -c "import json; json.load(open('都道府県レベル/plain_titles.json', encoding='utf-8'))"`
+6. `python build.py && python post.py && python 都道府県レベル/build.py` を実行する。
+7. 変更があれば `git add plain_titles.json data.json docs posts.txt 都道府県レベル/plain_titles.json` → コミット（メッセージ例：`毎朝の言い換え追加 2026-10-01`）→ `git push origin main`。
    - 変更がなければ何もしない。
-7. 最後に、追加した言い換えの件数と一覧、エラーがあればその内容を短く報告する。
+8. 最後に、追加した言い換えの件数と一覧、エラーがあればその内容を短く報告する。
 
 ## わかりやすい名前の書き方
 

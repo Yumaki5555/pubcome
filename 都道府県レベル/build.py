@@ -12,6 +12,17 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parent))
 from build import SHARE_JS, short_title  # 国版と共通の部品を使う
 
+
+def load_plain_titles():
+    """plain_titles.json（案件番号 → わかりやすい言い換え）を読む。"""
+    path = HERE / "plain_titles.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def display_title(item):
+    """わかりやすい言い換えがあればそれを、なければ正式名称を短くしたものを使う。"""
+    return item.get("plain") or short_title(item["title"])
+
 OUT_DIR = HERE.parent / "docs" / "pref"   # 国版と同じ公開フォルダの中の pref/ に置く
 JST = timezone(timedelta(hours=9))
 
@@ -37,7 +48,7 @@ def share_text(item, main_hashtag, hashtag_of, site_url):
     make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
                           f"「{title}」について、{item['pref']}が意見募集中です。\n\n"
                           f"ひとことからでも、誰でも送れます🙆\n{tags}\n\n")
-    title = short_title(item["title"])
+    title = display_title(item)
     while len(make(title)) + 23 > 140 and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
     return make(title) + site_url + summary_path(item)
@@ -51,11 +62,14 @@ def main():
     today = datetime.now(JST).date().isoformat()
     open_items = [it for it in data["items"] if it["deadline"] >= today]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
+    plain = load_plain_titles()
     items = []
     for it in open_items:
+        if it["id"] in plain:
+            it["plain"] = plain[it["id"]]
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
         items.append({
-            "pref": it["pref"], "title": it["title"], "short": short_title(it["title"]),
+            "pref": it["pref"], "title": it["title"], "short": display_title(it),
             "url": it["url"], "deadline": it["deadline"], "tags": it["tags"],
             "share": it["share"], "page": summary_path(it),
         })
@@ -112,7 +126,7 @@ def build_summary_pages(items, tag_defs, config):
                  if det.get("howto") else
                  '<p class="sub">意見の出し方（メール・入力フォーム・郵送など）は、県のページでご確認ください。</p>')
         replace = {
-            "__TITLE__": e(short_title(it["title"])),
+            "__TITLE__": e(display_title(it)),
             "__OFFICIAL__": e(it["title"]),
             "__TAGS__": "".join(f'<span class="tag" style="background:{color_of[t]}">{e(t)}</span>' for t in it["tags"]),
             "__PREF__": e(it["pref"]),
