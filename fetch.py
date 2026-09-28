@@ -25,7 +25,9 @@ RSS_URL = BASE + "/rss/pcm_list.xml"
 DETAIL_URL = BASE + "/servlet/Public?CLASSNAME=PCMMSTDETAIL&id={id}&Mode=0"
 PER_PAGE = 100
 MAX_PAGES = 6
-UA = "Mozilla/5.0 (pubcome-board; +https://github.com/)"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+HEADERS = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+           "Accept-Language": "ja,en;q=0.8"}
 
 
 def now_jst():
@@ -52,7 +54,7 @@ def clean(text):
 def fetch_list_pages():
     jar = http.cookiejar.CookieJar()
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
-    opener.addheaders = [("User-Agent", UA)]
+    opener.addheaders = list(HEADERS.items())
     opener.open(LIST_START, timeout=60).read()  # 最初に一度開いて通行証（Cookie）をもらう
 
     items = []
@@ -107,7 +109,7 @@ def parse_list_html(page_html):
 # ---------- RSS から取得（予備） ----------
 
 def fetch_rss():
-    req = urllib.request.Request(RSS_URL, headers={"User-Agent": UA})
+    req = urllib.request.Request(RSS_URL, headers=HEADERS)
     xml = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
     items = []
     for block in re.findall(r"<item [^>]*>(.*?)</item>", xml, re.S):
@@ -137,7 +139,7 @@ def fetch_rss():
 # ---------- 案件ごとの詳しい情報（資料・問合せ先など） ----------
 
 def fetch_detail(pid):
-    req = urllib.request.Request(DETAIL_URL.format(id=pid), headers={"User-Agent": UA})
+    req = urllib.request.Request(DETAIL_URL.format(id=pid), headers=HEADERS)
     page_html = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
     return parse_detail_html(page_html)
 
