@@ -8,11 +8,10 @@
 import html
 import json
 import re
-import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from build import display_title, load_plain_titles
+from build import SHARE_JS, display_title, load_plain_titles
 
 HERE = Path(__file__).parent
 JST = timezone(timedelta(hours=9))
@@ -115,14 +114,14 @@ def write_outputs(posts, updated, config):
 
     cards = []
     for label, body in posts:
-        intent = "https://x.com/intent/post?text=" + urllib.parse.quote(body)
         cards.append(
             f'<section><h2>{html.escape(label)} <small>{length(body)}/{LIMIT}字</small></h2>'
             f'<pre>{html.escape(body)}</pre>'
-            f'<div class="btns"><a class="x" href="{html.escape(intent)}" target="_blank" rel="noopener">𝕏で投稿する</a>'
+            f'<div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button>'
             f'<button type="button" onclick="copy(this)">コピー</button></div></section>'
         )
     page = POSTS_TEMPLATE.replace("__UPDATED__", html.escape(updated[:16].replace("T", " ")))
+    page = page.replace("__SHARE_JS__", SHARE_JS)
     page = page.replace("__SITE_NAME__", html.escape(config["site_name"])).replace("__CARDS__", "\n".join(cards))
     (HERE / "docs").mkdir(exist_ok=True)
     (HERE / "docs" / "posts.html").write_text(page, encoding="utf-8")
@@ -149,14 +148,18 @@ pre{white-space:pre-wrap;word-break:break-all;font-family:inherit;font-size:.9re
 .btns a,.btns button{flex:1;text-align:center;padding:9px;border-radius:8px;font-size:.9rem;font-weight:700;
   text-decoration:none;border:1px solid var(--line);font-family:inherit;cursor:pointer}
 .x{background:var(--ink);color:var(--bg)}
+.tip{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
 button{background:var(--card);color:var(--ink)}
 </style></head>
 <body><div class="wrap">
 <h1>X投稿文</h1>
-<p>__UPDATED__ 更新。「𝕏で投稿する」を押すと、文章が入った状態でXの投稿画面が開きます。内容を確認してから投稿してください。</p>
+<p>__UPDATED__ 更新。「𝕏アプリで投稿」を押すと、文章が入った状態でXアプリの投稿画面が開きます。内容を確認してから投稿してください。</p>
+<p class="tip">💡 GitHubアプリなどの中で開くと、Xアプリに切り替わらないことがあります。うまくいかないときは、このページを <b>Safari や Chrome で開き</b>、「ホーム画面に追加」しておくと次から便利です。</p>
 __CARDS__
 </div>
 <script>
+__SHARE_JS__
+function post(btn){ shareX(btn.closest('section').querySelector('pre').textContent); }
 function copy(btn){
   const text = btn.closest('section').querySelector('pre').textContent;
   navigator.clipboard.writeText(text).then(() => { btn.textContent = 'コピーしました'; setTimeout(() => btn.textContent = 'コピー', 1500); });

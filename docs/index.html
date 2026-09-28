@@ -60,7 +60,7 @@ ul.list{list-style:none;padding:0;margin:0 0 40px}
 .official{font-size:.8rem;color:var(--sub);margin:-4px 0 8px;line-height:1.5}
 .foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:.82rem;color:var(--sub)}
 .actions{display:flex;gap:6px}
-.btn{display:inline-block;text-decoration:none;border-radius:8px;padding:5px 12px;font-size:.82rem;font-weight:600}
+.btn{display:inline-block;border:0;cursor:pointer;font-family:inherit;text-decoration:none;border-radius:8px;padding:5px 12px;font-size:.82rem;font-weight:600}
 .btn.go{background:var(--accent);color:#fff}
 .btn.x{background:var(--ink);color:var(--bg)}
 .empty{text-align:center;color:var(--sub);padding:40px 0}
@@ -159,7 +159,6 @@ function render(){
     const urgent = dl <= D.urgentDays;
     const leftTxt = dl <= 0 ? '本日締切' : `あと${dl}日`;
     const tagsHtml = i.tags.map(t => `<span class="tag" style="background:${tagColor[t]}">${esc(t)}</span>`).join('');
-    const xUrl = 'https://x.com/intent/post?text=' + encodeURIComponent(i.share) + '&url=' + encodeURIComponent(i.url);
     const first = i.tags[0];
     return `<li class="item${first ? ' focus' : ''}" style="${first ? '--tagc:' + tagColor[first] : ''}">
       <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>
@@ -167,11 +166,27 @@ function render(){
       ${i.plain ? `<p class="official">正式名：${esc(i.title)}</p>` : ''}
       <div class="foot"><span>${esc(i.ministry)}｜締切 ${fmt(i.deadline)} ${new Date(i.deadline).toTimeString().slice(0,5)}</span>
         <span class="actions"><a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">意見を出す</a>
-        <a class="btn x" href="${xUrl}" target="_blank" rel="noopener">𝕏でシェア</a></span></div>
+        <button type="button" class="btn x" data-id="${esc(i.id)}">𝕏でシェア</button></span></div>
     </li>`;
   }).join('');
 }
 render();
+
+// スマホではXアプリを直接開く（アプリ内ブラウザで毎回ログインを求められないように）。
+// アプリが開かなかったときだけ、1.5秒後にブラウザ版Xを開く。
+function shareX(text){
+  const web = 'https://x.com/intent/post?text=' + encodeURIComponent(text);
+  if (!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) { window.open(web, '_blank', 'noopener'); return; }
+  const fallback = setTimeout(() => { if (!document.hidden) location.href = web; }, 1500);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) clearTimeout(fallback); }, { once: true });
+  location.href = 'twitter://post?message=' + encodeURIComponent(text);
+}
+
+document.getElementById('list').addEventListener('click', e => {
+  const b = e.target.closest('button.x'); if (!b) return;
+  const i = D.items.find(x => x.id === b.dataset.id);
+  shareX(i.share + i.url);
+});
 </script>
 </body>
 </html>
