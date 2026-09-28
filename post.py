@@ -101,6 +101,8 @@ def write_outputs(posts, updated, config):
             f'<button type="button" onclick="copy(this)">コピー</button></div></section>'
         )
     page = POSTS_TEMPLATE.replace("__UPDATED__", html.escape(updated[:16].replace("T", " ")))
+    page = page.replace("<h1>X投稿文</h1>", '<h1>X投稿文</h1>\n<p>投稿文ページ：<b>🏛️ 国</b> ／ '
+                        '<a href="pref/posts.html">🗾 都道府県</a> ／ <a href="city/posts.html">🏙️ 市区町村</a></p>')
     page = page.replace("__SHARE_JS__", SHARE_JS)
     page = page.replace("__SITE_NAME__", html.escape(config["site_name"])).replace("__CARDS__", "\n".join(cards))
     (HERE / "docs").mkdir(exist_ok=True)

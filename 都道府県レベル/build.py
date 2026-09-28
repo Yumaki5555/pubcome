@@ -119,6 +119,13 @@ def main(base=HERE):
     print(f"docs/{config.get('out_dir', 'pref')}/index.html を作りました"
           f"（募集中 {len(items)} 件、{len({i['pref'] for i in items})} {config.get('area_label', '都道府県')}）")
 
+    # X投稿文のページ（posts.html）も一緒に作る
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("pref_post", HERE / "post.py")
+    pref_post = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(pref_post)
+    pref_post.main(BASE)
+
 
 def words(page, config):
     """ひな形の「__UNIT__（県）」「__AREA__（都道府県）」を、都道府県版・市区町村版の言葉に置き換える。"""
