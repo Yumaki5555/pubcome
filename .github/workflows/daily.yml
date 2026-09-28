@@ -1,0 +1,32 @@
+# 毎朝7時（日本時間）に e-Gov から情報を集め、ページと投稿文を作り直して公開する
+name: daily-update
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 世界標準時の22時 = 日本時間の朝7時
+  workflow_dispatch:        # 手動でも実行できるようにする
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 情報を集める
+        run: python fetch.py
+      - name: 一覧ページを作る
+        run: python build.py
+      - name: X投稿文を作る
+        run: python post.py
+      - name: 変更を保存して公開
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json posts.txt docs
+          git diff --cached --quiet || git commit -m "毎日の自動更新 $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git push
