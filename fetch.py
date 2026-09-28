@@ -7,6 +7,7 @@ import http.cookiejar
 import json
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -133,6 +134,39 @@ def fetch_rss():
     return items
 
 
+# ---------- 案件ごとの詳しい情報（資料・問合せ先など） ----------
+
+def fetch_detail(pid):
+    req = urllib.request.Request(DETAIL_URL.format(id=pid), headers={"User-Agent": UA})
+    page_html = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+    return parse_detail_html(page_html)
+
+
+def parse_detail_html(page_html):
+    rows = {}
+    for th, td in re.findall(r"<th>(.*?)</th>\s*<td>(.*?)</td>", page_html, re.S):
+        rows[clean(th).replace(" ", "")] = td
+
+    def text(label):
+        td = rows.get(label, "")
+        lines = [clean(x) for x in re.split(r"<br\s*/?>", td)]
+        return "\n".join(x for x in lines if x and x != "-")
+
+    def files(label):
+        return [{"name": clean(name), "url": urllib.parse.urljoin(BASE, html.unescape(href))}
+                for href, name in re.findall(r'<a class="file" href="([^"]+)"[^>]*>(.*?)</a>', rows.get(label, ""), re.S)]
+
+    return {
+        "rule_name": text("定めようとする命令などの題名"),
+        "law": text("根拠法令条項"),
+        "guide_files": files("意見募集要領（提出先を含む）"),
+        "draft_files": files("命令などの案"),
+        "other_files": files("関連資料、その他"),
+        "note": text("備考"),
+        "contact": text("問合せ先（所管省庁・部局名等）"),
+    }
+
+
 # ---------- タグ付け・保存 ----------
 
 def tag_item(item, tag_defs):
@@ -169,6 +203,22 @@ def main():
     for it in merged.values():
         it["tags"] = tag_item(it, tag_defs)
 
+    # 募集中の案件のうち、まだ詳しい情報を取っていないものだけ取りに行く
+    now = now_jst().isoformat()
+    need = [it for it in merged.values()
+            if it["deadline"] and it["deadline"] >= now and "detail" not in (old.get(it["id"]) or {})]
+    for it in merged.values():
+        if "detail" in (old.get(it["id"]) or {}) and "detail" not in it:
+            it["detail"] = old[it["id"]]["detail"]
+    for n, it in enumerate(need, 1):
+        try:
+            it["detail"] = fetch_detail(it["id"])
+        except Exception as e:
+            print(f"  詳細の取得に失敗: {it['id']}（{e}）", file=sys.stderr)
+        time.sleep(1)  # e-Gov に負担をかけないよう1秒ずつ間をあける
+    if need:
+        print(f"詳しい情報を {len(need)} 件取得しました")
+
     # 締切から90日以上たった古い案件は捨てる（ファイルが大きくなりすぎないように）
     cutoff = (now_jst() - timedelta(days=90)).isoformat()
     items = [it for it in merged.values() if not it["deadline"] or it["deadline"] >= cutoff]
@@ -180,7 +230,6 @@ def main():
         "items": items,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    now = now_jst().isoformat()
     open_items = [it for it in items if it["deadline"] and it["deadline"] >= now]
     print(f"取得 {len(fetched)} 件（新しく見つけた案件 {new_count} 件）／ 募集中 {len(open_items)} 件")
     for t in tag_defs:

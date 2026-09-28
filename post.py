@@ -65,11 +65,11 @@ def main():
     # 2) 注目テーマの新着（1件ごとの定型文）
     hashtag_of = {t["name"]: t["hashtag"] for t in tag_defs}
     for it in sorted([it for it in focus if is_new(it)], key=lambda it: it["published"], reverse=True):
-        posts.append((f"新着｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of)))
+        posts.append((f"新着｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of, site)))
 
     # 3) 注目テーマの締切間近（1件ごとの定型文）
     for it in sorted([it for it in focus if days_left(it) <= CLOSING_DAYS], key=lambda it: it["deadline"]):
-        posts.append((f"締切間近｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of)))
+        posts.append((f"締切間近｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of, site)))
 
     # 4) 注目テーマごとの紹介
     for t in tag_defs:
