@@ -602,6 +602,11 @@ def main(list_file=PREF_FILE, data_file=DATA_FILE):
     status = old.get("status", {})
     with ThreadPoolExecutor(max_workers=10) as ex:
         for pref, res, stats, lines in ex.map(run, prefs):
+            # 前に見つけた募集中の案件は、今回たどり着けなくても締切までは残す
+            # （奥深くにある案件は、サイトの一時的な不調などで見回りから漏れることがあるため）
+            for u, r in cache.items():
+                if r["pref"] == pref["name"] and u not in res and (r.get("deadline") or "") >= today.isoformat():
+                    res[u] = r
             pages.update(res)
             n_open = sum(1 for r in res.values() if r.get("deadline") and r["deadline"] >= today.isoformat())
             status[pref["name"]] = {"url": pref["url"], "error": stats["error"], "open": n_open,
