@@ -45,15 +45,17 @@ def display_title(item):
 
 
 def share_text(item, main_hashtag, hashtag_of):
-    """一覧ページの「Xでシェア」用の文章。リンク（23字として数える）込みで140字以内にする。"""
+    """1件ごとの投稿の定型文（一覧ページの「Xでシェア」と投稿文ページで共通）。
+    リンク（23字として数える）込みで140字以内にする。"""
     d = datetime.fromisoformat(item["deadline"])
     tags = " ".join([main_hashtag] + [hashtag_of[t] for t in item["tags"]])
-    make = lambda title: (f"「{title}」について、国が{d.month}/{d.day}まで意見を募集しています📣\n"
-                          f"ひとことからでも、誰でも送れます🙆\n{tags}\n")
+    make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
+                          f"「{title}」について、国が意見募集中です。\n\n"
+                          f"ひとことからでも、誰でも送れます🙆\n{tags}\n\n")
     title = display_title(item)
     while len(make(title)) + 23 > 140 and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
-    return make(title)
+    return make(title) + item["url"]
 
 
 SHARE_JS = r"""
@@ -284,7 +286,7 @@ __SHARE_JS__
 document.getElementById('list').addEventListener('click', e => {
   const b = e.target.closest('button.x'); if (!b) return;
   const i = D.items.find(x => x.id === b.dataset.id);
-  shareX(i.share + i.url);
+  shareX(i.share);
 });
 </script>
 </body>

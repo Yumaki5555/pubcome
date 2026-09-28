@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from build import SHARE_JS, display_title, load_plain_titles
+from build import SHARE_JS, load_plain_titles, share_text
 
 HERE = Path(__file__).parent
 JST = timezone(timedelta(hours=9))
@@ -26,13 +26,6 @@ def length(text):
     urls = re.findall(r"https?://\S+", text)
     rest = re.sub(r"https?://\S+", "", text)
     return len(urls) * URL_WEIGHT + len(rest)
-
-
-def fit(make, title):
-    """140字に収まるまで案件名を短くする。make は案件名を受け取って投稿文を返す関数。"""
-    while length(make(title)) > LIMIT and len(title) > 8:
-        title = title[:-2].rstrip("…") + "…"
-    return make(title)
 
 
 def mmdd(iso):
@@ -69,27 +62,14 @@ def main():
         f"{site}\n{main_tag}"
     )))
 
-    # 2) 注目テーマの新着
+    # 2) 注目テーマの新着（1件ごとの定型文）
+    hashtag_of = {t["name"]: t["hashtag"] for t in tag_defs}
     for it in sorted([it for it in focus if is_new(it)], key=lambda it: it["published"], reverse=True):
-        t = tag_of[it["tags"][0]]
-        posts.append((f"新着｜{'・'.join(it['tags'])}", fit(lambda title: (
-            f"{t['emoji']}{t['friendly']}について、国が新しい案を出しました\n"
-            f"「{title}」\n"
-            f"{mmdd(it['deadline'])}まで、誰でも意見を送れます✉️\n"
-            f"{it['url']}\n{main_tag} {t['hashtag']}"
-        ), display_title(it))))
+        posts.append((f"新着｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of)))
 
-    # 3) 注目テーマの締切間近
+    # 3) 注目テーマの締切間近（1件ごとの定型文）
     for it in sorted([it for it in focus if days_left(it) <= CLOSING_DAYS], key=lambda it: it["deadline"]):
-        t = tag_of[it["tags"][0]]
-        d = days_left(it)
-        when = "今日が締切です" if d <= 0 else f"締切まであと{d}日"
-        posts.append((f"締切間近｜{'・'.join(it['tags'])}", fit(lambda title: (
-            f"⏰{when}（{mmdd(it['deadline'])}）\n"
-            f"{t['friendly']}に関する「{title}」\n"
-            f"ひとことでも大丈夫。今ならまだ間に合います🙏\n"
-            f"{it['url']}\n{main_tag} {t['hashtag']}"
-        ), display_title(it))))
+        posts.append((f"締切間近｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of)))
 
     # 4) 注目テーマごとの紹介
     for t in tag_defs:
