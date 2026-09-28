@@ -1,4 +1,4 @@
-# 毎朝7時（日本時間）に e-Gov と47都道府県から情報を集め、ページと投稿文を作り直して公開する
+# 毎朝7時（日本時間）に e-Gov・47都道府県・主な市区町村から情報を集め、ページと投稿文を作り直して公開する
 name: daily-update
 
 on:
@@ -28,10 +28,15 @@ jobs:
         continue-on-error: true   # 県のサイトが不調でも、国版の更新は止めない
       - name: 都道府県版のページを作る
         run: python 都道府県レベル/build.py
+      - name: 市区町村のパブコメを集める
+        run: python 市区町村レベル/fetch.py
+        continue-on-error: true   # 市区のサイトが不調でも、ほかの更新は止めない
+      - name: 市区町村版のページを作る
+        run: python 市区町村レベル/build.py
       - name: 変更を保存して公開
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json posts.txt docs 都道府県レベル/data.json
+          git add data.json posts.txt docs 都道府県レベル/data.json 市区町村レベル/data.json
           git diff --cached --quiet || git commit -m "毎日の自動更新 $(TZ=Asia/Tokyo date +%Y-%m-%d)"
           git push
