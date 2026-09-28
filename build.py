@@ -33,6 +33,18 @@ def short_title(title, limit=70):
     return t if len(t) <= limit else t[: limit - 1] + "…"
 
 
+def share_text(item, main_hashtag, hashtag_of):
+    """一覧ページの「Xでシェア」用の文章。リンク（23字として数える）込みで140字以内にする。"""
+    d = datetime.fromisoformat(item["deadline"])
+    tags = " ".join([main_hashtag] + [hashtag_of[t] for t in item["tags"]])
+    make = lambda title: (f"「{title}」について、国が{d.month}/{d.day}まで意見を募集しています📣\n"
+                          f"ひとことからでも、誰でも送れます🙆\n{tags}\n")
+    title = short_title(item["title"])
+    while len(make(title)) + 23 > 140 and len(title) > 8:
+        title = title[:-2].rstrip("…") + "…"
+    return make(title)
+
+
 def main():
     config = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
     tags = json.loads((HERE / "keywords.json").read_text(encoding="utf-8"))["tags"]
@@ -40,8 +52,9 @@ def main():
 
     now = datetime.now(JST).isoformat()
     open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now]
+    hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     for it in open_items:
-        it["short"] = short_title(it["title"])
+        it["share"] = share_text(it, config["main_hashtag"], hashtag_of)
     payload = {
         "updated": data["updated"],
         "items": open_items,
@@ -224,9 +237,7 @@ function render(){
     const urgent = dl <= D.urgentDays;
     const leftTxt = dl <= 0 ? '本日締切' : `あと${dl}日`;
     const tagsHtml = i.tags.map(t => `<span class="tag" style="background:${tagColor[t]}">${esc(t)}</span>`).join('');
-    const hashtags = [D.mainHashtag, ...i.tags.map(t => (D.tags.find(x => x.name === t) || {}).hashtag)].filter(Boolean).join(' ');
-    const tweet = `【意見募集中・${fmt(i.deadline)}締切】${i.short}（${i.ministry}）\n${hashtags}\n`;
-    const xUrl = 'https://x.com/intent/post?text=' + encodeURIComponent(tweet) + '&url=' + encodeURIComponent(i.url);
+    const xUrl = 'https://x.com/intent/post?text=' + encodeURIComponent(i.share) + '&url=' + encodeURIComponent(i.url);
     const first = i.tags[0];
     return `<li class="item${first ? ' focus' : ''}" style="${first ? '--tagc:' + tagColor[first] : ''}">
       <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>

@@ -9,7 +9,6 @@ import html
 import json
 import math
 import re
-import unicodedata
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -18,24 +17,24 @@ from build import short_title
 
 HERE = Path(__file__).parent
 JST = timezone(timedelta(hours=9))
-X_LIMIT = 280      # X の上限（日本語は1文字=2として数える）
-URL_WEIGHT = 23    # URL はどんな長さでも23として数えられる
+LIMIT = 140        # 投稿文の上限（リンク込みで140字）
+URL_WEIGHT = 23    # X ではリンクはどんな長さでも23字として数えられる
 CLOSING_DAYS = 3   # 「締切間近」とみなす日数
 NEW_DAYS = 3       # 公示から何日以内を「新着」とするか
 
 
-def x_length(text):
-    """X の数え方で文字数を数える（URL は23、全角は2、半角は1）。"""
+def length(text):
+    """リンクを23字として、投稿文の文字数を数える。"""
     urls = re.findall(r"https?://\S+", text)
     rest = re.sub(r"https?://\S+", "", text)
-    return len(urls) * URL_WEIGHT + sum(2 if unicodedata.east_asian_width(c) in "WFA" else 1 for c in rest)
+    return len(urls) * URL_WEIGHT + len(rest)
 
 
-def fit(head, title, tail):
-    """投稿が上限を超えるときは案件名を短くしてはみ出さないようにする。"""
-    while x_length(head + title + tail) > X_LIMIT and len(title) > 10:
+def fit(make, title):
+    """140字に収まるまで案件名を短くする。make は案件名を受け取って投稿文を返す関数。"""
+    while length(make(title)) > LIMIT and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
-    return head + title + tail
+    return make(title)
 
 
 def mmdd(iso):
@@ -47,7 +46,7 @@ def main():
     config = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
     tag_defs = json.loads((HERE / "keywords.json").read_text(encoding="utf-8"))["tags"]
     data = json.loads((HERE / "data.json").read_text(encoding="utf-8"))
-    hashtag_of = {t["name"]: t["hashtag"] for t in tag_defs}
+    tag_of = {t["name"]: t for t in tag_defs}
     site, main_tag = config["site_url"], config["main_hashtag"]
 
     now = datetime.now(JST)
@@ -61,53 +60,46 @@ def main():
     posts = []  # (見出し, 本文)
 
     # 1) 毎日のまとめ
-    soon = sum(1 for it in open_items if days_left(it) <= config["urgent_days"])
-    counts = "・".join(
-        f"{t['name']}{sum(1 for it in open_items if t['name'] in it['tags'])}"
-        for t in tag_defs
-    )
     posts.append(("今日のまとめ", (
-        f"📣国が意見を募集中のパブコメ {len(open_items)}件\n"
-        f"うち{config['urgent_days']}日以内に締切 {soon}件\n\n"
-        f"注目テーマ：{counts}\n\n"
-        f"締切が近い順に一覧できます👇\n{site}\n{main_tag}"
+        f"いま国が「みんなの意見を聞かせて」と募集しているテーマが{len(open_items)}件あります📣\n"
+        f"子育て・年金・外国人のことなど、暮らしに身近な話も。\n"
+        f"ひとことからでも送れます🙆\n"
+        f"{site}\n{main_tag}"
     )))
 
     # 2) 注目テーマの新着
     for it in sorted([it for it in focus if is_new(it)], key=lambda it: it["published"], reverse=True):
-        tags = " ".join(hashtag_of[t] for t in it["tags"])
-        posts.append((f"新着｜{'・'.join(it['tags'])}", fit(
-            f"🆕【意見募集スタート】{it['tags'][0]}\n\n",
-            short_title(it["title"]),
-            f"\n（{it['ministry']}・{mmdd(it['deadline'])}締切）\n\n意見はこちら👇\n{it['url']}\n{main_tag} {tags}",
-        )))
+        t = tag_of[it["tags"][0]]
+        posts.append((f"新着｜{'・'.join(it['tags'])}", fit(lambda title: (
+            f"{t['emoji']}{t['friendly']}について、国が新しい案を出しました\n"
+            f"「{title}」\n"
+            f"{mmdd(it['deadline'])}まで、誰でも意見を送れます✉️\n"
+            f"{it['url']}\n{main_tag} {t['hashtag']}"
+        ), short_title(it["title"]))))
 
     # 3) 注目テーマの締切間近
     for it in sorted([it for it in focus if days_left(it) <= CLOSING_DAYS], key=lambda it: it["deadline"]):
+        t = tag_of[it["tags"][0]]
         d = days_left(it)
-        when = "本日締切" if d <= 0 else f"締切まであと{d}日"
-        tags = " ".join(hashtag_of[t] for t in it["tags"])
-        posts.append((f"締切間近｜{'・'.join(it['tags'])}", fit(
-            f"⏰【{when}・{mmdd(it['deadline'])}】{it['tags'][0]}\n\n",
-            short_title(it["title"]),
-            f"\n（{it['ministry']}）\n\n意見はこちら👇\n{it['url']}\n{main_tag} {tags}",
-        )))
+        when = "今日が締切です" if d <= 0 else f"締切まであと{d}日"
+        posts.append((f"締切間近｜{'・'.join(it['tags'])}", fit(lambda title: (
+            f"⏰{when}（{mmdd(it['deadline'])}）\n"
+            f"{t['friendly']}に関する「{title}」\n"
+            f"ひとことでも大丈夫。今ならまだ間に合います🙏\n"
+            f"{it['url']}\n{main_tag} {t['hashtag']}"
+        ), short_title(it["title"]))))
 
-    # 4) 注目テーマごとの一覧（募集中のものを3件まで）
+    # 4) 注目テーマごとの紹介
     for t in tag_defs:
-        its = [it for it in open_items if t["name"] in it["tags"]][:3]
+        its = [it for it in open_items if t["name"] in it["tags"]]
         if not its:
             continue
-        lines = "\n".join(f"・{mmdd(it['deadline'])}締切 {short_title(it['title'], 38)}" for it in its)
-        more = sum(1 for it in open_items if t["name"] in it["tags"]) - len(its)
-        body = f"【{t['name']}】に関するパブコメ募集中\n\n{lines}\n" + (f"ほか{more}件\n" if more > 0 else "")
-        body += f"\n一覧👇\n{site}\n{main_tag} {t['hashtag']}"
-        while x_length(body) > X_LIMIT and len(its) > 1:
-            its = its[:-1]
-            lines = "\n".join(f"・{mmdd(it['deadline'])}締切 {short_title(it['title'], 38)}" for it in its)
-            more = sum(1 for it in open_items if t["name"] in it["tags"]) - len(its)
-            body = f"【{t['name']}】に関するパブコメ募集中\n\n{lines}\nほか{more}件\n\n一覧👇\n{site}\n{main_tag} {t['hashtag']}"
-        posts.append((f"テーマ一覧｜{t['name']}", body))
+        posts.append((f"テーマ紹介｜{t['name']}", (
+            f"{t['emoji']}{t['friendly']}について、国が意見を募集している案が{len(its)}件あります。\n"
+            f"いちばん近い締切は{mmdd(its[0]['deadline'])}。\n"
+            f"どんな案か、ちょっとのぞいてみませんか？\n"
+            f"{site}\n{main_tag} {t['hashtag']}"
+        )))
 
     write_outputs(posts, data["updated"], config)
 
@@ -115,14 +107,14 @@ def main():
 def write_outputs(posts, updated, config):
     txt = [f"X投稿文（{updated[:16].replace('T', ' ')} 更新）", ""]
     for i, (label, body) in enumerate(posts, 1):
-        txt += [f"===== {i}. {label}（{x_length(body)}/{X_LIMIT}） =====", body, ""]
+        txt += [f"===== {i}. {label}（{length(body)}/{LIMIT}字） =====", body, ""]
     (HERE / "posts.txt").write_text("\n".join(txt), encoding="utf-8")
 
     cards = []
     for label, body in posts:
         intent = "https://x.com/intent/post?text=" + urllib.parse.quote(body)
         cards.append(
-            f'<section><h2>{html.escape(label)} <small>{x_length(body)}/{X_LIMIT}</small></h2>'
+            f'<section><h2>{html.escape(label)} <small>{length(body)}/{LIMIT}字</small></h2>'
             f'<pre>{html.escape(body)}</pre>'
             f'<div class="btns"><a class="x" href="{html.escape(intent)}" target="_blank" rel="noopener">𝕏で投稿する</a>'
             f'<button type="button" onclick="copy(this)">コピー</button></div></section>'
