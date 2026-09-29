@@ -76,6 +76,8 @@ def main(base=HERE):
         items.append({
             "pref": it["pref"], "title": it["title"], "short": display_title(it),
             "url": it["url"], "deadline": it["deadline"], "tags": it["tags"],
+            # 新着の判定用：募集開始日（書かれていなければ、このサイトで初めて見つけた日）
+            "since": it.get("start") or it.get("first_seen") or "",
             "share": it["share"], "page": summary_path(it),
         })
     build_summary_pages(open_items, tags, config)
@@ -97,6 +99,7 @@ def main(base=HERE):
         "prefs": [{"name": p["name"], "url": p["url"],
                    "error": bool((status.get(p["name"]) or {}).get("error"))} for p in prefs],
         "urgentDays": config["urgent_days"],
+        "newDays": config.get("new_days", 7),
     }
     page = TEMPLATE
     for key, value in {
@@ -330,6 +333,8 @@ ul.list{list-style:none;padding:0;margin:0 0 30px}
 .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.8rem;color:var(--sub);margin-bottom:4px}
 .left{font-weight:700;padding:1px 8px;border-radius:6px;background:var(--chip);color:var(--ink)}
 .left.urgent{background:var(--urgent-bg);color:var(--urgent)}
+.new{font-weight:700;padding:1px 8px;border-radius:6px;background:#fef3c7;color:#b45309}
+.tagbtn.newbtn[aria-pressed="true"]{background:#d97706}
 .pref{font-weight:700;padding:1px 8px;border-radius:6px;background:var(--pref-bg);color:var(--pref)}
 .tag{color:#fff;padding:1px 8px;border-radius:6px;font-weight:600}
 .item h2{font-size:1rem;margin:4px 0 8px;font-weight:600;line-height:1.5}
@@ -382,6 +387,7 @@ footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid
   <div class="row">
     <input id="q" type="search" placeholder="キーワードで探す（例：子ども、条例）">
     <select id="pref"><option value="">すべての__AREA__</option></select>
+    <select id="sort" aria-label="並び替え"><option value="deadline">締切が近い順</option><option value="new">新しく始まった順</option></select>
   </div>
 </div>
 
@@ -404,10 +410,13 @@ __SHARE_JS__
 const D = JSON.parse(document.getElementById('data').textContent);
 const tagColor = Object.fromEntries(D.tags.map(t => [t.name, t.color]));
 const now = new Date();
-const state = { tag: '', q: '', pref: '' };
+const state = { tag: '', q: '', pref: '', onlyNew: false, sort: 'deadline' };
 
 function ymd(d){ return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()); }
 function daysLeft(iso){ return Math.round((ymd(new Date(iso + 'T00:00:00')) - ymd(now)) / 86400000); }
+// 募集が始まってからの日数（新着の判定用）
+function daysSince(iso){ return Math.round((ymd(now) - ymd(new Date(iso + 'T00:00:00'))) / 86400000); }
+const isNew = i => i.since && daysSince(i.since) < D.newDays;
 function fmt(iso){ const d = new Date(iso + 'T00:00:00'); return `${d.getMonth()+1}/${d.getDate()}`; }
 function esc(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
@@ -437,6 +446,14 @@ const tagbar = document.getElementById('tagbar');
   b.onclick = () => { state.tag = t.name; render(); };
   tagbar.appendChild(b);
 });
+// 新着だけ表示するボタン（テーマとは別に、重ねて使える）
+const newN = D.items.filter(isNew).length;
+const newBtn = document.createElement('button');
+newBtn.className = 'tagbtn newbtn'; newBtn.type = 'button';
+newBtn.innerHTML = `🆕 新着（${D.newDays}日以内）<span class="n">${newN}</span>`;
+newBtn.onclick = () => { state.onlyNew = !state.onlyNew; render(); };
+tagbar.appendChild(newBtn);
+document.getElementById('sort').onchange = e => { state.sort = e.target.value; render(); };
 
 document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); render(); };
 sel.onchange = e => { state.pref = e.target.value; render(); };
@@ -447,12 +464,15 @@ function render(){
     b.setAttribute('aria-pressed', on);
     b.style.background = on ? b.dataset.color : '';
   });
+  newBtn.setAttribute('aria-pressed', state.onlyNew);
   const words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
   const shown = D.items.filter(i =>
+    (!state.onlyNew || isNew(i)) &&
     (!state.tag || i.tags.includes(state.tag)) &&
     (!state.pref || i.pref === state.pref) &&
     words.every(w => (i.title + i.pref).toLowerCase().includes(w)));
-  document.getElementById('count').textContent = `${shown.length} 件を表示（締切が近い順）`;
+  if (state.sort === 'new') shown.sort((a, b) => b.since.localeCompare(a.since) || a.deadline.localeCompare(b.deadline));
+  document.getElementById('count').textContent = `${shown.length} 件を表示（${state.sort === 'new' ? '新しく始まった順' : '締切が近い順'}）`;
   const list = document.getElementById('list');
   if (!shown.length){ list.innerHTML = '<li class="empty">条件に合う案件はありません</li>'; return; }
   list.innerHTML = shown.map((i, n) => {
@@ -462,7 +482,7 @@ function render(){
     const official = i.short !== i.title ? `<p class="official">正式名：${esc(i.title)}</p>` : '';
     return `<li class="item${i.tags.length ? ' focus' : ''}" style="--tagc:${tagc}">
       <div class="meta"><span class="left${dl <= D.urgentDays ? ' urgent' : ''}">${leftText}</span>
-        <span class="pref">${esc(i.pref)}</span>
+        ${isNew(i) ? '<span class="new">🆕 新着</span>' : ''}<span class="pref">${esc(i.pref)}</span>
         ${i.tags.map(t => `<span class="tag" style="background:${tagColor[t]}">${esc(t)}</span>`).join('')}</div>
       <h2><a href="${esc(i.page)}">${esc(i.short)}</a></h2>${official}
       <div class="foot"><span>締切 ${fmt(i.deadline)}</span>
@@ -487,7 +507,7 @@ document.getElementById('prefs').innerHTML = D.regions.map(([region, names]) => 
 
 const soon = D.items.filter(i => daysLeft(i.deadline) <= D.urgentDays).length;
 document.getElementById('npref').textContent = `（${Object.keys(countOf).length}__AREA__）`;
-document.getElementById('soon').textContent = soon ? `・${D.urgentDays}日以内に締切 ${soon} 件` : '';
+document.getElementById('soon').textContent = (soon ? `・${D.urgentDays}日以内に締切 ${soon} 件` : '') + (newN ? `・🆕 新着 ${newN} 件` : '');
 document.getElementById('updated').textContent = `・${D.updated.slice(0,10).replace(/-/g,'/')} 更新`;
 render();
 </script>

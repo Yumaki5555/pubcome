@@ -98,6 +98,7 @@ def main():
         "siteUrl": config["site_url"],
         "mainHashtag": config["main_hashtag"],
         "urgentDays": config["urgent_days"],
+        "newDays": config.get("new_days", 7),
     }
     page = TEMPLATE
     for key, value in {
@@ -319,6 +320,8 @@ ul.list{list-style:none;padding:0;margin:0 0 40px}
 .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.8rem;color:var(--sub);margin-bottom:4px}
 .left{font-weight:700;padding:1px 8px;border-radius:6px;background:var(--chip);color:var(--ink)}
 .left.urgent{background:var(--urgent-bg);color:var(--urgent)}
+.new{font-weight:700;padding:1px 8px;border-radius:6px;background:#fef3c7;color:#b45309}
+.tagbtn.newbtn[aria-pressed="true"]{background:#d97706}
 .tag{color:#fff;padding:1px 8px;border-radius:6px;font-weight:600}
 .cat{background:var(--chip);padding:1px 8px;border-radius:6px}
 .item h2{font-size:1rem;margin:4px 0 8px;font-weight:600;line-height:1.5}
@@ -359,6 +362,7 @@ footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid
   <div class="row">
     <input id="q" type="search" placeholder="キーワードで探す（例：年金、保育）">
     <select id="ministry"><option value="">すべての省庁</option></select>
+    <select id="sort" aria-label="並び替え"><option value="deadline">締切が近い順</option><option value="new">新しく始まった順</option></select>
   </div>
 </div>
 
@@ -376,11 +380,14 @@ footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid
 const D = JSON.parse(document.getElementById('data').textContent);
 const tagColor = Object.fromEntries(D.tags.map(t => [t.name, t.color]));
 const now = new Date();
-const state = { tag: '', q: '', ministry: '' };
+const state = { tag: '', q: '', ministry: '', onlyNew: false, sort: 'deadline' };
 
 // 締切日と今日の「日付」の差（時刻は見ない）。今日が締切なら0
 function ymd(d){ return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()); }
 function daysLeft(iso){ return Math.round((ymd(new Date(iso)) - ymd(now)) / 86400000); }
+// 募集が始まってからの日数（新着の判定用）
+function daysSince(iso){ return Math.round((ymd(now) - ymd(new Date(iso))) / 86400000); }
+const isNew = i => i.published && daysSince(i.published) < D.newDays;
 function fmt(iso){ const d = new Date(iso); return `${d.getMonth()+1}/${d.getDate()}`; }
 function esc(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
@@ -401,12 +408,20 @@ const tagbar = document.getElementById('tagbar');
   b.onclick = () => { state.tag = t.name; render(); };
   tagbar.appendChild(b);
 });
+// 新着だけ表示するボタン（テーマとは別に、重ねて使える）
+const newN = D.items.filter(isNew).length;
+const newBtn = document.createElement('button');
+newBtn.className = 'tagbtn newbtn'; newBtn.type = 'button';
+newBtn.innerHTML = `🆕 新着（${D.newDays}日以内）<span class="n">${newN}</span>`;
+newBtn.onclick = () => { state.onlyNew = !state.onlyNew; render(); };
+tagbar.appendChild(newBtn);
+document.getElementById('sort').onchange = e => { state.sort = e.target.value; render(); };
 
 document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); render(); };
 document.getElementById('ministry').onchange = e => { state.ministry = e.target.value; render(); };
 
 const soonN = D.items.filter(i => daysLeft(i.deadline) <= D.urgentDays).length;
-document.getElementById('soon').innerHTML = `${D.urgentDays}日以内に締切 <b>${soonN}</b> 件`;
+document.getElementById('soon').innerHTML = `${D.urgentDays}日以内に締切 <b>${soonN}</b> 件　🆕 ${D.newDays}日以内の新着 <b>${newN}</b> 件`;
 document.getElementById('updated').textContent = '最終更新：' + D.updated.replace('T', ' ').slice(0, 16);
 
 function render(){
@@ -415,12 +430,15 @@ function render(){
     b.setAttribute('aria-pressed', on);
     b.style.background = on ? b.dataset.color : '';
   });
+  newBtn.setAttribute('aria-pressed', state.onlyNew);
   const items = D.items.filter(i =>
+    (!state.onlyNew || isNew(i)) &&
     (!state.tag || i.tags.includes(state.tag)) &&
     (!state.ministry || i.ministry === state.ministry) &&
     (!state.q || (i.title + (i.plain || '') + i.category + i.ministry).includes(state.q))
   );
-  document.getElementById('count').textContent = `${items.length} 件を表示中（締切が近い順）`;
+  if (state.sort === 'new') items.sort((a, b) => (b.published || '').localeCompare(a.published || '') || a.deadline.localeCompare(b.deadline));
+  document.getElementById('count').textContent = `${items.length} 件を表示中（${state.sort === 'new' ? '新しく始まった順' : '締切が近い順'}）`;
   const list = document.getElementById('list');
   if (!items.length){ list.innerHTML = '<li class="empty">条件に合う募集中の案件はありません</li>'; return; }
   list.innerHTML = items.map(i => {
@@ -430,10 +448,10 @@ function render(){
     const tagsHtml = i.tags.map(t => `<span class="tag" style="background:${tagColor[t]}">${esc(t)}</span>`).join('');
     const first = i.tags[0];
     return `<li class="item${first ? ' focus' : ''}" style="${first ? '--tagc:' + tagColor[first] : ''}">
-      <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>
+      <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${isNew(i) ? '<span class="new">🆕 新着</span>' : ''}${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>
       <h2><a href="${esc(i.page)}">${esc(i.plain || i.title)}</a></h2>
       ${i.plain ? `<p class="official">正式名：${esc(i.title)}</p>` : ''}
-      <div class="foot"><span>${esc(i.ministry)}｜締切 ${fmt(i.deadline)} ${new Date(i.deadline).toTimeString().slice(0,5)}</span>
+      <div class="foot"><span>${esc(i.ministry)}｜${i.published ? fmt(i.published) + '開始・' : ''}締切 ${fmt(i.deadline)} ${new Date(i.deadline).toTimeString().slice(0,5)}</span>
         <span class="actions"><a class="btn sum" href="${esc(i.page)}">スマホ用まとめ</a>
         <a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">e-Govへ</a>
         <button type="button" class="btn x" data-id="${esc(i.id)}">𝕏でシェア</button></span></div>
