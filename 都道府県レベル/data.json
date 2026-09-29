@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T01:37+09:00",
+ "updated": "2026-09-29T10:29+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
@@ -250,7 +250,7 @@
   "長崎県": {
    "url": "https://www.pref.nagasaki.jp/public-comments/",
    "error": null,
-   "open": 0,
+   "open": 1,
    "checked": "2026-09-29"
   },
   "熊本県": {
@@ -1950,25 +1950,15 @@
     "contact": ""
    }
   },
-  "https://www.pref.aomori.lg.jp/soshiki/kotsu/seikatsu/koutsuanzen_12keikaku_public_00.html": {
-   "id": "1b0317ae8d",
+  "https://www.pref.aomori.lg.jp/soshiki/sangyo/innovation/keikaku_12_kekka.html": {
+   "id": "cf8710ec89",
    "pref": "青森県",
-   "title": "第12次青森県交通安全計画(案)",
-   "url": "https://www.pref.aomori.lg.jp/soshiki/kotsu/seikatsu/koutsuanzen_12keikaku_public_00.html",
-   "start": "2026-08-12",
-   "deadline": "2026-09-10",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.aomori.lg.jp/soshiki/kyoiku/e-kaikaku/senkouban_an_paburikkukomento.html": {
-   "id": "4c568c3b3a",
-   "pref": "青森県",
-   "title": "青森県立高等学校魅力づくり推進計画前期実施計画(先行版)【学校・学科等の魅力づくり】(案)",
-   "url": "https://www.pref.aomori.lg.jp/soshiki/kyoiku/e-kaikaku/senkouban_an_paburikkukomento.html",
-   "start": "2026-08-06",
-   "deadline": "2026-09-04",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
+   "title": "第12次青森県職業能力開発計画(案)",
+   "url": "https://www.pref.aomori.lg.jp/soshiki/sangyo/innovation/keikaku_12_kekka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29"
   },
   "https://www.pref.aomori.lg.jp/soshiki/kenko/kkenkofu/2026seihosaisoku-kekka.html": {
    "id": "6b64cda764",
@@ -2290,13 +2280,23 @@
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.aomori.lg.jp/soshiki/sangyo/innovation/keikaku_12_an.html": {
-   "id": "09e54eecaa",
+  "https://www.pref.aomori.lg.jp/soshiki/kotsu/seikatsu/koutsuanzen_12keikaku_public_00.html": {
+   "id": "1b0317ae8d",
    "pref": "青森県",
-   "title": "第12次青森県職業能力開発計画(案)",
-   "url": "https://www.pref.aomori.lg.jp/soshiki/sangyo/innovation/keikaku_12_an.html",
-   "start": "2026-07-28",
-   "deadline": "2026-08-26",
+   "title": "第12次青森県交通安全計画(案)",
+   "url": "https://www.pref.aomori.lg.jp/soshiki/kotsu/seikatsu/koutsuanzen_12keikaku_public_00.html",
+   "start": "2026-08-12",
+   "deadline": "2026-09-10",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.aomori.lg.jp/soshiki/kyoiku/e-kaikaku/senkouban_an_paburikkukomento.html": {
+   "id": "4c568c3b3a",
+   "pref": "青森県",
+   "title": "青森県立高等学校魅力づくり推進計画前期実施計画(先行版)【学校・学科等の魅力づくり】(案)",
+   "url": "https://www.pref.aomori.lg.jp/soshiki/kyoiku/e-kaikaku/senkouban_an_paburikkukomento.html",
+   "start": "2026-08-06",
+   "deadline": "2026-09-04",
    "checked": "2026-09-28",
    "first_seen": "2026-09-28"
   },
@@ -7436,6 +7436,21 @@
    "deadline": null,
    "checked": "2026-09-29",
    "first_seen": "2026-09-29"
+  },
+  "https://www.pref.nagasaki.jp/doc/53084.html": {
+   "id": "255147f536",
+   "pref": "長崎県",
+   "title": "パブリックコメント募集開始のお知らせ(「ながさき森林環境税」の基本方針(案))",
+   "url": "https://www.pref.nagasaki.jp/doc/53084.html",
+   "start": "2026-10-09",
+   "deadline": "2026-11-09",
+   "checked": "2026-09-29",
+   "first_seen": "2026-09-29",
+   "detail": {
+    "files": [],
+    "howto": "",
+    "contact": "県民センター\n〒850-8570長崎県長崎市尾上町3番1号\n電話:\n095-894-3441\nFax:\n095-826-5682\nリンクURL:\n県民センター"
+   }
   },
   "https://www.pref.kumamoto.jp/soshiki/85/270939.html#8d646be379": {
    "id": "4267da90b7",

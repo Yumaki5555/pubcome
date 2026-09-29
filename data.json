@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T01:36+09:00",
+ "updated": "2026-09-29T10:29+09:00",
  "source": "list",
  "items": [
   {
@@ -5796,6 +5796,40 @@
     "other_files": [],
     "note": "",
     "contact": "消費者庁消費者制度課\n03-3507-9148"
+   }
+  },
+  {
+   "id": "495260199",
+   "title": "医療機器に係る日本産業規格の改正案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-09-29T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260199&Mode=0",
+   "first_seen": "2026-09-29",
+   "tags": [],
+   "detail": {
+    "rule_name": "○改正案\n・JIS T 4206",
+    "law": "産業標準化法",
+    "guide_files": [
+     {
+      "name": "御意見の募集について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321531"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "JIS改正の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321532"
+     },
+     {
+      "name": "改正案 JIS T 4206",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321533"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医薬局医療機器審査管理課\n電話：03-5253-1111\n内線番号：4215"
    }
   }
  ]
