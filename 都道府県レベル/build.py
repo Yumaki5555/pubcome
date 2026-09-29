@@ -49,7 +49,8 @@ def share_text(item, main_hashtag, hashtag_of, site_url):
     tags = " ".join([main_hashtag, "#" + item["pref"]] + [hashtag_of[t] for t in item["tags"]])
     make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
                           f"「{title}」について、{item['pref']}が意見募集中です。\n\n"
-                          f"{item['pref']}在住・通勤通学の方など、ひとことからでも送れます🙆\n{tags}\n\n")
+                          f"{item['pref']}関係者は、ひとことからでも送れます🙆\n"
+                          f"それ以外の方は案件ごとにご確認ください\n{tags}\n\n")
     title = display_title(item)
     while len(make(title)) + 23 > 140 and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
@@ -68,6 +69,9 @@ def main(base=HERE):
     open_items = [it for it in data["items"] if it["deadline"] >= today]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     plain = load_plain_titles()
+    # 募集開始日が書かれていない案件は、見回りを始めた日に見つけたものだと本当の開始日がわからないので
+    # 新着あつかいにしない（それ以降に初めて見つけたものだけ、見つけた日を開始日の代わりにする）
+    first_crawl = min((it["first_seen"] for it in data["items"]), default="")
     items = []
     for it in open_items:
         if it["id"] in plain:
@@ -76,8 +80,8 @@ def main(base=HERE):
         items.append({
             "pref": it["pref"], "title": it["title"], "short": display_title(it),
             "url": it["url"], "deadline": it["deadline"], "tags": it["tags"],
-            # 新着の判定用：募集開始日（書かれていなければ、このサイトで初めて見つけた日）
-            "since": it.get("start") or it.get("first_seen") or "",
+            # 新着の判定用：募集開始日（わからなければ空）
+            "since": it.get("start") or (it["first_seen"] if it["first_seen"] > first_crawl else ""),
             "share": it["share"], "page": summary_path(it),
         })
     build_summary_pages(open_items, tags, config)
@@ -173,7 +177,7 @@ def build_summary_pages(items, tag_defs, config):
             "__SHARE_JS__": SHARE_JS,
             "__SITE_NAME__": e(config["site_name"]),
             "__PAGE_URL__": e(config["site_url"] + summary_path(it)),
-            "__DESC__": e(f"{d.month}/{d.day}まで意見募集中（{it['pref']}）。住んでいる・通勤通学している方などは、ひとことからでも意見を送れます（対象は案件ごとにご確認ください）。"),
+            "__DESC__": e(f"{d.month}/{d.day}まで意見募集中（{it['pref']}）。{it['pref']}関係者は、ひとことからでも意見を送れます。それ以外の方は案件ごとにご確認ください。"),
         }
         page = SUMMARY_TEMPLATE
         for k, v in replace.items():
