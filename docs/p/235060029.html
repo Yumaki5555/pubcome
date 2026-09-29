@@ -103,7 +103,7 @@ const dl = Math.round((ymd(new Date('2026-10-31T23:59:00+09:00')) - ymd(new Date
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/31まで\n\n「ネット通販・訪問販売などのトラブルを防ぐルールの検討（中間まとめ）」について、国が意見募集中です。\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/235060029.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/31まで\n\n「ネット通販・訪問販売などのトラブルを防ぐルールの検討（中間まとめ）」\n国（消費者庁）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/235060029.html");
 </script>
 </body>
 </html>

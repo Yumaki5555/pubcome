@@ -103,7 +103,7 @@ const dl = Math.round((ymd(new Date('2026-10-18T17:00:00+09:00')) - ymd(new Date
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/18まで\n\n「貸し出し用の不動産の相続税などでの評価のしかた」について、国が意見募集中です。\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/410080055.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/18まで\n\n「貸し出し用の不動産の相続税などでの評価のしかた」\n国（国税庁）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/410080055.html");
 </script>
 </body>
 </html>

@@ -103,7 +103,7 @@ const dl = Math.round((ymd(new Date('2026-10-17T18:00:00+09:00')) - ymd(new Date
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/17まで\n\n「保護司（罪を犯した人の立ち直りを支えるボランティア）のルールの見直し」について、国が意見募集中です。\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/300110056.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/17まで\n\n「保護司（罪を犯した人の立ち直りを支えるボランティア）のルールの見直し」\n国（法務省）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/300110056.html");
 </script>
 </body>
 </html>

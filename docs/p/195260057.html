@@ -103,7 +103,7 @@ const dl = Math.round((ymd(new Date('2026-10-15T00:00:00+09:00')) - ymd(new Date
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/15まで\n\n「環境アセスメント（環境への影響調査）の経過措置の書類の指定」について、国が意見募集中です。\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/195260057.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/15まで\n\n「環境アセスメント（環境への影響調査）の経過措置の書類の指定」\n国（環境省）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/195260057.html");
 </script>
 </body>
 </html>

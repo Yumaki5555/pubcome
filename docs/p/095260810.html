@@ -103,7 +103,7 @@ const dl = Math.round((ymd(new Date('2026-10-08T23:59:00+09:00')) - ymd(new Date
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/8まで\n\n「遺伝子組換え菌でつくる食品成分（母乳に含まれるオリゴ糖）の安全性評価」について、国が意見募集中です。\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/095260810.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/8まで\n\n「遺伝子組換え菌でつくる食品成分（母乳に含まれるオリゴ糖）の安全性評価」\n国（内閣府）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ\n\nhttps://yumaki5555.github.io/pubcome/p/095260810.html");
 </script>
 </body>
 </html>
