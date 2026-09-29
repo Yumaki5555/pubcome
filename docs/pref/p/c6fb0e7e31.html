@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-09T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/9まで\n\n「建物の省エネ・環境対策の届出制度の見直し」について、東京都が意見募集中です。\n\n東京都関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #東京都\n\nhttps://yumaki5555.github.io/pubcome/pref/p/c6fb0e7e31.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/9まで\n\n「建物の省エネ・環境対策の届出制度の見直し」\n東京都\n\n東京都関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #東京都\n\nhttps://yumaki5555.github.io/pubcome/pref/p/c6fb0e7e31.html");
 </script>
 </body>
 </html>

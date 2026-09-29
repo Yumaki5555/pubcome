@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-13T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/13まで\n\n「これからの道路づくりのビジョン」について、名古屋市が意見募集中です。\n\n名古屋市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #名古屋市\n\nhttps://yumaki5555.github.io/pubcome/city/p/e9ba7c4127.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/13まで\n\n「これからの道路づくりのビジョン」\n名古屋市\n\n名古屋市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #名古屋市\n\nhttps://yumaki5555.github.io/pubcome/city/p/e9ba7c4127.html");
 </script>
 </body>
 </html>

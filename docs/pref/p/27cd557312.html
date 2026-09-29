@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-28T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/28まで\n\n「県立高校の教育改革の実行計画（骨子案）」について、神奈川県が意見募集中です。\n\n神奈川県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #神奈川県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/27cd557312.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/28まで\n\n「県立高校の教育改革の実行計画（骨子案）」\n神奈川県\n\n神奈川県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #神奈川県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/27cd557312.html");
 </script>
 </body>
 </html>

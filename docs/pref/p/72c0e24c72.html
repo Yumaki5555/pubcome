@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-19T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/19まで\n\n「府営住宅をこれからどう活用するかの計画」について、大阪府が意見募集中です。\n\n大阪府関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #大阪府\n\nhttps://yumaki5555.github.io/pubcome/pref/p/72c0e24c72.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/19まで\n\n「府営住宅をこれからどう活用するかの計画」\n大阪府\n\n大阪府関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #大阪府\n\nhttps://yumaki5555.github.io/pubcome/pref/p/72c0e24c72.html");
 </script>
 </body>
 </html>

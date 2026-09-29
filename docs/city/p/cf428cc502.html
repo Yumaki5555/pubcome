@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-09-30T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「区のこれからの基本構想（まちの将来像）」について、荒川区が意見募集中です。\n\n荒川区関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #荒川区\n\nhttps://yumaki5555.github.io/pubcome/city/p/cf428cc502.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「区のこれからの基本構想（まちの将来像）」\n荒川区\n\n荒川区関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #荒川区\n\nhttps://yumaki5555.github.io/pubcome/city/p/cf428cc502.html");
 </script>
 </body>
 </html>

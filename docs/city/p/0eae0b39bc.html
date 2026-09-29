@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-14T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/14まで\n\n「市税の事務でマイナンバーを安全に扱うための評価書」について、広島市が意見募集中です。\n\n広島市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #広島市\n\nhttps://yumaki5555.github.io/pubcome/city/p/0eae0b39bc.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/14まで\n\n「市税の事務でマイナンバーを安全に扱うための評価書」\n広島市\n\n広島市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #広島市\n\nhttps://yumaki5555.github.io/pubcome/city/p/0eae0b39bc.html");
 </script>
 </body>
 </html>

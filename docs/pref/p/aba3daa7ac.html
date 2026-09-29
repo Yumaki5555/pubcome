@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-13T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/13まで\n\n「ツキノワグマの数を管理する県の計画づくり」について、静岡県が意見募集中です。\n\n静岡県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #静岡県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/aba3daa7ac.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/13まで\n\n「ツキノワグマの数を管理する県の計画づくり」\n静岡県\n\n静岡県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #静岡県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/aba3daa7ac.html");
 </script>
 </body>
 </html>

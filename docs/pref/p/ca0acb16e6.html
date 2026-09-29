@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-28T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/28まで\n\n「中川流域の水害対策の計画」について、愛媛県が意見募集中です。\n\n愛媛県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #愛媛県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/ca0acb16e6.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/28まで\n\n「中川流域の水害対策の計画」\n愛媛県\n\n愛媛県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #愛媛県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/ca0acb16e6.html");
 </script>
 </body>
 </html>

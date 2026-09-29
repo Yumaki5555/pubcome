@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-09-30T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「中小企業を応援する新しい条例」について、広島市が意見募集中です。\n\n広島市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #広島市\n\nhttps://yumaki5555.github.io/pubcome/city/p/2dc7b2fffa.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「中小企業を応援する新しい条例」\n広島市\n\n広島市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #広島市\n\nhttps://yumaki5555.github.io/pubcome/city/p/2dc7b2fffa.html");
 </script>
 </body>
 </html>

@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-09T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/9まで\n\n「県のデジタル化（DX）の将来ビジョン」について、石川県が意見募集中です。\n\n石川県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #石川県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/75e2d90a79.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/9まで\n\n「県のデジタル化（DX）の将来ビジョン」\n石川県\n\n石川県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #石川県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/75e2d90a79.html");
 </script>
 </body>
 </html>

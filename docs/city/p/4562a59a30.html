@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-09-30T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「事業者のごみ分別違反への指導・処分の基準づくり」について、横浜市が意見募集中です。\n\n横浜市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #横浜市\n\nhttps://yumaki5555.github.io/pubcome/city/p/4562a59a30.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「事業者のごみ分別違反への指導・処分の基準づくり」\n横浜市\n\n横浜市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #横浜市\n\nhttps://yumaki5555.github.io/pubcome/city/p/4562a59a30.html");
 </script>
 </body>
 </html>

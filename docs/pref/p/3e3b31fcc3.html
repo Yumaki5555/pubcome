@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-09-30T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「県立芸術大学のこれからの目標（6年間）」について、沖縄県が意見募集中です。\n\n沖縄県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #沖縄県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/3e3b31fcc3.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】9/30まで\n\n「県立芸術大学のこれからの目標（6年間）」\n沖縄県\n\n沖縄県関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #沖縄県\n\nhttps://yumaki5555.github.io/pubcome/pref/p/3e3b31fcc3.html");
 </script>
 </body>
 </html>

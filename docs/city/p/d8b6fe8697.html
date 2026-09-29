@@ -98,7 +98,7 @@ const dl = Math.round((ymd(new Date('2026-10-16T00:00:00')) - ymd(new Date())) /
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/16まで\n\n「美原地域の新しい交通「SMI美原ライン」の本格運行」について、堺市が意見募集中です。\n\n堺市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #堺市\n\nhttps://yumaki5555.github.io/pubcome/city/p/d8b6fe8697.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/16まで\n\n「美原地域の新しい交通「SMI美原ライン」の本格運行」\n堺市\n\n堺市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #堺市\n\nhttps://yumaki5555.github.io/pubcome/city/p/d8b6fe8697.html");
 </script>
 </body>
 </html>

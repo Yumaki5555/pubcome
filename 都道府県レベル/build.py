@@ -48,7 +48,7 @@ def share_text(item, main_hashtag, hashtag_of, site_url):
     d = datetime.fromisoformat(item["deadline"])
     tags = " ".join([main_hashtag, "#" + item["pref"]] + [hashtag_of[t] for t in item["tags"]])
     make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
-                          f"「{title}」について、{item['pref']}が意見募集中です。\n\n"
+                          f"「{title}」\n{item['pref']}\n\n"
                           f"{item['pref']}関係者は、ひとことからでも送れます🙆\n"
                           f"それ以外の方は案件ごとにご確認ください\n{tags}\n\n")
     title = display_title(item)
