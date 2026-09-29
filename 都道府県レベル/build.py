@@ -49,7 +49,7 @@ def share_text(item, main_hashtag, hashtag_of, site_url):
     tags = " ".join([main_hashtag, "#" + item["pref"]] + [hashtag_of[t] for t in item["tags"]])
     make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
                           f"「{title}」について、{item['pref']}が意見募集中です。\n\n"
-                          f"ひとことからでも、誰でも送れます🙆\n{tags}\n\n")
+                          f"{item['pref']}在住・通勤通学の方など、ひとことからでも送れます🙆\n{tags}\n\n")
     title = display_title(item)
     while len(make(title)) + 23 > 140 and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
@@ -173,7 +173,7 @@ def build_summary_pages(items, tag_defs, config):
             "__SHARE_JS__": SHARE_JS,
             "__SITE_NAME__": e(config["site_name"]),
             "__PAGE_URL__": e(config["site_url"] + summary_path(it)),
-            "__DESC__": e(f"{d.month}/{d.day}まで意見募集中（{it['pref']}）。ひとことからでも、誰でも意見を送れます。"),
+            "__DESC__": e(f"{d.month}/{d.day}まで意見募集中（{it['pref']}）。住んでいる・通勤通学している方などは、ひとことからでも意見を送れます（対象は案件ごとにご確認ください）。"),
         }
         page = SUMMARY_TEMPLATE
         for k, v in replace.items():
