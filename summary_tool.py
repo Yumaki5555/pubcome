@@ -5,6 +5,7 @@
   python summary_tool.py read 国 495260170     … その案件の資料（概要PDFなど）の文字を取り出して表示
   python summary_tool.py read 都道府県 8bc4751490
   python summary_tool.py read 市区町村 1a2b3c4d5e
+  DEEP=1 python summary_tool.py read 国 495260170   … 案そのもの・新旧対照表まで深く読む（要約を書くときはこちら）
 
 要約は各フォルダの summaries.json に「"案件番号": "要約"」の形で保存する（書き方は ROUTINE.md）。
 """
@@ -16,6 +17,7 @@ import re
 import ssl
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -26,6 +28,7 @@ LEVELS = {"国": HERE, "都道府県": HERE / "都道府県レベル", "市区�
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 HEADERS = {"User-Agent": UA, "Accept-Language": "ja,en;q=0.8"}
 LIMIT = int(os.environ.get("LIMIT", 8000))   # 1つの資料から表示する文字数の上限
+DEEP = os.environ.get("DEEP") == "1"   # 1 にすると、新旧対照表なども含めて深く読む
 
 _insecure = ssl.create_default_context()
 _insecure.check_hostname = False
@@ -66,6 +69,9 @@ def download(url):
         if "CERTIFICATE" not in str(e):
             raise
         res = urllib.request.urlopen(req, timeout=60, context=_insecure)
+    size = int(res.headers.get("Content-Length") or 0)
+    if size > 20_000_000:   # 大きすぎる資料（20MB超）は時間がかかるので読まない
+        raise ValueError(f"ファイルが大きすぎます（{size // 1_000_000}MB）。概要版などを読んでください")
     return res.read(), res.headers.get("Content-Type", "")
 
 
@@ -122,12 +128,32 @@ def tidy(text):
 def show(name, url, guide=False):
     print(f"\n===== {name} =====\n{url}")
     try:
-        text = tidy(to_text(*download(url)))
+        raw = to_text(*download(url))
+        text = tidy(raw)
+        m = re.search(r"\n\s*要\s*約\s*\n", raw)
+        if m and m.start() > LIMIT // 2:   # 評価書などは、後ろのほうにある「要約」を先に見せる
+            text = "【資料中の要約】\n" + re.sub(r"\s+", "", raw[m.end(): m.end() + 1500]) + "\n【本文】\n" + text
         if guide:   # 意見募集要領は、出し方の説明より前（趣旨・背景）だけ見せる
             text = re.split(r"\n[^\n]{0,8}(?:資料の?入手|意見.{0,6}(?:提出|募集)(?:期間|方法|先)|意見公募の対象)", text)[0][:1200]
         print(text)
     except Exception as e:
         print(f"（読み込めませんでした：{e}）")
+
+
+def page_files(url):
+    """自治体のページから、PDF・ワードなどの資料へのリンク（名前とURL）を集める。"""
+    try:
+        body, _ = download(url)
+    except Exception:
+        return []
+    src = body.decode("utf-8", "replace")
+    if "charset=shift_jis" in src.lower() or "charset=\"shift_jis" in src.lower():
+        src = body.decode("cp932", "replace")
+    out = []
+    for href, name in re.findall(r'<a[^>]+href="([^"]+\.(?:pdf|docx?|xlsx?)[^"]*)"[^>]*>(.*?)</a>', src, re.I | re.S):
+        name = html.unescape(re.sub(r"<[^>]+>|\s+", " ", name)).strip()
+        out.append({"name": name, "url": urllib.parse.urljoin(url, html.unescape(href))})
+    return out
 
 
 def read(level, pid):
@@ -148,14 +174,29 @@ def read(level, pid):
         # 概要がなければ、趣旨が書かれていることの多い「意見募集要領」と案そのものを読む
         picked = ([f for f in files if re.search(r"概要|ポイント", f["name"])]
                   or det.get("guide_files", [])[:1] + det.get("draft_files", [])[:1])
-        for f in picked[:2]:
+        if DEEP:   # 深く読む：概要 → 新旧対照表（何が変わるか）→ 案そのもの の順に読む
+            gaiyo = [f for f in files if re.search(r"概要|ポイント|説明", f["name"])]
+            shinkyu = [f for f in files if re.search(r"新旧|対照", f["name"]) and f not in gaiyo]
+            rest = [f for f in det.get("draft_files", []) if f not in gaiyo + shinkyu]
+            picked = (gaiyo + shinkyu + rest) or picked
+        for f in picked[:5 if DEEP else 2]:
             show(f["name"], f["url"], f in det.get("guide_files", []))
         if not picked:
             show("e-Govのページ", it["url"])
     else:
         show(f"{level}のページ", it["url"])
-        files = [f for f in det.get("files", []) if re.search(r"概要|案|骨子|ポイント", f["name"])]
-        for f in files[:2]:
+        pat = r"概要|案|骨子|ポイント|新旧|対照|本文|計画|方針|条例|規則|基準" if DEEP else r"概要|案|骨子|ポイント"
+        cands = det.get("files", [])
+        if DEEP:   # 保存された資料一覧がなくても、ページにある PDF などへのリンクを拾う
+            cands = cands + page_files(it["url"])
+        seen, files = set(), []
+        for f in cands:
+            if f["url"] in seen or not re.search(pat, f["name"]) or re.search(r"様式|用紙|提出|要領|募集について|チラシ", f["name"]):
+                continue
+            seen.add(f["url"])
+            files.append(f)
+        files.sort(key=lambda f: 0 if re.search(r"概要|ポイント|骨子", f["name"]) else 1)   # 概要を先に
+        for f in files[:4 if DEEP else 2]:
             show(f["name"], f["url"])
 
 
