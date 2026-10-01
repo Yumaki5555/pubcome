@@ -278,12 +278,17 @@ PUBCOME = re.compile(r"パブリック・?コメント|パブコメ|意見(の)?
 NOT_PUBCOME = re.compile(r"終了|修了|締め切りました|結果|補助金|助成金|プロポーザル|募金|セミナー|奨学生|入寮|研修|広告"
                          r"|ネーミングライツ|公聴会|職員|講座|教室|参加者|出店|協力店|受講|説明会|支援事業")
 
+# ページの名前にこれがあれば、募集はもう終わっている
+ENDED = re.compile(r"実施結果|募集結果|意見募集の結果|募集(期間)?は終了|募集を終了|受付を終了|締め切りました")
 
 def looks_like_pubcome(link_text, page, pos):
     """意見募集（パブコメ）のページらしいかどうか。"""
     head = " ".join([link_text, page.get("h1", ""), page.get("title", "")])
     if NOT_PUBCOME.search(link_text) or NOT_PUBCOME.search(page.get("h1", "")):
         return False
+    if ENDED.search(page.get("title", "")):
+        return False    # ページ名が「〜の実施結果」など、募集が終わって結果を載せているページ
+        # （本文で判定すると、募集中のページにある「過去の結果」へのリンクまで拾ってしまうので使わない）
     around = page["text"][max(0, pos - 400): pos + 400] if pos is not None else ""
     return bool(PUBCOME.search(head) or PUBCOME.search(around))
 

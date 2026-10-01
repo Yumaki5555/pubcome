@@ -34,7 +34,8 @@ def main(base=HERE):
     hashtag_of = {t["name"]: t["hashtag"] for t in tag_defs}
 
     today = datetime.now(JST).date()
-    items = [it for it in data["items"] if it["deadline"] >= today.isoformat()]
+    excluded = json.loads((base / "exclude.json").read_text(encoding="utf-8")) if (base / "exclude.json").exists() else {}
+    items = [it for it in data["items"] if it["deadline"] >= today.isoformat() and it["id"] not in excluded]
     plain = pref_build.load_plain_titles()
     for it in items:
         if it["id"] in plain:

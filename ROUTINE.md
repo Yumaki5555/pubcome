@@ -24,7 +24,7 @@
    - 読んだ内容をもとに要約を書き、`summaries.json`（国）、`都道府県レベル/summaries.json`、`市区町村レベル/summaries.json` に `"案件番号": "要約"` として追加する。既にある項目は変更しない。
    - JSON として正しいか確認する（plain_titles.json と同じ方法）。
 6. `python build.py && python post.py && python 都道府県レベル/build.py && python 市区町村レベル/build.py` を実行する。
-7. 変更があれば `git add plain_titles.json data.json docs posts.txt summaries.json 都道府県レベル/plain_titles.json 市区町村レベル/plain_titles.json 都道府県レベル/summaries.json 市区町村レベル/summaries.json` → コミット（メッセージ例：`毎朝の言い換え追加 2026-10-01`）→ `git push origin main`。
+7. 変更があれば `git add plain_titles.json data.json docs posts.txt summaries.json 都道府県レベル/plain_titles.json 市区町村レベル/plain_titles.json 都道府県レベル/summaries.json 市区町村レベル/summaries.json exclude.json 都道府県レベル/exclude.json 市区町村レベル/exclude.json` → コミット（メッセージ例：`毎朝の言い換え追加 2026-10-01`）→ `git push origin main`。
    - 変更がなければ何もしない。
 8. 最後に、追加した言い換え・要約の件数と一覧、エラーがあればその内容を短く報告する。
 
@@ -50,5 +50,5 @@
 - **資料に書いてあることだけ**を書く。想像で付け足さない。賛成・反対の意見や評価を入れない（中立に）。
 - 専門用語は言い換えるか、かっこで補足する（例：「特定個人情報保護評価書」→「マイナンバーを含む個人情報をどう守るかを点検した評価書」）。
 - 資料が読めなかったり中身がわからなかったりしたときは、正式名から言える範囲だけ書き、最後に「・くわしい中身は（省庁・県・市）のページの資料でご確認ください」と添える。
-- ページを見て募集がすでに終わっているとわかったときは、そのことを書く（例：「・ページを確認したところ、意見募集は2025年に終わっています」）。
+- **募集がすでに終わっている案件は載せない。** ページを見て終わっているとわかったら、要約は書かずに、その版の `exclude.json`（国は直下、都道府県・市区町村は各フォルダ）に `"案件番号": "理由"` を追加する。サイトから自動で外れる。
 - 迷ったら既存の summaries.json の書き方をお手本にする。

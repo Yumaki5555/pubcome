@@ -45,6 +45,12 @@ def load_summaries(folder=HERE):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
+def load_excluded(folder=HERE):
+    """exclude.json（案件番号 → 理由）：募集が終わっている・案件ではないなどで、載せないもの。"""
+    path = folder / "exclude.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
 def first_line(summary):
     """一覧に出す「ひとことで」の部分（要約の1行目）。"""
     return summary.strip().split("\n")[0] if summary else ""
@@ -108,7 +114,8 @@ def main():
     data = json.loads((HERE / "data.json").read_text(encoding="utf-8"))
 
     now = datetime.now(JST).isoformat()
-    open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now]
+    excluded = load_excluded()
+    open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now and it["id"] not in excluded]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     plain = load_plain_titles()
     summaries = load_summaries()

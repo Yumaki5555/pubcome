@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 BASE = HERE   # データや設定を読むフォルダ（市区町村版では 市区町村レベル/ になる）
 sys.path.insert(0, str(HERE.parent))
-from build import SHARE_JS, short_title, load_summaries, first_line, summary_html  # 国版と共通の部品を使う
+from build import SHARE_JS, short_title, load_summaries, first_line, summary_html, load_excluded  # 国版と共通の部品を使う
 
 
 def load_plain_titles():
@@ -66,7 +66,8 @@ def main(base=HERE):
     data = json.loads((BASE / "data.json").read_text(encoding="utf-8"))
 
     today = datetime.now(JST).date().isoformat()
-    open_items = [it for it in data["items"] if it["deadline"] >= today]
+    excluded = load_excluded(BASE)
+    open_items = [it for it in data["items"] if it["deadline"] >= today and it["id"] not in excluded]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     plain = load_plain_titles()
     summaries = load_summaries(BASE)

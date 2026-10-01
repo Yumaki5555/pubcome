@@ -41,7 +41,9 @@ def main():
     site, main_tag = config["site_url"], config["main_hashtag"]
 
     now = datetime.now(JST)
-    open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now.isoformat()]
+    excluded = json.loads((HERE / "exclude.json").read_text(encoding="utf-8")) if (HERE / "exclude.json").exists() else {}
+    open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now.isoformat()
+                  and it["id"] not in excluded]
     # 締切日と今日の「日付」の差（今日が締切なら0）。一覧ページと同じ数え方
     days_left = lambda it: (datetime.fromisoformat(it["deadline"]).date() - now.date()).days
     new_since = (now - timedelta(days=NEW_DAYS)).isoformat()

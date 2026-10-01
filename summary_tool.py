@@ -41,7 +41,9 @@ def open_items(level):
     data = load(LEVELS[level] / "data.json")
     now = datetime.now(JST)
     cut = now.isoformat() if level == "国" else now.date().isoformat()
-    return [it for it in data.get("items", []) if it.get("deadline") and it["deadline"] >= cut]
+    excluded = load(LEVELS[level] / "exclude.json")   # 載せないことにした案件は除く
+    return [it for it in data.get("items", []) if it.get("deadline") and it["deadline"] >= cut
+            and it["id"] not in excluded]
 
 
 def missing():
