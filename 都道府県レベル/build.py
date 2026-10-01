@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 BASE = HERE   # データや設定を読むフォルダ（市区町村版では 市区町村レベル/ になる）
 sys.path.insert(0, str(HERE.parent))
-from build import SHARE_JS, short_title  # 国版と共通の部品を使う
+from build import SHARE_JS, short_title, load_summaries, first_line, summary_html  # 国版と共通の部品を使う
 
 
 def load_plain_titles():
@@ -69,6 +69,7 @@ def main(base=HERE):
     open_items = [it for it in data["items"] if it["deadline"] >= today]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     plain = load_plain_titles()
+    summaries = load_summaries(BASE)
     # 募集開始日が書かれていない案件は、見回りを始めた日に見つけたものだと本当の開始日がわからないので
     # 新着あつかいにしない（それ以降に初めて見つけたものだけ、見つけた日を開始日の代わりにする）
     first_crawl = min((it["first_seen"] for it in data["items"]), default="")
@@ -76,6 +77,8 @@ def main(base=HERE):
     for it in open_items:
         if it["id"] in plain:
             it["plain"] = plain[it["id"]]
+        if summaries.get(it["id"]):
+            it["summary"] = summaries[it["id"]]
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
         items.append({
             "pref": it["pref"], "title": it["title"], "short": display_title(it),
@@ -83,6 +86,7 @@ def main(base=HERE):
             # 新着の判定用：募集開始日（わからなければ空）
             "since": it.get("start") or (it["first_seen"] if it["first_seen"] > first_crawl else ""),
             "share": it["share"], "page": summary_path(it),
+            "gist": first_line(it.get("summary")),
         })
     build_summary_pages(open_items, tags, config)
     listed = json.loads((BASE / config.get("list_file", "prefectures.json")).read_text(encoding="utf-8"))
@@ -171,6 +175,7 @@ def build_summary_pages(items, tag_defs, config):
             "__DEADLINE_ISO__": e(it["deadline"]),
             "__OFFICIAL_URL__": e(it["url"]),
             "__HOWTO__": howto,
+            "__SUMMARY__": summary_html(it.get("summary"), it["pref"]),
             "__FILES__": f'<ul class="files">{files}</ul>' if files else '<p class="sub">資料は__UNIT__のページでご確認ください。</p>',
             "__CONTACT__": lines(det["contact"]) if det.get("contact") else "__UNIT__のページでご確認ください。",
             "__SHARE__": json.dumps(it["share"], ensure_ascii=False).replace("</", "<\\/"),
@@ -228,6 +233,10 @@ ul.files li{margin:4px 0}
 ul.files a{display:block;padding:8px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none}
 .quote{border-left:3px solid var(--line);padding-left:10px;margin:6px 0;font-size:.92rem}
 .sub{color:var(--sub);font-size:.85rem}
+.gist p{margin:0 0 6px}
+.gist ul{margin:0;padding-left:1.2em}
+.gist li{margin:3px 0}
+.gist .sub{margin:8px 0 0}
 footer{font-size:.78rem;color:var(--sub);margin-top:20px}
 </style>
 </head>
@@ -244,6 +253,8 @@ footer{font-size:.78rem;color:var(--sub);margin-top:20px}
   <a class="btn go" href="__OFFICIAL_URL__" target="_blank" rel="noopener">__PREF__のページで意見を出す</a>
   <button type="button" class="btn x" id="share">𝕏でシェアして広める</button>
 </div>
+
+__SUMMARY__
 
 <section>
   <h2>✍️ 意見の出し方</h2>
@@ -345,6 +356,7 @@ ul.list{list-style:none;padding:0;margin:0 0 30px}
 .item h2 a{color:var(--ink);text-decoration:none}
 .item h2 a:hover{text-decoration:underline}
 .official{font-size:.8rem;color:var(--sub);margin:-4px 0 8px;line-height:1.5}
+.gist{font-size:.88rem;margin:0 0 8px;line-height:1.6}
 .foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:.82rem;color:var(--sub)}
 .actions{display:flex;gap:6px;flex-wrap:wrap}
 .btn{display:inline-block;border:0;cursor:pointer;font-family:inherit;text-decoration:none;border-radius:8px;padding:5px 12px;font-size:.82rem;font-weight:600}
@@ -474,7 +486,7 @@ function render(){
     (!state.onlyNew || isNew(i)) &&
     (!state.tag || i.tags.includes(state.tag)) &&
     (!state.pref || i.pref === state.pref) &&
-    words.every(w => (i.title + i.pref).toLowerCase().includes(w)));
+    words.every(w => (i.title + i.short + i.gist + i.pref).toLowerCase().includes(w)));
   if (state.sort === 'new') shown.sort((a, b) => b.since.localeCompare(a.since) || a.deadline.localeCompare(b.deadline));
   document.getElementById('count').textContent = `${shown.length} 件を表示（${state.sort === 'new' ? '新しく始まった順' : '締切が近い順'}）`;
   const list = document.getElementById('list');
@@ -489,6 +501,7 @@ function render(){
         ${isNew(i) ? '<span class="new">🆕 新着</span>' : ''}<span class="pref">${esc(i.pref)}</span>
         ${i.tags.map(t => `<span class="tag" style="background:${tagColor[t]}">${esc(t)}</span>`).join('')}</div>
       <h2><a href="${esc(i.page)}">${esc(i.short)}</a></h2>${official}
+      ${i.gist ? `<p class="gist">📝 ${esc(i.gist)}</p>` : ''}
       <div class="foot"><span>締切 ${fmt(i.deadline)}</span>
         <span class="actions"><a class="btn sum" href="${esc(i.page)}">スマホ用まとめ</a>
         <a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">__UNIT__のページへ</a>

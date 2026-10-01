@@ -39,6 +39,32 @@ def load_plain_titles():
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
+def load_summaries(folder=HERE):
+    """summaries.json（案件番号 → かんたん要約）を読む。1行目が「ひとことで」、2行目以降が「・」で始まる箇条書き。"""
+    path = folder / "summaries.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def first_line(summary):
+    """一覧に出す「ひとことで」の部分（要約の1行目）。"""
+    return summary.strip().split("\n")[0] if summary else ""
+
+
+def summary_html(summary, source):
+    """スマホ用まとめに入れる「かんたん要約」の欄。要約がなければ空。"""
+    if not summary:
+        return ""
+    e = html.escape
+    lines = [x.strip() for x in summary.strip().split("\n") if x.strip()]
+    head = [x for x in lines if not x.startswith("・")]
+    bullets = [x[1:].strip() for x in lines if x.startswith("・")]
+    body = "".join(f"<p>{e(x)}</p>" for x in head)
+    if bullets:
+        body += "<ul>" + "".join(f"<li>{e(x)}</li>" for x in bullets) + "</ul>"
+    return (f'<section class="gist"><h2>📝 かんたん要約</h2>{body}'
+            f'<p class="sub">※{source}の資料をもとにAIがまとめたものです。正確な内容は下の資料でご確認ください。</p></section>')
+
+
 def display_title(item):
     """わかりやすい言い換えがあればそれを、なければ正式名称を短くしたものを使う。"""
     return item.get("plain") or short_title(item["title"])
@@ -85,15 +111,19 @@ def main():
     open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     plain = load_plain_titles()
+    summaries = load_summaries()
     for it in open_items:
         if it["id"] in plain:
             it["plain"] = plain[it["id"]]
+        if summaries.get(it["id"]):
+            it["summary"] = summaries[it["id"]]
+            it["gist"] = first_line(it["summary"])
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
         it["page"] = summary_path(it)
     build_summary_pages(open_items, tags, config)
     payload = {
         "updated": data["updated"],
-        "items": [{k: v for k, v in it.items() if k != "detail"} for it in open_items],
+        "items": [{k: v for k, v in it.items() if k not in ("detail", "summary")} for it in open_items],
         "tags": [{"name": t["name"], "color": t["color"], "hashtag": t["hashtag"]} for t in tags],
         "siteUrl": config["site_url"],
         "mainHashtag": config["main_hashtag"],
@@ -151,6 +181,7 @@ def build_summary_pages(items, tag_defs, config):
             "__FILES__": files_html or '<p class="sub">資料はe-Govのページでご確認ください。</p>',
             "__N_FILES__": str(n_files),
             "__CONTACT__": e(det.get("contact", "")).replace("\n", "<br>") or "e-Govのページでご確認ください。",
+            "__SUMMARY__": summary_html(it.get("summary"), "国"),
             "__NOTE__": f"<section><h2>備考</h2><p>{note}</p></section>" if note else "",
             "__SHARE__": json.dumps(it["share"], ensure_ascii=False).replace("</", "<\\/"),
             "__SHARE_JS__": SHARE_JS,
@@ -209,6 +240,10 @@ ul.files li{margin:4px 0}
 ul.files a{display:block;padding:8px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none}
 .sub{color:var(--sub);font-size:.85rem}
 .warn{background:var(--urgent-bg);border-radius:8px;padding:8px 10px;font-size:.88rem;margin:8px 0 0}
+.gist p{margin:0 0 6px}
+.gist ul{margin:0;padding-left:1.2em}
+.gist li{margin:3px 0}
+.gist .sub{margin:8px 0 0}
 footer{font-size:.78rem;color:var(--sub);margin-top:20px}
 </style>
 </head>
@@ -225,6 +260,8 @@ footer{font-size:.78rem;color:var(--sub);margin-top:20px}
   <a class="btn go" href="__EGOV__" target="_blank" rel="noopener">e-Gov（国のページ）で意見を出す</a>
   <button type="button" class="btn x" id="share">𝕏でシェアして広める</button>
 </div>
+
+__SUMMARY__
 
 <section>
   <h2>✍️ 意見の出し方</h2>
@@ -328,6 +365,7 @@ ul.list{list-style:none;padding:0;margin:0 0 40px}
 .item h2 a{color:var(--ink);text-decoration:none}
 .item h2 a:hover{text-decoration:underline}
 .official{font-size:.8rem;color:var(--sub);margin:-4px 0 8px;line-height:1.5}
+.gist{font-size:.88rem;margin:0 0 8px;line-height:1.6}
 .foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:.82rem;color:var(--sub)}
 .actions{display:flex;gap:6px;flex-wrap:wrap}
 .btn{display:inline-block;border:0;cursor:pointer;font-family:inherit;text-decoration:none;border-radius:8px;padding:5px 12px;font-size:.82rem;font-weight:600}
@@ -435,7 +473,7 @@ function render(){
     (!state.onlyNew || isNew(i)) &&
     (!state.tag || i.tags.includes(state.tag)) &&
     (!state.ministry || i.ministry === state.ministry) &&
-    (!state.q || (i.title + (i.plain || '') + i.category + i.ministry).includes(state.q))
+    (!state.q || (i.title + (i.plain || '') + (i.gist || '') + i.category + i.ministry).includes(state.q))
   );
   if (state.sort === 'new') items.sort((a, b) => (b.published || '').localeCompare(a.published || '') || a.deadline.localeCompare(b.deadline));
   document.getElementById('count').textContent = `${items.length} 件を表示中（${state.sort === 'new' ? '新しく始まった順' : '締切が近い順'}）`;
@@ -451,6 +489,7 @@ function render(){
       <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${isNew(i) ? '<span class="new">🆕 新着</span>' : ''}${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>
       <h2><a href="${esc(i.page)}">${esc(i.plain || i.title)}</a></h2>
       ${i.plain ? `<p class="official">正式名：${esc(i.title)}</p>` : ''}
+      ${i.gist ? `<p class="gist">📝 ${esc(i.gist)}</p>` : ''}
       <div class="foot"><span>${esc(i.ministry)}｜${i.published ? fmt(i.published) + '開始・' : ''}締切 ${fmt(i.deadline)} ${new Date(i.deadline).toTimeString().slice(0,5)}</span>
         <span class="actions"><a class="btn sum" href="${esc(i.page)}">スマホ用まとめ</a>
         <a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">e-Govへ</a>
