@@ -1,18 +1,7 @@
 {
- "updated": "2026-10-04T09:21+09:00",
+ "updated": "2026-10-05T09:26+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "550004372",
-   "title": "農林漁業者等による農林漁業及び関連事業の総合化並びに地域の農林水産物の利用の促進に関する基本方針の一部を改正する告示案についての意見・情報の募集について",
-   "category": "水産業",
-   "ministry": "農林水産省",
-   "published": "2026-06-17T23:59:00+09:00",
-   "deadline": "2026-07-06T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004372&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "195260015",
    "title": "鳥獣の保護及び管理を図るための事業を実施するための基本的な指針の改正案に関する意見の募集（パブリック・コメント）について",
@@ -6566,6 +6555,41 @@
     "other_files": [],
     "note": "",
     "contact": "警察庁交通局運転免許課\n電話：03-3581-0141（内線5337）"
+   }
+  },
+  {
+   "id": "595320035",
+   "title": "無人航空機に係る安定供給確保を図るための取組方針の改正案に対する意見公募",
+   "category": "産業一般",
+   "ministry": "経済産業省",
+   "published": "2026-10-05T23:59:00+09:00",
+   "deadline": "2026-11-03T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320035&Mode=0",
+   "first_seen": "2026-10-05",
+   "tags": [],
+   "detail": {
+    "rule_name": "無人航空機に係る安定供給確保を図るための取組方針",
+    "law": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律第８条第１項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321831"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "無人航空機に係る安定供給確保を図るための取組方針改定（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321832"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "新旧対照表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321833"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省製造産業局航空機武器産業課次世代空モビリティ政策室"
    }
   },
   {
