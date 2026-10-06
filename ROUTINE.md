@@ -18,7 +18,8 @@
    - JSON として正しいか確認する：`python -c "import json; json.load(open('都道府県レベル/plain_titles.json', encoding='utf-8'))"`
    - 市区町村版も同じように、`python 市区町村レベル/missing_plain.py` で確認し、`市区町村レベル/plain_titles.json` に追加する（市区名は名前に入れない）。
 5-2. かんたん要約を書く（国・都道府県・市区町村すべて）。
-   - 最初に `pip install pypdf`（PDFを読むため。入っていれば不要）。
+   - 最初に `python3 -m pip install --user --ignore-installed pypdf cffi cryptography` を実行する（PDFを読むため。`pip install` だけだと別のPythonに入って読めないことがある）。その後 `python3 -c "import pypdf"` がエラーにならないことを確かめる。
+   - 資料が「読み込めませんでした」になった場合は、題名だけで要約を書かず、エラー内容を最後の報告に書く（403 Forbidden などの接続エラーが続くときは、クラウド環境のネットワーク設定を確認してもらう必要がある）。
    - `python summary_tool.py missing` で、要約がまだない募集中の案件を確認する（出力は「版 | 案件番号 | 省庁・自治体 | 正式名」）。
    - `python summary_tool.py read 国 案件番号 案件番号 …` のように、版と案件番号（いくつでも）を指定して資料の中身を読む。**要約を書くときは必ず前に `DEEP=1` をつけて**（例：`DEEP=1 python summary_tool.py read 国 案件番号`）、新旧対照表や案そのものまで読む（`LIMIT=1200` を前につけると1資料あたりの文字数を減らせる）。版は `国`・`都道府県`・`市区町村`。
    - 読んだ内容をもとに要約を書き、`summaries.json`（国）、`都道府県レベル/summaries.json`、`市区町村レベル/summaries.json` に `"案件番号": "要約"` として追加する。既にある項目は変更しない。
