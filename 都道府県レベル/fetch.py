@@ -275,7 +275,7 @@ def find_period(text, today):
 
 PUBCOME = re.compile(r"パブリック・?コメント|パブコメ|意見(の)?(募集|公募|提出|を募集)|ご?御?意見を(募集|お寄せ|伺)"
                      r"|(県|道|都|府|市|区|町|村)民(の|から)?(御|ご)?意見|意見提出手続|意見公募|いけん")
-NOT_PUBCOME = re.compile(r"終了|修了|締め切りました|結果|補助金|助成金|プロポーザル|募金|セミナー|奨学生|入寮|研修|広告"
+NOT_PUBCOME = re.compile(r"終了|修了|締め切りました|結果|補助金|助成金|プロポーザル|募金|セミナー|奨学生|入寮|研修|広告(主|掲載|枠|募集|の募集)|有料広告|バナー広告"
                          r"|ネーミングライツ|公聴会|職員|講座|教室|参加者|出店|協力店|受講|説明会|支援事業")
 
 # ページの名前にこれがあれば、募集はもう終わっている
@@ -302,6 +302,8 @@ NG_LINK = re.compile(
 HUB_LINK = re.compile(r"募集中|募集している|実施中|現在|今年度|実施状況|実施案件|案件一覧|(意見|コメント|募集|案件).*一覧|一覧.*(意見|コメント)")
 YEAR_LINK = re.compile(r"(令和\s*(\d+|元)|20\d\d)\s*年度")
 CASE_LINK = re.compile(r"案|計画|条例|規則|方針|ビジョン|プラン|戦略|指針|構想|評価書|基準|意見|募集|改正|改定|見直し|について|コメント")
+# ページ名がこうなっていれば、1件の案件ではなく「案件の一覧ページ」（川口市の「〜意見募集 案件一覧」など）
+LIST_PAGE = re.compile(r"案件一覧|一覧\s*$")
 FILE_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|csv|jpg|png)(\?|#|$)", re.I)
 
 
@@ -481,6 +483,8 @@ def crawl_prefecture(pref, cache, today, log):
     def visit_case(url, link_text, depth, queue):
         prev = cache.get(url)
         today_s = today.isoformat()
+        if prev and LIST_PAGE.search(prev.get("title", "")):
+            prev = None     # 以前まちがって案件として記録した一覧ページは、開き直して判定し直す
         if prev:
             # 締切が過ぎたもの・最近見たものは開き直さない
             if prev.get("deadline") and prev["deadline"] < today_s:
@@ -503,12 +507,13 @@ def crawl_prefecture(pref, cache, today, log):
         # 募集期間が2つ以上書かれているページは、個別の案件ではなく一覧ページとみなして奥へ進む
         period_hits = sum(1 for m in PERIOD_WORDS.finditer(body)
                           if find_dates(body[m.end(): m.end() + 160], today))
-        if (period_hits >= 3 or not end) and depth < MAX_DEPTH:
+        is_list = bool(LIST_PAGE.search(page.get("h1", "")) or LIST_PAGE.search(link_text))
+        if (period_hits >= 3 or is_list or not end) and depth < MAX_DEPTH:
             hubs, cases = classify_links(page, final, today)
             hub_like = PUBCOME.search(link_text + page.get("h1", ""))
-            if cases and (period_hits >= 3 or (len(cases) >= 3 and hub_like)):
+            if cases and (period_hits >= 3 or is_list or (len(cases) >= 3 and hub_like)):
                 queue.append((final, depth + 1, page))
-        if period_hits >= 3 or (end and not looks_like_pubcome(link_text, page, pos)):
+        if period_hits >= 3 or is_list or (end and not looks_like_pubcome(link_text, page, pos)):
             start = end = None      # 一覧ページや、意見募集ではないページ（職員募集など）は案件として数えない
         if DEBUG:
             log(f"    案件? {end} {'' if end else '×'} {link_text[:50]} ({period_hits}) {url}")
@@ -570,7 +575,7 @@ def crawl_prefecture(pref, cache, today, log):
             # 一覧ページのように見えて実は1件の案件ページだった、という場合にも対応する
             start, end, _ = find_period(h_page["text"], today)
             h_hubs, h_cases = classify_links(h_page, h_final, today)
-            if end and len(h_cases) < 3:
+            if end and len(h_cases) < 3 and not LIST_PAGE.search(h_page.get("h1", "")):
                 visit_case(h_url, h_text, MAX_DEPTH, queue)
             else:
                 queue.append((h_final, depth + 1, h_page))
@@ -610,7 +615,8 @@ def main(list_file=PREF_FILE, data_file=DATA_FILE):
             # 前に見つけた募集中の案件は、今回たどり着けなくても締切までは残す
             # （奥深くにある案件は、サイトの一時的な不調などで見回りから漏れることがあるため）
             for u, r in cache.items():
-                if r["pref"] == pref["name"] and u not in res and (r.get("deadline") or "") >= today.isoformat():
+                if (r["pref"] == pref["name"] and u not in res and (r.get("deadline") or "") >= today.isoformat()
+                        and not LIST_PAGE.search(r.get("title", ""))):
                     res[u] = r
             pages.update(res)
             n_open = sum(1 for r in res.values() if r.get("deadline") and r["deadline"] >= today.isoformat())

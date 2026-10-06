@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T11:06+09:00",
+ "updated": "2026-10-06T14:51+09:00",
  "status": {
   "札幌市": {
    "url": "https://www.city.sapporo.jp/somu/pub-comment/index.html",
@@ -1730,18 +1730,31 @@
    "tags": []
   },
   {
-   "id": "398897138d",
+   "id": "e44588c2c4",
    "pref": "川口市",
-   "title": "令和8年度 パブリック・コメント手続 意見募集 案件一覧",
-   "url": "https://www.city.kawaguchi.lg.jp/soshiki/01010/020/1/43085.html",
+   "title": "「川口市屋外広告物条例施行規則」の改正案及び「川口市デジタルサイネージガイドライン(素案)」",
+   "url": "https://www.city.kawaguchi.lg.jp/soshiki/01130/020/1/52685.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-01",
-   "first_seen": "2026-10-01",
+   "checked": "2026-10-06",
+   "first_seen": "2026-10-06",
    "detail": {
-    "files": [],
-    "howto": "",
-    "contact": "案件名\nR08-03\n10月1日~10月30日\n都市計画課\n「川口市屋外広告物条例施行規則」の改正案及び「川口市デジタルサイネージガイドライン(素案)」\nR08-02\n7月1日~8月3日\n予防課"
+    "files": [
+     {
+      "name": "案件概要",
+      "url": "https://www.city.kawaguchi.lg.jp/material/files/group/115/20261001gaiyou.pdf"
+     },
+     {
+      "name": "屋外広告物条例施行規則改正イメージ（案）",
+      "url": "https://www.city.kawaguchi.lg.jp/material/files/group/115/kisokukaisei.pdf"
+     },
+     {
+      "name": "デジタルサイネージガイドライン（素案）",
+      "url": "https://www.city.kawaguchi.lg.jp/material/files/group/115/20261001guideline.pdf"
+     }
+    ],
+    "howto": "提出にあたり、書式は特に定めておりませんが、住所・氏名(法人の場合は、所在地・名称)、連絡先を明記のうえ、下表の方法にてご提出ください。",
+    "contact": "都市計画課計画推進係\n所在地:〒332-8601 川口市青木2-1-1(第一本庁舎3階)\n電話:048-242-6333(直通)\n電話受付時間:8時30分~17時15分(土曜日、日曜日、祝日、休日、年末年始を除く)\nファックス:048-258-4087"
    },
    "tags": []
   },
@@ -8446,71 +8459,6 @@
     "howto": "",
     "contact": "こども未来部 こども政策課 認可・指導担当\n〒350-8601 川越市元町1丁目3番地1\n電話番号:049-224-6278 ファクス番号:049-223-8786\nこども未来部 こども政策課 認可・指導担当 へのお問い合わせは専用フォームをご利用ください。"
    }
-  },
-  "https://www.city.kawaguchi.lg.jp/shisetsuannai/index.html": {
-   "id": "072dc13c3a",
-   "pref": "川口市",
-   "title": "「施設案内」 メニュー",
-   "url": "https://www.city.kawaguchi.lg.jp/shisetsuannai/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.city.kawaguchi.lg.jp/shiseijoho/shisei_goiken/index.html": {
-   "id": "2e0de5e1a4",
-   "pref": "川口市",
-   "title": "市政へのご意見",
-   "url": "https://www.city.kawaguchi.lg.jp/shiseijoho/shisei_goiken/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.city.kawaguchi.lg.jp/homepage/index.html": {
-   "id": "4730a35c91",
-   "pref": "川口市",
-   "title": "このサイトについて",
-   "url": "https://www.city.kawaguchi.lg.jp/homepage/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.city.kawaguchi.lg.jp/homepage/iken/index.html": {
-   "id": "9f398a4579",
-   "pref": "川口市",
-   "title": "市政へのご意見",
-   "url": "https://www.city.kawaguchi.lg.jp/homepage/iken/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.city.kawaguchi.lg.jp/soshiki/01010/020/1/43085.html": {
-   "id": "398897138d",
-   "pref": "川口市",
-   "title": "令和8年度 パブリック・コメント手続 意見募集 案件一覧",
-   "url": "https://www.city.kawaguchi.lg.jp/soshiki/01010/020/1/43085.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-01",
-   "first_seen": "2026-10-01",
-   "detail": {
-    "files": [],
-    "howto": "",
-    "contact": "案件名\nR08-03\n10月1日~10月30日\n都市計画課\n「川口市屋外広告物条例施行規則」の改正案及び「川口市デジタルサイネージガイドライン(素案)」\nR08-02\n7月1日~8月3日\n予防課"
-   }
-  },
-  "https://www.city.kawaguchi.lg.jp/soshiki/01030/030/8/2312.html": {
-   "id": "4f8b635ce4",
-   "pref": "川口市",
-   "title": "川口市市民参加条例",
-   "url": "https://www.city.kawaguchi.lg.jp/soshiki/01030/030/8/2312.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
   },
   "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/ikenbosyuu/ikenbosyuuanken/index.html": {
    "id": "100d7d9123",
@@ -15662,6 +15610,84 @@
     ],
     "howto": "入力フォームでの提出\n入力フォームからご意見をご提出ください。\n「窓口」での提出\n「窓口」では(1)持込み(窓口の開庁時のみ)(2)郵送(3)FAXによってご意見を受付けています。なお、ご意見の正確性を期すために文書によりお願いします。その際、以下の事項について記載してください。\n(1)氏名(2)住所(3)電話番号(4)ご意見(5)メールアドレス\n区内(1)在住(2)在勤(3)在学のいずれかに該当する場合は、該当する事項を記載してください。なお、いずれにも該当しない場合は、ご意見を提出する理由を記載してください。\n案件及び関連する資料\n特定個人情報保護評価書(全項目評価書)(変更案)(PDF:7,660KB)\n特定個人情報保護評価書(全項目評価書)(別紙1)(変更案)(PDF:1,684KB)\n特定個人情報保護評価書(全項目評価書)(別紙2)(変更案)(PDF:352KB)\n特定個人情報保護評価書(全項目評価書)(別添1)(変更案)(PDF:1,082KB)",
     "contact": "このページは総務部課税課が担当しています。\n意見を募集している案件\n特定個人情報保護評価書(変更案)(地方税に関する事務 全項目評価書)について、意見を募集します\nトップページ > シティインフォメーション > 広報・広聴 > 意見募集(パブリック・コメント) > 意見を募集している案件 > 特定個人情報保護評価書(変更案)(地方税に関する事務 全項目評価書)について、意見を募集します"
+   }
+  },
+  "https://www.city.kawaguchi.lg.jp/shisetsuannai/index.html": {
+   "id": "072dc13c3a",
+   "pref": "川口市",
+   "title": "「施設案内」 メニュー",
+   "url": "https://www.city.kawaguchi.lg.jp/shisetsuannai/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.city.kawaguchi.lg.jp/shiseijoho/shisei_goiken/index.html": {
+   "id": "2e0de5e1a4",
+   "pref": "川口市",
+   "title": "市政へのご意見",
+   "url": "https://www.city.kawaguchi.lg.jp/shiseijoho/shisei_goiken/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.city.kawaguchi.lg.jp/homepage/index.html": {
+   "id": "4730a35c91",
+   "pref": "川口市",
+   "title": "このサイトについて",
+   "url": "https://www.city.kawaguchi.lg.jp/homepage/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.city.kawaguchi.lg.jp/homepage/iken/index.html": {
+   "id": "9f398a4579",
+   "pref": "川口市",
+   "title": "市政へのご意見",
+   "url": "https://www.city.kawaguchi.lg.jp/homepage/iken/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.city.kawaguchi.lg.jp/soshiki/01030/030/8/2312.html": {
+   "id": "4f8b635ce4",
+   "pref": "川口市",
+   "title": "川口市市民参加条例",
+   "url": "https://www.city.kawaguchi.lg.jp/soshiki/01030/030/8/2312.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.city.kawaguchi.lg.jp/soshiki/01130/020/1/52685.html": {
+   "id": "e44588c2c4",
+   "pref": "川口市",
+   "title": "「川口市屋外広告物条例施行規則」の改正案及び「川口市デジタルサイネージガイドライン(素案)」",
+   "url": "https://www.city.kawaguchi.lg.jp/soshiki/01130/020/1/52685.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-06",
+   "first_seen": "2026-10-06",
+   "detail": {
+    "files": [
+     {
+      "name": "案件概要",
+      "url": "https://www.city.kawaguchi.lg.jp/material/files/group/115/20261001gaiyou.pdf"
+     },
+     {
+      "name": "屋外広告物条例施行規則改正イメージ（案）",
+      "url": "https://www.city.kawaguchi.lg.jp/material/files/group/115/kisokukaisei.pdf"
+     },
+     {
+      "name": "デジタルサイネージガイドライン（素案）",
+      "url": "https://www.city.kawaguchi.lg.jp/material/files/group/115/20261001guideline.pdf"
+     }
+    ],
+    "howto": "提出にあたり、書式は特に定めておりませんが、住所・氏名(法人の場合は、所在地・名称)、連絡先を明記のうえ、下表の方法にてご提出ください。",
+    "contact": "都市計画課計画推進係\n所在地:〒332-8601 川口市青木2-1-1(第一本庁舎3階)\n電話:048-242-6333(直通)\n電話受付時間:8時30分~17時15分(土曜日、日曜日、祝日、休日、年末年始を除く)\nファックス:048-258-4087"
    }
   }
  }
