@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T08:16+09:00",
+ "updated": "2026-10-07T10:13+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
@@ -159,8 +159,8 @@
   },
   "大阪府": {
    "url": "https://www.pref.osaka.lg.jp/o070050/fumin/public/index.html",
-   "error": "HTTP Error 408: ",
-   "open": 5,
+   "error": null,
+   "open": 6,
    "checked": "2026-10-07"
   },
   "兵庫県": {
@@ -171,7 +171,7 @@
   },
   "奈良県": {
    "url": "https://www.pref.nara.lg.jp/kenseijouhou/kouhou/kenminnokoe/publiccomment/index.html",
-   "error": "HTTP Error 408: Request Timeout",
+   "error": null,
    "open": 0,
    "checked": "2026-10-07"
   },
@@ -195,7 +195,7 @@
   },
   "岡山県": {
    "url": "https://www.pref.okayama.jp/page/detail-27145.html",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 0,
    "checked": "2026-10-07"
   },
@@ -213,19 +213,19 @@
   },
   "徳島県": {
    "url": "https://www.pref.tokushima.lg.jp/public_comment/",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 2,
    "checked": "2026-10-07"
   },
   "香川県": {
    "url": "https://www.pref.kagawa.lg.jp/cgi-bin/page/list.php?tpl_type=2&page_type=9",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 1,
    "checked": "2026-10-07"
   },
   "愛媛県": {
    "url": "https://www.pref.ehime.jp/adv/ba.php?id=19",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 3,
    "checked": "2026-10-07"
   },
@@ -255,7 +255,7 @@
   },
   "熊本県": {
    "url": "https://www.pref.kumamoto.jp/site/public-comment/",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 1,
    "checked": "2026-10-07"
   },
@@ -1240,7 +1240,7 @@
    "url": "https://www.pref.ehime.jp/page/159882.html",
    "start": "2026-09-29",
    "deadline": "2026-10-28",
-   "checked": "2026-10-06",
+   "checked": "2026-10-07",
    "first_seen": "2026-09-29",
    "tags": []
   },
@@ -2002,6 +2002,49 @@
    "tags": []
   },
   {
+   "id": "7012b3b8bb",
+   "pref": "大阪府",
+   "title": "「大阪府国民健康保険運営方針」の中間見直しに対する府民意見等の募集について",
+   "url": "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/tyuukannminaoshi.html",
+   "start": "2026-10-06",
+   "deadline": "2026-11-06",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "新旧対照表（ワード：1,663KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/00sinkyu.docx"
+     },
+     {
+      "name": "新旧対照表",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/00sinkyu.pdf"
+     },
+     {
+      "name": "参考（ワード：827KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/01soan.docx"
+     },
+     {
+      "name": "参考",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/01soan.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：44KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/ikenyoushi.doc"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/ikenyoushi.pdf"
+     }
+    ],
+    "howto": "インターネット(電子申請)の場合\n大阪府行政オンラインシステム(外部サイトへリンク)(別ウィンドウで開きます)から提出してください。\nインターネットがご利用になれない場合\n意見提出様式(ワード:44KB) 意見提出様式(PDF:119KB)により、郵便又はファクシミリのいずれかで提出してください。\n≪郵便の場合≫\n〒540-8570 大阪市中央区大手前2丁目\n大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループあて\n≪ファクシミリの場合≫\nファクシミリ番号 06-6944-6684\n大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループあて\n※障がいのある方などで、上記方法によるご意見等の提出が困難な場合は、個別にお問い合わせください。",
+    "contact": "大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループ\n電話 06-6944-7049(直通)\nファクシミリ番号 06-6944-6684\n健康医療部健康推進室国民健康保険課事業推進グループ"
+   },
+   "tags": [
+    "社会保障"
+   ]
+  },
+  {
    "id": "57ff3cc5cf",
    "pref": "島根県",
    "title": "島根県生活排水処理ビジョン第6次構想(素案)(10月7日~11月7日・下水道推進課)",
@@ -2426,6 +2469,76 @@
    "checked": "2026-10-07",
    "first_seen": "2026-09-28"
   },
+  "https://www.pref.hokkaido.lg.jp/kn/tki/258428.html": {
+   "id": "6929b79180",
+   "pref": "北海道",
+   "title": "建設部 まちづくり局 都市計画課",
+   "url": "https://www.pref.hokkaido.lg.jp/kn/tki/258428.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0001/": {
+   "id": "2f542a8c04",
+   "pref": "北海道",
+   "title": "行政基本条例",
+   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0001/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0001/": {
+   "id": "0df0c09bda",
+   "pref": "北海道",
+   "title": "行財政運営方針",
+   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0001/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0006/": {
+   "id": "d881796fe9",
+   "pref": "北海道",
+   "title": "押印・書面規制・対面規制の見直し",
+   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0006/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html": {
+   "id": "9dc0e389a4",
+   "pref": "北海道",
+   "title": "現行の「北海道食品ロス削減推進計画」",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/": {
+   "id": "578b2d2fe7",
+   "pref": "北海道",
+   "title": "北海道の「みどりの食料システム戦略」関連ポータルサイト",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/": {
+   "id": "686db6ee9c",
+   "pref": "北海道",
+   "title": "行政手続の審査基準等",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-05",
+   "first_seen": "2026-09-29"
+  },
   "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/": {
    "id": "79978c8acf",
    "pref": "北海道",
@@ -2511,106 +2624,6 @@
    "pref": "北海道",
    "title": "北海道困難な問題を抱える女性への支援等に関する基本計画",
    "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/kss/a0002/syakaishihon/": {
-   "id": "7c5c8e9a60",
-   "pref": "北海道",
-   "title": "社会資本総合整備計画",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/kss/a0002/syakaishihon/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0003/": {
-   "id": "bbacf2f5a3",
-   "pref": "北海道",
-   "title": "河川整備基本方針および河川整備計画",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0003/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0005/": {
-   "id": "18fdcbbe94",
-   "pref": "北海道",
-   "title": "北海道の川づくりビジョン",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0005/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/tki/258428.html": {
-   "id": "6929b79180",
-   "pref": "北海道",
-   "title": "建設部 まちづくり局 都市計画課",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/tki/258428.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0001/": {
-   "id": "2f542a8c04",
-   "pref": "北海道",
-   "title": "行政基本条例",
-   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0001/b0001/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0001/": {
-   "id": "0df0c09bda",
-   "pref": "北海道",
-   "title": "行財政運営方針",
-   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0001/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0006/": {
-   "id": "d881796fe9",
-   "pref": "北海道",
-   "title": "押印・書面規制・対面規制の見直し",
-   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0006/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html": {
-   "id": "9dc0e389a4",
-   "pref": "北海道",
-   "title": "現行の「北海道食品ロス削減推進計画」",
-   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/": {
-   "id": "578b2d2fe7",
-   "pref": "北海道",
-   "title": "北海道の「みどりの食料システム戦略」関連ポータルサイト",
-   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-05",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/": {
-   "id": "686db6ee9c",
-   "pref": "北海道",
-   "title": "行政手続の審査基準等",
-   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/",
    "start": null,
    "deadline": null,
    "checked": "2026-10-05",
@@ -3373,56 +3386,6 @@
    "deadline": null,
    "checked": "2026-10-07",
    "first_seen": "2026-09-28"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/98619": {
-   "id": "403fb80ad2",
-   "pref": "秋田県",
-   "title": "秋田県港湾脱炭素化推進計画(案)",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/98619",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/94625": {
-   "id": "c1f2bb9f77",
-   "pref": "秋田県",
-   "title": "水源森林地域の保全に関する条例施行規則の一部改正(案)",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/94625",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/95305": {
-   "id": "7a74941136",
-   "pref": "秋田県",
-   "title": "保育所の設備及び運営に関する基準等の改正",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/95305",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/98030": {
-   "id": "84a61811e8",
-   "pref": "秋田県",
-   "title": "秋田県国民保護計画(案)",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/98030",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/99704": {
-   "id": "e7f8a44871",
-   "pref": "秋田県",
-   "title": "「第12次秋田県職業能力開発計画(素案)」",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/99704",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
   },
   "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion.html": {
    "id": "c473182353",
@@ -5546,26 +5509,6 @@
    "checked": "2026-10-05",
    "first_seen": "2026-10-02"
   },
-  "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/index.html": {
-   "id": "eb8f893a93",
-   "pref": "千葉県",
-   "title": "建築基準法関係",
-   "url": "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/iken-index.html": {
-   "id": "98b13807e9",
-   "pref": "千葉県",
-   "title": "建築基準法関連規程に関する意見募集",
-   "url": "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/iken-index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
   "https://www.pref.chiba.lg.jp/suisan/iken/r8/baikago.html#07c597b641": {
    "id": "2533579187",
    "pref": "千葉県",
@@ -5721,314 +5664,6 @@
    "checked": "2026-10-07",
    "first_seen": "2026-10-07"
   },
-  "https://www.metro.tokyo.lg.jp/purpose/opencall?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "b493211f90",
-   "pref": "東京都",
-   "title": "公募・募集",
-   "url": "https://www.metro.tokyo.lg.jp/purpose/opencall?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.metro.tokyo.lg.jp/purpose/plan?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "016e9ee065",
-   "pref": "東京都",
-   "title": "計画・財政・予算",
-   "url": "https://www.metro.tokyo.lg.jp/purpose/plan?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.metro.tokyo.lg.jp/purpose/regulation?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "c8e2a2dc75",
-   "pref": "東京都",
-   "title": "条例・規則・制度",
-   "url": "https://www.metro.tokyo.lg.jp/purpose/regulation?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.startupandglobalfinancialcity.metro.tokyo.lg.jp/?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "72bb9b27c5",
-   "pref": "東京都",
-   "title": "スタートアップ戦略推進本部",
-   "url": "https://www.startupandglobalfinancialcity.metro.tokyo.lg.jp/?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.metro.tokyo.lg.jp/search?keyword=&category=163911": {
-   "id": "6da303876c",
-   "pref": "東京都",
-   "title": "条例・統計・計画・審議会",
-   "url": "https://www.metro.tokyo.lg.jp/search?keyword=&category=163911",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/business/search/?category=188532&utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "ae8a54304f",
-   "pref": "東京都",
-   "title": "条例・統計・計画・審議会",
-   "url": "https://www.my.metro.tokyo.lg.jp/business/search/?category=188532&utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/about/soshiki": {
-   "id": "2ce7ba63f6",
-   "pref": "東京都",
-   "title": "組織・業務案内",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/about/soshiki",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/basic": {
-   "id": "77d58dd78f",
-   "pref": "東京都",
-   "title": "条例・計画・審議会",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/kodomo/satooya": {
-   "id": "9525044335",
-   "pref": "東京都",
-   "title": "東京都の里親制度について",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/kodomo/satooya",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatsu_kyoju_shuro": {
-   "id": "19fea294a3",
-   "pref": "東京都",
-   "title": "生活・居住・就労支援の総合案内",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatsu_kyoju_shuro",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatusikinn_fukushi": {
-   "id": "3e6ea678f1",
-   "pref": "東京都",
-   "title": "生活福祉資金貸付制度について",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatusikinn_fukushi",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/tiikiseikatsuteityaku": {
-   "id": "1986c195fa",
-   "pref": "東京都",
-   "title": "東京都地域生活定着支援センターについて",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/tiikiseikatsuteityaku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090701": {
-   "id": "918d8a5ba9",
-   "pref": "東京都",
-   "title": "9月7日 「身体障害者手帳の交付に関する事務に係る特定個人情報保護評価書(案)」意見募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090701",
-   "start": null,
-   "deadline": "2026-09-07",
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07",
-   "detail": {
-    "files": [
-     {
-      "name": "特定個人情報保護評価に関する規則（個人情報保護委員会ホームページ）（PDF：118KB）（外部サイトへリンク）",
-      "url": "https://www.ppc.go.jp/files/pdf/PIA_kisoku.pdf"
-     },
-     {
-      "name": "特定個人情報保護評価指針（個人情報保護委員会ホームページ）（PDF：703KB）（外部サイトへリンク）",
-      "url": "https://www.ppc.go.jp/files/pdf/PIA_shishin.pdf"
-     },
-     {
-      "name": "特定個人情報保護評価について（概要版）（個人情報保護委員会ホームページ）（PDF：268KB）（外部サイトへリンク）",
-      "url": "https://www.ppc.go.jp/files/pdf/hogohyouka_gaiyou.pdf"
-     }
-    ],
-    "howto": "",
-    "contact": ""
-   }
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/basic": {
-   "id": "7105da006b",
-   "pref": "東京都",
-   "title": "計画・審議会",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info": {
-   "id": "c19b155e58",
-   "pref": "東京都",
-   "title": "感染症情報案内",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/taisaku": {
-   "id": "ba2bc4b72a",
-   "pref": "東京都",
-   "title": "東京都の対策・計画等",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/taisaku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kankyo-eisei": {
-   "id": "196c1e1b8a",
-   "pref": "東京都",
-   "title": "大気汚染医療費助成制度のご案内",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kankyo-eisei",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kaso": {
-   "id": "4072be0f97",
-   "pref": "東京都",
-   "title": "火葬場に係る検討について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kaso",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090707": {
-   "id": "d9730c384c",
-   "pref": "東京都",
-   "title": "東京都国民健康保険運営方針中間見直し案について御意見を募集します",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090707",
-   "start": null,
-   "deadline": "2026-09-07",
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07",
-   "detail": {
-    "files": [],
-    "howto": "インターネット(専用フォーム)又は意見提出用紙にて郵送(当日消印有効)で御提出ください。\n(1)宛先\nア インターネット\n専用フォーム(外部サイトへリンク)を御利用ください。\nイ 郵送の場合\n〒163-8001\n東京都新宿区西新宿二丁目8番1号\n東京都庁第一本庁舎29階中央\n保健医療局保健政策部国民健康保険課調整担当宛\n※別紙 意見提出用紙(PDF:166KB/WORD:17KB)\n(2)記載事項\n以下の事項を記載してください。",
-    "contact": ""
-   }
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/policy/kojin_hogo": {
-   "id": "229bc3dacd",
-   "pref": "東京都",
-   "title": "個人情報の保護について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/policy/kojin_hogo",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/basic": {
-   "id": "a842692404",
-   "pref": "東京都",
-   "title": "条例・計画・審議会",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/river/seibi": {
-   "id": "18e19e46fe",
-   "pref": "東京都",
-   "title": "各河川の整備について",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/river/seibi",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_01": {
-   "id": "5533bb7e27",
-   "pref": "東京都",
-   "title": "エリアマップ案内(東京都23区・島しょ・その他)",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_01",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_02": {
-   "id": "d0961c57cd",
-   "pref": "東京都",
-   "title": "エリアマップ案内(多摩部)",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_02",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/park/sports": {
-   "id": "3fc90c40fa",
-   "pref": "東京都",
-   "title": "都立公園のスポーツ施設利用について",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/sports",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/land/shinchoku": {
-   "id": "7a5cee26cd",
-   "pref": "東京都",
-   "title": "主要事業の用地取得進捗状況等について",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/land/shinchoku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/tech/04-kijyun": {
-   "id": "b43d1b879b",
-   "pref": "東京都",
-   "title": "東京都公共基準点・水準基標 使用承認申請",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/tech/04-kijyun",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062614": {
-   "id": "273e74230f",
-   "pref": "東京都",
-   "title": "河川整備計画(変更原案)についてご意見を募集します",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062614",
-   "start": "2026-07-01",
-   "deadline": "2026-07-31",
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07",
-   "detail": {
-    "files": [],
-    "howto": "〒163-8001 東京都新宿区西新宿2-8-1 東京都建設局河川部計画課あて\nEメール S0000384(at)section.metro.tokyo.jp\n※いずれも自由様式。個人情報の記載はお控えください。\n※迷惑メール対策のため、メールアドレスの表記を変更しております。\nお手数ですが、(at)を@に置き換えてご利用ください。\n(3)建設局河川部、関係区・市役所及び関係建設事務所に設置した意見箱へ直接投函",
-    "contact": ""
-   }
-  },
   "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091506": {
    "id": "26d8c0f53a",
    "pref": "東京都",
@@ -6073,156 +5708,6 @@
     "howto": "〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都環境局 気候変動対策部 環境都市づくり課 環境建築物担当 宛\n共通事項\nご意見の提出に当たっては、下記事項を記載してください。\n個人の方 氏名、お住まいの地域(区市町村名まで)\n法人の方 法人名、所在地(区市町村名まで)",
     "contact": ""
    }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026070704": {
-   "id": "f32dfdcb03",
-   "pref": "東京都",
-   "title": "「『緑の広域計画(仮称)』策定に向けた中間のまとめ」についての御意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026070704",
-   "start": "2026-07-07",
-   "deadline": "2026-08-05",
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07",
-   "detail": {
-    "files": [],
-    "howto": "郵送:〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都都市整備局都市づくり政策部緑地景観課公園緑地担当\n※提出に当たっては、1)住所(区市町村名まで御記入ください)、2)年齢、3)御意見を記載してください。\n※1)2)につきましては、御記入いただける範囲でお願いいたします。\nWeb入力フォーム(外部サイトへリンク)",
-    "contact": ""
-   }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062536": {
-   "id": "a91fcb7e68",
-   "pref": "東京都",
-   "title": "「低公害・低燃費車の導入義務制度の改正」についての御意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062536",
-   "start": "2026-06-25",
-   "deadline": "2026-07-24",
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07",
-   "detail": {
-    "files": [],
-    "howto": "〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都環境局環境改善部自動車環境課 宛",
-    "contact": ""
-   }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021212": {
-   "id": "8b1970ddaf",
-   "pref": "東京都",
-   "title": "「東京港カーボンニュートラルポート(CNP)形成計画2.0(案)」についての御意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021212",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/111-20260327-249544437": {
-   "id": "fd9c6c3e78",
-   "pref": "東京都",
-   "title": "「こども都庁モニター」を募集 子供の意見を踏まえて政策をバージョンアップ 2026年03月27日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/111-20260327-249544437",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/017-20260326-249319100": {
-   "id": "f019e9f998",
-   "pref": "東京都",
-   "title": "「公園別マネジメントプラン」の改定について 2026年03月26日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/017-20260326-249319100",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20240829-54095684": {
-   "id": "cc9889eabc",
-   "pref": "東京都",
-   "title": "小笠原諸島振興開発計画を策定 2024年08月29日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20240829-54095684",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20240405-30911702": {
-   "id": "f9b8bfd00b",
-   "pref": "東京都",
-   "title": "都民による事業提案制度 募集案内 2024年04月05日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20240405-30911702",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20260730-263251261": {
-   "id": "c7cc255412",
-   "pref": "東京都",
-   "title": "特定緊急輸送道路沿道建築物の耐震化の状況について 2026年07月31日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20260730-263251261",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20260722-262421500": {
-   "id": "a4cc7e9068",
-   "pref": "東京都",
-   "title": "都市高速鉄道東急電鉄東急多摩川線地下化事業及び都市高速鉄道新空港線建設事業の環境影響評価調査計画書を提出しました 2026年07月23日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20260722-262421500",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20260710-261414905": {
-   "id": "923f97f799",
-   "pref": "東京都",
-   "title": "太陽光発電の普及拡大に関する4者連携協定の締結について 2026年07月13日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20260710-261414905",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/039-20260701-260575265": {
-   "id": "0b7766716d",
-   "pref": "東京都",
-   "title": "新しい都市づくりのための都市開発諸制度活用方針等を改定しました! 2026年07月02日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/039-20260701-260575265",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/039-20260508-254932937": {
-   "id": "0054873bd6",
-   "pref": "東京都",
-   "title": "第253回東京都都市計画審議会を開催します 2026年05月12日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/039-20260508-254932937",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100501": {
-   "id": "2b22a0e221",
-   "pref": "東京都",
-   "title": "火葬場に係る検討会(第2回)の開催について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100501",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100202": {
-   "id": "b7cafe70b6",
-   "pref": "東京都",
-   "title": "医薬品成分を含有する製品の発見について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100202",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
   },
   "https://www.pref.kanagawa.jp/docs/u5t/pub/c8993328.html": {
    "id": "27cd557312",
@@ -6426,6 +5911,16 @@
     "contact": "福祉保健部 健康づくり支援課\n母子保健係\n〒950-8570\n新潟県新潟市中央区新光町4番地1 新潟県庁行政庁舎\nTel:025-280-5197\n見つからないときは"
    }
   },
+  "https://www.pref.toyama.jp/1021/kensei/kouhou/0.html": {
+   "id": "bb88224b46",
+   "pref": "富山県",
+   "title": "リンク・著作権・免責事項 について",
+   "url": "https://www.pref.toyama.jp/1021/kensei/kouhou/0.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
   "https://www.pref.toyama.jp/1021/kensei/kouhou/privacy.html": {
    "id": "557342c4c9",
    "pref": "富山県",
@@ -6628,451 +6123,11 @@
    "checked": "2026-10-07",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/koukyoutyoutatu-sekkei.html": {
-   "id": "fa3188f172",
-   "pref": "石川県",
-   "title": "スタートアップ連携による地域課題解決可能性調査事業に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/koukyoutyoutatu-sekkei.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_syoukibo_r8_proposal.html": {
-   "id": "1baed9ae2c",
-   "pref": "石川県",
-   "title": "石川県小規模事業者AI活用実践研修事業委託業者選定に係るプロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_syoukibo_r8_proposal.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/minato/puropo.html": {
-   "id": "a5406b3d9e",
-   "pref": "石川県",
-   "title": "金沢港 大野緑地の利活用検討支援業務委託に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/minato/puropo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kagaryori_forum.html": {
-   "id": "e2cec1cc5f",
-   "pref": "石川県",
-   "title": "石川県・京都府連携事業 登録無形文化財フォーラム「加賀料理×京料理 伝統を未来へ」の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kagaryori_forum.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/noto-su-koubo.html": {
-   "id": "639460bf38",
-   "pref": "石川県",
-   "title": "能登へのスタートアップ誘致調査事業における支援対象企業の募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/noto-su-koubo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kurasuta/cluster_propo.html": {
-   "id": "cb222f3383",
-   "pref": "石川県",
-   "title": "石川県地域産業クラスター計画策定支援業務委託のプロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kurasuta/cluster_propo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangakurenkei/20190510.html": {
-   "id": "167ff859c9",
-   "pref": "石川県",
-   "title": "東大先端研ラボツアーの参加者募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangakurenkei/20190510.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangyo-kakushin-seminar.html": {
-   "id": "0b83445a3a",
-   "pref": "石川県",
-   "title": "石川県産業DX推進セミナーについて",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangyo-kakushin-seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/fund/seichoufund.html": {
-   "id": "e32e82e473",
-   "pref": "石川県",
-   "title": "成長戦略ファンドについて",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/fund/seichoufund.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kakuben/kakuben.html": {
-   "id": "8f5dae59f2",
-   "pref": "石川県",
-   "title": "「スタートアップビジネスプランコンテストいしかわ」について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kakuben/kakuben.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/notokyoryokutai-recruit.html": {
-   "id": "5ed0302123",
-   "pref": "石川県",
-   "title": "地域おこし協力隊(起業伴走支援)の募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/notokyoryokutai-recruit.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/chizai/seminar2025_1.html": {
-   "id": "420fc703ba",
-   "pref": "石川県",
-   "title": "石川県知的財産活用セミナー(令和8年2月2日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/chizai/seminar2025_1.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/syoene/syoene_puropo.html": {
-   "id": "c891390616",
-   "pref": "石川県",
-   "title": "石川県省エネ設備等導入支援事業管理運営業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/syoene/syoene_puropo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/notokigyo-kyoryokutaiprp.html": {
-   "id": "b5377442af",
-   "pref": "石川県",
-   "title": "地域おこし協力隊による能登での起業支援事業業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/notokigyo-kyoryokutaiprp.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_seminar.html": {
-   "id": "66f4d41713",
-   "pref": "石川県",
-   "title": "「ブランドデザインキャンプ2025」導入セミナーの開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_program.html": {
-   "id": "0a0993e43c",
-   "pref": "石川県",
-   "title": "「ブランドデザインキャンプ2025」プログラムの参加企業募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_program.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/chizai/benrishikai.html": {
-   "id": "974986ed54",
-   "pref": "石川県",
-   "title": "日本弁理士会主催 中小企業等向け支援事業について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/chizai/benrishikai.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kagaryori.html": {
-   "id": "d55395b9ce",
-   "pref": "石川県",
-   "title": "加賀料理技術保存会事務局運営等支援業務委託に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kagaryori.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/chizai/model_event_250625.html": {
-   "id": "d7b49d07e3",
-   "pref": "石川県",
-   "title": "知的財産活用セミナー(6月25日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/chizai/model_event_250625.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_ci.html": {
-   "id": "360e1fefbd",
-   "pref": "石川県",
-   "title": "「デジタルデザインキャンプ2024」CIプログラムの募集開始について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_ci.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_dd.html": {
-   "id": "cd7e527141",
-   "pref": "石川県",
-   "title": "「デジタルデザインキャンプ2024」DDプログラムの募集開始について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_dd.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/kyoten.html": {
-   "id": "32d586d996",
-   "pref": "石川県",
-   "title": "石川県スタートアップ創出・交流拠点設置・運営等業務委託業者選定に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/kyoten.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/aeon/ishikawafair.html": {
-   "id": "9c8905092c",
-   "pref": "石川県",
-   "title": "イオンモール白山「石川うまいもんフェア」参加企業の募集について(締切:R6.7.19)",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/aeon/ishikawafair.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_gaikan_torikumi.html": {
-   "id": "d1e9ccc86a",
-   "pref": "石川県",
-   "title": "【開催中止】「デジタル化実践道場開講事業(生産計画最適化・外観検査)」取組報告会について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_gaikan_torikumi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20231201.html": {
-   "id": "f81e72b5d7",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(12月1日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20231201.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangyoshinkoshishinpubcome.html": {
-   "id": "ea829b2aef",
-   "pref": "石川県",
-   "title": "「石川県産業振興指針素案」に対する意見募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangyoshinkoshishinpubcome.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/zero/documents/syunnran.html": {
-   "id": "5459a35d92",
-   "pref": "石川県",
-   "title": "ゼロカーボンビレッジ実証業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/zero/documents/syunnran.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/gxsemi.html": {
-   "id": "50adeb13d8",
-   "pref": "石川県",
-   "title": "産業革新セミナーGXについて(第1回)",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/gxsemi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230808.html": {
-   "id": "b2caad85d2",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(8月8日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230808.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/gx2.html": {
-   "id": "5086abe656",
-   "pref": "石川県",
-   "title": "石川県GX(省エネ・再エネ)設備導入支援事業2次募集の公募について(締切:令和5年9月15日)",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/gx2.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangyoukakushinsemina.html": {
-   "id": "20af961bf5",
-   "pref": "石川県",
-   "title": "「石川県産業革新セミナー(8月28日)」の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangyoukakushinsemina.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230711.html": {
-   "id": "d5276163a8",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(7月11日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230711.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou.html": {
-   "id": "bd107f1ce4",
-   "pref": "石川県",
-   "title": "「デジタル化実践道場(需要予測編)」の募集開始について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi2.html": {
-   "id": "665fb79bb6",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(第二回)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi2.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi.html": {
-   "id": "b0a5483e65",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナーの開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou_torikumi.html": {
-   "id": "3346415d09",
-   "pref": "石川県",
-   "title": "「デジタル化実践道場開講事業(需要予測)」取組報告会について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou_torikumi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/syouene.html": {
-   "id": "fe20ba7660",
-   "pref": "石川県",
-   "title": "省エネ設備緊急支援事業費補助金(3次募集)の公募について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/syouene.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/fukugyou/seminar.html": {
-   "id": "389c57bba1",
-   "pref": "石川県",
-   "title": "石川県副業・兼業人材活用セミナーの募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/fukugyou/seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/zero/zero.html": {
-   "id": "afade1f054",
-   "pref": "石川県",
-   "title": "「ゼロカーボンビレッジ構築計画立案業務」業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/zero/zero.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/koubo/suisochousa.html": {
-   "id": "c3a4fde33f",
-   "pref": "石川県",
-   "title": "「石川県における民間主導による水素供給設備整備促進に向けた調査」業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/koubo/suisochousa.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/healthcare/kyogikai/20211018.html": {
-   "id": "3ea3023952",
-   "pref": "石川県",
-   "title": "「石川県における水素導入・利活用等アクションプラン策定業務」業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/healthcare/kyogikai/20211018.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/shouhinkikaku/bosyu.html": {
-   "id": "e0e0467c64",
-   "pref": "石川県",
-   "title": "石川県新商品企画事業「Session石川」の実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/shouhinkikaku/bosyu.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/corona/setsubi/2020.html": {
-   "id": "23326f6e9e",
-   "pref": "石川県",
-   "title": "コロナ時代に適応する設備導入支援事業について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/corona/setsubi/2020.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/corona/shinseihin/2020.html": {
-   "id": "8ab668ae57",
-   "pref": "石川県",
-   "title": "新たな需要を取り込む新技術・新製品開発支援事業について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/corona/shinseihin/2020.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kenkoukeiei.html": {
-   "id": "47104fe057",
-   "pref": "石川県",
-   "title": "「コロナ時代だからこそ取り組む健康経営」講演会について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kenkoukeiei.html",
+  "https://www.pref.fukui.lg.jp/doc/kouho/pabukome/publicjissi2.html": {
+   "id": "68b09f22a6",
+   "pref": "福井県",
+   "title": "県民パブリックコメント実施一覧表",
+   "url": "https://www.pref.fukui.lg.jp/doc/kouho/pabukome/publicjissi2.html",
    "start": null,
    "deadline": null,
    "checked": "2026-10-07",
@@ -7227,36 +6282,6 @@
    "deadline": null,
    "checked": "2026-10-07",
    "first_seen": "2026-09-28"
-  },
-  "https://www.pref.yamanashi.jp/kokusai/index.html": {
-   "id": "03c6ff1843",
-   "pref": "山梨県",
-   "title": "国際・水素戦略推進課",
-   "url": "https://www.pref.yamanashi.jp/kokusai/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.yamanashi.jp/kendosui/index.html": {
-   "id": "91f5ac5b24",
-   "pref": "山梨県",
-   "title": "都市計画課(景観まちづくり室)",
-   "url": "https://www.pref.yamanashi.jp/kendosui/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
-  },
-  "https://www.pref.yamanashi.jp/toshikei/index.html": {
-   "id": "595898684a",
-   "pref": "山梨県",
-   "title": "都市計画課",
-   "url": "https://www.pref.yamanashi.jp/toshikei/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07"
   },
   "https://www.pref.yamanashi.jp/police/kenkei/index.html": {
    "id": "feceb7b8b3",
@@ -8474,6 +7499,46 @@
     "contact": "大阪府 大阪都市計画局 計画推進室 計画調整課 土地利用計画グループ\n電話 06-6210-9078(直通)\nファクシミリ 06-6210-9071\n大阪都市計画局計画推進室計画調整課土地利用計画グループ"
    }
   },
+  "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/tyuukannminaoshi.html": {
+   "id": "7012b3b8bb",
+   "pref": "大阪府",
+   "title": "「大阪府国民健康保険運営方針」の中間見直しに対する府民意見等の募集について",
+   "url": "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/tyuukannminaoshi.html",
+   "start": "2026-10-06",
+   "deadline": "2026-11-06",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "新旧対照表（ワード：1,663KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/00sinkyu.docx"
+     },
+     {
+      "name": "新旧対照表",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/00sinkyu.pdf"
+     },
+     {
+      "name": "参考（ワード：827KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/01soan.docx"
+     },
+     {
+      "name": "参考",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/01soan.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：44KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/ikenyoushi.doc"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/ikenyoushi.pdf"
+     }
+    ],
+    "howto": "インターネット(電子申請)の場合\n大阪府行政オンラインシステム(外部サイトへリンク)(別ウィンドウで開きます)から提出してください。\nインターネットがご利用になれない場合\n意見提出様式(ワード:44KB) 意見提出様式(PDF:119KB)により、郵便又はファクシミリのいずれかで提出してください。\n≪郵便の場合≫\n〒540-8570 大阪市中央区大手前2丁目\n大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループあて\n≪ファクシミリの場合≫\nファクシミリ番号 06-6944-6684\n大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループあて\n※障がいのある方などで、上記方法によるご意見等の提出が困難な場合は、個別にお問い合わせください。",
+    "contact": "大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループ\n電話 06-6944-7049(直通)\nファクシミリ番号 06-6944-6684\n健康医療部健康推進室国民健康保険課事業推進グループ"
+   }
+  },
   "https://www.pref.osaka.lg.jp/o130020/jigyokanri/kenjihyokatoseibukai_r8/index.html": {
    "id": "2c5945673f",
    "pref": "大阪府",
@@ -8501,6 +7566,116 @@
     "howto": "●インターネットによる提出の場合(行政オンラインシステム)\nこちらからご提出ください(外部サイトへリンク)(別ウィンドウで開きます)\n●インターネット以外による提出の場合\n以下の提出先あてに、郵便・FAXのいずれかの方法でご提出ください。",
     "contact": ""
    }
+  },
+  "https://www.pref.osaka.lg.jp/o070050/fumin/public/seido.html": {
+   "id": "5a4e510b0c",
+   "pref": "大阪府",
+   "title": "あなたの意見でより良い暮らしに!パブリックコメント制度を活用しよう!",
+   "url": "https://www.pref.osaka.lg.jp/o070050/fumin/public/seido.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/shikyuuninteijimu/index.html": {
+   "id": "8781b66ced",
+   "pref": "大阪府",
+   "title": "自立支援医療費(精神通院)支給認定事務に関する個人情報保護評価書",
+   "url": "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/shikyuuninteijimu/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/dokushokankyouseibi/index.html": {
+   "id": "d53e4f6919",
+   "pref": "大阪府",
+   "title": "大阪府視覚障がい者等の読書環境の整備の推進に関する計画(案)に対する府民意見等の募集",
+   "url": "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/dokushokankyouseibi/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/followup.html": {
+   "id": "24104bd58d",
+   "pref": "大阪府",
+   "title": "政策条例のフォローアップについて",
+   "url": "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/followup.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/giinkensyu.html": {
+   "id": "3d4b892fd9",
+   "pref": "大阪府",
+   "title": "議員研修会について",
+   "url": "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/giinkensyu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o170010/gikai_giji/toppage/privacy.html": {
+   "id": "81112595df",
+   "pref": "大阪府",
+   "title": "個人情報の取り扱いについて",
+   "url": "https://www.pref.osaka.lg.jp/o170010/gikai_giji/toppage/privacy.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o020090/kikikanri/kokuminnhogo/pabulic_comment_result.html": {
+   "id": "967f057fc4",
+   "pref": "大阪府",
+   "title": "「大阪府国民保護計画変更(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o020090/kikikanri/kokuminnhogo/pabulic_comment_result.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o180160/shigaku/index.html": {
+   "id": "2c5031f2cb",
+   "pref": "大阪府",
+   "title": "「大阪府私立専修学校・各種学校設置認可等に関する審査基準」",
+   "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o180160/shigaku/youchien/shinnsakijyunn_1.html": {
+   "id": "ce80536779",
+   "pref": "大阪府",
+   "title": "「大阪府私立幼稚園の設置認可等に関する審査基準」",
+   "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/youchien/shinnsakijyunn_1.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o070070/toshimiryoku/toshimiryokusen/senryaku2030kekka.html": {
+   "id": "53ce719b39",
+   "pref": "大阪府",
+   "title": "「大阪都市魅力創造戦略2030(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o070070/toshimiryoku/toshimiryokusen/senryaku2030kekka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.osaka.lg.jp/o140030/daitoshimachi/yume-saki/publiccomment3-kekka.html": {
+   "id": "3c77777623",
+   "pref": "大阪府",
+   "title": "「夢洲第2期区域マスタープランVer.3.0(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o140030/daitoshimachi/yume-saki/publiccomment3-kekka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
   },
   "https://web.pref.hyogo.lg.jp/kf13/20260731.html": {
    "id": "f5a7007fb0",
@@ -8531,6 +7706,26 @@
    "deadline": null,
    "checked": "2026-10-07",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.nara.lg.jp/guide/shuwa.html": {
+   "id": "3747a17fdb",
+   "pref": "奈良県",
+   "title": "手話リンクのご案内",
+   "url": "https://www.pref.nara.lg.jp/guide/shuwa.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.nara.lg.jp/privacy.html": {
+   "id": "dacb389c28",
+   "pref": "奈良県",
+   "title": "個人情報の取り扱いについて",
+   "url": "https://www.pref.nara.lg.jp/privacy.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
   },
   "https://www.pref.wakayama.lg.jp/prefg/080900/d00222877.html#a25043f6a0": {
    "id": "103ecccdb6",
@@ -8666,6 +7861,46 @@
     "contact": "和歌山県共生社会推進部人権局人権政策課\n電話:073-441-2560\nファクシミリ:073-433-4540\n関連ファイル\n改正概要案 (PDF形式 81キロバイト)\n意見様式 (PDF形式 39キロバイト)\n意見様式 (エクセル形式 14キロバイト)"
    }
   },
+  "https://www.pref.tottori.lg.jp/330558.htm": {
+   "id": "208af04109",
+   "pref": "鳥取県",
+   "title": "北朝鮮弾道ミサイル発射事案への対応について(令和8年10月3日6時39分)",
+   "url": "https://www.pref.tottori.lg.jp/330558.htm",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.tottori.lg.jp/329761.htm": {
+   "id": "c6e3989fbf",
+   "pref": "鳥取県",
+   "title": "渇水、高温等についての対策(令和8年度)",
+   "url": "https://www.pref.tottori.lg.jp/329761.htm",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.tottori.lg.jp/9320.htm": {
+   "id": "a93864dfe8",
+   "pref": "鳥取県",
+   "title": "とりネットへのリンクについて",
+   "url": "https://www.pref.tottori.lg.jp/9320.htm",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.tottori.lg.jp/9314.htm": {
+   "id": "0afeadf7ab",
+   "pref": "鳥取県",
+   "title": "著作権について",
+   "url": "https://www.pref.tottori.lg.jp/9314.htm",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
   "https://www.pref.shimane.lg.jp/infra/kankyo/kankyo/seido/assessment_ikenbosyu.html": {
    "id": "b251279e51",
    "pref": "島根県",
@@ -8731,6 +7966,16 @@
    "deadline": null,
    "checked": "2026-10-07",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.okayama.jp/page/detail-27123.html": {
+   "id": "827833780b",
+   "pref": "岡山県",
+   "title": "おかやま県民提案制度(パブリック・コメント)の概要",
+   "url": "https://www.pref.okayama.jp/page/detail-27123.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
   },
   "https://www.pref.hiroshima.lg.jp/soshiki/230/visionkaitei-publiccommentskekka.html": {
    "id": "b336958d74",
@@ -8906,6 +8151,16 @@
     "contact": "■内容について\n徳島県 観光スポーツ文化部 観光スポーツ文化政策課 自転車交流担当\n電話:088-621-2146 FAX:088-621-2837\nメールアドレス:kankousportsbunkaseisakuka@pref.tokushima.lg.jp\n■提出方法について\n徳島県 生活環境部 県民ふれあい課 広聴担当\n電話:088-621-2095 FAX:088-621-2862\nメールアドレス:kenminfureaika@pref.tokushima.lg.jp"
    }
   },
+  "https://www.pref.tokushima.lg.jp/opinion/": {
+   "id": "6f47e05955",
+   "pref": "徳島県",
+   "title": "県民目安箱の募集",
+   "url": "https://www.pref.tokushima.lg.jp/opinion/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
   "https://www.pref.kagawa.lg.jp/kikikanri/sogo/kokudokyoka/pabukome-soan20260930.html": {
    "id": "4440ec86cf",
    "pref": "香川県",
@@ -8937,8 +8192,28 @@
    "url": "https://www.pref.ehime.jp/page/159882.html",
    "start": "2026-09-29",
    "deadline": "2026-10-28",
-   "checked": "2026-10-06",
+   "checked": "2026-10-07",
    "first_seen": "2026-09-29"
+  },
+  "https://www.pref.ehime.jp/page/149487.html#85f0763c70": {
+   "id": "fb73b597fb",
+   "pref": "愛媛県",
+   "title": "(燧灘・伊予灘・豊後水道東)沿岸海岸保全基本計画(案)",
+   "url": "https://www.pref.ehime.jp/page/149487.html",
+   "start": "2026-06-12",
+   "deadline": "2026-07-13",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
+  "https://www.pref.ehime.jp/page/150678.html#871d6b1548": {
+   "id": "ed61f70092",
+   "pref": "愛媛県",
+   "title": "第12次愛媛県交通安全計画(案)",
+   "url": "https://www.pref.ehime.jp/page/150678.html",
+   "start": "2026-06-25",
+   "deadline": "2026-07-24",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
   },
   "https://www.pref.ehime.jp/page/159882.html": {
    "id": "4e1fa87379",
@@ -8990,6 +8265,158 @@
     ],
     "howto": "",
     "contact": "愛媛県 県民環境部 環境局 環境・ゼロカーボン推進課 大気・水環境グループ\nTel:089-912-2347 Fax:089-912-2344\n資料(PDFファイル)"
+   }
+  },
+  "https://www.pref.ehime.jp/page/149616.html": {
+   "id": "0b4502ed40",
+   "pref": "愛媛県",
+   "title": "県税賦課徴収事務の特定個人情報保護評価書(全項目評価書)(案)",
+   "url": "https://www.pref.ehime.jp/page/149616.html",
+   "start": null,
+   "deadline": "2026-07-13",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "1.県税賦課徴収事務の特定個人情報保護評価書（全項目評価書）（案）の概要 [PDFファイル／238KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182221.pdf"
+     },
+     {
+      "name": "2.県税賦課徴収事務の特定個人情報保護評価書（全項目評価書）（案）（本文） [PDFファイル／460KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182222.pdf"
+     },
+     {
+      "name": "3.関係法令 [PDFファイル／221KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182223.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 総務部 行財政推進局 税務課 直税係\nTel:089-912-2201 Fax:089-912-2199\n資料(PDFファイル)"
+   }
+  },
+  "https://www.pref.ehime.jp/page/149487.html": {
+   "id": "3068be4bdf",
+   "pref": "愛媛県",
+   "title": "(燧灘・伊予灘・豊後水道東)沿岸海岸保全基本計画(案)",
+   "url": "https://www.pref.ehime.jp/page/149487.html",
+   "start": null,
+   "deadline": "2026-07-13",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "1.（燧灘・伊予灘・豊後水道東）沿岸海岸保全基本計画（案）の概要 [PDFファイル／584KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182113.pdf"
+     },
+     {
+      "name": "2.燧灘沿岸海岸保全基本計画（案） [PDFファイル／5.95MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182114.pdf"
+     },
+     {
+      "name": "3.伊予灘沿岸海岸保全基本計画（案） [PDFファイル／5.95MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182115.pdf"
+     },
+     {
+      "name": "4.豊後水道東沿岸海岸保全基本計画（案） [PDFファイル／5.99MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182116.pdf"
+     },
+     {
+      "name": "5.燧灘沿岸海岸保全基本計画(参考資料)（案） [PDFファイル／1.31MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182117.pdf"
+     },
+     {
+      "name": "6.伊予灘沿岸海岸保全基本計画(参考資料)（案） [PDFファイル／1.12MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182118.pdf"
+     },
+     {
+      "name": "7.豊後水道東沿岸海岸保全基本計画(参考資料)（案） [PDFファイル／1.36MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/182119.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 土木部 河川港湾局 港湾海岸課 海岸係\nTel:089-912-2690 Fax:089-912-2689\n資料(PDFファイル)"
+   }
+  },
+  "https://www.pref.ehime.jp/page/150678.html": {
+   "id": "0bd6bae6de",
+   "pref": "愛媛県",
+   "title": "第12次愛媛県交通安全計画(案)",
+   "url": "https://www.pref.ehime.jp/page/150678.html",
+   "start": null,
+   "deadline": "2026-07-24",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "1.第12次愛媛県交通安全計画（案）の概要 [PDFファイル／587KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/183687.pdf"
+     },
+     {
+      "name": "2.第12次愛媛県交通安全計画（案）（本文） [PDFファイル／963KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/183688.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 県民環境部 防災局 消防防災安全課 交通安全推進係\nTel:089-912-2321 Fax:089-941-0119\n資料(PDFファイル)"
+   }
+  },
+  "https://www.pref.ehime.jp/page/155694.html": {
+   "id": "3e39eac39e",
+   "pref": "愛媛県",
+   "title": "第3次愛媛県男女共同参画計画中間改定(案)",
+   "url": "https://www.pref.ehime.jp/page/155694.html",
+   "start": null,
+   "deadline": "2026-09-10",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "1.第3次愛媛県男女共同参画計画中間改定（案）の概要 [PDFファイル／595KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/187834.pdf"
+     },
+     {
+      "name": "2.第3次愛媛県男女共同参画計画中間改定（案）（本文） [PDFファイル／1.93MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/187855.pdf"
+     },
+     {
+      "name": "3.第3次愛媛県男女共同参画計画中間改定（案）（ビジュアル版） [PDFファイル／3.54MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/187836.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 企画振興部 地域未来創生局 少子化対策・男女参画課 活躍推進グループ\nTel:089-912-2332\n資料(PDFファイル)"
+   }
+  },
+  "https://www.pref.ehime.jp/page/156656.html": {
+   "id": "d398933728",
+   "pref": "愛媛県",
+   "title": "第12次愛媛県職業能力開発計画(案)",
+   "url": "https://www.pref.ehime.jp/page/156656.html",
+   "start": null,
+   "deadline": "2026-09-24",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07",
+   "detail": {
+    "files": [
+     {
+      "name": "1.第12次愛媛県職業能力開発計画（案）の概要 [PDFファイル／932KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/188530.pdf"
+     },
+     {
+      "name": "2.第12次愛媛県職業能力開発計画（案）（本文） [PDFファイル／902KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/188531.pdf"
+     },
+     {
+      "name": "3.【別表】主要目標値一覧 [PDFファイル／80KB] [PDFファイル／80KB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/188532.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 経済労働部 産業雇用局 労政雇用課 職業能力開発グループ\nTel:089-912-2504 Fax:089-912-2469\n資料(PDFファイル)"
    }
   },
   "https://www.pref.kochi.lg.jp/doc/kocho-pc-index/": {
@@ -9753,6 +9180,16 @@
     "contact": "県民センター\n〒850-8570長崎県長崎市尾上町3番1号\n電話:\n095-894-3441\nFax:\n095-826-5682\nリンクURL:\n県民センター"
    }
   },
+  "https://www.pref.kumamoto.jp/soshiki/85/270939.html#8d646be379": {
+   "id": "4267da90b7",
+   "pref": "熊本県",
+   "title": "熊本県農業振興地域整備基本方針(変更案)に関する意見募集について",
+   "url": "https://www.pref.kumamoto.jp/soshiki/85/270939.html",
+   "start": "2026-07-28",
+   "deadline": "2026-08-26",
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
+  },
   "https://www.pref.kumamoto.jp/soshiki/54/94639.html#3c2133d2d7": {
    "id": "4968aa201c",
    "pref": "熊本県",
@@ -9760,8 +9197,18 @@
    "url": "https://www.pref.kumamoto.jp/soshiki/54/94639.html",
    "start": "2027-04-30",
    "deadline": "2027-05-29",
-   "checked": "2026-10-06",
+   "checked": "2026-10-07",
    "first_seen": "2026-09-29"
+  },
+  "https://www.pref.kumamoto.jp/soshiki/85/270939.html": {
+   "id": "33f8aae5b2",
+   "pref": "熊本県",
+   "title": "熊本県農業振興地域整備基本方針(変更案)に関する意見募集について",
+   "url": "https://www.pref.kumamoto.jp/soshiki/85/270939.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-07",
+   "first_seen": "2026-10-07"
   },
   "https://www.pref.oita.jp/site/public-comment/muryoday-kenmin-iken.html": {
    "id": "b55b4d9061",
