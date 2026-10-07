@@ -1,18 +1,7 @@
 {
- "updated": "2026-10-07T10:12+09:00",
+ "updated": "2026-10-08T08:12+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "495260075",
-   "title": "「薬局製剤指針の一部改正（案）について（概要）」に関する意見募集について",
-   "category": "厚生",
-   "ministry": "厚生労働省",
-   "published": "2026-06-10T23:59:00+09:00",
-   "deadline": "2026-07-10T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260075&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "155260922",
    "title": "横浜市の路線バスの上限運賃変更認可申請（京浜ブロック）に関する意見募集について",
@@ -3181,66 +3170,6 @@
    }
   },
   {
-   "id": "595320023",
-   "title": "事業適応の実施に関する指針の一部を改正する告示（案）に対する意見募集",
-   "category": "経済財政政策",
-   "ministry": "経済産業省",
-   "published": "2026-09-08T23:59:00+09:00",
-   "deadline": "2026-10-07T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320023&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": [],
-   "detail": {
-    "rule_name": "事業適応の実施に関する指針の一部を改正する告示",
-    "law": "産業競争力強化法第２１条の２０第１項、同条第２項等",
-    "guide_files": [
-     {
-      "name": "意見募集要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320466"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "事業適応の実施に関する指針の一部を改正する告示（案）の概要について",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320467"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "経済産業省経済産業政策局産業創造課"
-   }
-  },
-  {
-   "id": "595320024",
-   "title": "産業競争力強化法施行規則の一部を改正する命令（案）に対する意見募集",
-   "category": "経済財政政策",
-   "ministry": "経済産業省",
-   "published": "2026-09-08T23:59:00+09:00",
-   "deadline": "2026-10-07T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320024&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": [],
-   "detail": {
-    "rule_name": "産業競争力強化法施行規則の一部を改正する命令",
-    "law": "産業競争力強化法第２条第４１項第９号、第２１条の２３の２第１項、第２１条の２５第１項等",
-    "guide_files": [
-     {
-      "name": "意見募集要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320464"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "産業競争力強化法施行規則の一部を改正する命令（案）の概要について",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320465"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "経済産業省経済産業政策局産業創造課、生活維持物品役務需要減等対策室"
-   }
-  },
-  {
    "id": "595320025",
    "title": "産業競争力強化法第百四十条の二十八第一項に規定する生活維持物品役務需要減等事業適応支援業務を行う者の認定等に関する省令（案）に対する意見募集",
    "category": "経済財政政策",
@@ -4480,6 +4409,66 @@
     "other_files": [],
     "note": "",
     "contact": "金融庁 03-3506-6000（代表）\n企画市場局企業開示課（内線：3691、2999）"
+   }
+  },
+  {
+   "id": "595320023",
+   "title": "事業適応の実施に関する指針の一部を改正する告示（案）に対する意見募集",
+   "category": "経済財政政策",
+   "ministry": "経済産業省",
+   "published": "2026-09-08T23:59:00+09:00",
+   "deadline": "2026-10-16T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320023&Mode=0",
+   "first_seen": "2026-09-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "事業適応の実施に関する指針の一部を改正する告示",
+    "law": "産業競争力強化法第２１条の２０第１項、同条第２項等",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320466"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "事業適応の実施に関する指針の一部を改正する告示（案）の概要について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320467"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "経済産業省経済産業政策局産業創造課"
+   }
+  },
+  {
+   "id": "595320024",
+   "title": "産業競争力強化法施行規則の一部を改正する命令（案）に対する意見募集",
+   "category": "経済財政政策",
+   "ministry": "経済産業省",
+   "published": "2026-09-08T23:59:00+09:00",
+   "deadline": "2026-10-16T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320024&Mode=0",
+   "first_seen": "2026-09-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "産業競争力強化法施行規則の一部を改正する命令",
+    "law": "産業競争力強化法第２条第４１項第９号、第２１条の２３の２第１項、第２１条の２５第１項等",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320464"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "産業競争力強化法施行規則の一部を改正する命令（案）の概要について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000320465"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "経済産業省経済産業政策局産業創造課、生活維持物品役務需要減等対策室"
    }
   },
   {
@@ -6888,6 +6877,40 @@
    }
   },
   {
+   "id": "155261032",
+   "title": "危険物船舶運送及び貯蔵規則の一部を改正する省令案に関する意見募集について",
+   "category": "海運",
+   "ministry": "国土交通省",
+   "published": "2026-10-07T23:59:00+09:00",
+   "deadline": "2026-11-06T18:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261032&Mode=0",
+   "first_seen": "2026-10-08",
+   "tags": [],
+   "detail": {
+    "rule_name": "危険物船舶運送及び貯蔵規則の一部を改正する省令案",
+    "law": "船舶安全法（昭和８年法律第11号）第28条第１項及び第29条ノ８",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322083"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322084"
+     },
+     {
+      "name": "省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322085"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国土交通省海事局検査測度課"
+   }
+  },
+  {
    "id": "620340012",
    "title": "「電力品質確保に係る系統連系技術要件ガイドライン」改定案に対する意見公募",
    "category": "工業",
@@ -6915,6 +6938,36 @@
     "other_files": [],
     "note": "",
     "contact": "資源エネルギー庁 電力・ガス事業部 電力基盤整備課"
+   }
+  },
+  {
+   "id": "495260197",
+   "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四条第五項第三号の規定に基づき厚生労働大臣が指定する要指導医薬品の一部を改正する件（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-08T23:59:00+09:00",
+   "deadline": "2026-11-07T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260197&Mode=0",
+   "first_seen": "2026-10-08",
+   "tags": [],
+   "detail": {
+    "rule_name": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四条第五項第三号の規定に基づき厚生労働大臣が指定する要指導医薬品",
+    "law": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四条第五項第三号",
+    "guide_files": [
+     {
+      "name": "意見募集要項",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322039"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322040"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線２７３８）"
    }
   },
   {
