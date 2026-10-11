@@ -1,287 +1,287 @@
 {
- "updated": "2026-10-10T10:34+09:00",
+ "updated": "2026-10-11T09:41+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
    "error": null,
    "open": 5,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "青森県": {
    "url": "https://www.pref.aomori.lg.jp/soshiki/soumu/koho/iken.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "岩手県": {
    "url": "https://www.pref.iwate.jp/public_comment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "宮城県": {
    "url": "https://www.pref.miyagi.jp/soshiki/kohou/publiccmentitiran.html",
    "error": null,
    "open": 7,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "秋田県": {
    "url": "https://www.pref.akita.lg.jp/pages/genre/12272",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "山形県": {
    "url": "https://www.pref.yamagata.jp/kensei/joho/kocho/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "福島県": {
    "url": "https://www.pref.fukushima.lg.jp/sec/01010e/koucho1-004.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "茨城県": {
    "url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/category/public-comment.html",
-   "error": "HTTP Error 404: Not Found",
+   "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "栃木県": {
    "url": "https://www.pref.tochigi.lg.jp/kensei/iken/public-comment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "群馬県": {
    "url": "https://www.pref.gunma.jp/page/16405.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "埼玉県": {
    "url": "https://www.pref.saitama.lg.jp/a0301/kenminc/bosyuu.html",
    "error": null,
    "open": 12,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "千葉県": {
    "url": "https://www.pref.chiba.lg.jp/cate/kt/kenminsanka/ikenboshuu/iken/index.html",
    "error": null,
    "open": 9,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "東京都": {
    "url": "https://www.metro.tokyo.lg.jp/purpose/opinion",
    "error": null,
    "open": 6,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "神奈川県": {
    "url": "https://www.pref.kanagawa.jp/pub/list-2.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "新潟県": {
    "url": "https://www.pref.niigata.lg.jp/sec/kaikaku/1189463573014.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "富山県": {
    "url": "https://www.pref.toyama.jp/kensei/kenseisanka/kenseisanka/publiccomment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "石川県": {
    "url": "https://www.pref.ishikawa.lg.jp/kensei/koho/publiccomment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "福井県": {
    "url": "https://www.pref.fukui.lg.jp/doc/kouho/pabukome/pubcome.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "山梨県": {
    "url": "https://www.pref.yamanashi.jp/gyoukaku/public/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "長野県": {
    "url": "https://www.pref.nagano.lg.jp/koho/kensei/koho/public/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "岐阜県": {
    "url": "https://www.pref.gifu.lg.jp/page/203.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "静岡県": {
    "url": "https://www.pref.shizuoka.jp/kensei/gyoseikaikaku/johokokai/1002310/1067293/index.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "愛知県": {
    "url": "https://www.pref.aichi.jp/adv/ba.php?id=600",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "三重県": {
    "url": "https://www.pref.mie.lg.jp/KOUKAI/33773024450.htm",
    "error": null,
    "open": 3,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "滋賀県": {
    "url": "https://www.pref.shiga.lg.jp/bj00/10105.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "京都府": {
    "url": "https://www.pref.kyoto.jp/comment/",
    "error": null,
    "open": 6,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "大阪府": {
    "url": "https://www.pref.osaka.lg.jp/o070050/fumin/public/index.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "兵庫県": {
    "url": "https://web.pref.hyogo.lg.jp/kk12/ac09_000000032.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "奈良県": {
    "url": "https://www.pref.nara.lg.jp/kenseijouhou/kouhou/kenminnokoe/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "和歌山県": {
    "url": "https://www.pref.wakayama.lg.jp/prefg/000200/ikenbosyu_index.html",
    "error": null,
    "open": 4,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "鳥取県": {
    "url": "https://www.pref.tottori.lg.jp/publiccomment/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "島根県": {
    "url": "https://www.pref.shimane.lg.jp/admin/seisaku/koho/come/",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "岡山県": {
    "url": "https://www.pref.okayama.jp/page/detail-27145.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "広島県": {
    "url": "https://www.pref.hiroshima.lg.jp/soshiki/19/1177324369710.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "山口県": {
    "url": "https://www.pref.yamaguchi.lg.jp/soshiki/21/13213.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "徳島県": {
    "url": "https://www.pref.tokushima.lg.jp/public_comment/",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "香川県": {
    "url": "https://www.pref.kagawa.lg.jp/cgi-bin/page/list.php?tpl_type=2&page_type=9",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "愛媛県": {
    "url": "https://www.pref.ehime.jp/adv/ba.php?id=19",
    "error": null,
    "open": 3,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "高知県": {
    "url": "https://www.pref.kochi.lg.jp/ikenkobo/",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "福岡県": {
    "url": "https://www.pref.fukuoka.lg.jp/life/8/72/259/",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "佐賀県": {
    "url": "https://www.pref.saga.lg.jp/list00726.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "長崎県": {
    "url": "https://www.pref.nagasaki.jp/public-comments/",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "熊本県": {
    "url": "https://www.pref.kumamoto.jp/site/public-comment/",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "大分県": {
    "url": "https://www.pref.oita.jp/site/public-comment/",
    "error": null,
    "open": 2,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "宮崎県": {
    "url": "https://www.pref.miyazaki.lg.jp/kense/koho/p-comment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "鹿児島県": {
    "url": "https://www.pref.kagoshima.jp/kohokocho/public/index.html",
    "error": null,
    "open": 5,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   },
   "沖縄県": {
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/index.html",
    "error": null,
    "open": 4,
-   "checked": "2026-10-10"
+   "checked": "2026-10-11"
   }
  },
  "items": [
@@ -292,7 +292,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0508/hokanjigyokeikaku_kenkome.html",
    "start": "2026-09-12",
    "deadline": "2026-10-12",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03",
    "tags": []
   },
@@ -303,7 +303,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/080900/d00222877.html",
    "start": "2026-09-11",
    "deadline": "2026-10-13",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28",
    "tags": []
   },
@@ -517,7 +517,7 @@
    "url": "https://www.pref.miyagi.jp/site/kengikai/public_comment_20260918.html",
    "start": "2026-09-18",
    "deadline": "2026-10-16",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06",
    "tags": []
   },
@@ -581,7 +581,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/021400/d00222879.html",
    "start": "2026-09-18",
    "deadline": "2026-10-17",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28",
    "tags": []
   },
@@ -861,7 +861,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041433.html",
    "start": "2026-09-18",
    "deadline": "2026-10-19",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28",
    "tags": []
   },
@@ -872,7 +872,7 @@
    "url": "https://www.pref.kyoto.jp/keikaku/r8publiccoment.html",
    "start": "2026-10-01",
    "deadline": "2026-10-21",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02",
    "tags": []
   },
@@ -916,7 +916,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041564.html",
    "start": "2026-09-30",
    "deadline": "2026-10-23",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-01",
    "tags": []
   },
@@ -927,7 +927,7 @@
    "url": "https://www.pref.kyoto.jp/rosei/news/publiccomment.html",
    "start": "2026-10-06",
    "deadline": "2026-10-26",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06",
    "tags": []
   },
@@ -938,7 +938,7 @@
    "url": "https://www.pref.kyoto.jp/kikakuriji/news/ijujorei-pabukome.html",
    "start": "2026-10-06",
    "deadline": "2026-10-26",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06",
    "tags": []
   },
@@ -1052,7 +1052,7 @@
    "url": "https://www.pref.ehime.jp/page/159882.html",
    "start": "2026-09-29",
    "deadline": "2026-10-28",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29",
    "tags": []
   },
@@ -1185,7 +1185,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03",
    "tags": [
     "外国人政策"
@@ -1198,7 +1198,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03",
    "tags": []
   },
@@ -1209,7 +1209,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03",
    "tags": []
   },
@@ -1220,7 +1220,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03",
    "tags": []
   },
@@ -1231,7 +1231,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03",
    "tags": []
   },
@@ -1685,7 +1685,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/kankyo-s/kihonkeikaku5-public-comment.html",
    "start": "2026-10-05",
    "deadline": "2026-11-04",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06",
    "tags": []
   },
@@ -1696,7 +1696,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/sanzin/12syokunou-plan/pabucome.html",
    "start": "2026-10-06",
    "deadline": "2026-11-05",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06",
    "tags": []
   },
@@ -2199,7 +2199,7 @@
    "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/20261013.html",
    "start": "2026-10-09",
    "deadline": "2026-11-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-10",
    "tags": []
   },
@@ -2292,7 +2292,7 @@
    "url": "https://www.pref.kagoshima.jp/af04/12thpubliccomment.html",
    "start": "2026-10-09",
    "deadline": "2026-11-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-09",
    "tags": []
   },
@@ -2303,7 +2303,7 @@
    "url": "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html",
    "start": "2026-10-09",
    "deadline": "2026-11-10",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-10",
    "tags": []
   }
@@ -2699,126 +2699,6 @@
    "checked": "2026-10-10",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/": {
-   "id": "79978c8acf",
-   "pref": "北海道",
-   "title": "北海道ユースプランナー制度",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/100/247121/": {
-   "id": "6f75a44deb",
-   "pref": "北海道",
-   "title": "子ども・子育て支援金制度について",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/100/247121/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/80/": {
-   "id": "106b1fbb38",
-   "pref": "北海道",
-   "title": "5 保育事業者向け案内",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/80/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/dv/dvsoudan/": {
-   "id": "a3d7af748d",
-   "pref": "北海道",
-   "title": "DV相談について~ひとりで悩まず相談を",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/dv/dvsoudan/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/14/": {
-   "id": "53151824ea",
-   "pref": "北海道",
-   "title": "条例・計画・審議会",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/14/keikaku/": {
-   "id": "bcbca8501e",
-   "pref": "北海道",
-   "title": "北海道こども計画",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/keikaku/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/14/kodomomiraikeikaku/": {
-   "id": "8a9b628bae",
-   "pref": "北海道",
-   "title": "北の大地☆子どもの未来づくり北海道計画",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/kodomomiraikeikaku/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/14/hinkonkeikaku/": {
-   "id": "579a2e41a1",
-   "pref": "北海道",
-   "title": "北海道子どもの貧困対策推進計画",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/hinkonkeikaku/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/": {
-   "id": "c8cccc0be9",
-   "pref": "北海道",
-   "title": "北海道困難な問題を抱える女性への支援等に関する基本計画",
-   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-08",
-   "first_seen": "2026-09-29"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/kss/a0002/syakaishihon/": {
-   "id": "7c5c8e9a60",
-   "pref": "北海道",
-   "title": "社会資本総合整備計画",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/kss/a0002/syakaishihon/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0003/": {
-   "id": "bbacf2f5a3",
-   "pref": "北海道",
-   "title": "河川整備基本方針および河川整備計画",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0003/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0005/": {
-   "id": "18fdcbbe94",
-   "pref": "北海道",
-   "title": "北海道の川づくりビジョン",
-   "url": "https://www.pref.hokkaido.lg.jp/kn/kss/a0003/b0005/",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
   "https://www.pref.hokkaido.lg.jp/kn/tki/258428.html": {
    "id": "6929b79180",
    "pref": "北海道",
@@ -2866,7 +2746,7 @@
    "url": "https://www.pref.hokkaido.lg.jp/ns/shs/syokuiku/syokurosusuisinkeikaku_sakutei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/": {
@@ -2876,7 +2756,7 @@
    "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0027/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/": {
@@ -2886,7 +2766,97 @@
    "url": "https://www.pref.hokkaido.lg.jp/ns/shs/a0017/b0003/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/": {
+   "id": "79978c8acf",
+   "pref": "北海道",
+   "title": "北海道ユースプランナー制度",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/1/youthplanner/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/100/247121/": {
+   "id": "6f75a44deb",
+   "pref": "北海道",
+   "title": "子ども・子育て支援金制度について",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/100/247121/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/80/": {
+   "id": "106b1fbb38",
+   "pref": "北海道",
+   "title": "5 保育事業者向け案内",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/80/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/dv/dvsoudan/": {
+   "id": "a3d7af748d",
+   "pref": "北海道",
+   "title": "DV相談について~ひとりで悩まず相談を",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/dv/dvsoudan/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/": {
+   "id": "53151824ea",
+   "pref": "北海道",
+   "title": "条例・計画・審議会",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/keikaku/": {
+   "id": "bcbca8501e",
+   "pref": "北海道",
+   "title": "北海道こども計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/keikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/kodomomiraikeikaku/": {
+   "id": "8a9b628bae",
+   "pref": "北海道",
+   "title": "北の大地☆子どもの未来づくり北海道計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/kodomomiraikeikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/hinkonkeikaku/": {
+   "id": "579a2e41a1",
+   "pref": "北海道",
+   "title": "北海道子どもの貧困対策推進計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/hinkonkeikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-09-29"
+  },
+  "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/": {
+   "id": "c8cccc0be9",
+   "pref": "北海道",
+   "title": "北海道困難な問題を抱える女性への支援等に関する基本計画",
+   "url": "https://www.pref.hokkaido.lg.jp/hf/kms/14/konnanjoseikeikaku/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.hokkaido.lg.jp/hf/kms/245373.html": {
@@ -2896,7 +2866,7 @@
    "url": "https://www.pref.hokkaido.lg.jp/hf/kms/245373.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.hokkaido.lg.jp/hf/kms/225405.html": {
@@ -2906,7 +2876,7 @@
    "url": "https://www.pref.hokkaido.lg.jp/hf/kms/225405.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.aomori.lg.jp/soshiki/kodomo/kenmin/dai6ji_danjoplan_public_comment_00.html": {
@@ -2970,7 +2940,7 @@
    "url": "https://www.pref.aomori.lg.jp/soshiki/sangyo/innovation/keikaku_12_kekka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.aomori.lg.jp/soshiki/kenko/kkenkofu/2026seihosaisoku-kekka.html": {
@@ -3180,7 +3150,7 @@
    "url": "https://www.pref.iwate.jp/public_comment/1097882/1100508.html",
    "start": "2026-07-23",
    "deadline": "2026-08-22",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.iwate.jp/public_comment/1097882/1100301.html#178ba40af8": {
@@ -3190,7 +3160,7 @@
    "url": "https://www.pref.iwate.jp/public_comment/1097882/1100301.html",
    "start": "2026-07-17",
    "deadline": "2026-08-17",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.iwate.jp/public_comment/1097882/1100274.html#2cbe100fc8": {
@@ -3200,7 +3170,7 @@
    "url": "https://www.pref.iwate.jp/public_comment/1097882/1100274.html",
    "start": "2026-07-15",
    "deadline": "2026-08-16",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.iwate.jp/public_comment/1097882/1100265.html#d7930ae706": {
@@ -3210,7 +3180,7 @@
    "url": "https://www.pref.iwate.jp/public_comment/1097882/1100265.html",
    "start": "2026-07-13",
    "deadline": "2026-08-14",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.iwate.jp/public_comment/1097882/1099979.html#ec214dbb1e": {
@@ -3220,7 +3190,7 @@
    "url": "https://www.pref.iwate.jp/public_comment/1097882/1099979.html",
    "start": "2026-07-02",
    "deadline": "2026-08-03",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.iwate.jp/public_comment/1097882/1100508.html": {
@@ -3330,7 +3300,7 @@
    "url": "https://www.pref.miyagi.jp/site/myu/pc2026.html",
    "start": "2026-09-10",
    "deadline": "2026-10-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.miyagi.jp/site/kengikai/public_comment_20260918.html#5059f9dfb7": {
@@ -3340,7 +3310,7 @@
    "url": "https://www.pref.miyagi.jp/site/kengikai/public_comment_20260918.html",
    "start": "2026-09-18",
    "deadline": "2026-10-16",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06"
   },
   "https://www.pref.miyagi.jp/soshiki/kankyo-s/kihonkeikaku5-public-comment.html#38f720b865": {
@@ -3350,7 +3320,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/kankyo-s/kihonkeikaku5-public-comment.html",
    "start": "2026-10-05",
    "deadline": "2026-11-04",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06"
   },
   "https://www.pref.miyagi.jp/soshiki/sanzin/12syokunou-plan/pabucome.html#97d66fae26": {
@@ -3360,7 +3330,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/sanzin/12syokunou-plan/pabucome.html",
    "start": "2026-10-06",
    "deadline": "2026-11-05",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06"
   },
   "https://www.pref.miyagi.jp/site/kengikai/public_comment_20260629.html#8a2855b902": {
@@ -3370,7 +3340,7 @@
    "url": "https://www.pref.miyagi.jp/site/kengikai/public_comment_20260629.html",
    "start": "2026-06-29",
    "deadline": "2026-07-28",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.miyagi.jp/soshiki/kohou/r8publiccom.html#dc974b09c0": {
@@ -3380,7 +3350,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/kohou/r8publiccom.html",
    "start": "2026-07-14",
    "deadline": "2026-08-14",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.miyagi.jp/soshiki/kasen/sendaiwannenganpabukome.html#c1cf0f6967": {
@@ -3390,7 +3360,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/kasen/sendaiwannenganpabukome.html",
    "start": "2026-08-10",
    "deadline": "2026-09-10",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.miyagi.jp/soshiki/kasen/sanrikuminamienganpabukome.html#37a067ca34": {
@@ -3400,7 +3370,7 @@
    "url": "https://www.pref.miyagi.jp/soshiki/kasen/sanrikuminamienganpabukome.html",
    "start": "2026-08-10",
    "deadline": "2026-09-10",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.miyagi.jp/site/myu/pc2026.html": {
@@ -3574,7 +3544,7 @@
    "url": "https://www.pref.miyagi.jp/site/hyoka/r8sei-ikenboshu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.miyagi.jp/site/hyoka/r8dai-iken.html": {
@@ -3584,7 +3554,7 @@
    "url": "https://www.pref.miyagi.jp/site/hyoka/r8dai-iken.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.miyagi.jp/site/hyoka/r8seika-hyoka.html": {
@@ -3667,56 +3637,6 @@
    "checked": "2026-10-10",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.akita.lg.jp/pages/archive/98619": {
-   "id": "403fb80ad2",
-   "pref": "秋田県",
-   "title": "秋田県港湾脱炭素化推進計画(案)",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/98619",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/94625": {
-   "id": "c1f2bb9f77",
-   "pref": "秋田県",
-   "title": "水源森林地域の保全に関する条例施行規則の一部改正(案)",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/94625",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/95305": {
-   "id": "7a74941136",
-   "pref": "秋田県",
-   "title": "保育所の設備及び運営に関する基準等の改正",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/95305",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/98030": {
-   "id": "84a61811e8",
-   "pref": "秋田県",
-   "title": "秋田県国民保護計画(案)",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/98030",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.akita.lg.jp/pages/archive/99704": {
-   "id": "e7f8a44871",
-   "pref": "秋田県",
-   "title": "「第12次秋田県職業能力開発計画(素案)」",
-   "url": "https://www.pref.akita.lg.jp/pages/archive/99704",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
   "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion.html": {
    "id": "c473182353",
    "pref": "山形県",
@@ -3764,7 +3684,7 @@
    "url": "https://www.pref.yamagata.jp/020060/kensei/keikaku/r9kenseiuneikihontekikangaekata.html",
    "start": "2026-09-16",
    "deadline": "2026-10-02",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.yamagata.jp/020023/kensei/joho/kocho/publiccomment/pcommentlist.html#a7c2133984": {
@@ -3774,7 +3694,7 @@
    "url": "https://www.pref.yamagata.jp/020023/kensei/joho/kocho/publiccomment/pcommentlist.html",
    "start": "2026-07-24",
    "deadline": "2026-08-14",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.yamagata.jp/010002/itijihogoitaku.html": {
@@ -3826,7 +3746,7 @@
    "url": "https://www.pref.fukushima.lg.jp/sec/01010e/koucho-public2026.html",
    "start": "2026-06-19",
    "deadline": "2026-07-21",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.fukushima.lg.jp/sec/01010e/koucho-public2026.html#5a23c08035": {
@@ -3836,7 +3756,7 @@
    "url": "https://www.pref.fukushima.lg.jp/sec/01010e/koucho-public2026.html",
    "start": "2026-06-19",
    "deadline": "2026-07-21",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.fukushima.lg.jp/sec/01010a/kokuminhogokeikaku-public-comment-kekka.html#1db25d2ee3": {
@@ -3846,7 +3766,7 @@
    "url": "https://www.pref.fukushima.lg.jp/sec/01010a/kokuminhogokeikaku-public-comment-kekka.html",
    "start": "2026-06-24",
    "deadline": "2026-07-15",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.fukushima.lg.jp/sec/01010e/koucho-public2026.html#177efb77ac": {
@@ -3856,7 +3776,7 @@
    "url": "https://www.pref.fukushima.lg.jp/sec/01010e/koucho-public2026.html",
    "start": "2026-08-28",
    "deadline": "2026-09-28",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.fukushima.lg.jp/sec/21025a/chiikishienpbcm.html#b7fa44cfe3": {
@@ -3866,7 +3786,7 @@
    "url": "https://www.pref.fukushima.lg.jp/sec/21025a/chiikishienpbcm.html",
    "start": "2026-09-25",
    "deadline": "2026-10-15",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.fukushima.lg.jp/sec/01010a/kokuminhogokeikaku-public-comment-kekka.html": {
@@ -3926,7 +3846,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0508/hokanjigyokeikaku_kenkome.html",
    "start": "2026-09-12",
    "deadline": "2026-10-12",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03"
   },
   "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html#356e0a3037": {
@@ -3936,7 +3856,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03"
   },
   "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html#140c38c1f9": {
@@ -3946,7 +3866,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03"
   },
   "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html#97927fe3e1": {
@@ -3956,7 +3876,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03"
   },
   "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html#1b4f032fea": {
@@ -3966,7 +3886,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03"
   },
   "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html#451a959366": {
@@ -3976,7 +3896,7 @@
    "url": "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-03"
   },
   "https://www.pref.saitama.lg.jp/a0301/kenminc/index.html": {
@@ -4321,6 +4241,34 @@
     "contact": "所属課室:教育振興部保健体育課学校体育班\n電話番号:0120-23-1008\nファックス番号:043-225-8419\n2:ふつう"
    }
   },
+  "https://www.pref.chiba.lg.jp/juutaku/iken/2026/iken.html": {
+   "id": "d5f98ea98a",
+   "pref": "千葉県",
+   "title": "千葉県県営住宅設置管理条例の一部を改正する条例(案)の概要に関する意見募集について",
+   "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/iken.html",
+   "start": null,
+   "deadline": "2026-09-30",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28",
+   "detail": {
+    "files": [
+     {
+      "name": "千葉県県営住宅設置管理条例の一部を改正する条例（案）の概要",
+      "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/documents/gaiyou-re.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：21.6KB）",
+      "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/documents/iken-youshiki-re.docx"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/documents/iken-youshiki-re.pdf"
+     }
+    ],
+    "howto": "別紙の意見提出様式に御記入の上、千葉県県土整備部都市整備局住宅課県営住宅企画班まで、原則、下記のいずれかの方法により提出してください。\n意見提出様式(ワード:21.6KB)\n意見提出様式(PDF:94KB)\n提出意見は、日本語を使用してください。\n下記方法による意見提出が困難な場合は、ホームページ下部のお問い合わせ先まで、個別にお問い合わせください。\n(1)電子メールを使用する場合\n御意見はメール本文ではなく、意見提出様式にご記入の上、メールに添付してください。\n電子メールアドレス:juutak23(アットマーク)mz.pref.chiba.lg.jp 千葉県県土整備部都市整備局住宅課県営住宅企画班宛て\n※(アットマーク)を@に変更して送信してください。\n※特定電子メールの送信適正化等に関する法律に基づき、上記の電子メールアドレスへの広告宣伝メールの送信を拒否いたします。\n件名は「千葉県県営住宅設置管理条例の一部を改正する条例(案)の概要に関する意見」としてください。",
+    "contact": "所属課室:県土整備部住宅課県営住宅企画班\n電話番号:043-223-3228\nファックス番号:043-225-1850\n2:ふつう"
+   }
+  },
   "https://www.pref.chiba.lg.jp/suiho/iken/r8/ninteiyoukou2026.html": {
    "id": "ebb17ce855",
    "pref": "千葉県",
@@ -4351,34 +4299,6 @@
     ],
     "howto": "",
     "contact": "所属課室:環境生活部水質保全課浄化槽班\n電話番号:043-223-3813\nファックス番号:043-222-5991\n2:ふつう"
-   }
-  },
-  "https://www.pref.chiba.lg.jp/juutaku/iken/2026/iken.html": {
-   "id": "d5f98ea98a",
-   "pref": "千葉県",
-   "title": "千葉県県営住宅設置管理条例の一部を改正する条例(案)の概要に関する意見募集について",
-   "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/iken.html",
-   "start": null,
-   "deadline": "2026-09-30",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28",
-   "detail": {
-    "files": [
-     {
-      "name": "千葉県県営住宅設置管理条例の一部を改正する条例（案）の概要",
-      "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/documents/gaiyou-re.pdf"
-     },
-     {
-      "name": "意見提出様式（ワード：21.6KB）",
-      "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/documents/iken-youshiki-re.docx"
-     },
-     {
-      "name": "意見提出様式",
-      "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/documents/iken-youshiki-re.pdf"
-     }
-    ],
-    "howto": "別紙の意見提出様式に御記入の上、千葉県県土整備部都市整備局住宅課県営住宅企画班まで、原則、下記のいずれかの方法により提出してください。\n意見提出様式(ワード:21.6KB)\n意見提出様式(PDF:94KB)\n提出意見は、日本語を使用してください。\n下記方法による意見提出が困難な場合は、ホームページ下部のお問い合わせ先まで、個別にお問い合わせください。\n(1)電子メールを使用する場合\n御意見はメール本文ではなく、意見提出様式にご記入の上、メールに添付してください。\n電子メールアドレス:juutak23(アットマーク)mz.pref.chiba.lg.jp 千葉県県土整備部都市整備局住宅課県営住宅企画班宛て\n※(アットマーク)を@に変更して送信してください。\n※特定電子メールの送信適正化等に関する法律に基づき、上記の電子メールアドレスへの広告宣伝メールの送信を拒否いたします。\n件名は「千葉県県営住宅設置管理条例の一部を改正する条例(案)の概要に関する意見」としてください。",
-    "contact": "所属課室:県土整備部住宅課県営住宅企画班\n電話番号:043-223-3228\nファックス番号:043-225-1850\n2:ふつう"
    }
   },
   "https://www.pref.chiba.lg.jp/seihou/iken/r8/koubunshokanri.html": {
@@ -4506,7 +4426,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r8/baikago.html",
    "start": "2026-10-02",
    "deadline": "2026-11-02",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/juutaku/iken/2026/iken.html#2a104bc57c": {
@@ -4516,7 +4436,7 @@
    "url": "https://www.pref.chiba.lg.jp/juutaku/iken/2026/iken.html",
    "start": "2026-09-01",
    "deadline": "2026-09-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/suiho/iken/r8/shidouyoukouiken2026.html#ff4f3f5880": {
@@ -4526,7 +4446,7 @@
    "url": "https://www.pref.chiba.lg.jp/suiho/iken/r8/shidouyoukouiken2026.html",
    "start": "2026-09-01",
    "deadline": "2026-09-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/seihou/iken/r8/koubunshokanri.html#f6ad60ae6a": {
@@ -4536,7 +4456,7 @@
    "url": "https://www.pref.chiba.lg.jp/seihou/iken/r8/koubunshokanri.html",
    "start": "2026-08-24",
    "deadline": "2026-09-24",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/ontai/iken/2026/jorei.html#f6f6cd4be2": {
@@ -4546,7 +4466,7 @@
    "url": "https://www.pref.chiba.lg.jp/ontai/iken/2026/jorei.html",
    "start": "2026-08-24",
    "deadline": "2026-09-24",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/suisan/iken/r8/kajiki.html#27e589b598": {
@@ -4556,7 +4476,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r8/kajiki.html",
    "start": "2026-08-14",
    "deadline": "2026-09-14",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/kouen/iken/2026/kinshi.html#b9b77d5609": {
@@ -4566,7 +4486,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouen/iken/2026/kinshi.html",
    "start": "2026-07-15",
    "deadline": "2026-08-13",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2026/r8iken.html#d166ee7624": {
@@ -4576,7 +4496,7 @@
    "url": "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2026/r8iken.html",
    "start": "2026-07-10",
    "deadline": "2026-08-12",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/kouen/iken/2026/kisokukaisei.html#2e78a4fbdc": {
@@ -4586,7 +4506,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouen/iken/2026/kisokukaisei.html",
    "start": "2026-07-07",
    "deadline": "2026-08-06",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.chiba.lg.jp/kankou/iken/2026/shukuhakuzeiseido.html#9bf0c83c6e": {
@@ -4596,7 +4516,7 @@
    "url": "https://www.pref.chiba.lg.jp/kankou/iken/2026/shukuhakuzeiseido.html",
    "start": "2026-06-26",
    "deadline": "2026-10-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/gakuji/iken/2026/ikennkoubo2026.html#5ffc2cfb9a": {
@@ -4606,7 +4526,7 @@
    "url": "https://www.pref.chiba.lg.jp/gakuji/iken/2026/ikennkoubo2026.html",
    "start": "2026-07-27",
    "deadline": "2026-10-01",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/suisan/iken/r8/kaikugyojyoukeikaku.html#2c259014f0": {
@@ -4616,7 +4536,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r8/kaikugyojyoukeikaku.html",
    "start": "2026-07-21",
    "deadline": "2026-09-18",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/gyoshigen/iken/2026/r8-unagi.html#77a06d4ece": {
@@ -4626,7 +4546,7 @@
    "url": "https://www.pref.chiba.lg.jp/gyoshigen/iken/2026/r8-unagi.html",
    "start": "2026-07-15",
    "deadline": "2026-09-11",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/suisan/iken/r8/itabiki.html#adaa2748e8": {
@@ -4636,7 +4556,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r8/itabiki.html",
    "start": "2026-05-25",
    "deadline": "2026-09-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/seisaku/iken/2026/sangyouseityouplan.html#4799dd0a98": {
@@ -4646,7 +4566,7 @@
    "url": "https://www.pref.chiba.lg.jp/seisaku/iken/2026/sangyouseityouplan.html",
    "start": "2026-06-11",
    "deadline": "2026-09-04",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/suiho/iken/r8/ruikeisitei01.html#2781aa052c": {
@@ -4656,7 +4576,7 @@
    "url": "https://www.pref.chiba.lg.jp/suiho/iken/r8/ruikeisitei01.html",
    "start": "2026-05-29",
    "deadline": "2026-07-15",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2026/r8iken.html": {
@@ -5376,7 +5296,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r7/azisababoukeami.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/suisan/iken/r7/kakouriyousaba.html": {
@@ -5386,7 +5306,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r7/kakouriyousaba.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2024/kanrikisoku2.html": {
@@ -5396,7 +5316,7 @@
    "url": "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2024/kanrikisoku2.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/senkan/iken/2025/senkankaisei.html": {
@@ -5406,7 +5326,7 @@
    "url": "https://www.pref.chiba.lg.jp/senkan/iken/2025/senkankaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/shigen/iken/2025/kaigan-keikaku.html": {
@@ -5416,7 +5336,7 @@
    "url": "https://www.pref.chiba.lg.jp/shigen/iken/2025/kaigan-keikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/gyoshigen/iken/2025/r7-unagi.html": {
@@ -5426,7 +5346,7 @@
    "url": "https://www.pref.chiba.lg.jp/gyoshigen/iken/2025/r7-unagi.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/eishi/iken/2025/r7iken-seikatsu1.html": {
@@ -5436,7 +5356,7 @@
    "url": "https://www.pref.chiba.lg.jp/eishi/iken/2025/r7iken-seikatsu1.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/gakuji/iken/2024/saisoku.html": {
@@ -5446,7 +5366,7 @@
    "url": "https://www.pref.chiba.lg.jp/gakuji/iken/2024/saisoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/taiki/iken/2025/s-kokujikaisei.html": {
@@ -5456,7 +5376,7 @@
    "url": "https://www.pref.chiba.lg.jp/taiki/iken/2025/s-kokujikaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/seisaku/iken/2025/sougoukeikaku.html": {
@@ -5466,7 +5386,7 @@
    "url": "https://www.pref.chiba.lg.jp/seisaku/iken/2025/sougoukeikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/suisan/iken/r6/teguri3-boshuu.html": {
@@ -5476,7 +5396,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r6/teguri3-boshuu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/teikihoukoku.html": {
@@ -5486,7 +5406,7 @@
    "url": "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/teikihoukoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/youchi/iken/2025/r7-pubcom.html": {
@@ -5496,7 +5416,7 @@
    "url": "https://www.pref.chiba.lg.jp/youchi/iken/2025/r7-pubcom.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kaiku/iken/r6/kaikuiken.html": {
@@ -5506,7 +5426,7 @@
    "url": "https://www.pref.chiba.lg.jp/kaiku/iken/r6/kaikuiken.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/jyoureikaisetsu2025.html": {
@@ -5516,7 +5436,7 @@
    "url": "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/jyoureikaisetsu2025.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kouhou/iken/r7/tyuusya-kyoka.html": {
@@ -5526,7 +5446,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r7/tyuusya-kyoka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kouhou/iken/r7/koutu-saisoku.html": {
@@ -5536,7 +5456,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r7/koutu-saisoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/jinji/ninyou/iken/2025/digital-kaisei.html": {
@@ -5546,7 +5466,7 @@
    "url": "https://www.pref.chiba.lg.jp/jinji/ninyou/iken/2025/digital-kaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/jika/iken/2025/kihonkeikakuminaoshi.html": {
@@ -5556,7 +5476,7 @@
    "url": "https://www.pref.chiba.lg.jp/jika/iken/2025/kihonkeikakuminaoshi.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/chiroui/iken/2025/roui-jyouhou-kisoku.html": {
@@ -5566,7 +5486,7 @@
    "url": "https://www.pref.chiba.lg.jp/chiroui/iken/2025/roui-jyouhou-kisoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kaiku/iken/r7/kaikukaisei.html": {
@@ -5576,7 +5496,7 @@
    "url": "https://www.pref.chiba.lg.jp/kaiku/iken/r7/kaikukaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kaiku/iken/r7/naisuikaisei.html": {
@@ -5586,7 +5506,7 @@
    "url": "https://www.pref.chiba.lg.jp/kaiku/iken/r7/naisuikaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/bunshin/iken/2025/r7kaikankisokukaisei.html": {
@@ -5596,7 +5516,7 @@
    "url": "https://www.pref.chiba.lg.jp/bunshin/iken/2025/r7kaikankisokukaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/suisan/umigyo-kihonkousou/umigyoukihonkousou-boshuu.html": {
@@ -5606,7 +5526,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/umigyo-kihonkousou/umigyoukihonkousou-boshuu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kenshidou/iken/2024/fukushihoushinan.html": {
@@ -5616,7 +5536,7 @@
    "url": "https://www.pref.chiba.lg.jp/kenshidou/iken/2024/fukushihoushinan.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/yard/iken/2024/zandosinsakizyun.html": {
@@ -5626,7 +5546,7 @@
    "url": "https://www.pref.chiba.lg.jp/yard/iken/2024/zandosinsakizyun.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/dantai/iken/2022/engankaizenshikin2022.html": {
@@ -5636,7 +5556,7 @@
    "url": "https://www.pref.chiba.lg.jp/dantai/iken/2022/engankaizenshikin2022.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/shinrin/iken/r6/kizyun-sisinkaisei.html": {
@@ -5646,7 +5566,7 @@
    "url": "https://www.pref.chiba.lg.jp/shinrin/iken/r6/kizyun-sisinkaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kkbunka/iken/2024/iken2024.html": {
@@ -5656,7 +5576,7 @@
    "url": "https://www.pref.chiba.lg.jp/kkbunka/iken/2024/iken2024.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/taiki/iken/2024/voc-iken-boshu.html": {
@@ -5666,7 +5586,7 @@
    "url": "https://www.pref.chiba.lg.jp/taiki/iken/2024/voc-iken-boshu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/shoufuku/iken/2024/gambleplaniken.html": {
@@ -5676,7 +5596,7 @@
    "url": "https://www.pref.chiba.lg.jp/shoufuku/iken/2024/gambleplaniken.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/zeimu/iken/2024/202502/202502.html": {
@@ -5686,7 +5606,7 @@
    "url": "https://www.pref.chiba.lg.jp/zeimu/iken/2024/202502/202502.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kosodate/iken/2024/kodomokeikaku.html": {
@@ -5696,7 +5616,7 @@
    "url": "https://www.pref.chiba.lg.jp/kosodate/iken/2024/kodomokeikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/dejisui/iken/2024/digital-kikai.html": {
@@ -5706,7 +5626,7 @@
    "url": "https://www.pref.chiba.lg.jp/dejisui/iken/2024/digital-kikai.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/shoubou/iken/2024/kouikika.html": {
@@ -5716,7 +5636,7 @@
    "url": "https://www.pref.chiba.lg.jp/shoubou/iken/2024/kouikika.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kouhou/iken/r6/juhotouken-syobun.html": {
@@ -5726,7 +5646,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r6/juhotouken-syobun.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kouen/iken/2024/kisokukaisei.html": {
@@ -5736,7 +5656,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouen/iken/2024/kisokukaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/seihou/iken/r6/bunshokan-ikenboshuu.html": {
@@ -5746,7 +5666,7 @@
    "url": "https://www.pref.chiba.lg.jp/seihou/iken/r6/bunshokan-ikenboshuu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/sanjin/iken/2024/syougai-kisokukaisei.html": {
@@ -5756,7 +5676,7 @@
    "url": "https://www.pref.chiba.lg.jp/sanjin/iken/2024/syougai-kisokukaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kouhou/iken/r6/fuzoku-kisoku.html": {
@@ -5766,7 +5686,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r6/fuzoku-kisoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kouhou/iken/r6/kouan-kisoku.html": {
@@ -5776,7 +5696,7 @@
    "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r6/kouan-kisoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/seihou/iken/r6/koueki-ikenboshuu.html": {
@@ -5786,7 +5706,7 @@
    "url": "https://www.pref.chiba.lg.jp/seihou/iken/r6/koueki-ikenboshuu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridosekousaisoku.html": {
@@ -5796,7 +5716,7 @@
    "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridosekousaisoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridokyokashinsakijunn.html": {
@@ -5806,7 +5726,7 @@
    "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridokyokashinsakijunn.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridogyouseishidoushishinn.html": {
@@ -5816,7 +5736,7 @@
    "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridogyouseishidoushishinn.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatusaisokukaisei2024.html": {
@@ -5826,7 +5746,7 @@
    "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatusaisokukaisei2024.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatukaisetukaisei2024.html": {
@@ -5836,28 +5756,8 @@
    "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatukaisetukaisei2024.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
-  },
-  "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/index.html": {
-   "id": "eb8f893a93",
-   "pref": "千葉県",
-   "title": "建築基準法関係",
-   "url": "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/iken-index.html": {
-   "id": "98b13807e9",
-   "pref": "千葉県",
-   "title": "建築基準法関連規程に関する意見募集",
-   "url": "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/iken-index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
   },
   "https://www.pref.chiba.lg.jp/suisan/iken/r8/baikago.html#07c597b641": {
    "id": "2533579187",
@@ -5866,7 +5766,7 @@
    "url": "https://www.pref.chiba.lg.jp/suisan/iken/r8/baikago.html",
    "start": "2026-10-02",
    "deadline": "2026-11-02",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.chiba.lg.jp/kyouiku/taiiku/iken/2026/bukatudoutiikitennkai.html#a8e5d0a70b": {
@@ -5876,7 +5776,7 @@
    "url": "https://www.pref.chiba.lg.jp/kyouiku/taiiku/iken/2026/bukatudoutiikitennkai.html",
    "start": "2026-09-18",
    "deadline": "2026-10-19",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.my.metro.tokyo.lg.jp/w/039-20261005-269776804": {
@@ -5999,314 +5899,6 @@
    "checked": "2026-10-10",
    "first_seen": "2026-10-07"
   },
-  "https://www.metro.tokyo.lg.jp/purpose/opencall?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "b493211f90",
-   "pref": "東京都",
-   "title": "公募・募集",
-   "url": "https://www.metro.tokyo.lg.jp/purpose/opencall?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.metro.tokyo.lg.jp/purpose/plan?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "016e9ee065",
-   "pref": "東京都",
-   "title": "計画・財政・予算",
-   "url": "https://www.metro.tokyo.lg.jp/purpose/plan?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.metro.tokyo.lg.jp/purpose/regulation?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "c8e2a2dc75",
-   "pref": "東京都",
-   "title": "条例・規則・制度",
-   "url": "https://www.metro.tokyo.lg.jp/purpose/regulation?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.startupandglobalfinancialcity.metro.tokyo.lg.jp/?utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "72bb9b27c5",
-   "pref": "東京都",
-   "title": "スタートアップ戦略推進本部",
-   "url": "https://www.startupandglobalfinancialcity.metro.tokyo.lg.jp/?utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.metro.tokyo.lg.jp/search?keyword=&category=163911": {
-   "id": "6da303876c",
-   "pref": "東京都",
-   "title": "条例・統計・計画・審議会",
-   "url": "https://www.metro.tokyo.lg.jp/search?keyword=&category=163911",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/business/search/?category=188532&utm_source=search&utm_medium=internal&utm_id=sidebar": {
-   "id": "ae8a54304f",
-   "pref": "東京都",
-   "title": "条例・統計・計画・審議会",
-   "url": "https://www.my.metro.tokyo.lg.jp/business/search/?category=188532&utm_source=search&utm_medium=internal&utm_id=sidebar",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/about/soshiki": {
-   "id": "2ce7ba63f6",
-   "pref": "東京都",
-   "title": "組織・業務案内",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/about/soshiki",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/basic": {
-   "id": "77d58dd78f",
-   "pref": "東京都",
-   "title": "条例・計画・審議会",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/kodomo/satooya": {
-   "id": "9525044335",
-   "pref": "東京都",
-   "title": "東京都の里親制度について",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/kodomo/satooya",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatsu_kyoju_shuro": {
-   "id": "19fea294a3",
-   "pref": "東京都",
-   "title": "生活・居住・就労支援の総合案内",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatsu_kyoju_shuro",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatusikinn_fukushi": {
-   "id": "3e6ea678f1",
-   "pref": "東京都",
-   "title": "生活福祉資金貸付制度について",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/seikatusikinn_fukushi",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/tiikiseikatsuteityaku": {
-   "id": "1986c195fa",
-   "pref": "東京都",
-   "title": "東京都地域生活定着支援センターについて",
-   "url": "https://www.fukushi.metro.tokyo.lg.jp/seikatsu/tiikiseikatsuteityaku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090701": {
-   "id": "918d8a5ba9",
-   "pref": "東京都",
-   "title": "9月7日 「身体障害者手帳の交付に関する事務に係る特定個人情報保護評価書(案)」意見募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090701",
-   "start": null,
-   "deadline": "2026-09-07",
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10",
-   "detail": {
-    "files": [
-     {
-      "name": "特定個人情報保護評価に関する規則（個人情報保護委員会ホームページ）（PDF：118KB）（外部サイトへリンク）",
-      "url": "https://www.ppc.go.jp/files/pdf/PIA_kisoku.pdf"
-     },
-     {
-      "name": "特定個人情報保護評価指針（個人情報保護委員会ホームページ）（PDF：703KB）（外部サイトへリンク）",
-      "url": "https://www.ppc.go.jp/files/pdf/PIA_shishin.pdf"
-     },
-     {
-      "name": "特定個人情報保護評価について（概要版）（個人情報保護委員会ホームページ）（PDF：268KB）（外部サイトへリンク）",
-      "url": "https://www.ppc.go.jp/files/pdf/hogohyouka_gaiyou.pdf"
-     }
-    ],
-    "howto": "",
-    "contact": ""
-   }
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/basic": {
-   "id": "7105da006b",
-   "pref": "東京都",
-   "title": "計画・審議会",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info": {
-   "id": "c19b155e58",
-   "pref": "東京都",
-   "title": "感染症情報案内",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/taisaku": {
-   "id": "ba2bc4b72a",
-   "pref": "東京都",
-   "title": "東京都の対策・計画等",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/taisaku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kankyo-eisei": {
-   "id": "196c1e1b8a",
-   "pref": "東京都",
-   "title": "大気汚染医療費助成制度のご案内",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kankyo-eisei",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kaso": {
-   "id": "4072be0f97",
-   "pref": "東京都",
-   "title": "火葬場に係る検討について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kaso",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090707": {
-   "id": "d9730c384c",
-   "pref": "東京都",
-   "title": "東京都国民健康保険運営方針中間見直し案について御意見を募集します",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090707",
-   "start": null,
-   "deadline": "2026-09-07",
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10",
-   "detail": {
-    "files": [],
-    "howto": "インターネット(専用フォーム)又は意見提出用紙にて郵送(当日消印有効)で御提出ください。\n(1)宛先\nア インターネット\n専用フォーム(外部サイトへリンク)を御利用ください。\nイ 郵送の場合\n〒163-8001\n東京都新宿区西新宿二丁目8番1号\n東京都庁第一本庁舎29階中央\n保健医療局保健政策部国民健康保険課調整担当宛\n※別紙 意見提出用紙(PDF:166KB/WORD:17KB)\n(2)記載事項\n以下の事項を記載してください。",
-    "contact": ""
-   }
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/policy/kojin_hogo": {
-   "id": "229bc3dacd",
-   "pref": "東京都",
-   "title": "個人情報の保護について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/policy/kojin_hogo",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/basic": {
-   "id": "a842692404",
-   "pref": "東京都",
-   "title": "条例・計画・審議会",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/river/seibi": {
-   "id": "18e19e46fe",
-   "pref": "東京都",
-   "title": "各河川の整備について",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/river/seibi",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_01": {
-   "id": "5533bb7e27",
-   "pref": "東京都",
-   "title": "エリアマップ案内(東京都23区・島しょ・その他)",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_01",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_02": {
-   "id": "d0961c57cd",
-   "pref": "東京都",
-   "title": "エリアマップ案内(多摩部)",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/map_02",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/park/sports": {
-   "id": "3fc90c40fa",
-   "pref": "東京都",
-   "title": "都立公園のスポーツ施設利用について",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/sports",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/land/shinchoku": {
-   "id": "7a5cee26cd",
-   "pref": "東京都",
-   "title": "主要事業の用地取得進捗状況等について",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/land/shinchoku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/tech/04-kijyun": {
-   "id": "b43d1b879b",
-   "pref": "東京都",
-   "title": "東京都公共基準点・水準基標 使用承認申請",
-   "url": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/tech/04-kijyun",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062614": {
-   "id": "273e74230f",
-   "pref": "東京都",
-   "title": "河川整備計画(変更原案)についてご意見を募集します",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062614",
-   "start": "2026-07-01",
-   "deadline": "2026-07-31",
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10",
-   "detail": {
-    "files": [],
-    "howto": "〒163-8001 東京都新宿区西新宿2-8-1 東京都建設局河川部計画課あて\nEメール S0000384(at)section.metro.tokyo.jp\n※いずれも自由様式。個人情報の記載はお控えください。\n※迷惑メール対策のため、メールアドレスの表記を変更しております。\nお手数ですが、(at)を@に置き換えてご利用ください。\n(3)建設局河川部、関係区・市役所及び関係建設事務所に設置した意見箱へ直接投函",
-    "contact": ""
-   }
-  },
   "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026100218": {
    "id": "22acf4b7a0",
    "pref": "東京都",
@@ -6351,181 +5943,6 @@
     "howto": "Webフォーム又は郵送のいずれかの方法で御意見をお寄せください。\n(1)Webフォーム\nWebフォーム(外部サイトへリンク)からご提出ください。\n(2)郵送\n「意見提出シート」により、以下の提出先まで御郵送ください。(当日消印有効)",
     "contact": ""
    }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090802": {
-   "id": "5010860de5",
-   "pref": "東京都",
-   "title": "「建築物環境計画書制度の改正(案)」についてのご意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026090802",
-   "start": "2026-09-09",
-   "deadline": "2026-10-09",
-   "checked": "2026-10-01",
-   "first_seen": "2026-10-01",
-   "detail": {
-    "files": [],
-    "howto": "〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都環境局 気候変動対策部 環境都市づくり課 環境建築物担当 宛\n共通事項\nご意見の提出に当たっては、下記事項を記載してください。\n個人の方 氏名、お住まいの地域(区市町村名まで)\n法人の方 法人名、所在地(区市町村名まで)",
-    "contact": ""
-   }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026070704": {
-   "id": "f32dfdcb03",
-   "pref": "東京都",
-   "title": "「『緑の広域計画(仮称)』策定に向けた中間のまとめ」についての御意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026070704",
-   "start": "2026-07-07",
-   "deadline": "2026-08-05",
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10",
-   "detail": {
-    "files": [],
-    "howto": "郵送:〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都都市整備局都市づくり政策部緑地景観課公園緑地担当\n※提出に当たっては、1)住所(区市町村名まで御記入ください)、2)年齢、3)御意見を記載してください。\n※1)2)につきましては、御記入いただける範囲でお願いいたします。\nWeb入力フォーム(外部サイトへリンク)",
-    "contact": ""
-   }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062536": {
-   "id": "a91fcb7e68",
-   "pref": "東京都",
-   "title": "「低公害・低燃費車の導入義務制度の改正」についての御意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026062536",
-   "start": "2026-06-25",
-   "deadline": "2026-07-24",
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10",
-   "detail": {
-    "files": [],
-    "howto": "〒163-8001 東京都新宿区西新宿二丁目8番1号\n東京都環境局環境改善部自動車環境課 宛",
-    "contact": ""
-   }
-  },
-  "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021212": {
-   "id": "8b1970ddaf",
-   "pref": "東京都",
-   "title": "「東京港カーボンニュートラルポート(CNP)形成計画2.0(案)」についての御意見を募集",
-   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021212",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/111-20260327-249544437": {
-   "id": "fd9c6c3e78",
-   "pref": "東京都",
-   "title": "「こども都庁モニター」を募集 子供の意見を踏まえて政策をバージョンアップ 2026年03月27日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/111-20260327-249544437",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/017-20260326-249319100": {
-   "id": "f019e9f998",
-   "pref": "東京都",
-   "title": "「公園別マネジメントプラン」の改定について 2026年03月26日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/017-20260326-249319100",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20240829-54095684": {
-   "id": "cc9889eabc",
-   "pref": "東京都",
-   "title": "小笠原諸島振興開発計画を策定 2024年08月29日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20240829-54095684",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20240405-30911702": {
-   "id": "f9b8bfd00b",
-   "pref": "東京都",
-   "title": "都民による事業提案制度 募集案内 2024年04月05日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20240405-30911702",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20240329-29685522": {
-   "id": "0737512cd2",
-   "pref": "東京都",
-   "title": "子供の意見聴取実践事例集を作成 2024年03月29日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20240329-29685522",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20260730-263251261": {
-   "id": "c7cc255412",
-   "pref": "東京都",
-   "title": "特定緊急輸送道路沿道建築物の耐震化の状況について 2026年07月31日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20260730-263251261",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20260722-262421500": {
-   "id": "a4cc7e9068",
-   "pref": "東京都",
-   "title": "都市高速鉄道東急電鉄東急多摩川線地下化事業及び都市高速鉄道新空港線建設事業の環境影響評価調査計画書を提出しました 2026年07月23日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20260722-262421500",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/000-20260710-261414905": {
-   "id": "923f97f799",
-   "pref": "東京都",
-   "title": "太陽光発電の普及拡大に関する4者連携協定の締結について 2026年07月13日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/000-20260710-261414905",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/039-20260701-260575265": {
-   "id": "0b7766716d",
-   "pref": "東京都",
-   "title": "新しい都市づくりのための都市開発諸制度活用方針等を改定しました! 2026年07月02日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/039-20260701-260575265",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.my.metro.tokyo.lg.jp/w/039-20260508-254932937": {
-   "id": "0054873bd6",
-   "pref": "東京都",
-   "title": "第253回東京都都市計画審議会を開催します 2026年05月12日",
-   "url": "https://www.my.metro.tokyo.lg.jp/w/039-20260508-254932937",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100501": {
-   "id": "2b22a0e221",
-   "pref": "東京都",
-   "title": "火葬場に係る検討会(第2回)の開催について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100501",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100202": {
-   "id": "b7cafe70b6",
-   "pref": "東京都",
-   "title": "医薬品成分を含有する製品の発見について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/10/2026100202",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
   },
   "https://www.pref.kanagawa.jp/docs/w8d/pub/c9384162.html": {
    "id": "9e23076946",
@@ -6836,7 +6253,7 @@
    "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/20261013.html",
    "start": "2026-10-09",
    "deadline": "2026-11-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-10"
   },
   "https://www.pref.ishikawa.lg.jp/johosei/digital/vision_pubkomments.html#477a8d4a81": {
@@ -6846,7 +6263,7 @@
    "url": "https://www.pref.ishikawa.lg.jp/johosei/digital/vision_pubkomments.html",
    "start": "2026-09-07",
    "deadline": "2026-10-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.ishikawa.lg.jp/syoko/syokubunka/publiccomment2026.html#682bfe54b0": {
@@ -6856,7 +6273,7 @@
    "url": "https://www.pref.ishikawa.lg.jp/syoko/syokubunka/publiccomment2026.html",
    "start": "2026-09-04",
    "deadline": "2026-09-18",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.ishikawa.lg.jp/johosei/digital/vision_pubkomments.html": {
@@ -6931,456 +6348,6 @@
    "checked": "2026-10-10",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.ishikawa.lg.jp/syoko/minato/puropo2.html": {
-   "id": "2b376d8ac1",
-   "pref": "石川県",
-   "title": "金沢港周辺(金石・大野地区)の未利用観光資源活用可能性調査業務委託に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/minato/puropo2.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kakuben/kakuben.html": {
-   "id": "8f5dae59f2",
-   "pref": "石川県",
-   "title": "「スタートアップビジネスプランコンテストいしかわ」について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kakuben/kakuben.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_syoukibo_r8_proposal.html": {
-   "id": "1baed9ae2c",
-   "pref": "石川県",
-   "title": "石川県小規模事業者AI活用実践研修事業委託業者選定に係るプロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_syoukibo_r8_proposal.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/innovation/innovation_seminar.html": {
-   "id": "2ad645aace",
-   "pref": "石川県",
-   "title": "いしかわイノベーション創造ネットワーク事業「先進事例セミナー×交流会」及び「伴走支援型ワークショップ」の参加者募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/innovation/innovation_seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/koukyoutyoutatu-sekkei.html": {
-   "id": "fa3188f172",
-   "pref": "石川県",
-   "title": "スタートアップ連携による地域課題解決可能性調査事業に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/koukyoutyoutatu-sekkei.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/minato/puropo.html": {
-   "id": "a5406b3d9e",
-   "pref": "石川県",
-   "title": "金沢港 大野緑地の利活用検討支援業務委託に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/minato/puropo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kagaryori_forum.html": {
-   "id": "e2cec1cc5f",
-   "pref": "石川県",
-   "title": "石川県・京都府連携事業 登録無形文化財フォーラム「加賀料理×京料理 伝統を未来へ」の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kagaryori_forum.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/noto-su-koubo.html": {
-   "id": "639460bf38",
-   "pref": "石川県",
-   "title": "能登へのスタートアップ誘致調査事業における支援対象企業の募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/noto-su-koubo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kurasuta/cluster_propo.html": {
-   "id": "cb222f3383",
-   "pref": "石川県",
-   "title": "石川県地域産業クラスター計画策定支援業務委託のプロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kurasuta/cluster_propo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangakurenkei/20190510.html": {
-   "id": "167ff859c9",
-   "pref": "石川県",
-   "title": "東大先端研ラボツアーの参加者募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangakurenkei/20190510.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangyo-kakushin-seminar.html": {
-   "id": "0b83445a3a",
-   "pref": "石川県",
-   "title": "石川県産業DX推進セミナーについて",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangyo-kakushin-seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/fund/seichoufund.html": {
-   "id": "e32e82e473",
-   "pref": "石川県",
-   "title": "成長戦略ファンドについて",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/fund/seichoufund.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/notokyoryokutai-recruit.html": {
-   "id": "5ed0302123",
-   "pref": "石川県",
-   "title": "地域おこし協力隊(起業伴走支援)の募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/notokyoryokutai-recruit.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/chizai/seminar2025_1.html": {
-   "id": "420fc703ba",
-   "pref": "石川県",
-   "title": "石川県知的財産活用セミナー(令和8年2月2日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/chizai/seminar2025_1.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/syoene/syoene_puropo.html": {
-   "id": "c891390616",
-   "pref": "石川県",
-   "title": "石川県省エネ設備等導入支援事業管理運営業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/syoene/syoene_puropo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/notokigyo-kyoryokutaiprp.html": {
-   "id": "b5377442af",
-   "pref": "石川県",
-   "title": "地域おこし協力隊による能登での起業支援事業業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/notokigyo-kyoryokutaiprp.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_seminar.html": {
-   "id": "66f4d41713",
-   "pref": "石川県",
-   "title": "「ブランドデザインキャンプ2025」導入セミナーの開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_program.html": {
-   "id": "0a0993e43c",
-   "pref": "石川県",
-   "title": "「ブランドデザインキャンプ2025」プログラムの参加企業募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/brand_design_camp2025_program.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/chizai/benrishikai.html": {
-   "id": "974986ed54",
-   "pref": "石川県",
-   "title": "日本弁理士会主催 中小企業等向け支援事業について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/chizai/benrishikai.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/kagaryori.html": {
-   "id": "d55395b9ce",
-   "pref": "石川県",
-   "title": "加賀料理技術保存会事務局運営等支援業務委託に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/kagaryori.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/chizai/model_event_250625.html": {
-   "id": "d7b49d07e3",
-   "pref": "石川県",
-   "title": "知的財産活用セミナー(6月25日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/chizai/model_event_250625.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_ci.html": {
-   "id": "360e1fefbd",
-   "pref": "石川県",
-   "title": "「デジタルデザインキャンプ2024」CIプログラムの募集開始について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_ci.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_dd.html": {
-   "id": "cd7e527141",
-   "pref": "石川県",
-   "title": "「デジタルデザインキャンプ2024」DDプログラムの募集開始について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_design_camp2024_dd.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/startup/kyoten.html": {
-   "id": "32d586d996",
-   "pref": "石川県",
-   "title": "石川県スタートアップ創出・交流拠点設置・運営等業務委託業者選定に係る公募型プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/startup/kyoten.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/aeon/ishikawafair.html": {
-   "id": "9c8905092c",
-   "pref": "石川県",
-   "title": "イオンモール白山「石川うまいもんフェア」参加企業の募集について(締切:R6.7.19)",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/aeon/ishikawafair.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_gaikan_torikumi.html": {
-   "id": "d1e9ccc86a",
-   "pref": "石川県",
-   "title": "【開催中止】「デジタル化実践道場開講事業(生産計画最適化・外観検査)」取組報告会について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_gaikan_torikumi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20231201.html": {
-   "id": "f81e72b5d7",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(12月1日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20231201.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangyoshinkoshishinpubcome.html": {
-   "id": "ea829b2aef",
-   "pref": "石川県",
-   "title": "「石川県産業振興指針素案」に対する意見募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangyoshinkoshishinpubcome.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/zero/documents/syunnran.html": {
-   "id": "5459a35d92",
-   "pref": "石川県",
-   "title": "ゼロカーボンビレッジ実証業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/zero/documents/syunnran.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/gxsemi.html": {
-   "id": "50adeb13d8",
-   "pref": "石川県",
-   "title": "産業革新セミナーGXについて(第1回)",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/gxsemi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230808.html": {
-   "id": "b2caad85d2",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(8月8日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230808.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/gx2.html": {
-   "id": "5086abe656",
-   "pref": "石川県",
-   "title": "石川県GX(省エネ・再エネ)設備導入支援事業2次募集の公募について(締切:令和5年9月15日)",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/gx2.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/sangyoukakushinsemina.html": {
-   "id": "20af961bf5",
-   "pref": "石川県",
-   "title": "「石川県産業革新セミナー(8月28日)」の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/sangyoukakushinsemina.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230711.html": {
-   "id": "d5276163a8",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(7月11日)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi20230711.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou.html": {
-   "id": "bd107f1ce4",
-   "pref": "石川県",
-   "title": "「デジタル化実践道場(需要予測編)」の募集開始について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi2.html": {
-   "id": "665fb79bb6",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナー(第二回)の開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi2.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi.html": {
-   "id": "b0a5483e65",
-   "pref": "石川県",
-   "title": "石川県産業革新セミナーの開催について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_kakushinsemi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou_torikumi.html": {
-   "id": "3346415d09",
-   "pref": "石川県",
-   "title": "「デジタル化実践道場開講事業(需要予測)」取組報告会について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/digital/digital_dojo_zyuyou_torikumi.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/syouene.html": {
-   "id": "fe20ba7660",
-   "pref": "石川県",
-   "title": "省エネ設備緊急支援事業費補助金(3次募集)の公募について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/syouene.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/fukugyou/seminar.html": {
-   "id": "389c57bba1",
-   "pref": "石川県",
-   "title": "石川県副業・兼業人材活用セミナーの募集について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/fukugyou/seminar.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/zero/zero.html": {
-   "id": "afade1f054",
-   "pref": "石川県",
-   "title": "「ゼロカーボンビレッジ構築計画立案業務」業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/zero/zero.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/koubo/suisochousa.html": {
-   "id": "c3a4fde33f",
-   "pref": "石川県",
-   "title": "「石川県における民間主導による水素供給設備整備促進に向けた調査」業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/koubo/suisochousa.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/healthcare/kyogikai/20211018.html": {
-   "id": "3ea3023952",
-   "pref": "石川県",
-   "title": "「石川県における水素導入・利活用等アクションプラン策定業務」業務委託プロポーザルの実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/healthcare/kyogikai/20211018.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/shouhinkikaku/bosyu.html": {
-   "id": "e0e0467c64",
-   "pref": "石川県",
-   "title": "石川県新商品企画事業「Session石川」の実施について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/shouhinkikaku/bosyu.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.ishikawa.lg.jp/syoko/corona/setsubi/2020.html": {
-   "id": "23326f6e9e",
-   "pref": "石川県",
-   "title": "コロナ時代に適応する設備導入支援事業について",
-   "url": "https://www.pref.ishikawa.lg.jp/syoko/corona/setsubi/2020.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
   "https://www.pref.fukui.lg.jp/doc/kouho/pabukome/publicjissi2.html": {
    "id": "68b09f22a6",
    "pref": "福井県",
@@ -7398,7 +6365,7 @@
    "url": "https://www.pref.yamanashi.jp/event/kouko-hak/0811/director02.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-08"
   },
   "https://www.pref.yamanashi.jp/police/p_menkyo/menkyo_kouji1.html": {
@@ -7541,36 +6508,6 @@
    "checked": "2026-10-10",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.yamanashi.jp/kokusai/index.html": {
-   "id": "03c6ff1843",
-   "pref": "山梨県",
-   "title": "国際・水素戦略推進課",
-   "url": "https://www.pref.yamanashi.jp/kokusai/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.yamanashi.jp/kendosui/index.html": {
-   "id": "91f5ac5b24",
-   "pref": "山梨県",
-   "title": "都市計画課(景観まちづくり室)",
-   "url": "https://www.pref.yamanashi.jp/kendosui/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
-  "https://www.pref.yamanashi.jp/toshikei/index.html": {
-   "id": "595898684a",
-   "pref": "山梨県",
-   "title": "都市計画課",
-   "url": "https://www.pref.yamanashi.jp/toshikei/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-10",
-   "first_seen": "2026-10-10"
-  },
   "https://www.pref.yamanashi.jp/police/kenkei/index.html": {
    "id": "feceb7b8b3",
    "pref": "山梨県",
@@ -7678,7 +6615,7 @@
    "url": "https://www.pref.nagano.lg.jp/kyoiku/kyoiku/saiyo-nyuushi/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/police/kenkei/index.html": {
@@ -7688,7 +6625,7 @@
    "url": "https://www.pref.nagano.lg.jp/police/kenkei/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/police/shinsei/etc/keireki/shinsei.html": {
@@ -7698,7 +6635,7 @@
    "url": "https://www.pref.nagano.lg.jp/police/shinsei/etc/keireki/shinsei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/police/shinsei/etc/demo.html": {
@@ -7708,7 +6645,7 @@
    "url": "https://www.pref.nagano.lg.jp/police/shinsei/etc/demo.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/police/shinsei/shinsasyori/imdex.html": {
@@ -7718,7 +6655,7 @@
    "url": "https://www.pref.nagano.lg.jp/police/shinsei/shinsasyori/imdex.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/police/shinsei/keisatugyoseisite.html": {
@@ -7728,7 +6665,7 @@
    "url": "https://www.pref.nagano.lg.jp/police/shinsei/keisatugyoseisite.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/police/shinsei/kogatamujinki.html": {
@@ -7738,7 +6675,7 @@
    "url": "https://www.pref.nagano.lg.jp/police/shinsei/kogatamujinki.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/soshiki.html": {
@@ -7748,7 +6685,7 @@
    "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/soshiki.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/sekisankijun/shokehiritsu.html": {
@@ -7758,7 +6695,7 @@
    "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/sekisankijun/shokehiritsu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/keieisenryaku2026.html": {
@@ -7768,7 +6705,7 @@
    "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/soshiki/soshiki/kencho/kigyokyoku/sogojoho/keieisenryaku2026.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/kigyo/kensei/propo/261001proposal.html": {
@@ -7788,7 +6725,7 @@
    "url": "https://www.pref.nagano.lg.jp/kigyo/kensei/nyusatsu/kokyokoji/propo-shitoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/gikai/gikai/bocho.html": {
@@ -7798,7 +6735,7 @@
    "url": "https://www.pref.nagano.lg.jp/gikai/gikai/bocho.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/gikai/chosa/x-houshin.html": {
@@ -7808,7 +6745,7 @@
    "url": "https://www.pref.nagano.lg.jp/gikai/chosa/x-houshin.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagano.lg.jp/gikai/chosa/youtube-houshin.html": {
@@ -7818,7 +6755,7 @@
    "url": "https://www.pref.nagano.lg.jp/gikai/chosa/youtube-houshin.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.gifu.lg.jp/page/458461.html#6230edcc56": {
@@ -7828,7 +6765,7 @@
    "url": "https://www.pref.gifu.lg.jp/page/458461.html",
    "start": "2027-01-16",
    "deadline": "2027-02-16",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.gifu.lg.jp/page/501194.html": {
@@ -8592,7 +7529,7 @@
    "url": "https://www.pref.shiga.lg.jp/bj00/10105.html",
    "start": "2026-08-06",
    "deadline": "2026-09-05",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.shiga.lg.jp/bj00/10105.html#c802e43bea": {
@@ -8602,7 +7539,7 @@
    "url": "https://www.pref.shiga.lg.jp/bj00/10105.html",
    "start": "2026-08-06",
    "deadline": "2026-09-07",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.shiga.lg.jp/menu/14923.html": {
@@ -8632,7 +7569,7 @@
    "url": "https://www.pref.kyoto.jp/keikaku/r8publiccoment.html",
    "start": "2026-10-01",
    "deadline": "2026-10-21",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.kyoto.jp/rosei/news/publiccomment.html#270d46d004": {
@@ -8642,7 +7579,7 @@
    "url": "https://www.pref.kyoto.jp/rosei/news/publiccomment.html",
    "start": "2026-10-06",
    "deadline": "2026-10-26",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06"
   },
   "https://www.pref.kyoto.jp/kikakuriji/news/ijujorei-pabukome.html#2e17b8144e": {
@@ -8652,7 +7589,7 @@
    "url": "https://www.pref.kyoto.jp/kikakuriji/news/ijujorei-pabukome.html",
    "start": "2026-10-06",
    "deadline": "2026-10-26",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-06"
   },
   "https://www.pref.kyoto.jp/keikaku/r8publiccoment.html": {
@@ -8782,7 +7719,7 @@
    "url": "https://www.pref.kyoto.jp/comment/list.html",
    "start": "2026-07-06",
    "deadline": "2026-07-24",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.osaka.lg.jp/o130160/kenso/sumauvision/visionr82.html": {
@@ -9212,7 +8149,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/080900/d00222877.html",
    "start": "2026-09-11",
    "deadline": "2026-10-13",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.wakayama.lg.jp/prefg/021400/d00222879.html#1f9e1af0d6": {
@@ -9222,7 +8159,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/021400/d00222879.html",
    "start": "2026-09-18",
    "deadline": "2026-10-17",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.wakayama.lg.jp/prefg/031300/d00222235.html#488cc27297": {
@@ -9232,7 +8169,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/031300/d00222235.html",
    "start": "2026-06-15",
    "deadline": "2026-07-15",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.wakayama.lg.jp/prefg/032600/d00222290.html#333ca213ef": {
@@ -9242,7 +8179,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/032600/d00222290.html",
    "start": "2026-07-01",
    "deadline": "2026-07-31",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.wakayama.lg.jp/prefg/080400/pubcom/d00222720.html#2e2e6642c2": {
@@ -9252,7 +8189,7 @@
    "url": "https://www.pref.wakayama.lg.jp/prefg/080400/pubcom/d00222720.html",
    "start": "2026-07-07",
    "deadline": "2026-08-06",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.wakayama.lg.jp/prefg/080900/d00222877.html": {
@@ -9532,7 +8469,7 @@
    "url": "https://www.pref.hiroshima.lg.jp/site/police/kinoukyoka-keikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-02"
   },
   "https://www.pref.yamaguchi.lg.jp/soshiki/46/362566.html": {
@@ -9682,7 +8619,7 @@
    "url": "https://www.pref.ehime.jp/page/159882.html",
    "start": "2026-09-29",
    "deadline": "2026-10-28",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.ehime.jp/page/149487.html#85f0763c70": {
@@ -9692,7 +8629,7 @@
    "url": "https://www.pref.ehime.jp/page/149487.html",
    "start": "2026-06-12",
    "deadline": "2026-07-13",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.ehime.jp/page/150678.html#871d6b1548": {
@@ -9702,7 +8639,7 @@
    "url": "https://www.pref.ehime.jp/page/150678.html",
    "start": "2026-06-25",
    "deadline": "2026-07-24",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.ehime.jp/page/159882.html": {
@@ -10684,7 +9621,7 @@
    "url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/teian/": {
@@ -10694,7 +9631,7 @@
    "url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/teian/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-08",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.nagasaki.jp/doc/53084.html": {
@@ -10719,7 +9656,7 @@
    "url": "https://www.pref.kumamoto.jp/soshiki/85/270939.html",
    "start": "2026-07-28",
    "deadline": "2026-08-26",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-07"
   },
   "https://www.pref.kumamoto.jp/soshiki/54/94639.html#3c2133d2d7": {
@@ -10729,7 +9666,7 @@
    "url": "https://www.pref.kumamoto.jp/soshiki/54/94639.html",
    "start": "2027-04-30",
    "deadline": "2027-05-29",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-29"
   },
   "https://www.pref.kumamoto.jp/soshiki/85/270939.html": {
@@ -10905,7 +9842,7 @@
    "url": "https://www.pref.kagoshima.jp/af04/12thpubliccomment.html",
    "start": "2026-10-09",
    "deadline": "2026-11-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-09"
   },
   "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html#d770440eb5": {
@@ -10915,7 +9852,7 @@
    "url": "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html",
    "start": "2026-10-09",
    "deadline": "2026-11-10",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-10"
   },
   "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/suiseiseibuturuikeisitei2026.html": {
@@ -11021,7 +9958,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041433.html",
    "start": "2026-09-18",
    "deadline": "2026-10-19",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041564.html#21ffa7eecd": {
@@ -11031,7 +9968,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041564.html",
    "start": "2026-09-30",
    "deadline": "2026-10-23",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-10-01"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040401.html#17222c9e8c": {
@@ -11041,7 +9978,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040401.html",
    "start": "2026-06-24",
    "deadline": "2026-07-23",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040871.html#1e65296491": {
@@ -11051,7 +9988,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040871.html",
    "start": "2026-08-14",
    "deadline": "2026-09-14",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040827.html#8bceb8212b": {
@@ -11061,7 +9998,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040827.html",
    "start": "2026-08-25",
    "deadline": "2026-09-25",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041365.html#f534df1a14": {
@@ -11071,7 +10008,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041365.html",
    "start": "2026-09-10",
    "deadline": "2026-09-30",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041219.html#3ab514b6e0": {
@@ -11081,7 +10018,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041219.html",
    "start": "2026-09-07",
    "deadline": "2026-10-07",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041153.html#3c75aa536f": {
@@ -11091,7 +10028,7 @@
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041153.html",
    "start": "2026-09-04",
    "deadline": "2026-10-09",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "first_seen": "2026-09-28"
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041433.html": {
