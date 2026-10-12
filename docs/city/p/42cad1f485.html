@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>市民意見の募集（まとめページ）｜パブコメ掲示板 市区町村版</title>
-<meta name="description" content="10/13まで意見募集中（静岡市）。静岡市関係者は、ひとことからでも意見を送れます。それ以外の方は案件ごとにご確認ください。">
+<meta name="description" content="11/5まで意見募集中（静岡市）。静岡市関係者は、ひとことからでも意見を送れます。それ以外の方は案件ごとにご確認ください。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【パブコメ募集・静岡市】市民意見の募集（まとめページ）">
-<meta property="og:description" content="10/13まで意見募集中（静岡市）。静岡市関係者は、ひとことからでも意見を送れます。それ以外の方は案件ごとにご確認ください。">
+<meta property="og:description" content="11/5まで意見募集中（静岡市）。静岡市関係者は、ひとことからでも意見を送れます。それ以外の方は案件ごとにご確認ください。">
 <meta property="og:url" content="https://yumaki5555.github.io/pubcome/city/p/42cad1f485.html">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗾</text></svg>">
@@ -55,7 +55,7 @@ footer{font-size:.78rem;color:var(--sub);margin-top:20px}
 <h1>市民意見の募集（まとめページ）</h1>
 <p class="official">正式名：市民参画の推進に関する条例に基づく市民意見提出手続(パブリックコメント)</p>
 
-<div class="deadline"><span class="left" id="left"></span><span><small>意見の募集期間</small>9月11日から2026年10月13日まで</span></div>
+<div class="deadline"><span class="left" id="left"></span><span><small>意見の募集期間</small>10月6日から2026年11月5日まで</span></div>
 
 <div class="btns">
   <a class="btn go" href="https://www.city.shizuoka.lg.jp/s3247/s007189.html" target="_blank" rel="noopener">静岡市のページで意見を出す</a>
@@ -100,11 +100,11 @@ function shareX(text){
 }
 
 const ymd = d => Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
-const dl = Math.round((ymd(new Date('2026-10-13T00:00:00')) - ymd(new Date())) / 86400000);
+const dl = Math.round((ymd(new Date('2026-11-05T00:00:00')) - ymd(new Date())) / 86400000);
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】10/13まで\n\n「市民意見の募集（まとめページ）」\n静岡市\n\n静岡市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #静岡市\n\nhttps://yumaki5555.github.io/pubcome/city/p/42cad1f485.html");
+document.getElementById('share').onclick = () => shareX("📣【パブコメ募集】11/5まで\n\n「市民意見の募集（まとめページ）」\n静岡市\n\n静岡市関係者は、ひとことからでも送れます🙆\nそれ以外の方は案件ごとにご確認ください\n#パブコメ #静岡市\n\nhttps://yumaki5555.github.io/pubcome/city/p/42cad1f485.html");
 </script>
 </body>
 </html>

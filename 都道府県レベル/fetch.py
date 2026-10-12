@@ -104,9 +104,12 @@ class PageReader(HTMLParser):
         self.cur_link = None
         self.title = ""
         self.h1 = ""
+        self.base = ""          # <base href="…">（リンクの住所の基準。大阪市などが使っている）
         self._in = None
 
     def handle_starttag(self, tag, attrs):
+        if tag == "base" and not self.base:
+            self.base = dict(attrs).get("href") or ""
         if tag in VOID_TAGS:
             if tag == "br" and not self.skip:
                 self.text.append("\n")
@@ -195,7 +198,12 @@ def read_page(page_html, lenient=False):
     text = re.sub(r"\n\s*\n+", "\n", text)
     rows = [{"cells": [unicodedata.normalize("NFKC", c) for c in row["cells"]], "links": row["links"]}
             for row in r.rows]
-    return {"title": squash(r.title), "h1": squash(r.h1), "text": text, "links": r.links, "rows": rows}
+    return {"title": squash(r.title), "h1": squash(r.h1), "text": text, "links": r.links, "rows": rows, "base": r.base}
+
+
+def link_base(page, page_url):
+    """リンクの住所を組み立てるときの基準。ページに <base> があればそちらを使う（ブラウザと同じ）。"""
+    return urllib.parse.urljoin(page_url, page["base"]) if page.get("base") else page_url
 
 
 # ---------- 日付の読み取り ----------
@@ -296,9 +304,15 @@ def looks_like_pubcome(link_text, page, pos):
 # ---------- リンクの見分け方 ----------
 
 NG_LINK = re.compile(
-    r"結果|要綱|要領|制度の概要|流れ|Q\s*&\s*A|とは|問い?合わ?せ|サイトマップ|ホーム|トップページ|アクセシビリティ|プライバシー"
+    r"結果|制度の概要|流れ|Q\s*&\s*A|とは|問い?合わ?せ|サイトマップ|ホーム|トップページ|アクセシビリティ|プライバシー"
     r"|指定管理|事業者(の)?募集|委員(の)?募集|職員(の)?(採用|募集)|採用試験|入札|アンケート|イベント|前へ|次へ|戻る|PDF|キロバイト|KB\)|過去"
     r"|平成|終了|済|ご意見・|ご意見箱|提言|県政ポスト|予告|予定|実施しなかった|閲覧場所|実施せず|反映状況|提出状況|考え方")
+# 「パブリックコメント手続要綱」のような手続きの決まりのページは飛ばす。
+# ただし「〜指導要綱の一部改正について」のように、要綱そのものが意見募集の案件になっているものは飛ばさない（大阪市の旅館業など）
+RULE_DOC = re.compile(r"要綱|要領")
+RULE_CASE = re.compile(r"改正|改定|制定|廃止|[(（]案[)）]|案について|について")
+# 「意見を受け付けている案件（予定を含む）」のような、募集中の一覧へのリンクは「予定」があっても飛ばさない（大阪市）
+OPEN_LIST = re.compile(r"募集中|受け?付け?ている|受付中")
 HUB_LINK = re.compile(r"募集中|募集している|実施中|現在|今年度|実施状況|実施案件|案件一覧|(意見|コメント|募集|案件).*一覧|一覧.*(意見|コメント)")
 YEAR_LINK = re.compile(r"(令和\s*(\d+|元)|20\d\d)\s*年度")
 CASE_LINK = re.compile(r"案|計画|条例|規則|方針|ビジョン|プラン|戦略|指針|構想|評価書|基準|意見|募集|改正|改定|見直し|について|コメント")
@@ -342,11 +356,12 @@ def classify_links(page, page_url, today):
     """ページのリンクを「一覧ページ」と「案件ページ」に分ける。"""
     host = base_domain(urllib.parse.urlparse(page_url).hostname or "")
     hubs, cases, seen = [], [], set()
+    base = link_base(page, page_url)
     for href, text in page["links"]:
         text = unicodedata.normalize("NFKC", text)
         if href.startswith(("mailto:", "tel:", "javascript:", "#")) or len(text) < 5:
             continue
-        url = urllib.parse.urljoin(page_url, html.unescape(href)).split("#")[0]
+        url = urllib.parse.urljoin(base, html.unescape(href)).split("#")[0]
         u = urllib.parse.urlparse(url)
         if u.scheme not in ("http", "https") or base_domain(u.hostname or "") != host:
             continue
@@ -355,7 +370,9 @@ def classify_links(page, page_url, today):
         if not is_current_year_link(text, today):
             continue
         if NG_LINK.search(text) and not (YEAR_LINK.search(text) and re.search(r"実施(予定|状況)", text)
-                                         and not re.search(r"結果|終了", text)) and "募集中" not in text:
+                                         and not re.search(r"結果|終了", text)) and not OPEN_LIST.search(text):
+            continue
+        if RULE_DOC.search(text) and not RULE_CASE.search(text):
             continue
         seen.add(url)
         if HUB_LINK.search(text) or (YEAR_LINK.search(text) and not re.search(r"案|について", text)) or is_section_link(text):
@@ -392,7 +409,7 @@ def row_items(page, page_url, today):
         link = page_url
         for href, text in row["links"]:
             if not href.startswith(("mailto:", "javascript:", "#")):
-                link = urllib.parse.urljoin(page_url, html.unescape(href))
+                link = urllib.parse.urljoin(link_base(page, page_url), html.unescape(href))
                 break
         out.append((link, title, start, end))
     return out
@@ -429,8 +446,9 @@ def take_lines(lines, start, max_lines, max_chars):
 def read_detail(page, page_url):
     """案件ページから、資料のリンク・意見の出し方・問い合わせ先を抜き出す。"""
     files, seen = [], set()
+    base = link_base(page, page_url)
     for href, text in page["links"]:
-        url = urllib.parse.urljoin(page_url, html.unescape(href))
+        url = urllib.parse.urljoin(base, html.unescape(href))
         if FILE_EXT.search(urllib.parse.urlparse(url).path) and url not in seen:
             seen.add(url)
             files.append({"name": TITLE_TAIL.sub("", text).strip() or "資料", "url": url})
@@ -485,7 +503,9 @@ def crawl_prefecture(pref, cache, today, log):
         today_s = today.isoformat()
         if prev and LIST_PAGE.search(prev.get("title", "")):
             prev = None     # 以前まちがって案件として記録した一覧ページは、開き直して判定し直す
-        if prev:
+        # 前に「案件の一覧」として奥へ進んだページ（大阪市の「意見を受け付けている案件」など）は、
+        # 新しい案件が載る場所なので毎日開き直す
+        if prev and not prev.get("list"):
             # 締切が過ぎたもの・最近見たものは開き直さない
             if prev.get("deadline") and prev["deadline"] < today_s:
                 results[url] = prev
@@ -508,11 +528,13 @@ def crawl_prefecture(pref, cache, today, log):
         period_hits = sum(1 for m in PERIOD_WORDS.finditer(body)
                           if find_dates(body[m.end(): m.end() + 160], today))
         is_list = bool(LIST_PAGE.search(page.get("h1", "")) or LIST_PAGE.search(link_text))
+        queued = False
         if (period_hits >= 3 or is_list or not end) and depth < MAX_DEPTH:
             hubs, cases = classify_links(page, final, today)
             hub_like = PUBCOME.search(link_text + page.get("h1", ""))
             if cases and (period_hits >= 3 or is_list or (len(cases) >= 3 and hub_like)):
                 queue.append((final, depth + 1, page))
+                queued = True
         if period_hits >= 3 or is_list or (end and not looks_like_pubcome(link_text, page, pos)):
             start = end = None      # 一覧ページや、意見募集ではないページ（職員募集など）は案件として数えない
         if DEBUG:
@@ -527,6 +549,8 @@ def crawl_prefecture(pref, cache, today, log):
             "checked": today_s,
             "first_seen": (prev or {}).get("first_seen", today_s),
         }
+        if queued:
+            results[url]["list"] = True
         if end:
             results[url]["detail"] = read_detail(page, final)
 

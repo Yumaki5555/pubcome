@@ -150,9 +150,11 @@ def page_files(url):
     if "charset=shift_jis" in src.lower() or "charset=\"shift_jis" in src.lower():
         src = body.decode("cp932", "replace")
     out = []
+    m = re.search(r'<base[^>]+href="([^"]+)"', src, re.I)   # 大阪市などはリンクの基準を <base> で決めている
+    base = urllib.parse.urljoin(url, html.unescape(m.group(1))) if m else url
     for href, name in re.findall(r'<a[^>]+href="([^"]+\.(?:pdf|docx?|xlsx?)[^"]*)"[^>]*>(.*?)</a>', src, re.I | re.S):
         name = html.unescape(re.sub(r"<[^>]+>|\s+", " ", name)).strip()
-        out.append({"name": name, "url": urllib.parse.urljoin(url, html.unescape(href))})
+        out.append({"name": name, "url": urllib.parse.urljoin(base, html.unescape(href))})
     return out
 
 
