@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T02:39+09:00",
+ "updated": "2026-10-13T11:51+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
@@ -58,13 +58,13 @@
   "群馬県": {
    "url": "https://www.pref.gunma.jp/page/16405.html",
    "error": null,
-   "open": 0,
+   "open": 2,
    "checked": "2026-10-13"
   },
   "埼玉県": {
    "url": "https://www.pref.saitama.lg.jp/a0301/kenminc/bosyuu.html",
    "error": null,
-   "open": 11,
+   "open": 12,
    "checked": "2026-10-13"
   },
   "千葉県": {
@@ -124,7 +124,7 @@
   "岐阜県": {
    "url": "https://www.pref.gifu.lg.jp/page/203.html",
    "error": null,
-   "open": 1,
+   "open": 2,
    "checked": "2026-10-13"
   },
   "静岡県": {
@@ -2145,6 +2145,43 @@
    "tags": []
   },
   {
+   "id": "b828c69c57",
+   "pref": "岐阜県",
+   "title": "「清流の国ぎふ森林・環境税」の制度案(令和9から13年度)",
+   "url": "https://www.pref.gifu.lg.jp/page/518897.html",
+   "start": "2026-10-09",
+   "deadline": "2026-11-09",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13",
+   "detail": {
+    "files": [
+     {
+      "name": "「清流の国ぎふ森林・環境税」の制度案（令和9から13年度）（概要版） [PDFファイル／478KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/517028.pdf"
+     },
+     {
+      "name": "「清流の国ぎふ森林・環境税」の制度案（令和9から13年度） [PDFファイル／417KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/516971.pdf"
+     },
+     {
+      "name": "「清流の国ぎふ森林・環境税」の制度案（令和9から13年度）（別冊） [PDFファイル／1020KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/516972.pdf"
+     },
+     {
+      "name": "意見提出用紙 [Wordファイル／32KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/517024.doc"
+     },
+     {
+      "name": "意見提出用紙 [PDFファイル／79KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/517025.pdf"
+     }
+    ],
+    "howto": "LoGoフォーム(下記URL)又は郵送・FAX・電子メールのいずれかの方法で提出してください。\nhttps://logoform.jp/form/T8mB/1824241<外部リンク>\n郵送・FAX・電子メールの場合は、「意見提出用紙」に、住所、氏名(団体、企業等の場合はその名称及び担当者名)、連絡先を明記し、以下「送付先」へ提出してください。",
+    "contact": "岐阜県林政部 森林活用推進課 森林活用係\n受付時間:午前8時30分から午後5時15分まで(土日祝日を除く)\n電話番号:058-272-8472(直通)\n<外部リンク>\nこのページの内容に関するお問い合わせ先\n森林活用推進課(森林活用係)"
+   },
+   "tags": []
+  },
+  {
    "id": "3619fc5ba1",
    "pref": "広島県",
    "title": "広島県栄養塩類管理計画",
@@ -2294,6 +2331,17 @@
    "deadline": "2026-11-10",
    "checked": "2026-10-13",
    "first_seen": "2026-10-10",
+   "tags": []
+  },
+  {
+   "id": "8f460b2dae",
+   "pref": "群馬県",
+   "title": "新・群馬県総合計画(ビジョン) 原案",
+   "url": "https://www.pref.gunma.jp/page/778016.html",
+   "start": "2026-10-13",
+   "deadline": "2026-11-12",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13",
    "tags": []
   },
   {
@@ -3839,6 +3887,44 @@
    "checked": "2026-10-13",
    "first_seen": "2026-09-28"
   },
+  "https://www.pref.gunma.jp/page/778016.html#1e66ca87b0": {
+   "id": "8f460b2dae",
+   "pref": "群馬県",
+   "title": "新・群馬県総合計画(ビジョン) 原案",
+   "url": "https://www.pref.gunma.jp/page/778016.html",
+   "start": "2026-10-13",
+   "deadline": "2026-11-12",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13"
+  },
+  "https://www.pref.gunma.jp/page/778016.html": {
+   "id": "abd8179484",
+   "pref": "群馬県",
+   "title": "新・群馬県総合計画(ビジョン)",
+   "url": "https://www.pref.gunma.jp/page/778016.html",
+   "start": "2026-10-13",
+   "deadline": "2026-11-12",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13",
+   "detail": {
+    "files": [
+     {
+      "name": "新・群馬県総合計画ビジョン（原案）",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/716717.pdf"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/716261.docx"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/716457.pdf"
+     }
+    ],
+    "howto": "インターネット(新・群馬県総合計画ビジョン(原案)に関する意見募集について:ぐんま電子申請受付システム<外部リンク>)又は意見提出様式にご記入の上、郵便、ファクシミリ、電子メール、持参のいずれかの方法によりご提出ください。\nA4サイズであれば提出様式は自由ですが、原則として、氏名及び住所(法人又は団体の場合は、名称、代表者の氏名及び所在地)並びに連絡先(電話番号又は電子メールアドレス)を記載してください。\n匿名の場合及び電話等による口頭での意見提出は受付いたしかねますので、御了承ください。\n意見提出様式 (Word:24KB)\n意見提出様式 (PDF:91KB)",
+    "contact": ""
+   }
+  },
   "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html#356e0a3037": {
    "id": "3d57d0c382",
    "pref": "埼玉県",
@@ -4051,6 +4137,34 @@
     ],
     "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面により下記項目を必ず記載し御提出ください。\n(1) 記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n(2) 対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
     "contact": "〒330-9301 さいたま市浦和区高砂3-15-1\n埼玉県環境部環境政策課 企画調整・環境影響評価担当宛て\n電話:048-830-3041\nE-mail:a3010-13@pref.saitama.lg.jp\n報道発表資料(ダウンロードファイル)\n「次期埼玉県環境基本計画(案)」に対する県民コメント(意見募集)の実施について(PDF:175KB)\n県政ニュースのトップに戻る"
+   }
+  },
+  "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html": {
+   "id": "5f3fa04819",
+   "pref": "埼玉県",
+   "title": "「埼玉県地域強靱化計画(改訂素案)」",
+   "url": "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html",
+   "start": "2026-10-13",
+   "deadline": "2026-11-13",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13",
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/01_bosyuuannai2.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：17KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/02youshiki1.docx"
+     },
+     {
+      "name": "埼玉県地域強靱化計画（改定素案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/03kaiteisoan.pdf"
+     }
+    ],
+    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見の箇所(ページ番号等)と内容\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見の箇所(ページ番号等)と内容\n※ 住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※ 県内への通勤・通学者の方は、通勤・通学先の市町村名を記載してください。\n※ 意見提出様式を御利用いただくか、任意の書面により上記項目を記載し御提出ください。",
+    "contact": "危機管理防災部 危機管理課 普及啓発担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 危機管理防災センター2階\n電話:048-830-8148\nお問い合わせフォーム\n2:ふつう"
    }
   },
   "https://www.pref.saitama.lg.jp/a0301/tyosaku-rinku.html": {
@@ -6465,16 +6579,6 @@
    "checked": "2026-10-13",
    "first_seen": "2026-10-07"
   },
-  "https://www.pref.yamanashi.jp/event/kouko-hak/0811/director02.html": {
-   "id": "fc39abb9a1",
-   "pref": "山梨県",
-   "title": "館長講座第2回「縄文時代の過剰装飾土器について」(県立考古博物館)",
-   "url": "https://www.pref.yamanashi.jp/event/kouko-hak/0811/director02.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-11",
-   "first_seen": "2026-10-08"
-  },
   "https://www.pref.yamanashi.jp/police/p_menkyo/menkyo_kouji1.html": {
    "id": "152e387a8b",
    "pref": "山梨県",
@@ -6484,6 +6588,16 @@
    "deadline": null,
    "checked": "2026-10-13",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.yamanashi.jp/event/kouko-hak/0811/director02.html": {
+   "id": "fc39abb9a1",
+   "pref": "山梨県",
+   "title": "館長講座第2回「縄文時代の過剰装飾土器について」(県立考古博物館)",
+   "url": "https://www.pref.yamanashi.jp/event/kouko-hak/0811/director02.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-11",
+   "first_seen": "2026-10-08"
   },
   "https://www.pref.yamanashi.jp/kansensho/side-effect.html": {
    "id": "3b2bd166bb",
@@ -6874,6 +6988,42 @@
    "deadline": "2027-02-16",
    "checked": "2026-10-13",
    "first_seen": "2026-09-28"
+  },
+  "https://www.pref.gifu.lg.jp/page/518897.html": {
+   "id": "b828c69c57",
+   "pref": "岐阜県",
+   "title": "「清流の国ぎふ森林・環境税」の制度案(令和9から13年度)",
+   "url": "https://www.pref.gifu.lg.jp/page/518897.html",
+   "start": "2026-10-09",
+   "deadline": "2026-11-09",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13",
+   "detail": {
+    "files": [
+     {
+      "name": "「清流の国ぎふ森林・環境税」の制度案（令和9から13年度）（概要版） [PDFファイル／478KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/517028.pdf"
+     },
+     {
+      "name": "「清流の国ぎふ森林・環境税」の制度案（令和9から13年度） [PDFファイル／417KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/516971.pdf"
+     },
+     {
+      "name": "「清流の国ぎふ森林・環境税」の制度案（令和9から13年度）（別冊） [PDFファイル／1020KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/516972.pdf"
+     },
+     {
+      "name": "意見提出用紙 [Wordファイル／32KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/517024.doc"
+     },
+     {
+      "name": "意見提出用紙 [PDFファイル／79KB]",
+      "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/517025.pdf"
+     }
+    ],
+    "howto": "LoGoフォーム(下記URL)又は郵送・FAX・電子メールのいずれかの方法で提出してください。\nhttps://logoform.jp/form/T8mB/1824241<外部リンク>\n郵送・FAX・電子メールの場合は、「意見提出用紙」に、住所、氏名(団体、企業等の場合はその名称及び担当者名)、連絡先を明記し、以下「送付先」へ提出してください。",
+    "contact": "岐阜県林政部 森林活用推進課 森林活用係\n受付時間:午前8時30分から午後5時15分まで(土日祝日を除く)\n電話番号:058-272-8472(直通)\n<外部リンク>\nこのページの内容に関するお問い合わせ先\n森林活用推進課(森林活用係)"
+   }
   },
   "https://www.pref.gifu.lg.jp/page/501194.html": {
    "id": "d30fab42b9",
@@ -7817,15 +7967,25 @@
     "contact": "総合政策環境部地域政策室\n京都市上京区下立売通新町西入藪ノ内町\n電話番号:075-414-4513\nファックス:075-414-4389\nchiikiseisaku@pref.kyoto.lg.jp"
    }
   },
-  "https://www.pref.kyoto.jp/comment/list.html#d4e4206170": {
-   "id": "42bfdafb05",
+  "https://www.pref.kyoto.jp/kotsuanzen/news/12jikeikaku.html#d4e4206170": {
+   "id": "469dd9f49d",
    "pref": "京都府",
    "title": "「第12次京都府交通安全計画」(中間案)について",
-   "url": "https://www.pref.kyoto.jp/comment/list.html",
+   "url": "https://www.pref.kyoto.jp/kotsuanzen/news/12jikeikaku.html",
    "start": "2026-07-06",
    "deadline": "2026-07-24",
    "checked": "2026-10-13",
-   "first_seen": "2026-10-07"
+   "first_seen": "2026-10-13"
+  },
+  "https://www.pref.kyoto.jp/kotsuanzen/news/12jikeikaku.html": {
+   "id": "4dab27a5ac",
+   "pref": "京都府",
+   "title": "「第12次京都府交通安全計画」(中間案)について",
+   "url": "https://www.pref.kyoto.jp/kotsuanzen/news/12jikeikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13"
   },
   "https://www.pref.osaka.lg.jp/o130160/kenso/sumauvision/visionr82.html": {
    "id": "37a66a51ea",
