@@ -664,13 +664,26 @@ def main(list_file=PREF_FILE, data_file=DATA_FILE):
             if it.get("start") and it["start"] > today.isoformat():
                 continue    # まだ募集が始まっていないもの（読み間違いも多いので載せない）
             items.append(it)
-    # 同じ案件が別の住所で2回見つかったときは1つにまとめる
-    def same_key(it):
-        t = re.sub(r"[「」『』()（）\s]|案|素案|について.*$|への.*$|に(対|関)する.*$", "", it["title"])
-        return (it["pref"], it["deadline"], t[:12])
-    uniq = {}
+    # 同じ案件が2回見つかったときは1つにまとめる
+    def short_title(it):
+        return re.sub(r"[「」『』()（）\s]|案|素案|について.*$|への.*$|に(対|関)する.*$", "", it["title"])[:12]
+    # 同じページが一覧表と案件ページの両方から見つかったとき。締切が食い違うことがある
+    # （埼玉県は一覧表に10/30、案件ページに10/31と書いていた）ので、間に合わなくならないよう早いほうを使う
+    # （どちらを残すかの順番を変えると案件番号が変わり、投稿済みのリンクや要約が使えなくなるので変えない）
+    same_page = {}
     for it in sorted(items, key=lambda it: len(it["url"])):
-        uniq.setdefault(same_key(it), it)
+        k = (it["url"], short_title(it))
+        if k not in same_page:
+            same_page[k] = it
+            continue
+        kept = same_page[k]
+        kept["deadline"] = min(kept["deadline"], it["deadline"])
+        if "detail" not in kept and "detail" in it:
+            kept["detail"] = it["detail"]   # 資料・出し方・問い合わせ先は、読み取ってあるほうのものを使う
+    # 別の住所で見つかったとき
+    uniq = {}
+    for it in same_page.values():
+        uniq.setdefault((it["pref"], it["deadline"], short_title(it)), it)
     items = sorted(uniq.values(), key=lambda it: (it["deadline"], it["pref"]))
 
     DATA_FILE.write_text(json.dumps({

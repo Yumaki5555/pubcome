@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T09:56+09:00",
+ "updated": "2026-10-20T17:44+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
@@ -294,7 +294,69 @@
    "deadline": "2026-10-21",
    "checked": "2026-10-20",
    "first_seen": "2026-10-02",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集チラシ",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/90_chirashi.pdf"
+     },
+     {
+      "name": "意見記入用紙（word版）（ワード：22KB）",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/91_ikenkinyuuyoushi.docx"
+     },
+     {
+      "name": "意見記入用紙（PDF版）",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/91_ikenkinyuuyoushi.pdf"
+     },
+     {
+      "name": "京都府総合計画（中間案）全体版",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/00_sougoukeikaku_zentai_pb.pdf"
+     },
+     {
+      "name": "京都府総合計画（中間案）の概要",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/02_kihon_gaiyou_pb.pdf"
+     },
+     {
+      "name": "将来構想",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/01_syouraikousou_pb.pdf"
+     },
+     {
+      "name": "基本計画",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/02_kihon_zentai_pb.pdf"
+     },
+     {
+      "name": "15の未来像",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/02-2_kihon_miraizou_pb.pdf"
+     },
+     {
+      "name": "分野別基本施策",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/02-3_kihon_bunnya_pb.pdf"
+     },
+     {
+      "name": "地域振興計画",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/07_chiikikeikakuzentai_pb.pdf"
+     },
+     {
+      "name": "山城地域振興計画",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/03_yamashirochiikikeikaku_pb.pdf"
+     },
+     {
+      "name": "南丹地域振興計画",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/04_nantanchiikikeikaku_pb.pdf"
+     },
+     {
+      "name": "中丹地域振興計画",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/05_chutanchiikikeikaku_pb.pdf"
+     },
+     {
+      "name": "丹後地域振興計画",
+      "url": "https://www.pref.kyoto.jp/keikaku/documents/06_tangochiikikeikaku_pb.pdf"
+     }
+    ],
+    "howto": "意見提出フォームから提出\n意見提出フォーム(外部リンク)\n「意見提出フォーム」での提出が難しい場合は、「意見記入用紙」にて下部に記載の宛先へ郵送、ファックス又は電子メールで提出\n意見記入用紙(word版)(ワード:22KB)\n意見記入用紙(PDF版)(PDF:108KB)\n京都府総合計画(中間案)について\n京都府総合計画(中間案)全体版(PDF:5,983KB)\n京都府総合計画(中間案)の概要(PDF:1,860KB)\n京都府総合計画(中間案)は、以下の3つで構成しています。\n2040年に京都が実現したい将来の姿を示す「将来構想」\n今後4年間に重点的に取り組む方向性を示す「基本計画」\n地域ごとのポテンシャルを活かした取組を示す「地域振興計画」",
+    "contact": "総合政策環境部総合政策室\n京都市上京区下立売通新町西入薮ノ内町\n電話番号:075-414-5110\nファックス:075-414-4389\nsogoseisaku@pref.kyoto.lg.jp"
+   }
   },
   {
    "id": "16df3ad0b3",
@@ -338,7 +400,33 @@
    "deadline": "2026-10-23",
    "checked": "2026-10-20",
    "first_seen": "2026-10-01",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "01_【見直し案】第4次生涯学習推進計画",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/564/01_minaosian_dai4jikeikaku.pdf"
+     },
+     {
+      "name": "02_【現行計画】第4次生涯学習推進計画",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/564/02_genkokeikaku.pdf"
+     },
+     {
+      "name": "03_【新旧対照表】第4次沖縄県生涯学習推進計画中間見直案",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/564/03_shinkyutaisyohyo.pdf"
+     },
+     {
+      "name": "04_意見用紙「第四次沖縄県生涯学習推進計画（見直し案）」",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/564/04_ikenyoshi.pdf"
+     },
+     {
+      "name": "04_意見用紙「第四次沖縄県生涯学習推進計画（見直し案）」",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/564/05_ikensyo.docx"
+     }
+    ],
+    "howto": "ご意見については、郵送、ファクス、電子メールにより受付けます。\n「意見提出用紙」に必要事項を記入の上、送信(送付)ください。\nご意見の受付は、募集期間最終日の10月23日(金曜日)17時到着分までとさせていただきます。\n郵送の場合\n〒900-0029 沖縄県那覇市旭町116-37\n教育庁生涯学習振興課生涯学習推進センターあて\nファクスの場合\nファクス番号:098-864-0476\n電子メールの場合\n件名「第四次沖縄県生涯学習推進計画(中間見直し)について」とし、「意見提出用紙」を添付の上、次のアドレスに送信ください。\n電子メール:manabee@pref.okinawa.lg.jp\n意見を提出する際の留意点",
+    "contact": "沖縄県 沖縄県教育庁 生涯学習振興課\n〒902-8501 沖縄県那覇市寄宮1丁目2番16号(旧県立図書館)\n電話:098-866-2746 ファクス:098-863-9547\nお問い合わせは専用フォームをご利用ください。"
+   }
   },
   {
    "id": "83805b2e08",
@@ -349,7 +437,25 @@
    "deadline": "2026-10-26",
    "checked": "2026-10-20",
    "first_seen": "2026-10-06",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "PDF版",
+      "url": "https://www.pref.kyoto.jp/rosei/news/documents/goikenn.pdf"
+     },
+     {
+      "name": "Word版（ワード：25KB）",
+      "url": "https://www.pref.kyoto.jp/rosei/news/documents/goikenn.docx"
+     },
+     {
+      "name": "京都府カスタマー・ハラスメントの防止等に関する条例（仮称）の骨子案",
+      "url": "https://www.pref.kyoto.jp/rosei/news/documents/kossiann.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "商工労働観光部労働政策室\n京都市上京区下立売通新町西入薮ノ内町\n電話番号:075-414-5550\nファックス:075-414-5092\nrodoseisaku@pref.kyoto.lg.jp"
+   }
   },
   {
    "id": "9633ff6d76",
@@ -360,7 +466,25 @@
    "deadline": "2026-10-26",
    "checked": "2026-10-20",
    "first_seen": "2026-10-06",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "京都府移住の促進及び移住者等の推進に関する条例の一部改正（骨子案）に対する御意見をお寄せください",
+      "url": "https://www.pref.kyoto.jp/kikakuriji/news/documents/pabukome-bosyu.pdf"
+     },
+     {
+      "name": "京都府移住の促進及び移住者等の推進に関する条例の一部改正（骨子案）",
+      "url": "https://www.pref.kyoto.jp/kikakuriji/news/documents/pabukome-kosshi.pdf"
+     },
+     {
+      "name": "京都府移住の促進及び移住者等の活躍の推進に関する条例（現行条例）",
+      "url": "https://www.pref.kyoto.jp/kikakuriji/news/documents/genko-jorei.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "総合政策環境部地域政策室\n京都市上京区下立売通新町西入藪ノ内町\n電話番号:075-414-4513\nファックス:075-414-4389\nchiikiseisaku@pref.kyoto.lg.jp"
+   }
   },
   {
    "id": "abf3180cd2",
@@ -474,7 +598,21 @@
    "deadline": "2026-10-28",
    "checked": "2026-10-20",
    "first_seen": "2026-09-29",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "1.中川流域水害対策計画計画（素案）の概要 [PDFファイル／4.53MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/191694.pdf"
+     },
+     {
+      "name": "2.中川流域水害対策計画計画（素案）（本文） [PDFファイル／12.33MB]",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/191695.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "愛媛県 土木部 河川港湾局 河川課 計画係\nTel:089-912-2674 Fax:089-948-1475\n資料(PDFファイル)"
+   }
   },
   {
    "id": "27cd557312",
@@ -609,7 +747,25 @@
    "first_seen": "2026-10-03",
    "tags": [
     "外国人政策"
-   ]
+   ],
+   "detail": {
+    "files": [
+     {
+      "name": "「埼玉県多文化共生推進プラン」（案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287232/keikakuan20261001.pdf"
+     },
+     {
+      "name": "意見募集案内",
+      "url": "https://www.pref.saitama.lg.jp/documents/287232/ikenboshuu20261001.pdf"
+     },
+     {
+      "name": "別紙様式（ワード：19KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287232/bessi20261001.docx"
+     }
+    ],
+    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、県ホームページの別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。",
+    "contact": "県民生活部 国際課 多文化共生担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-2717\nファックス:048-830-4748\nお問い合わせフォーム"
+   }
   },
   {
    "id": "7d78464ade",
@@ -620,7 +776,17 @@
    "deadline": "2026-10-30",
    "checked": "2026-10-20",
    "first_seen": "2026-10-03",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "「次期埼玉県環境基本計画（案）」に対する県民コメント（意見募集）の実施について",
+      "url": "https://www.pref.saitama.lg.jp/documents/287546/news20261001.pdf"
+     }
+    ],
+    "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面により下記項目を必ず記載し御提出ください。\n(1) 記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n(2) 対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
+    "contact": "〒330-9301 さいたま市浦和区高砂3-15-1\n埼玉県環境部環境政策課 企画調整・環境影響評価担当宛て\n電話:048-830-3041\nE-mail:a3010-13@pref.saitama.lg.jp\n報道発表資料(ダウンロードファイル)\n「次期埼玉県環境基本計画(案)」に対する県民コメント(意見募集)の実施について(PDF:175KB)\n県政ニュースのトップに戻る"
+   }
   },
   {
    "id": "3d57d0c382",
@@ -631,7 +797,21 @@
    "deadline": "2026-10-30",
    "checked": "2026-10-20",
    "first_seen": "2026-10-03",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "「埼玉県消費生活基本計画」(案)",
+      "url": "https://www.pref.saitama.lg.jp/documents/285820/dai8kki_keikaku_an.pdf"
+     },
+     {
+      "name": "別紙様式 （御意見）（ワード：18KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/285820/bessi_goiken.docx"
+     }
+    ],
+    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、以下の別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。\n別紙様式 (御意見)(ワード:18KB)",
+    "contact": "県民生活部 消費生活課\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎3階\n電話:048-830-2935\nお問い合わせフォーム\n2:ふつう"
+   }
   },
   {
    "id": "3293841b3e",
@@ -642,7 +822,21 @@
    "deadline": "2026-10-30",
    "checked": "2026-10-20",
    "first_seen": "2026-10-03",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "埼玉県男女共同参画基本計画（R9-13）（案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287748/saitamadanjo-keikakuanr09-13_1007ver.pdf"
+     },
+     {
+      "name": "（別紙様式）（ワード：20KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287748/coment-yoshiki.docx"
+     }
+    ],
+    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学先の県内市町村名を記載してください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。",
+    "contact": "県民生活部 人権・男女共同参画課 男女共同参画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 本庁舎3階\n電話:048-830-2921\nファックス:048-830-4755\nお問い合わせフォーム"
+   }
   },
   {
    "id": "ce69d1a0de",
@@ -653,7 +847,33 @@
    "deadline": "2026-10-30",
    "checked": "2026-10-20",
    "first_seen": "2026-10-03",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集用資料",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/ikenboshusiryo.pdf"
+     },
+     {
+      "name": "（参考）別紙意見提出様式（エクセル：15KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/ikenteishutuyousiki.xlsx"
+     },
+     {
+      "name": "（案）埼玉県地球温暖化対策実行計画（第2期）改正版（令和8年度見直し）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/minaosisoan.pdf"
+     },
+     {
+      "name": "（参考）現行計画と素案の対照表",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/sinkyuu.pdf"
+     },
+     {
+      "name": "（参考）見直しの概要",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/gaiyou.pdf"
+     }
+    ],
+    "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面に下記項目を必ず記載し御提出ください。\n記載事項\n個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\n法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
+    "contact": "環境部 温暖化対策課 実行計画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-3037\nファックス:048-830-4777\nお問い合わせフォーム"
+   }
   },
   {
    "id": "3ae8e9f39c",
@@ -759,87 +979,6 @@
     ],
     "howto": "・持参、郵送、ファクシミリ又は電子メールのいずれかの方法で意見書(様式自由)を提出してください。\n・電話での御意見は受け付けておりませんので御遠慮ください。\n・いただいた御意見の内容について照会する場合がありますので、意見書には氏名、住所及び連絡先(電話番号)を必ず明記してください。",
     "contact": ""
-   },
-   "tags": []
-  },
-  {
-   "id": "5e3aa01ebb",
-   "pref": "埼玉県",
-   "title": "「埼玉県多文化共生推進プラン」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-31",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "「埼玉県多文化共生推進プラン」（案）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287232/keikakuan20261001.pdf"
-     },
-     {
-      "name": "意見募集案内",
-      "url": "https://www.pref.saitama.lg.jp/documents/287232/ikenboshuu20261001.pdf"
-     },
-     {
-      "name": "別紙様式（ワード：19KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287232/bessi20261001.docx"
-     }
-    ],
-    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、県ホームページの別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。",
-    "contact": "県民生活部 国際課 多文化共生担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-2717\nファックス:048-830-4748\nお問い合わせフォーム"
-   },
-   "tags": [
-    "外国人政策"
-   ]
-  },
-  {
-   "id": "e72fc0c043",
-   "pref": "埼玉県",
-   "title": "「埼玉県消費生活基本計画」(案",
-   "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-31",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "「埼玉県消費生活基本計画」(案)",
-      "url": "https://www.pref.saitama.lg.jp/documents/285820/dai8kki_keikaku_an.pdf"
-     },
-     {
-      "name": "別紙様式 （御意見）（ワード：18KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/285820/bessi_goiken.docx"
-     }
-    ],
-    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、以下の別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。\n別紙様式 (御意見)(ワード:18KB)",
-    "contact": "県民生活部 消費生活課\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎3階\n電話:048-830-2935\nお問い合わせフォーム\n2:ふつう"
-   },
-   "tags": []
-  },
-  {
-   "id": "db1d815413",
-   "pref": "埼玉県",
-   "title": "「埼玉県男女共同参画基本計画」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-31",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "埼玉県男女共同参画基本計画（R9-13）（案）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287748/saitamadanjo-keikakuanr09-13_1007ver.pdf"
-     },
-     {
-      "name": "（別紙様式）（ワード：20KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287748/coment-yoshiki.docx"
-     }
-    ],
-    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学先の県内市町村名を記載してください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。",
-    "contact": "県民生活部 人権・男女共同参画課 男女共同参画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 本庁舎3階\n電話:048-830-2921\nファックス:048-830-4755\nお問い合わせフォーム"
    },
    "tags": []
   },
@@ -1123,7 +1262,21 @@
    "deadline": "2026-11-04",
    "checked": "2026-10-20",
    "first_seen": "2026-10-06",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "資料1宮城県環境基本計画（第5期）の概要",
+      "url": "https://www.pref.miyagi.jp/documents/66989/gaiyou.pdf"
+     },
+     {
+      "name": "資料2宮城県環境基本計画（第5期）（中間案）",
+      "url": "https://www.pref.miyagi.jp/documents/66989/zenbun.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "環境政策課環境計画推進班\n宮城県仙台市青葉区本町三丁目8番1号13階北側\n電話番号:022-211-2663\nファックス番号:022-211-2669\n2:ふつう"
+   }
   },
   {
    "id": "8811e23432",
@@ -1134,7 +1287,25 @@
    "deadline": "2026-11-05",
    "checked": "2026-10-20",
    "first_seen": "2026-10-06",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "第12次宮城県職業能力開発計画（中間案）の概要",
+      "url": "https://www.pref.miyagi.jp/documents/66940/12jigaiyou_1.pdf"
+     },
+     {
+      "name": "第12次宮城県職業能力開発計画（中間案）",
+      "url": "https://www.pref.miyagi.jp/documents/66940/12jikeikaku.pdf"
+     },
+     {
+      "name": "（参考資料）第12次宮城県職業能力開発計画の指標項目の設定について",
+      "url": "https://www.pref.miyagi.jp/documents/66940/sankou.pdf"
+     }
+    ],
+    "howto": "",
+    "contact": "産業人材対策課企画班\n仙台市青葉区本町三丁目8番1号(行政庁舎14階)\n電話番号:022-211-2764\n2:ふつう"
+   }
   },
   {
    "id": "d0f86ffc27",
@@ -1674,7 +1845,33 @@
    "deadline": "2026-11-09",
    "checked": "2026-10-20",
    "first_seen": "2026-10-10",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "「石川県避難計画要綱」改定（案）の概要",
+      "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/documents/1_gaiyo.pdf"
+     },
+     {
+      "name": "「石川県避難計画要綱 参考資料2 避難ルート」改定（案）",
+      "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/documents/2_sankosiryo2.pdf"
+     },
+     {
+      "name": "「石川県避難計画要綱」 新旧対照表",
+      "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/documents/3-1_keikakusinkyu.pdf"
+     },
+     {
+      "name": "「石川県避難計画要綱 参考資料2 避難ルート」 新旧対照表",
+      "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/documents/3-2_sankosiryosinkyu.pdf"
+     },
+     {
+      "name": "意見書（ワード：19KB）",
+      "url": "https://www.pref.ishikawa.lg.jp/bousai/bousai_g/bousaikeikaku/public_comment/documents/ikensho.docx"
+     }
+    ],
+    "howto": "",
+    "contact": "所属課:危機管理部防災対策課\n石川県金沢市鞍月1丁目1番地\n電話番号:076-225-1483\nファクス番号:076-225-1484\n2:ふつう"
+   }
   },
   {
    "id": "255147f536",
@@ -1767,7 +1964,29 @@
    "deadline": "2026-11-09",
    "checked": "2026-10-20",
    "first_seen": "2026-10-09",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "第12次鹿児島県職業能力開発計画骨子（案）【令和8～12年度】（概要）",
+      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20261001164928-1.pdf"
+     },
+     {
+      "name": "第12次鹿児島県職業能力開発計画骨子（案）",
+      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20261001161126-1.pdf"
+     },
+     {
+      "name": "意見提出用紙（WORD：18KB）",
+      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20260930163713-1.docx"
+     },
+     {
+      "name": "意見提出用紙",
+      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20260930164126-1.pdf"
+     }
+    ],
+    "howto": "御意見を出される方は,次の(1)から(4)までのいずれかの方法により提出してください。\nまた,御意見の内容を確認させていただく場合がありますので,住所,氏名,及び連絡先(電話番号,メールアドレス等)を必ず明記してください。\nなお,御意見の内容を正確に把握するため,お電話での御意見はお受けいたしませんので,あらかじめ御了承ください。\n意見提出用紙(WORD:18KB)\n意見提出用紙(PDF:44KB)\n(1)郵送の場合\n県のホームページからダウンロード又は閲覧場所に備え付けてある意見提出用紙に御記入の上,以下のあて先に郵送してください。\n〒890-8577\n鹿児島市鴨池新町10番1号\n鹿児島県商工労働水産部雇用労政課公共訓練係あて\n(2)FAXの場合\n県のホームページからダウンロード又は閲覧場所に備え付けてある意見提出用紙に御記入の上,以下のFAX番号に送信してください。",
+    "contact": "商工労働水産部雇用労政課\n2:ふつう"
+   }
   },
   {
    "id": "86695cf904",
@@ -1778,7 +1997,29 @@
    "deadline": "2026-11-10",
    "checked": "2026-10-20",
    "first_seen": "2026-10-20",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "「石川県耐震改修促進計画（案）」概要版",
+      "url": "https://www.pref.ishikawa.lg.jp/kenju/shisaku/taishin/documents/r8taisinkaisyuupabukomegaiyou2.pdf"
+     },
+     {
+      "name": "「石川県耐震改修促進計画（案）」",
+      "url": "https://www.pref.ishikawa.lg.jp/kenju/shisaku/taishin/documents/r8taisinkaisyuupabukomesiryou2.pdf"
+     },
+     {
+      "name": "ご意見用紙（ワード：21KB）",
+      "url": "https://www.pref.ishikawa.lg.jp/kenju/shisaku/taishin/documents/ikenyoushikitaisin2.docx"
+     },
+     {
+      "name": "ご意見用紙",
+      "url": "https://www.pref.ishikawa.lg.jp/kenju/shisaku/taishin/documents/ikenyoushikitaisin2.pdf"
+     }
+    ],
+    "howto": "ご意見用紙に、氏名、住所、ご意見等を記入のうえ、郵送、電子メール、FAXのいずれかの方法で提出してください。\n※なお、お電話や口頭によるご意見、氏名や住所等の記載がないものはお受けできませんのでご注意ください。\nご意見用紙(ワード:21KB)\nご意見用紙(PDF:94KB)",
+    "contact": "所属課:土木部建築住宅課\n石川県金沢市鞍月1丁目1番地\n電話番号:076-225-1778\nファクス番号:076-225-1779\n2:ふつう"
+   }
   },
   {
    "id": "a60998a946",
@@ -1789,7 +2030,25 @@
    "deadline": "2026-11-10",
    "checked": "2026-10-20",
    "first_seen": "2026-10-10",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "「かごしま茶」振興ビジョン（仮称）骨子案",
+      "url": "https://www.pref.kagoshima.jp/ag06/chagyoshinkou/documents/130984_20261009102951-1.pdf"
+     },
+     {
+      "name": "意見書提出用紙",
+      "url": "https://www.pref.kagoshima.jp/ag06/chagyoshinkou/documents/130984_20261009112718-1.pdf"
+     },
+     {
+      "name": "意見書提出用紙（WORD：25KB）",
+      "url": "https://www.pref.kagoshima.jp/ag06/chagyoshinkou/documents/130984_20261009112739-1.docx"
+     }
+    ],
+    "howto": "(1)郵送、(2)FAX、(3)電子メール、(4)電子申請システムのいずれかの方法により提出してください。\n御意見の内容を確認させていただく場合がありますので、氏名、住所、電話番号等の連絡先を必ず明記くださいますようお願いします。\n御意見の内容を正確に把握するため、電話、窓口での口頭による御意見はお受けしておりませんので、御了承ください。\n(1)郵送の場合\n「意見提出用紙」を県ホームページよりダウンロードまたは上記閲覧場所で入手の上、必要事項を記入いただき、下記のあて先に郵送してください。\n〒890-8577鹿児島市鴨池新町10番1号鹿児島県農政部農産園芸課あて\n(2)FAXの場合\n「意見提出用紙」を県ホームページよりダウンロードまたは上記閲覧場所で入手の上、必要事項を記入いただき、下記のあて先にFAXしてください。\nFAX番号:099-286-5595(鹿児島県農政部農産園芸課あて)\n(3)電子メールの場合",
+    "contact": "農政部農産園芸課\n2:ふつう"
+   }
   },
   {
    "id": "67708096ee",
@@ -1800,7 +2059,29 @@
    "deadline": "2026-11-12",
    "checked": "2026-10-20",
    "first_seen": "2026-10-20",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "「一時保護委託者の登録等に関する基準を定める条例（仮称）」骨子案の概要",
+      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/252534.pdf"
+     },
+     {
+      "name": "「一時保護委託者の登録等に関する基準を定める条例（仮称）」骨子案",
+      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/252536.pdf"
+     },
+     {
+      "name": "児童福祉法等の一部を改正する法律（令和7年法律第29号）",
+      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/252537.pdf"
+     },
+     {
+      "name": "一時保護委託者の登録等に関する基準（令和8年内閣府令第16号）",
+      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/252538.pdf"
+     }
+    ],
+    "howto": "提出先\n〒753-8501 山口市滝町1-1\n山口県健康福祉部こども・子育て応援局こども家庭課児童環境班\n電話 083-933-2731",
+    "contact": "こども家庭課\nTel:083-933-2731\nFax:083-933-2799\nMail:a11800@pref.yamaguchi.lg.jp\nこのページに関するお問い合わせ先\nこども・子育て応援局こども家庭課児童環境班(庶務・予算担当)\n〒753-8501山口県山口市滝町1番1号\nTel:083-933-2731"
+   }
   },
   {
    "id": "8f460b2dae",
@@ -1811,7 +2092,25 @@
    "deadline": "2026-11-12",
    "checked": "2026-10-20",
    "first_seen": "2026-10-13",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "新・群馬県総合計画ビジョン（原案）",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/716717.pdf"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/716261.docx"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.gunma.jp/uploaded/attachment/716457.pdf"
+     }
+    ],
+    "howto": "インターネット(新・群馬県総合計画ビジョン(原案)に関する意見募集について:ぐんま電子申請受付システム<外部リンク>)又は意見提出様式にご記入の上、郵便、ファクシミリ、電子メール、持参のいずれかの方法によりご提出ください。\nA4サイズであれば提出様式は自由ですが、原則として、氏名及び住所(法人又は団体の場合は、名称、代表者の氏名及び所在地)並びに連絡先(電話番号又は電子メールアドレス)を記載してください。\n匿名の場合及び電話等による口頭での意見提出は受付いたしかねますので、御了承ください。\n意見提出様式 (Word:24KB)\n意見提出様式 (PDF:91KB)",
+    "contact": ""
+   }
   },
   {
    "id": "87eca9bb9b",
@@ -1822,7 +2121,25 @@
    "deadline": "2026-11-13",
    "checked": "2026-10-20",
    "first_seen": "2026-10-13",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/01_bosyuuannai2.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：17KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/02youshiki1.docx"
+     },
+     {
+      "name": "埼玉県地域強靱化計画（改定素案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/03kaiteisoan.pdf"
+     }
+    ],
+    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見の箇所(ページ番号等)と内容\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見の箇所(ページ番号等)と内容\n※ 住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※ 県内への通勤・通学者の方は、通勤・通学先の市町村名を記載してください。\n※ 意見提出様式を御利用いただくか、任意の書面により上記項目を記載し御提出ください。",
+    "contact": "危機管理防災部 危機管理課 普及啓発担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 危機管理防災センター2階\n電話:048-830-8148\nお問い合わせフォーム\n2:ふつう"
+   }
   },
   {
    "id": "169e49e9a2",
@@ -2025,7 +2342,33 @@
    "deadline": "2026-11-14",
    "checked": "2026-10-20",
    "first_seen": "2026-10-16",
-   "tags": []
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "第12次岡山県職業能力開発計画（素案）へのご意見募集について [PDFファイル／137KB]",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058927_10260323_misc.pdf"
+     },
+     {
+      "name": "第12次岡山県職業能力開発計画（素案）の概要 [PDFファイル／205KB]",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058927_10260325_misc.pdf"
+     },
+     {
+      "name": "第12次岡山県職業能力開発計画（素案） [PDFファイル／408KB]",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058927_10260324_misc.pdf"
+     },
+     {
+      "name": "こちらの提案用紙をご利用ください。（PDF方式） [PDFファイル／53KB]",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058927_10260326_misc.pdf"
+     },
+     {
+      "name": "こちらの提案用紙をご利用ください（Word方式） [Wordファイル／19KB]",
+      "url": "https://www.pref.okayama.jp/uploaded/life/1058927_10260327_misc.docx"
+     }
+    ],
+    "howto": "",
+    "contact": ""
+   }
   },
   {
    "id": "9d2e747ca9",
@@ -4026,294 +4369,6 @@
     ],
     "howto": "インターネット(新・群馬県総合計画ビジョン(原案)に関する意見募集について:ぐんま電子申請受付システム<外部リンク>)又は意見提出様式にご記入の上、郵便、ファクシミリ、電子メール、持参のいずれかの方法によりご提出ください。\nA4サイズであれば提出様式は自由ですが、原則として、氏名及び住所(法人又は団体の場合は、名称、代表者の氏名及び所在地)並びに連絡先(電話番号又は電子メールアドレス)を記載してください。\n匿名の場合及び電話等による口頭での意見提出は受付いたしかねますので、御了承ください。\n意見提出様式 (Word:24KB)\n意見提出様式 (PDF:91KB)",
     "contact": ""
-   }
-  },
-  "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html#356e0a3037": {
-   "id": "3d57d0c382",
-   "pref": "埼玉県",
-   "title": "「埼玉県消費生活基本計画」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-20",
-   "first_seen": "2026-10-03"
-  },
-  "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html#140c38c1f9": {
-   "id": "436a5ef6bd",
-   "pref": "埼玉県",
-   "title": "「埼玉県多文化共生推進プラン」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-20",
-   "first_seen": "2026-10-03"
-  },
-  "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html#97927fe3e1": {
-   "id": "3293841b3e",
-   "pref": "埼玉県",
-   "title": "「埼玉県男女共同参画基本計画」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-20",
-   "first_seen": "2026-10-03"
-  },
-  "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html#1b4f032fea": {
-   "id": "ce69d1a0de",
-   "pref": "埼玉県",
-   "title": "「埼玉県地球温暖化対策実行計画(第2期)改正版(令和8年度見直し)」",
-   "url": "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-20",
-   "first_seen": "2026-10-03"
-  },
-  "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html#451a959366": {
-   "id": "7d78464ade",
-   "pref": "埼玉県",
-   "title": "「次期埼玉県環境基本計画(案)」",
-   "url": "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-20",
-   "first_seen": "2026-10-03"
-  },
-  "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html#e6ae10695d": {
-   "id": "87eca9bb9b",
-   "pref": "埼玉県",
-   "title": "「埼玉県地域強靱化計画(改訂素案)」",
-   "url": "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html",
-   "start": "2026-10-13",
-   "deadline": "2026-11-13",
-   "checked": "2026-10-20",
-   "first_seen": "2026-10-13"
-  },
-  "https://www.pref.saitama.lg.jp/a0301/kenminc/index.html": {
-   "id": "a786346aaf",
-   "pref": "埼玉県",
-   "title": "県民コメント制度",
-   "url": "https://www.pref.saitama.lg.jp/a0301/kenminc/index.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-19",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.saitama.lg.jp/a0102/5-keikaku/09-taikou-kenkome.html": {
-   "id": "396f1649c5",
-   "pref": "埼玉県",
-   "title": "「埼玉県5か年計画大綱」及び「4計画の一部変更(案)」",
-   "url": "https://www.pref.saitama.lg.jp/a0102/5-keikaku/09-taikou-kenkome.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-19",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.saitama.lg.jp/a0702/kokuho/uneihoushin.html": {
-   "id": "82ad6083e2",
-   "pref": "埼玉県",
-   "title": "埼玉県国民健康保険運営方針(第3期)中間見直し(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0702/kokuho/uneihoushin.html",
-   "start": "2026-08-13",
-   "deadline": "2026-09-11",
-   "checked": "2026-09-28",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.saitama.lg.jp/a0508/hokanjigyokeikaku_kenkome.html": {
-   "id": "cf3c9cad66",
-   "pref": "埼玉県",
-   "title": "「第14次埼玉県鳥獣保護管理事業計画素案」",
-   "url": "https://www.pref.saitama.lg.jp/a0508/hokanjigyokeikaku_kenkome.html",
-   "start": "2026-09-12",
-   "deadline": "2026-10-12",
-   "checked": "2026-10-03",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "意見募集案内（PDF：119KB）（別ウィンドウで開きます）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287313/01boshuuannai.pdf"
-     },
-     {
-      "name": "意見提出様式（エクセル：16KB）（別ウィンドウで開きます）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287313/02yoshiki.xlsx"
-     },
-     {
-      "name": "「第14次埼玉県鳥獣保護管理事業計画素案」（PDF：2,058KB）（別ウィンドウで開きます）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287313/03_0912_14hogokanrijigyokeikaku_soan1.pdf"
-     }
-    ],
-    "howto": "御意見については、別紙様式を御利用いただくか、任意の書面により下記項目を記載し御提出ください。\n(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n(県外在住の場合は通勤・通学する市町村名も記載してください)\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※ 住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n(2)対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
-    "contact": "環境部 みどり自然課 野生生物担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第3庁舎2階\n電話:048-830-3143\nファックス:048-830-4775\nお問い合わせフォーム"
-   }
-  },
-  "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html": {
-   "id": "e72fc0c043",
-   "pref": "埼玉県",
-   "title": "「埼玉県消費生活基本計画」(案",
-   "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-31",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "「埼玉県消費生活基本計画」(案)",
-      "url": "https://www.pref.saitama.lg.jp/documents/285820/dai8kki_keikaku_an.pdf"
-     },
-     {
-      "name": "別紙様式 （御意見）（ワード：18KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/285820/bessi_goiken.docx"
-     }
-    ],
-    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、以下の別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。\n別紙様式 (御意見)(ワード:18KB)",
-    "contact": "県民生活部 消費生活課\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎3階\n電話:048-830-2935\nお問い合わせフォーム\n2:ふつう"
-   }
-  },
-  "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html": {
-   "id": "5e3aa01ebb",
-   "pref": "埼玉県",
-   "title": "「埼玉県多文化共生推進プラン」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-31",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "「埼玉県多文化共生推進プラン」（案）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287232/keikakuan20261001.pdf"
-     },
-     {
-      "name": "意見募集案内",
-      "url": "https://www.pref.saitama.lg.jp/documents/287232/ikenboshuu20261001.pdf"
-     },
-     {
-      "name": "別紙様式（ワード：19KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287232/bessi20261001.docx"
-     }
-    ],
-    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、県ホームページの別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。",
-    "contact": "県民生活部 国際課 多文化共生担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-2717\nファックス:048-830-4748\nお問い合わせフォーム"
-   }
-  },
-  "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html": {
-   "id": "db1d815413",
-   "pref": "埼玉県",
-   "title": "「埼玉県男女共同参画基本計画」(案)",
-   "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-31",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "埼玉県男女共同参画基本計画（R9-13）（案）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287748/saitamadanjo-keikakuanr09-13_1007ver.pdf"
-     },
-     {
-      "name": "（別紙様式）（ワード：20KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287748/coment-yoshiki.docx"
-     }
-    ],
-    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学先の県内市町村名を記載してください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。",
-    "contact": "県民生活部 人権・男女共同参画課 男女共同参画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 本庁舎3階\n電話:048-830-2921\nファックス:048-830-4755\nお問い合わせフォーム"
-   }
-  },
-  "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html": {
-   "id": "c2ba558586",
-   "pref": "埼玉県",
-   "title": "「次期埼玉県環境基本計画(案)」",
-   "url": "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "「次期埼玉県環境基本計画（案）」に対する県民コメント（意見募集）の実施について",
-      "url": "https://www.pref.saitama.lg.jp/documents/287546/news20261001.pdf"
-     }
-    ],
-    "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面により下記項目を必ず記載し御提出ください。\n(1) 記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n(2) 対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
-    "contact": "〒330-9301 さいたま市浦和区高砂3-15-1\n埼玉県環境部環境政策課 企画調整・環境影響評価担当宛て\n電話:048-830-3041\nE-mail:a3010-13@pref.saitama.lg.jp\n報道発表資料(ダウンロードファイル)\n「次期埼玉県環境基本計画(案)」に対する県民コメント(意見募集)の実施について(PDF:175KB)\n県政ニュースのトップに戻る"
-   }
-  },
-  "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html": {
-   "id": "5f3fa04819",
-   "pref": "埼玉県",
-   "title": "「埼玉県地域強靱化計画(改訂素案)」",
-   "url": "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html",
-   "start": "2026-10-13",
-   "deadline": "2026-11-13",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-13",
-   "detail": {
-    "files": [
-     {
-      "name": "意見募集",
-      "url": "https://www.pref.saitama.lg.jp/documents/287556/01_bosyuuannai2.pdf"
-     },
-     {
-      "name": "意見提出様式（ワード：17KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287556/02youshiki1.docx"
-     },
-     {
-      "name": "埼玉県地域強靱化計画（改定素案）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287556/03kaiteisoan.pdf"
-     }
-    ],
-    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見の箇所(ページ番号等)と内容\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見の箇所(ページ番号等)と内容\n※ 住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※ 県内への通勤・通学者の方は、通勤・通学先の市町村名を記載してください。\n※ 意見提出様式を御利用いただくか、任意の書面により上記項目を記載し御提出ください。",
-    "contact": "危機管理防災部 危機管理課 普及啓発担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 危機管理防災センター2階\n電話:048-830-8148\nお問い合わせフォーム\n2:ふつう"
-   }
-  },
-  "https://www.pref.saitama.lg.jp/a0301/tyosaku-rinku.html": {
-   "id": "1d054773ea",
-   "pref": "埼玉県",
-   "title": "著作権・リンクについて",
-   "url": "https://www.pref.saitama.lg.jp/a0301/tyosaku-rinku.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-19",
-   "first_seen": "2026-09-28"
-  },
-  "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html": {
-   "id": "64f65b711c",
-   "pref": "埼玉県",
-   "title": "「埼玉県地球温暖化対策実行計画(第2期)改正版(令和8年度見直し)」",
-   "url": "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html",
-   "start": "2026-10-01",
-   "deadline": "2026-10-30",
-   "checked": "2026-10-13",
-   "first_seen": "2026-10-03",
-   "detail": {
-    "files": [
-     {
-      "name": "意見募集用資料",
-      "url": "https://www.pref.saitama.lg.jp/documents/287728/ikenboshusiryo.pdf"
-     },
-     {
-      "name": "（参考）別紙意見提出様式（エクセル：15KB）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287728/ikenteishutuyousiki.xlsx"
-     },
-     {
-      "name": "（案）埼玉県地球温暖化対策実行計画（第2期）改正版（令和8年度見直し）",
-      "url": "https://www.pref.saitama.lg.jp/documents/287728/minaosisoan.pdf"
-     },
-     {
-      "name": "（参考）現行計画と素案の対照表",
-      "url": "https://www.pref.saitama.lg.jp/documents/287728/sinkyuu.pdf"
-     },
-     {
-      "name": "（参考）見直しの概要",
-      "url": "https://www.pref.saitama.lg.jp/documents/287728/gaiyou.pdf"
-     }
-    ],
-    "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面に下記項目を必ず記載し御提出ください。\n記載事項\n個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\n法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
-    "contact": "環境部 温暖化対策課 実行計画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-3037\nファックス:048-830-4777\nお問い合わせフォーム"
    }
   },
   "https://www.pref.chiba.lg.jp/cate/kt/kenminsanka/index.html": {
@@ -12240,6 +12295,294 @@
     ],
     "howto": "ご意見については、郵送、ファクス、電子メールにより受付けます。\n「意見提出用紙」に必要事項を記入の上、送信(送付)ください。\nご意見の受付は、募集期間最終日の10月9日(金曜日)17時までの到着分までさせていただきます。\n郵送の場合\n〒900-8570那覇市泉崎1-2-2 沖縄県保健医療介護部国民健康保険課\nファクスの場合\nファクス番号:098-866-2326\n電子メールの場合\n件名「沖縄県国民健康保険運営方針(第3期)見直し(素案)について」とし、「意見提出用紙」を添付の上、次のアドレスに送信ください。\n電子メール:aa030340@pref.okinawa.lg.jp\n意見を提出する際の留意点\n(1)「意見提出用紙」には、住所、氏名(団体・グループの場合はその名称)、連絡先を必ず記入してください。記入していない場合には、受付けできない場合がありますのでご注意ください。",
     "contact": "沖縄県 保健医療介護部 国民健康保険課\n〒900-8570 沖縄県那覇市泉崎1-2-2 行政棟3階(北側)\n電話:098-866-2304 ファクス:098-866-2326\nお問い合わせは専用フォームをご利用ください。"
+   }
+  },
+  "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html#356e0a3037": {
+   "id": "3d57d0c382",
+   "pref": "埼玉県",
+   "title": "「埼玉県消費生活基本計画」(案)",
+   "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-20",
+   "first_seen": "2026-10-03"
+  },
+  "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html#140c38c1f9": {
+   "id": "436a5ef6bd",
+   "pref": "埼玉県",
+   "title": "「埼玉県多文化共生推進プラン」(案)",
+   "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-20",
+   "first_seen": "2026-10-03"
+  },
+  "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html#97927fe3e1": {
+   "id": "3293841b3e",
+   "pref": "埼玉県",
+   "title": "「埼玉県男女共同参画基本計画」(案)",
+   "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-20",
+   "first_seen": "2026-10-03"
+  },
+  "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html#1b4f032fea": {
+   "id": "ce69d1a0de",
+   "pref": "埼玉県",
+   "title": "「埼玉県地球温暖化対策実行計画(第2期)改正版(令和8年度見直し)」",
+   "url": "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-20",
+   "first_seen": "2026-10-03"
+  },
+  "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html#451a959366": {
+   "id": "7d78464ade",
+   "pref": "埼玉県",
+   "title": "「次期埼玉県環境基本計画(案)」",
+   "url": "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-20",
+   "first_seen": "2026-10-03"
+  },
+  "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html#e6ae10695d": {
+   "id": "87eca9bb9b",
+   "pref": "埼玉県",
+   "title": "「埼玉県地域強靱化計画(改訂素案)」",
+   "url": "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html",
+   "start": "2026-10-13",
+   "deadline": "2026-11-13",
+   "checked": "2026-10-20",
+   "first_seen": "2026-10-13"
+  },
+  "https://www.pref.saitama.lg.jp/a0301/kenminc/index.html": {
+   "id": "a786346aaf",
+   "pref": "埼玉県",
+   "title": "県民コメント制度",
+   "url": "https://www.pref.saitama.lg.jp/a0301/kenminc/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-19",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.saitama.lg.jp/a0102/5-keikaku/09-taikou-kenkome.html": {
+   "id": "396f1649c5",
+   "pref": "埼玉県",
+   "title": "「埼玉県5か年計画大綱」及び「4計画の一部変更(案)」",
+   "url": "https://www.pref.saitama.lg.jp/a0102/5-keikaku/09-taikou-kenkome.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-19",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.saitama.lg.jp/a0702/kokuho/uneihoushin.html": {
+   "id": "82ad6083e2",
+   "pref": "埼玉県",
+   "title": "埼玉県国民健康保険運営方針(第3期)中間見直し(案)",
+   "url": "https://www.pref.saitama.lg.jp/a0702/kokuho/uneihoushin.html",
+   "start": "2026-08-13",
+   "deadline": "2026-09-11",
+   "checked": "2026-09-28",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.saitama.lg.jp/a0508/hokanjigyokeikaku_kenkome.html": {
+   "id": "cf3c9cad66",
+   "pref": "埼玉県",
+   "title": "「第14次埼玉県鳥獣保護管理事業計画素案」",
+   "url": "https://www.pref.saitama.lg.jp/a0508/hokanjigyokeikaku_kenkome.html",
+   "start": "2026-09-12",
+   "deadline": "2026-10-12",
+   "checked": "2026-10-03",
+   "first_seen": "2026-10-03",
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集案内（PDF：119KB）（別ウィンドウで開きます）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287313/01boshuuannai.pdf"
+     },
+     {
+      "name": "意見提出様式（エクセル：16KB）（別ウィンドウで開きます）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287313/02yoshiki.xlsx"
+     },
+     {
+      "name": "「第14次埼玉県鳥獣保護管理事業計画素案」（PDF：2,058KB）（別ウィンドウで開きます）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287313/03_0912_14hogokanrijigyokeikaku_soan1.pdf"
+     }
+    ],
+    "howto": "御意見については、別紙様式を御利用いただくか、任意の書面により下記項目を記載し御提出ください。\n(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n(県外在住の場合は通勤・通学する市町村名も記載してください)\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※ 住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n(2)対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
+    "contact": "環境部 みどり自然課 野生生物担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第3庁舎2階\n電話:048-830-3143\nファックス:048-830-4775\nお問い合わせフォーム"
+   }
+  },
+  "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html": {
+   "id": "e72fc0c043",
+   "pref": "埼玉県",
+   "title": "「埼玉県消費生活基本計画」(案",
+   "url": "https://www.pref.saitama.lg.jp/a0310/kihonkeikaku/r8kenminkomento.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-31",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-03",
+   "detail": {
+    "files": [
+     {
+      "name": "「埼玉県消費生活基本計画」(案)",
+      "url": "https://www.pref.saitama.lg.jp/documents/285820/dai8kki_keikaku_an.pdf"
+     },
+     {
+      "name": "別紙様式 （御意見）（ワード：18KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/285820/bessi_goiken.docx"
+     }
+    ],
+    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、以下の別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。\n別紙様式 (御意見)(ワード:18KB)",
+    "contact": "県民生活部 消費生活課\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎3階\n電話:048-830-2935\nお問い合わせフォーム\n2:ふつう"
+   }
+  },
+  "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html": {
+   "id": "5e3aa01ebb",
+   "pref": "埼玉県",
+   "title": "「埼玉県多文化共生推進プラン」(案)",
+   "url": "https://www.pref.saitama.lg.jp/a0306/keikakutoukei/20261001.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-31",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-03",
+   "detail": {
+    "files": [
+     {
+      "name": "「埼玉県多文化共生推進プラン」（案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287232/keikakuan20261001.pdf"
+     },
+     {
+      "name": "意見募集案内",
+      "url": "https://www.pref.saitama.lg.jp/documents/287232/ikenboshuu20261001.pdf"
+     },
+     {
+      "name": "別紙様式（ワード：19KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287232/bessi20261001.docx"
+     }
+    ],
+    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学する市町村名\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※御意見については、県ホームページの別紙様式を御利用いただくか、任意の書面により上記事項を必ず記載し御提出ください。",
+    "contact": "県民生活部 国際課 多文化共生担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-2717\nファックス:048-830-4748\nお問い合わせフォーム"
+   }
+  },
+  "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html": {
+   "id": "db1d815413",
+   "pref": "埼玉県",
+   "title": "「埼玉県男女共同参画基本計画」(案)",
+   "url": "https://www.pref.saitama.lg.jp/a0309/danjyokeikaku/danjyokeikaku0930-1.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-31",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-03",
+   "detail": {
+    "files": [
+     {
+      "name": "埼玉県男女共同参画基本計画（R9-13）（案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287748/saitamadanjo-keikakuanr09-13_1007ver.pdf"
+     },
+     {
+      "name": "（別紙様式）（ワード：20KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287748/coment-yoshiki.docx"
+     }
+    ],
+    "howto": "(1)記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n県外在住の場合は通勤・通学先の県内市町村名を記載してください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n※住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。",
+    "contact": "県民生活部 人権・男女共同参画課 男女共同参画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 本庁舎3階\n電話:048-830-2921\nファックス:048-830-4755\nお問い合わせフォーム"
+   }
+  },
+  "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html": {
+   "id": "c2ba558586",
+   "pref": "埼玉県",
+   "title": "「次期埼玉県環境基本計画(案)」",
+   "url": "https://www.pref.saitama.lg.jp/a0501/news/page/news2026100101.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-03",
+   "detail": {
+    "files": [
+     {
+      "name": "「次期埼玉県環境基本計画（案）」に対する県民コメント（意見募集）の実施について",
+      "url": "https://www.pref.saitama.lg.jp/documents/287546/news20261001.pdf"
+     }
+    ],
+    "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面により下記項目を必ず記載し御提出ください。\n(1) 記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n(2) 対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
+    "contact": "〒330-9301 さいたま市浦和区高砂3-15-1\n埼玉県環境部環境政策課 企画調整・環境影響評価担当宛て\n電話:048-830-3041\nE-mail:a3010-13@pref.saitama.lg.jp\n報道発表資料(ダウンロードファイル)\n「次期埼玉県環境基本計画(案)」に対する県民コメント(意見募集)の実施について(PDF:175KB)\n県政ニュースのトップに戻る"
+   }
+  },
+  "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html": {
+   "id": "5f3fa04819",
+   "pref": "埼玉県",
+   "title": "「埼玉県地域強靱化計画(改訂素案)」",
+   "url": "http://www.pref.saitama.lg.jp//a0401/kyojinka/202703.html",
+   "start": "2026-10-13",
+   "deadline": "2026-11-13",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-13",
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/01_bosyuuannai2.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：17KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/02youshiki1.docx"
+     },
+     {
+      "name": "埼玉県地域強靱化計画（改定素案）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287556/03kaiteisoan.pdf"
+     }
+    ],
+    "howto": "記載事項\nア 個人で御提出いただく場合\n住所、氏名、御意見の箇所(ページ番号等)と内容\nイ 法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見の箇所(ページ番号等)と内容\n※ 住所、氏名(法人等の場合は主たる事務所の所在地、名称及び代表者の氏名)は必ず記載してください。\n※ 県内への通勤・通学者の方は、通勤・通学先の市町村名を記載してください。\n※ 意見提出様式を御利用いただくか、任意の書面により上記項目を記載し御提出ください。",
+    "contact": "危機管理防災部 危機管理課 普及啓発担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 危機管理防災センター2階\n電話:048-830-8148\nお問い合わせフォーム\n2:ふつう"
+   }
+  },
+  "https://www.pref.saitama.lg.jp/a0301/tyosaku-rinku.html": {
+   "id": "1d054773ea",
+   "pref": "埼玉県",
+   "title": "著作権・リンクについて",
+   "url": "https://www.pref.saitama.lg.jp/a0301/tyosaku-rinku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-19",
+   "first_seen": "2026-09-28"
+  },
+  "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html": {
+   "id": "64f65b711c",
+   "pref": "埼玉県",
+   "title": "「埼玉県地球温暖化対策実行計画(第2期)改正版(令和8年度見直し)」",
+   "url": "https://www.pref.saitama.lg.jp/a0502/ontaikeikaku-1ikenbosyuu/r8_kenminkomento.html",
+   "start": "2026-10-01",
+   "deadline": "2026-10-30",
+   "checked": "2026-10-13",
+   "first_seen": "2026-10-03",
+   "detail": {
+    "files": [
+     {
+      "name": "意見募集用資料",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/ikenboshusiryo.pdf"
+     },
+     {
+      "name": "（参考）別紙意見提出様式（エクセル：15KB）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/ikenteishutuyousiki.xlsx"
+     },
+     {
+      "name": "（案）埼玉県地球温暖化対策実行計画（第2期）改正版（令和8年度見直し）",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/minaosisoan.pdf"
+     },
+     {
+      "name": "（参考）現行計画と素案の対照表",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/sinkyuu.pdf"
+     },
+     {
+      "name": "（参考）見直しの概要",
+      "url": "https://www.pref.saitama.lg.jp/documents/287728/gaiyou.pdf"
+     }
+    ],
+    "howto": "御意見については、(参考)別紙意見提出様式を御利用いただくか、任意の書面に下記項目を必ず記載し御提出ください。\n記載事項\n個人で御提出いただく場合\n住所、氏名、御意見\n※ 県外にお住まいの場合は、通勤・通学先の市町村名を住所と併せて御記載ください。\n法人、その他の団体で御提出いただく場合\n主たる事務所の所在地、名称、代表者の氏名、御意見\n対象者\n県内に住所を有する個人、法人、団体及び県内への通勤・通学者",
+    "contact": "環境部 温暖化対策課 実行計画担当\n郵便番号330-9301 埼玉県さいたま市浦和区高砂三丁目15番1号 第三庁舎2階\n電話:048-830-3037\nファックス:048-830-4777\nお問い合わせフォーム"
    }
   }
  }
