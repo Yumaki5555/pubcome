@@ -1,65 +1,7 @@
 {
- "updated": "2026-10-21T09:23+09:00",
+ "updated": "2026-10-22T08:08+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "110300048",
-   "title": "「製造委託等に係る中小受託事業者に対する代金の支払の遅延等の防止に関する法律の運用基準」改正案及び「特定受託事業者に係る取引の適正化等に関する法律の考え方」改正案に対する意見募集について",
-   "category": "経済財政政策",
-   "ministry": "公正取引委員会",
-   "published": "2026-06-24T23:59:00+09:00",
-   "deadline": "2026-07-23T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=110300048&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "095260630",
-   "title": "JPAo013株を利用して生産されたホスホリパーゼに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
-   "category": "国民生活の安全・安心の確保",
-   "ministry": "内閣府",
-   "published": "2026-06-24T23:59:00+09:00",
-   "deadline": "2026-07-23T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260630&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "095260640",
-   "title": "KN012株を利用して生産されたβ－ニコチンアミドモノヌクレオチドに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
-   "category": "国民生活の安全・安心の確保",
-   "ministry": "内閣府",
-   "published": "2026-06-24T23:59:00+09:00",
-   "deadline": "2026-07-23T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260640&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "095260650",
-   "title": "シアナジンに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
-   "category": "国民生活の安全・安心の確保",
-   "ministry": "内閣府",
-   "published": "2026-06-24T23:59:00+09:00",
-   "deadline": "2026-07-23T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260650&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "141000230",
-   "title": "児童福祉施設の設備及び運営に関する基準及び放課後児童健全育成事業の設備及び運営に関する基準の一部を改正する内閣府令案に関する御意見の募集について",
-   "category": "社会福祉",
-   "ministry": "こども家庭庁",
-   "published": "2026-06-24T23:59:00+09:00",
-   "deadline": "2026-07-23T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000230&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": [
-    "子育て",
-    "社会保障"
-   ]
-  },
   {
    "id": "595126103",
    "title": "紙製造業に属する事業を行う者の古紙の利用に関する判断の基準となるべき事項を定める省令の一部を改正する省令（案）に対する意見公募要領",
@@ -6464,6 +6406,49 @@
    }
   },
   {
+   "id": "595320043",
+   "title": "J－クレジット制度文書の改定案に対する意見の募集について",
+   "category": "環境保全",
+   "ministry": "経済産業省",
+   "published": "2026-10-21T23:59:00+09:00",
+   "deadline": "2026-11-04T18:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320043&Mode=0",
+   "first_seen": "2026-10-22",
+   "tags": [],
+   "detail": {
+    "rule_name": "ー",
+    "law": "ー",
+    "guide_files": [
+     {
+      "name": "01_意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322614"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "02_改定案概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322615"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "A_改定案概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322616"
+     },
+     {
+      "name": "B_改定案概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322617"
+     },
+     {
+      "name": "C_改定案概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322618"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省GXグループ環境政策課GX推進企画室"
+   }
+  },
+  {
    "id": "145210782",
    "title": "「公共サービス改革基本方針」の見直しに関する意見募集について",
    "category": "経済財政政策",
@@ -8899,6 +8884,40 @@
    }
   },
   {
+   "id": "240000131",
+   "title": "個人情報の保護に関する法律施行規則及び行政手続における特定の個人を識別するための番号の利用等に関する法律第二十九条の四第一項及び第二項に基づく特定個人情報の漏えい等に関する報告等に関する規則の一部を改正する規則（案）の意見募集について",
+   "category": "国民生活の安全・安心の確保",
+   "ministry": "個人情報保護委員会",
+   "published": "2026-10-21T23:59:00+09:00",
+   "deadline": "2026-11-20T17:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=240000131&Mode=0",
+   "first_seen": "2026-10-22",
+   "tags": [],
+   "detail": {
+    "rule_name": "個人情報の保護に関する法律施行規則及び行政手続における特定の個人を識別するための番号の利用等に関する法律第二十九条の四第一項及び第二項に基づく特定個人情報の漏えい等に関する報告等に関する規則の一部を改正する規則",
+    "law": "個人情報の保護に関する法律等の一部を改正する法律（令和８年法律第56号）による改正後の個人情報の保護に関する法律第163条第２項\n行政手続における特定の個人を識別するための番号の利用等に関する法律第二十九条の四第一項及び第二項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322627"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "規則改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322628"
+     },
+     {
+      "name": "改正の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322629"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "個人情報保護委員会事務局（個人情報保護制度担当室）\n03-6457-9680（代表）"
+   }
+  },
+  {
    "id": "145210786",
    "title": "郵便事業の安定的・持続的な運営を確保するための方策に関する意見募集",
    "category": "郵務",
@@ -8999,6 +9018,36 @@
     ],
     "note": "",
     "contact": "国土交通省航空局安全部安全政策課乗員政策室\nＴＥＬ：０３－５２５３－８１１１（内線 ５０３５６）"
+   }
+  },
+  {
+   "id": "185001512",
+   "title": "スポーツにおける使用を禁止すべき物質及び国際規約に違反する行為を定める省令の一部を改正する省令に関するパブリック・コメント（意見公募手続）の実施について",
+   "category": "その他",
+   "ministry": "文部科学省",
+   "published": "2026-10-22T23:59:00+09:00",
+   "deadline": "2026-11-20T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001512&Mode=0",
+   "first_seen": "2026-10-22",
+   "tags": [],
+   "detail": {
+    "rule_name": "スポーツにおける使用を禁止すべき物質及び国際規約に違反する行為を定める省令の一部を改正する省令",
+    "law": "スポーツにおけるドーピングの防止活動の推進に関する法律第２条第３項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322556"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322557"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "スポーツ庁参事官（国際担当）付\nアンチ・ドーピング企画調整係、企画係\n電話：03-5253-4111（内線2947）"
    }
   },
   {
