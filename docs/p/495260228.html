@@ -57,7 +57,7 @@ footer{font-size:.78rem;color:var(--sub);margin-top:20px}
 <h1>発がん性のある化学物質リストの見直し</h1>
 <p class="official">正式名：「労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件（案）」に関する御意見の募集について</p>
 
-<div class="deadline"><span class="left" id="left"></span><span><small>意見の締切</small>2026年11月18日 16:00</span></div>
+<div class="deadline"><span class="left" id="left"></span><span><small>意見の締切</small>2026年11月18日 23:59</span></div>
 
 <div class="btns">
   <a class="btn go" href="https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=495260228&amp;Mode=0" target="_blank" rel="noopener">e-Gov（国のページ）で意見を出す</a>
@@ -105,7 +105,7 @@ function shareX(text){
 }
 
 const ymd = d => Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
-const dl = Math.round((ymd(new Date('2026-11-18T16:00:00+09:00')) - ymd(new Date())) / 86400000);
+const dl = Math.round((ymd(new Date('2026-11-18T23:59:00+09:00')) - ymd(new Date())) / 86400000);
 const left = document.getElementById('left');
 left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
 if (dl <= 7) left.classList.add('urgent');

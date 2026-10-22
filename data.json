@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T09:26+09:00",
+ "updated": "2026-10-23T08:08+09:00",
  "source": "list",
  "items": [
   {
@@ -7221,6 +7221,36 @@
    }
   },
   {
+   "id": "185001513",
+   "title": "デジタルな形態を含む教科書の発行・採択等に関する指針の策定に向けて（素案）に関する意見の募集の実施について",
+   "category": "教育",
+   "ministry": "文部科学省",
+   "published": "2026-10-23T23:59:00+09:00",
+   "deadline": "2026-11-08T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001513&Mode=0",
+   "first_seen": "2026-10-23",
+   "tags": [],
+   "detail": {
+    "rule_name": "デジタルな形態を含む教科書の発行・採択等に関する指針の策定に向けて〜紙とデジタルをスマートに使い分け、学びの可能性を広げる〜（素案）",
+    "law": "なし",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322630"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "デジタルな形態を含む教科書の発行・採択等に関する指針の策定に向けて（素案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322631"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "文部科学省初等中等教育局教科書課\nTell 03-6734-4111\n03-6734-5028\ne-mail digital@mext.go.jp"
+   }
+  },
+  {
    "id": "495260216",
    "title": "感染症の予防及び感染症の患者に対する医療に関する法律施行規則の一部を改正する省令案に関する御意見の募集について",
    "category": "厚生",
@@ -8481,36 +8511,6 @@
    }
   },
   {
-   "id": "495260228",
-   "title": "「労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件（案）」に関する御意見の募集について",
-   "category": "労働",
-   "ministry": "厚生労働省",
-   "published": "2026-10-20T23:59:00+09:00",
-   "deadline": "2026-11-18T16:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260228&Mode=0",
-   "first_seen": "2026-10-21",
-   "tags": [],
-   "detail": {
-    "rule_name": "労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件",
-    "law": "労働安全衛生規則（昭和47年労働省令第32号）第577条の２第５項",
-    "guide_files": [
-     {
-      "name": "意見公募要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322591"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "概要",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322592"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111"
-   }
-  },
-  {
    "id": "495260229",
    "title": "「労働安全衛生規則第五百七十七条の二第二項の規定に基づき厚生労働大臣が定める物及び厚生労働大臣が定める濃度の基準の一部を改正する件（案）」に関する御意見の募集について",
    "category": "労働",
@@ -8712,6 +8712,36 @@
     "other_files": [],
     "note": "",
     "contact": "経済産業省貿易経済安全保障局 安全保障貿易管理課"
+   }
+  },
+  {
+   "id": "495260228",
+   "title": "「労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件（案）」に関する御意見の募集について",
+   "category": "労働",
+   "ministry": "厚生労働省",
+   "published": "2026-10-20T23:59:00+09:00",
+   "deadline": "2026-11-18T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260228&Mode=0",
+   "first_seen": "2026-10-21",
+   "tags": [],
+   "detail": {
+    "rule_name": "労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件",
+    "law": "労働安全衛生規則（昭和47年労働省令第32号）第577条の２第５項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322591"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322592"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111"
    }
   },
   {
@@ -8918,6 +8948,45 @@
    }
   },
   {
+   "id": "620340015",
+   "title": "エネルギーの使用の合理化及び非化石エネルギーへの転換等に関する法律施行規則の一部を改正する省令案及びガス温水機器及び電気温水機器のエネルギー消費性能の向上に関するエネルギー消費機器等製造事業者等の判断の基準等に対する意見公募要領",
+   "category": "その他",
+   "ministry": "資源エネルギー庁",
+   "published": "2026-10-22T23:59:00+09:00",
+   "deadline": "2026-11-20T20:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620340015&Mode=0",
+   "first_seen": "2026-10-23",
+   "tags": [],
+   "detail": {
+    "rule_name": "エネルギーの使用の合理化及び非化石エネルギーへの転換等に関する法律施行規則の一部を改正する省令案及びガス温水機器及び電気温水機器のエネルギー消費性能の向上に関するエネルギー消費機器等製造事業者等の判断の基準等",
+    "law": "エネルギーの使用の合理化及び非化石エネルギーへの転換等に関する法律（昭和五十四年法律第四十九号）第百四十九条第一項\nエネルギーの使用の合理化及び非化石エネルギーの転換等に関する法律施行令（昭和五十四年政令第二百六十七号）第十八条第十四号",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322769"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322770"
+     },
+     {
+      "name": "告示案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322771"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "家庭用温水機器判断基準ワーキンググループ取りまとめ",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322772"
+     }
+    ],
+    "note": "",
+    "contact": "資源エネルギー庁 省エネルギー・新エネルギー部 省エネルギー課 トップランナー制度担当 あて"
+   }
+  },
+  {
    "id": "145210786",
    "title": "郵便事業の安定的・持続的な運営を確保するための方策に関する意見募集",
    "category": "郵務",
@@ -9048,6 +9117,112 @@
     "other_files": [],
     "note": "",
     "contact": "スポーツ庁参事官（国際担当）付\nアンチ・ドーピング企画調整係、企画係\n電話：03-5253-4111（内線2947）"
+   }
+  },
+  {
+   "id": "141000242",
+   "title": "「令和９年度こども家庭科学研究」に対する御意見募集（パブリック・コメント）について",
+   "category": "厚生",
+   "ministry": "こども家庭庁",
+   "published": "2026-10-23T23:59:00+09:00",
+   "deadline": "2026-11-21T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000242&Mode=0",
+   "first_seen": "2026-10-23",
+   "tags": [
+    "子育て"
+   ],
+   "detail": {
+    "rule_name": "－",
+    "law": "－",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322686"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "別添（令和９年度のこども家庭科学研究の概要）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322687"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "【参考１】こども家庭庁の令和９年度研究事業に関する評価（概算要求前の評価）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322688"
+     },
+     {
+      "name": "【参考３】こども家庭庁における科学研究について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322690"
+     }
+    ],
+    "note": "",
+    "contact": "こども家庭庁成育局母子保健課\n電話：03-6862-0518"
+   }
+  },
+  {
+   "id": "595320037",
+   "title": "容器包装に係る分別収集及び再商品化の促進等に関する法律施行規則の一部を改正する省令案等に対する意見公募",
+   "category": "環境保全",
+   "ministry": "経済産業省",
+   "published": "2026-10-22T23:59:00+09:00",
+   "deadline": "2026-11-21T18:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320037&Mode=0",
+   "first_seen": "2026-10-23",
+   "tags": [],
+   "detail": {
+    "rule_name": "「容器包装に係る分別収集及び再商品化の促進等に関する法律施行規則の一部を改正する省令」ほか９件",
+    "law": "「容器包装に係る分別収集及び再商品化の促進等に関する法律（平成７年法律第112号）第11条第２項第２号ハ及び第13条第２項第２号」ほか",
+    "guide_files": [
+     {
+      "name": "量比率意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322632"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "量比率省令・告示（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322633"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "公募案件一覧表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322634"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省イノベーション・環境局GXグループ資源循環経済課"
+   }
+  },
+  {
+   "id": "495260235",
+   "title": "労働者災害補償保険法等の一部を改正する法律の施行に伴う関係政令の整備に関する政令案に関する御意見の募集について",
+   "category": "労働",
+   "ministry": "厚生労働省",
+   "published": "2026-10-22T23:59:00+09:00",
+   "deadline": "2026-11-23T17:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260235&Mode=0",
+   "first_seen": "2026-10-23",
+   "tags": [],
+   "detail": {
+    "rule_name": "労働者災害補償保険法施行令（昭和52年政令第33号）等",
+    "law": "労災保険法第38条第１項及び第42条第１項ただし書\n船員保険法第142条第１項ただし書\n労働基準法第115条第２項ただし書\n労審法第20条第３項\n行政手続法第39条第４項第４号",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322761"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322762"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "労働基準局労災管理課\n電話：03-3502-6292"
    }
   },
   {
