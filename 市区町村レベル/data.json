@@ -1,721 +1,638 @@
 {
- "updated": "2026-10-23T09:28+09:00",
+ "updated": "2026-10-24T09:21+09:00",
  "status": {
   "札幌市": {
    "url": "https://www.city.sapporo.jp/somu/pub-comment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "仙台市": {
    "url": "https://www.city.sendai.jp/kochotoke-kocho/shise/koho/kocho/sonota/comment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "さいたま市": {
    "url": "https://www.city.saitama.lg.jp/006/002/index.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "千葉市": {
    "url": "https://www.city.chiba.jp/shisei/koho-kocho/iken/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "横浜市": {
    "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/kocho/public/index.html",
    "error": null,
    "open": 9,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "川崎市": {
    "url": "https://www.city.kawasaki.jp/shisei/category/286-0-0-0-0-0-0-0-0-0.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "相模原市": {
    "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_sanka/pubcome/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "新潟市": {
    "url": "https://www.city.niigata.lg.jp/shisei/kocho/public/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "静岡市": {
    "url": "https://www.city.shizuoka.lg.jp/p000254.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "浜松市": {
    "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html",
    "error": null,
    "open": 4,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "名古屋市": {
    "url": "https://www.city.nagoya.jp/shisei/kouchou/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "京都市": {
    "url": "https://www.city.kyoto.lg.jp/templates/pubcomment/0-Curr.html",
    "error": null,
    "open": 3,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "大阪市": {
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-7-0-0-0-0-0-0-0.html",
    "error": null,
    "open": 5,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "堺市": {
    "url": "https://www.city.sakai.lg.jp/shisei/koho/kocho/publiccomment/goikenboshu.html",
    "error": null,
    "open": 5,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "神戸市": {
    "url": "https://www.city.kobe.lg.jp/a63551/shise/kocho/comment/index.html",
    "error": null,
    "open": 5,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "岡山市": {
    "url": "https://www.city.okayama.jp/shisei/category/4-21-0-0-0-0-0-0-0-0.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "広島市": {
    "url": "https://www.city.hiroshima.lg.jp/shisei/kouchou/1021836/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "北九州市": {
    "url": "https://www.city.kitakyushu.lg.jp/contents/924_01294.html",
    "error": null,
-   "open": 2,
-   "checked": "2026-10-23"
+   "open": 0,
+   "checked": "2026-10-24"
   },
   "福岡市": {
    "url": "https://www.city.fukuoka.lg.jp/shisei/iken-teian/publiccomment/index.html",
    "error": null,
    "open": 3,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "熊本市": {
    "url": "https://www.city.kumamoto.jp/list04457.html",
    "error": null,
    "open": 3,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "函館市": {
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024011400039/#public",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "旭川市": {
    "url": "https://www.city.asahikawa.hokkaido.jp/1600/1602/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "青森市": {
    "url": "https://www.city.aomori.aomori.jp/shisei/kouchou/1006880/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "八戸市": {
    "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/7807.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "盛岡市": {
    "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/index.html",
    "error": null,
-   "open": 2,
-   "checked": "2026-10-23"
+   "open": 0,
+   "checked": "2026-10-24"
   },
   "秋田市": {
    "url": "https://www.city.akita.lg.jp/shisei/iken/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "山形市": {
    "url": "https://www.city.yamagata-yamagata.lg.jp/shiseijoho/koho/1007031/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "福島市": {
    "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/219.html",
    "error": null,
-   "open": 3,
-   "checked": "2026-10-23"
+   "open": 5,
+   "checked": "2026-10-24"
   },
   "郡山市": {
    "url": "https://www.city.koriyama.lg.jp/life/6/36/249/",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "いわき市": {
    "url": "https://www.city.iwaki.lg.jp/www/genre/1000100000340/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "水戸市": {
    "url": "https://www.city.mito.lg.jp/life/6/42/197/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "宇都宮市": {
    "url": "https://www.city.utsunomiya.lg.jp/shisei/koho/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "前橋市": {
    "url": "https://www.city.maebashi.gunma.jp/gyosei/1/5/2/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "高崎市": {
    "url": "https://www.city.takasaki.gunma.jp/page/3244.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "川越市": {
    "url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/index.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "川口市": {
    "url": "https://www.city.kawaguchi.lg.jp/shiseijoho/shisei_goiken/23922.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "越谷市": {
    "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/ikenbosyuu/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "船橋市": {
    "url": "https://www.city.funabashi.lg.jp/shisei/kouchou/003/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "柏市": {
    "url": "https://www.city.kashiwa.lg.jp/koho/public_comment/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "八王子市": {
    "url": "https://www.city.hachioji.tokyo.jp/shisei/001/002/003/p014724.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "横須賀市": {
    "url": "https://www.city.yokosuka.kanagawa.jp/1210/cof/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "富山市": {
    "url": "https://www.city.toyama.lg.jp/shisei/koho/1010749/index.html",
    "error": null,
    "open": 4,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "金沢市": {
    "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminkyodosuishinka/gyomuannai/1/1/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "福井市": {
    "url": "https://www.city.fukui.lg.jp/sisei/kotyou/pabcom/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "甲府市": {
    "url": "https://www.city.kofu.yamanashi.jp/shise/kocho/publiccomment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "長野市": {
    "url": "https://www.city.nagano.nagano.jp/menu/8/6/9/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "松本市": {
    "url": "https://www.city.matsumoto.nagano.jp/life/8/34/200/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "岐阜市": {
    "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "豊橋市": {
    "url": "https://www.city.toyohashi.lg.jp/2552.htm",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "岡崎市": {
    "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "一宮市": {
    "url": "https://www.city.ichinomiya.aichi.jp/shisei/kocho/1000074/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "豊田市": {
    "url": "https://www.city.toyota.aichi.jp/shisei/koho/1009544/index.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "大津市": {
    "url": "https://www.city.otsu.lg.jp/shisei/kc/p/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "豊中市": {
    "url": "https://www.city.toyonaka.osaka.jp/joho/sanka/ikenkobo/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "吹田市": {
    "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/index.html",
    "error": null,
-   "open": 7,
-   "checked": "2026-10-23"
+   "open": 5,
+   "checked": "2026-10-24"
   },
   "高槻市": {
    "url": "https://www.city.takatsuki.osaka.jp/site/public-comment/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "枚方市": {
    "url": "https://www.city.hirakata.osaka.jp/category/6-4-5-0-0.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "八尾市": {
    "url": "https://www.city.yao.osaka.jp/shisei/kouchou/1010466/index.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "寝屋川市": {
    "url": "https://www.city.neyagawa.osaka.jp/organization_list/keieikikaku/kikakunika/public_comment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "東大阪市": {
    "url": "https://www.city.higashiosaka.lg.jp/category/20-18-0-0-0-0-0-0-0-0.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "姫路市": {
    "url": "https://www.city.himeji.lg.jp/kurashi/0000005919.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "尼崎市": {
    "url": "https://www.city.amagasaki.hyogo.jp/shisei/si_mirai/sprocess/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "明石市": {
    "url": "https://www.city.akashi.lg.jp/community/s_kyoudou_shitsu/shise/sankaku/tetsuzuki/iken_bosyu.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "西宮市": {
    "url": "http://www.city.nishinomiya.lg.jp/shisei/sankaku/publiccomment/ikenteishutsu.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "奈良市": {
    "url": "https://www.city.nara.lg.jp/site/ikenboshu/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "和歌山市": {
    "url": "https://www.city.wakayama.wakayama.jp/shisei/koucho_iken/1001169/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "鳥取市": {
    "url": "https://www.city.tottori.lg.jp/life/7/54/247/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "松江市": {
    "url": "https://www.city.matsue.lg.jp/gyoseijoho/koho_kocho/public_comment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "倉敷市": {
    "url": "https://www.city.kurashiki.okayama.jp/cityinfo/publicity/1011776/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "呉市": {
    "url": "https://www.city.kure.lg.jp/life/4/40/165/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "福山市": {
    "url": "https://www.city.fukuyama.hiroshima.jp/life/4/25/",
    "error": null,
    "open": 3,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "下関市": {
    "url": "https://www.city.shimonoseki.lg.jp/soshiki/18/1406.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "高松市": {
    "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shinotorikumi/public/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "松山市": {
    "url": "https://www.city.matsuyama.ehime.jp/shisei/kocho/ikenkouboitiran.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "高知市": {
    "url": "https://www.city.kochi.kochi.jp/joho/html/lp________01.htm",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "久留米市": {
    "url": "https://www.city.kurume.fukuoka.jp/1100keikaku/2045keikaku/3040public/2007-1226-1525-28.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "長崎市": {
    "url": "https://www.city.nagasaki.lg.jp/life/7/58/235/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "佐世保市": {
    "url": "https://www.city.sasebo.lg.jp/shise/kocho/p-comment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "大分市": {
    "url": "https://www.city.oita.oita.jp/o029/shisejoho/kohokocho/1121998722785/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "宮崎市": {
    "url": "https://www.city.miyazaki.miyazaki.jp/city/public_hearing/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "鹿児島市": {
    "url": "https://www.city.kagoshima.lg.jp/shimin/shiminbunka/shiminkyodo/machizukuri/kocho/sankaku/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "那覇市": {
    "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/sankaku-kyoudou/1002369/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "千代田区": {
    "url": "https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "中央区": {
    "url": "https://www.city.chuo.lg.jp/kusei/kouhoukouchou/kouchou/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "港区": {
    "url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/boshu.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "新宿区": {
    "url": "https://www.city.shinjuku.lg.jp/kusei/index14.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "文京区": {
    "url": "https://www.city.bunkyo.lg.jp/b003/p006165.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "台東区": {
    "url": "https://www.city.taito.lg.jp/kusei/sanka/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "墨田区": {
    "url": "https://www.city.sumida.lg.jp/iken_yobo/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "江東区": {
    "url": "https://www.city.koto.lg.jp/kuse/kocho/paburikku/index.html",
    "error": null,
    "open": 3,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "品川区": {
    "url": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-zyouhoukoukai/kuseizyoho-zyouhoukoukai-goikenhoka/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "目黒区": {
    "url": "https://www.city.meguro.tokyo.jp/kusei/kouchou/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "大田区": {
    "url": "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "世田谷区": {
    "url": "https://www.city.setagaya.lg.jp/02002/7778.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "渋谷区": {
    "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/public-comment-boshu/",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "中野区": {
    "url": "https://www.city.tokyo-nakano.lg.jp/kusei/public/tetsuzuki/index.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "杉並区": {
    "url": "https://www.city.suginami.tokyo.jp/s013/1310.html",
    "error": null,
    "open": 1,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "豊島区": {
    "url": "https://www.city.toshima.lg.jp/public1/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "北区": {
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html",
    "error": null,
    "open": 4,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "荒川区": {
    "url": "https://www.city.arakawa.tokyo.jp/a001/kouhou/publiccomment/paburikkukomento.html",
    "error": null,
    "open": 2,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "板橋区": {
    "url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "練馬区": {
    "url": "https://www.city.nerima.tokyo.jp/kusei/pubcom/index.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "足立区": {
    "url": "https://www.city.adachi.tokyo.jp/ku/mado/p-comment/index.html",
    "error": null,
    "open": 6,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "葛飾区": {
    "url": "https://www.city.katsushika.lg.jp/opinions/1009924.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   },
   "江戸川区": {
    "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/goiken/goikentoiawase.html",
    "error": null,
    "open": 0,
-   "checked": "2026-10-23"
+   "checked": "2026-10-24"
   }
  },
  "items": [
-  {
-   "id": "0a7bbbd30d",
-   "pref": "北九州市",
-   "title": "北九州市インフラマネジメント基本計画の改定(素案)",
-   "url": "https://www.city.kitakyushu.lg.jp/contents/022_00005.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-23",
-   "first_seen": "2026-09-29",
-   "tags": [],
-   "detail": {
-    "files": [
-     {
-      "name": "北九州市インフラマネジメント基本計画の改定（素案）",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227910.pdf"
-     },
-     {
-      "name": "意見募集要領",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227926.pdf"
-     },
-     {
-      "name": "意見提出用紙(参考様式)",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227977.docx"
-     },
-     {
-      "name": "意見提出用紙(参考様式)",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227978.pdf"
-     }
-    ],
-    "howto": "住所・氏名をご記入の上、次のいずれかの方法で提出してください。\n(1) 電子メール\ngi-kanri@city.kitakyushu.lg.jp\n(北九州市技術監理局技術管理課のアドレス)\n(2) 郵送\n〒803-8501 北九州市小倉北区城内1番1号\n北九州市技術監理局技術管理課あて\n(3) FAX\n093-592-0690\n北九州市技術監理局技術管理課あて\n(4) 指定場所への持参\n技術監理局技術管理課(市役所15階)",
-    "contact": ""
-   }
-  },
-  {
-   "id": "0827e335b6",
-   "pref": "吹田市",
-   "title": "吹田市バリアフリー推進構想(素案)",
-   "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-23",
-   "first_seen": "2026-09-29",
-   "tags": [],
-   "detail": {
-    "files": [
-     {
-      "name": "吹田市バリアフリー推進構想（素案）",
-      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/suitabarrierfree.pdf"
-     },
-     {
-      "name": "1.意見提出用紙",
-      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/ikensho.doc"
-     },
-     {
-      "name": "2.意見提出用紙",
-      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/ikensho.pdf"
-     }
-    ],
-    "howto": "意見提出できる人",
-    "contact": "土木部 総務交通室\n〒565-0855 大阪府吹田市佐竹台1丁目6番3号 (総合防災センター(DRC Suita) 7階)\n電話番号:\n【交通】(開発協議・仮ナンバー等) 06-6155-3531\n【交通】(市営自転車駐車場等) 06-6872-6136\n【交通】(シェアサイクル関係) 06-6872-6136\n【総務】 06-6872-1651\nファクス番号:06-6872-1652"
-   }
-  },
-  {
-   "id": "c6de79c0ac",
-   "pref": "盛岡市",
-   "title": "盛岡市立病院経営強化プラン改定版(案)について",
-   "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1047359.html",
-   "start": "2026-09-18",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-23",
-   "first_seen": "2026-09-29",
-   "tags": [],
-   "detail": {
-    "files": [
-     {
-      "name": "盛岡市立病院経営強化プラン改定版（案）",
-      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/047/359/kyoukapurankaiteiban.pdf"
-     }
-    ],
-    "howto": "",
-    "contact": "市立病院\n〒020-0866 盛岡市本宮五丁目15-1\n電話番号:019-635-0101 ファクス番号:019-631-1661\n市立病院へのお問い合わせは専用フォームをご利用ください。"
-   }
-  },
   {
    "id": "4c5ef1e29f",
    "pref": "明石市",
@@ -797,7 +714,7 @@
    "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045347.html",
    "start": "2026-09-25",
    "deadline": "2026-10-26",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": [],
    "detail": {
@@ -826,7 +743,7 @@
    "url": "https://www.city.toyama.lg.jp/shisei/koho/1010749/1018668/index.html",
    "start": "2026-10-13",
    "deadline": "2026-10-26",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "tags": []
   },
@@ -882,7 +799,7 @@
    "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/pub802.html",
    "start": "2026-09-25",
    "deadline": "2026-10-26",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": [],
    "detail": {
@@ -965,7 +882,7 @@
    "url": "https://www.city.sakai.lg.jp/shisei/toshi/toshiseibi/motominatoikenbosyu.html",
    "start": "2026-09-28",
    "deadline": "2026-10-27",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": [],
    "detail": {
@@ -1019,7 +936,7 @@
    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/kenchiku/anzen/taisokukeikaku2026.html",
    "start": "2026-09-29",
    "deadline": "2026-10-28",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": [],
    "detail": {
@@ -1089,7 +1006,7 @@
    "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html",
    "start": "2026-09-30",
    "deadline": "2026-10-29",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": []
   },
@@ -1199,7 +1116,7 @@
    "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045455.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01",
    "tags": [],
    "detail": {
@@ -1384,7 +1301,7 @@
    "url": "https://www.city.koriyama.lg.jp/soshiki/25/185504.html",
    "start": "2026-09-29",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": [],
    "detail": {
@@ -1461,7 +1378,7 @@
    "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminkyodosuishinka/gyomuannai/1/1/pubcom8/32057.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01",
    "tags": [],
    "detail": {
@@ -1482,7 +1399,7 @@
    "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1041703.html",
    "start": "2026-10-01",
    "deadline": "2026-10-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01",
    "tags": [],
    "detail": {
@@ -1540,7 +1457,7 @@
    "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/chiikihoukatsu-care/10kikeikaku.html",
    "start": "2026-10-01",
    "deadline": "2026-10-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "tags": [
     "社会保障"
@@ -1992,7 +1909,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2016111500023/",
    "start": "2026-10-05",
    "deadline": "2026-11-04",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-05",
    "tags": []
   },
@@ -2026,7 +1943,7 @@
    "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/chiikishisetsu/ikenbosyuu.html",
    "start": "2026-10-06",
    "deadline": "2026-11-04",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07",
    "tags": [],
    "detail": {
@@ -2184,7 +2101,7 @@
    "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/sonota4/kobogaiyo/202610ikenkoubo.html",
    "start": "2026-10-08",
    "deadline": "2026-11-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-10",
    "tags": [
     "社会保障"
@@ -2219,7 +2136,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/1210/cof/471.html",
    "start": "2026-10-13",
    "deadline": "2026-11-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01",
    "tags": [],
    "detail": {
@@ -2619,7 +2536,7 @@
    "url": "https://www.city.toyama.lg.jp/shisei/koho/1010749/1018668/index.html",
    "start": "2026-10-15",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15",
    "tags": []
   },
@@ -2630,7 +2547,7 @@
    "url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1023092.html",
    "start": "2026-10-15",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15",
    "tags": [],
    "detail": {
@@ -2663,7 +2580,7 @@
    "url": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/joho/joreikisoku/ikennkob.html",
    "start": "2026-10-14",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16",
    "tags": [],
    "detail": {
@@ -2692,7 +2609,7 @@
    "url": "https://www.city.kochi.kochi.jp/joho/html/pc____031701.htm",
    "start": "2026-10-15",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15",
    "tags": [],
    "detail": {
@@ -2803,7 +2720,7 @@
    "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html",
    "start": "2026-10-15",
    "deadline": "2026-11-16",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-05",
    "tags": [
     "モスク・宗教施設"
@@ -2850,7 +2767,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b032/p007816.html",
    "start": "2026-10-19",
    "deadline": "2026-11-17",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-08",
    "tags": [
     "モスク・宗教施設"
@@ -2949,7 +2866,7 @@
    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/iinkai/iken/iken-kobo.html",
    "start": "2026-10-22",
    "deadline": "2026-11-20",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "tags": []
   },
@@ -3165,6 +3082,31 @@
     "contact": "教育局保健体育課\n仙台市青葉区上杉1-5-12 上杉分庁舎11階\n電話番号:022-214-8882\nファクス:022-268-2935\nサイトの使い方\n著作権・リンク・免責事項\n個人情報の取り扱いについて"
    },
    "tags": []
+  },
+  {
+   "id": "fc7c9f5d5f",
+   "pref": "福島市",
+   "title": "第4期福島市中心市街地活性化基本計画",
+   "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/r804.html",
+   "start": "2026-10-23",
+   "deadline": "2026-11-24",
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24",
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "第4期福島市中心市街地活性化基本計画(素案)の概要",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/3/pubkome804gaiyou.pdf"
+     },
+     {
+      "name": "第4期福島市中心市街地活性化基本計画(素案)",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/3/pubkome804soan.pdf"
+     }
+    ],
+    "howto": "と提出先\n住所、氏名、電話番号などを明記の上、上記閲覧場所へ各施設の開庁・開館時間内にお持ちいただくか、郵送・ファックス・電子メールのいずれかの方法でご提出ください。\n電話でのご意見は受付いたしませんので、ご了承願います。\nオンライン申請の場合\n意見受付フォームをご利用ください。\n郵送の場合\n住所、氏名、電話番号などを明記の上、閲覧場所に備え付けの意見提出用封筒(料金受取人払)を利用いただくか、以下へ郵送してください(意見提出期間内消印有効)。\n〒960-8601\n福島市五老内町3番1号\n福島市都市政策部都市計画課あて\n※封筒に「第4期福島市中心市街地活性化基本計画(素案)への意見」と明記してください。\nファクスの場合\n件名(第4期福島市中心市街地活性化基本計画(素案)への意見」)と住所、氏名、電話番号などを明記の上、ファックス番号:024-533-0026へお送りください(意見提出期間内受信有効)。",
+    "contact": ""
+   }
   },
   {
    "id": "1c8a9d8460",
@@ -4279,7 +4221,7 @@
    "url": "https://www.city.saitama.lg.jp/006/002/008/002/p133500.html",
    "start": "2026-10-01",
    "deadline": "2026-11-02",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
   },
   "https://www.city.saitama.lg.jp/006/002/008/002/p132902.html#8af693cae3": {
@@ -4289,7 +4231,7 @@
    "url": "https://www.city.saitama.lg.jp/006/002/008/002/p132902.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
   },
   "https://www.city.saitama.lg.jp/006/002/008/002/p133793.html#0d9d8bd41f": {
@@ -4299,7 +4241,7 @@
    "url": "https://www.city.saitama.lg.jp/006/002/008/002/p133793.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
   },
   "https://www.city.chiba.jp/keizainosei/keizai/kanko/publiccomment.html": {
@@ -4309,7 +4251,7 @@
    "url": "https://www.city.chiba.jp/keizainosei/keizai/kanko/publiccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4320,7 +4262,7 @@
    "url": "https://www.city.chiba.jp/toshi/toshi/kotsu/r8public_comment_mr.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4331,7 +4273,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/bunkazai/r7bunkazaihozonkatsuyo_pubcome.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4342,7 +4284,7 @@
    "url": "https://www.city.chiba.jp/kensetsu/gesuidokikaku/keiei/management-plan-r5_public.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4353,7 +4295,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/chuotoshokan/kanri/kodomo05_publiccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4364,7 +4306,7 @@
    "url": "https://www.city.chiba.jp/kodomomirai/kodomomirai/kateishien/dvboushi-shienkeikaku3.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4375,7 +4317,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/kikikanri/kikikanri/kokudokyoujinnkakaitei-r7.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4386,7 +4328,7 @@
    "url": "https://www.city.chiba.jp/hokenfukushi/kenkofukushi/chiikifukushi/chifuku5-re_pbc.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4397,7 +4339,7 @@
    "url": "https://www.city.chiba.jp/toshi/koenryokuchi/ryokusei/public-comment-gw2023.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4408,7 +4350,7 @@
    "url": "https://www.city.chiba.jp/kodomomirai/yojikyoiku/shien/sisetukanri_kihonhousin.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4419,7 +4361,7 @@
    "url": "https://www.city.chiba.jp/shimin/shimin/chiikianzen/kyakuhikikouitouboushi.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4430,7 +4372,7 @@
    "url": "https://www.city.chiba.jp/toshi/toshi/keikaku/keikan/keikankeikaku/public_comment_tetuduki.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4441,7 +4383,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/shogaigakushu/hozenkeikaku_public_comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4452,7 +4394,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/kikikanri/kikikanri/chiikibousaikeikaku_r7.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4463,7 +4405,7 @@
    "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/syuwagenngo/jourei_ikennboshu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4474,7 +4416,7 @@
    "url": "https://www.city.chiba.jp/toshi/toshi/keikaku/2022chuushajyou_ikennboshu.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4485,7 +4427,7 @@
    "url": "https://www.city.chiba.jp/shimin/seikatsubunka/danjo/public-comment-4thharmonyplan.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4496,7 +4438,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/kikikanri/kikikanri/r5publiccommentchiikibouandsuiboukeikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4507,7 +4449,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/r3_public_comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4518,7 +4460,7 @@
    "url": "https://www.city.chiba.jp/kensetsu/doro/bicycle/suishinkeikakukaitei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4529,7 +4471,7 @@
    "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/shogaifukushi/pubcomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4540,7 +4482,7 @@
    "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/kaigohokenjigyo/05joureikaisei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4551,7 +4493,7 @@
    "url": "https://www.city.chiba.jp/kankyo/junkan/sangyohaikibutsu/public_comment_01.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4562,7 +4504,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/sougoukeikaku/public-comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4573,7 +4515,7 @@
    "url": "https://www.city.chiba.jp/shimin/shimin/kokusai/2022_public_comment_action_plan_tabunka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4584,7 +4526,7 @@
    "url": "https://www.city.chiba.jp/shimin/shimin/kusei/kuyakusyokihonhosin_public_comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4595,7 +4537,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/kihonkeikaku-dai1jijissikeikaku-paburikkukomennto.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4606,7 +4548,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/shogaigakushu/3gakko_6shogai_keikaku_public_comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4617,7 +4559,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/shogaigakushu/houkagoplan2/houkagoplan2.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4628,7 +4570,7 @@
    "url": "https://www.city.chiba.jp/kodomomirai/kodomomirai/kateishien/kodomomiraiouenplan.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4639,7 +4581,7 @@
    "url": "https://www.city.chiba.jp/toshi/kenchiku/jutakuseisaku/04_juseikatsukihonkeikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4650,7 +4592,7 @@
    "url": "https://www.city.chiba.jp/shimin/seikatsubunka/danjo/5thdannjyoplan_public-comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4661,7 +4603,7 @@
    "url": "https://www.city.chiba.jp/shimin/seikatsubunka/shohi/dai4jichibashishouhisiekatukihonkeikakuann-pabukome.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4672,7 +4614,7 @@
    "url": "https://www.city.chiba.jp/kensetsu/doro/bicycle/public-comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4683,7 +4625,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/miraitoshi/makuhari/makuhari-vision_public-comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4694,7 +4636,7 @@
    "url": "https://www.city.chiba.jp/byoin/kikaku/plan5_public_comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4705,7 +4647,7 @@
    "url": "https://www.city.chiba.jp/kankyo/kankyohozen/somu/20220201pbc.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4716,7 +4658,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/identitysuishin/idplan/idplan.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4727,7 +4669,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/jitensyamatidukuri-jourei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4738,7 +4680,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/kikikanri/kikikanri/20210701_publiccoment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4749,7 +4691,7 @@
    "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/korei/03koureisyahokennhukushisuishinnkeikakupaburikkukomennto.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4760,7 +4702,7 @@
    "url": "https://www.city.chiba.jp/kankyo/kankyohozen/somu/kankyokyoiku_publiccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4771,7 +4713,7 @@
    "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/keikaku/5jikeikaku_pbc.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4782,7 +4724,7 @@
    "url": "https://www.city.chiba.jp/shimin/shimin/chiikianzen/dai4ji_kaitei_bouhankeikaku_pabukome_sheet.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4793,7 +4735,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/shogaigakushu/5jishogaigakushu_public.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4804,7 +4746,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/shogaigakushu/bunkazai/kasorikaiduka-hozonkatsuyou2016.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4815,7 +4757,7 @@
    "url": "https://www.city.chiba.jp/shimin/shimin/jichi/shiminsankakyodo_joureikaisei_pcsheet.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4826,7 +4768,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/kyoikusomu/gakkoshisetsu/gakkoshisetsutyoujyumyoukapubliccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4847,7 +4789,7 @@
    "url": "https://www.city.chiba.jp/toshi/toshi/anzen/akiya-public.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4858,7 +4800,7 @@
    "url": "https://www.city.chiba.jp/kyoiku/kyoikusomu/kikaku/29jisshihoushinn.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4869,7 +4811,7 @@
    "url": "https://www.city.chiba.jp/kensetsu/doro/bicycle/pubcomesougoukeikaku2.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -4980,7 +4922,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/chihousouseiplan.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/tibasikihonnkeikaku-kaigiroku.html": {
@@ -4990,7 +4932,7 @@
    "url": "https://www.city.chiba.jp/sogoseisaku/sogoseisaku/kikaku/tibasikihonnkeikaku-kaigiroku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.chiba.jp/toshi/kenchiku/jutakuseisaku/05_kihonkeikaku.html": {
@@ -5000,7 +4942,7 @@
    "url": "https://www.city.chiba.jp/toshi/kenchiku/jutakuseisaku/05_kihonkeikaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.chiba.jp/byoin/kikaku/kaikakuplan5.html": {
@@ -5010,7 +4952,7 @@
    "url": "https://www.city.chiba.jp/byoin/kikaku/kaikakuplan5.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.chiba.jp/kensetsu/doro/bicycle/sougoukeikaku2.html": {
@@ -5020,7 +4962,7 @@
    "url": "https://www.city.chiba.jp/kensetsu/doro/bicycle/sougoukeikaku2.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.yokohama.lg.jp/city-info/yokohamashi/index.html": {
@@ -5080,7 +5022,7 @@
    "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/chiikihoukatsu-care/10kikeikaku.html",
    "start": "2026-10-01",
    "deadline": "2026-10-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/chiikihoukatsu-care/10kikeikaku.html": {
@@ -5114,7 +5056,7 @@
    "url": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/jorei/gyose/ikenkoubo.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07",
    "list": true
   },
@@ -5125,7 +5067,7 @@
    "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fukushi/plan/sho-plan/syoplan5th.html",
    "start": "2026-09-18",
    "deadline": "2026-10-17",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fukushi/plan/sho-plan/syoplan5th.html": {
@@ -5179,7 +5121,7 @@
    "url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/seiketsu/kitsuen-opinion.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07",
    "list": true
   },
@@ -5220,7 +5162,7 @@
    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/iinkai/iken/iken-kobo.html",
    "start": "2026-10-22",
    "deadline": "2026-11-20",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23"
   },
   "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/joho/joreikisoku/ikennkob.html#0573909958": {
@@ -5230,7 +5172,7 @@
    "url": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/joho/joreikisoku/ikennkob.html",
    "start": "2026-10-14",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/sonota4/kobogaiyo/202610ikenkoubo.html#c0d81a095f": {
@@ -5240,7 +5182,7 @@
    "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/sonota4/kobogaiyo/202610ikenkoubo.html",
    "start": "2026-10-08",
    "deadline": "2026-11-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-10"
   },
   "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/chiikishisetsu/ikenbosyuu.html#a1fed08828": {
@@ -5250,7 +5192,7 @@
    "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/chiikishisetsu/ikenbosyuu.html",
    "start": "2026-10-06",
    "deadline": "2026-11-04",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.yokohama.lg.jp/kosodate-kyoiku/oyakokenko/hitorioya/kaisei_ikenkoubo.html#68440e9e66": {
@@ -5260,7 +5202,7 @@
    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/oyakokenko/hitorioya/kaisei_ikenkoubo.html",
    "start": "2026-09-03",
    "deadline": "2026-10-02",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/business/bunyabetsu/gomi-recycle/sangyo/sonota/default20241220.html#26034f3d2e": {
@@ -5270,8 +5212,18 @@
    "url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/gomi-recycle/sangyo/sonota/default20241220.html",
    "start": "2026-09-01",
    "deadline": "2026-09-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
+  },
+  "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/ikenkoubo.html#7016f3aee4": {
+   "id": "150b0b438e",
+   "pref": "横浜市",
+   "title": "横浜市介護保険条例等施行規則の一部改正について",
+   "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/ikenkoubo.html",
+   "start": null,
+   "deadline": "2026-10-23",
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.yokohama.lg.jp/kosodate-kyoiku/oyakokenko/teate/tokubetujoushaken.html#3fc24e617e": {
    "id": "ab28361ad3",
@@ -5280,7 +5232,7 @@
    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/oyakokenko/teate/tokubetujoushaken.html",
    "start": null,
    "deadline": "2026-10-15",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/iinkai/iken/iken-kobo.html#665bf6904b": {
@@ -5290,7 +5242,7 @@
    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/iinkai/iken/iken-kobo.html",
    "start": null,
    "deadline": "2026-10-14",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/business/bunyabetsu/fukushi-kaigo/kaigo/shinsei/kyotaku/5tebiki/koubo.html#e49d5d0d86": {
@@ -5300,7 +5252,7 @@
    "url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/fukushi-kaigo/kaigo/shinsei/kyotaku/5tebiki/koubo.html",
    "start": null,
    "deadline": "2026-10-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/business/bunyabetsu/kankyo-koen-gesui/ondanka/green_nyusatsu/greendenryokukoujir8.html#7a27a22c8e": {
@@ -5310,7 +5262,7 @@
    "url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/kankyo-koen-gesui/ondanka/green_nyusatsu/greendenryokukoujir8.html",
    "start": null,
    "deadline": "2026-09-11",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/kotsu/toshikotsu/chushajo/jorei/ikenkoubo/kekka-r8.html#557f063789": {
@@ -5320,7 +5272,7 @@
    "url": "https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/kotsu/toshikotsu/chushajo/jorei/ikenkoubo/kekka-r8.html",
    "start": null,
    "deadline": "2026-08-25",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/tetsuduki/kyoka/ikenkoubo/ichidanchikekka.html#1f36d0e382": {
@@ -5330,7 +5282,7 @@
    "url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/kenchiku/tetsuduki/kyoka/ikenkoubo/ichidanchikekka.html",
    "start": null,
    "deadline": "2026-07-27",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
   },
   "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/jorei/index.html": {
@@ -5499,21 +5451,21 @@
    "checked": "2026-10-22",
    "first_seen": "2026-10-16"
   },
-  "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/ikenkoubo.html": {
-   "id": "08d9fe290c",
-   "pref": "横浜市",
-   "title": "横浜市介護保険条例等施行規則の一部改正について",
-   "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/ikenkoubo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-22",
-   "first_seen": "2026-10-16"
-  },
   "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fuku-machi/jorei/kaisei/fukumachikisokukaise.html": {
    "id": "24ddf01722",
    "pref": "横浜市",
    "title": "横浜市福祉のまちづくり条例施行規則及び施設整備マニュアルの一部改正について",
    "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fuku-machi/jorei/kaisei/fukumachikisokukaise.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-22",
+   "first_seen": "2026-10-16"
+  },
+  "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/ikenkoubo.html": {
+   "id": "08d9fe290c",
+   "pref": "横浜市",
+   "title": "横浜市介護保険条例等施行規則の一部改正について",
+   "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kyogikai/ikenkoubo.html",
    "start": null,
    "deadline": null,
    "checked": "2026-10-22",
@@ -5844,16 +5796,6 @@
    "pref": "横浜市",
    "title": "横浜市敬老特別乗車証交付事務取扱要綱の一部改正について",
    "url": "https://www.city.yokohama.lg.jp//kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kaigoyobo-kenkoudukuri-ikigai/ikigai-shakaisanka/youkoukekka202511.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-22",
-   "first_seen": "2026-10-16"
-  },
-  "https://www.city.yokohama.lg.jp/business/koyo-syugyo/shokugyokunren/kekkakouzi.html": {
-   "id": "fa7bb2db08",
-   "pref": "横浜市",
-   "title": "横浜市中央職業訓練校条例施行規則の一部改正について",
-   "url": "https://www.city.yokohama.lg.jp/business/koyo-syugyo/shokugyokunren/kekkakouzi.html",
    "start": null,
    "deadline": null,
    "checked": "2026-10-22",
@@ -6216,8 +6158,8 @@
    "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_sanka/pubcome/1005070.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
-   "first_seen": "2026-10-23",
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24",
    "list": true
   },
   "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/1008824/1008827.html": {
@@ -6524,7 +6466,7 @@
    "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html",
    "start": "2026-09-30",
    "deadline": "2026-10-29",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html#470880fb1b": {
@@ -6534,7 +6476,7 @@
    "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/politics/public_comment/pabucomme.html",
    "start": "2026-10-15",
    "deadline": "2026-11-16",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-05"
   },
   "https://www.city.hamamatsu.shizuoka.jp/tochi/pubcomme/kaihatukyokaseido/boshu/index.html": {
@@ -6926,7 +6868,7 @@
    "url": "https://www.city.kyoto.lg.jp/templates/pubcomment/bunshi/0000358460.html",
    "start": "2026-10-29",
    "deadline": "2026-11-29",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-22"
   },
   "https://www.city.kyoto.lg.jp/templates/pubcomment/tokei/0000355491.html#1a403a62c5": {
@@ -6936,7 +6878,7 @@
    "url": "https://www.city.kyoto.lg.jp/templates/pubcomment/tokei/0000355491.html",
    "start": "2026-07-24",
    "deadline": "2026-08-24",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kyoto.lg.jp/templates/pubcomment/tokei/0000355548.html#a80ac72f2d": {
@@ -6946,7 +6888,7 @@
    "url": "https://www.city.kyoto.lg.jp/templates/pubcomment/tokei/0000355548.html",
    "start": "2026-07-24",
    "deadline": "2026-08-24",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kyoto.lg.jp/templates/pubcomment/bunshi/0000358460.html": {
@@ -7053,7 +6995,7 @@
    "url": "https://www.city.osaka.lg.jp/templates/jorei_boshu/0-Curr.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7064,7 +7006,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-7-2-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7085,7 +7027,7 @@
    "url": "https://www.city.osaka.lg.jp/templates/kisoku_boshu/0-Curr.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7486,7 +7428,7 @@
    "url": "https://www.city.osaka.lg.jp/templates/kisoku_boshu/96-Curr.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7497,7 +7439,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-1-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7528,7 +7470,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-5-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7559,7 +7501,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-2-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7610,7 +7552,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-29-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7641,7 +7583,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-7-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7672,7 +7614,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-8-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7743,7 +7685,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-12-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7774,7 +7716,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-30-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7805,7 +7747,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-13-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7876,7 +7818,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-16-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -7927,7 +7869,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-28-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -7958,7 +7900,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-19-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -8009,7 +7951,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-21-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -8060,7 +8002,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-23-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -8131,7 +8073,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-26-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -8162,7 +8104,7 @@
    "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-27-0-0-0-0-0-0.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -8193,7 +8135,7 @@
    "url": "https://www.city.sakai.lg.jp/kurashi/jutaku/kenchiku/anzen/taisokukeikaku2026.html",
    "start": "2026-09-29",
    "deadline": "2026-10-28",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.sakai.lg.jp/shisei/toshi/toshiseibi/motominatoikenbosyu.html#ab8476d31c": {
@@ -8203,7 +8145,7 @@
    "url": "https://www.city.sakai.lg.jp/shisei/toshi/toshiseibi/motominatoikenbosyu.html",
    "start": "2026-09-28",
    "deadline": "2026-10-27",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.sakai.lg.jp/kurashi/zei/zeimynumber/public_chihozei.html": {
@@ -8298,15 +8240,35 @@
     "contact": ""
    }
   },
-  "https://www.city.sakai.lg.jp/shisei/koho/kocho/shiseihenoteianbako/index.html": {
-   "id": "48b658b8fc",
+  "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r810/081021_05.html": {
+   "id": "8749801ddb",
    "pref": "堺市",
-   "title": "市政への提案箱",
-   "url": "https://www.city.sakai.lg.jp/shisei/koho/kocho/shiseihenoteianbako/index.html",
+   "title": "10月21日提供 ふるさと納税ポータルサイト「ふるさとチョイス」における不正アクセス事案に伴う本市クラウドファンディングの取扱いについて",
+   "url": "https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r810/081021_05.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
-   "first_seen": "2026-10-23"
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
+  },
+  "https://www.city.sakai.lg.jp/kenko/fukushikaigo/shogaifukushi/syakai_sanka/seikatsu/71806820230314113715928.html": {
+   "id": "da5ba01f1d",
+   "pref": "堺市",
+   "title": "堺市重度障害者福祉タクシー利用料金助成について",
+   "url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/shogaifukushi/syakai_sanka/seikatsu/71806820230314113715928.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
+  },
+  "https://www.city.sakai.lg.jp/shigikai/kaigi/giansyo/index.html": {
+   "id": "20390d733d",
+   "pref": "堺市",
+   "title": "議案書(付議案件)等",
+   "url": "https://www.city.sakai.lg.jp/shigikai/kaigi/giansyo/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.kobe.lg.jp/a84159/shise/shichoshitsu/letter/indexteian.html": {
    "id": "4808211240",
@@ -8375,7 +8337,7 @@
    "url": "https://www.city.kobe.lg.jp/a81042/shise/kocho/comment/gyoute/125kentikujutaku/20261013.html",
    "start": "2026-10-13",
    "deadline": "2026-11-11",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13"
   },
   "https://www.city.kobe.lg.jp/a63551/shise/kocho/comment/iken/index.html#671afceb07": {
@@ -8385,7 +8347,7 @@
    "url": "https://www.city.kobe.lg.jp/a63551/shise/kocho/comment/iken/index.html",
    "start": "2026-08-04",
    "deadline": "2026-09-04",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kobe.lg.jp/a53715/piadxsaas2026.html#aae3975ef6": {
@@ -8395,7 +8357,7 @@
    "url": "https://www.city.kobe.lg.jp/a53715/piadxsaas2026.html",
    "start": "2026-08-28",
    "deadline": "2026-09-28",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kobe.lg.jp/a27565/kanko/sport/shisetsu/higashinadataiikukan.html#91284a97a1": {
@@ -8405,7 +8367,7 @@
    "url": "https://www.city.kobe.lg.jp/a27565/kanko/sport/shisetsu/higashinadataiikukan.html",
    "start": "2026-09-18",
    "deadline": "2026-10-19",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kobe.lg.jp/a81042/shise/kocho/comment/gyoute/125kentikujutaku/20261013.html": {
@@ -8479,7 +8441,7 @@
    "url": "https://www.city.kobe.lg.jp/a76598/shise/kocho/comment/gyoute/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13",
    "list": true
   },
@@ -8662,15 +8624,15 @@
     "contact": "健康福祉局保健部 保険年金課管理係\n〒730-8586 広島市中区国泰寺町一丁目6番34号 広島市役所本庁舎2階\n電話:082-504-2159(管理係)\n[email protected]"
    }
   },
-  "https://www.city.kitakyushu.lg.jp/contents/022_00005.html#1dfc197ba5": {
-   "id": "0a7bbbd30d",
+  "https://www.city.kitakyushu.lg.jp/contents/924_01294.html#1dfc197ba5": {
+   "id": "280fa678db",
    "pref": "北九州市",
    "title": "北九州市インフラマネジメント基本計画の改定(素案)",
-   "url": "https://www.city.kitakyushu.lg.jp/contents/022_00005.html",
+   "url": "https://www.city.kitakyushu.lg.jp/contents/924_01294.html",
    "start": "2026-09-24",
    "deadline": "2026-10-23",
-   "checked": "2026-10-23",
-   "first_seen": "2026-09-29"
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.kitakyushu.lg.jp/contents/924_01294.html#b32d1844cf": {
    "id": "a68452f30c",
@@ -8679,7 +8641,7 @@
    "url": "https://www.city.kitakyushu.lg.jp/contents/924_01294.html",
    "start": "2026-09-15",
    "deadline": "2026-10-14",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kitakyushu.lg.jp/contents/924_01294.html#a997f4b07c": {
@@ -8689,7 +8651,7 @@
    "url": "https://www.city.kitakyushu.lg.jp/contents/924_01294.html",
    "start": "2026-08-28",
    "deadline": "2026-09-28",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kitakyushu.lg.jp/contents/924_01294.html#3ab6248fef": {
@@ -8699,7 +8661,7 @@
    "url": "https://www.city.kitakyushu.lg.jp/contents/924_01294.html",
    "start": "2026-08-17",
    "deadline": "2026-09-18",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kitakyushu.lg.jp/contents/372_00004.html#f6568448a8": {
@@ -8709,40 +8671,8 @@
    "url": "https://www.city.kitakyushu.lg.jp/contents/372_00004.html",
    "start": "2026-08-10",
    "deadline": "2026-09-09",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16"
-  },
-  "https://www.city.kitakyushu.lg.jp/contents/022_00005.html": {
-   "id": "56643fdee2",
-   "pref": "北九州市",
-   "title": "北九州市インフラマネジメント基本計画の改定(素案)",
-   "url": "https://www.city.kitakyushu.lg.jp/contents/022_00005.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-13",
-   "first_seen": "2026-09-29",
-   "detail": {
-    "files": [
-     {
-      "name": "北九州市インフラマネジメント基本計画の改定（素案）",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227910.pdf"
-     },
-     {
-      "name": "意見募集要領",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227926.pdf"
-     },
-     {
-      "name": "意見提出用紙(参考様式)",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227977.docx"
-     },
-     {
-      "name": "意見提出用紙(参考様式)",
-      "url": "https://www.city.kitakyushu.lg.jp/files/001227978.pdf"
-     }
-    ],
-    "howto": "住所・氏名をご記入の上、次のいずれかの方法で提出してください。\n(1) 電子メール\ngi-kanri@city.kitakyushu.lg.jp\n(北九州市技術監理局技術管理課のアドレス)\n(2) 郵送\n〒803-8501 北九州市小倉北区城内1番1号\n北九州市技術監理局技術管理課あて\n(3) FAX\n093-592-0690\n北九州市技術監理局技術管理課あて\n(4) 指定場所への持参\n技術監理局技術管理課(市役所15階)",
-    "contact": ""
-   }
   },
   "https://www.city.kitakyushu.lg.jp/contents/372_00004.html": {
    "id": "15914ce5bd",
@@ -8921,7 +8851,7 @@
    "url": "https://www.city.fukuoka.lg.jp/shisei/iken-teian/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9140,7 +9070,7 @@
    "url": "https://www.city.fukuoka.lg.jp/soki/johokokai/shisei/pctetsuduki.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9181,7 +9111,7 @@
    "url": "https://www.city.kumamoto.jp/kiji003283/index.html",
    "start": "2026-10-06",
    "deadline": "2026-10-19",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-22"
   },
   "https://www.city.kumamoto.jp/kiji00371369/index.html#9d5308297c": {
@@ -9191,7 +9121,7 @@
    "url": "https://www.city.kumamoto.jp/kiji00371369/index.html",
    "start": "2027-03-18",
    "deadline": "2027-04-17",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kumamoto.jp/kiji00369882/index.html#87ecf79e2f": {
@@ -9201,7 +9131,7 @@
    "url": "https://www.city.kumamoto.jp/kiji00369882/index.html",
    "start": "2027-01-21",
    "deadline": "2027-02-20",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kumamoto.jp/kiji00369852/index.html#e5786fb7fe": {
@@ -9211,7 +9141,7 @@
    "url": "https://www.city.kumamoto.jp/kiji00369852/index.html",
    "start": "2027-01-13",
    "deadline": "2027-02-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kumamoto.jp/kiji00371369/index.html": {
@@ -9261,7 +9191,7 @@
    "url": "https://www.city.kumamoto.jp/kiji00369664/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.kumamoto.jp/kiji00368592/index.html": {
@@ -9331,7 +9261,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2016111500023/",
    "start": "2026-10-05",
    "deadline": "2026-11-04",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-05"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2026081400025/#e579ad9ec2": {
@@ -9341,7 +9271,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2026081400025/",
    "start": "2026-09-07",
    "deadline": "2026-10-21",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014012301053/": {
@@ -9361,7 +9291,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2016111500023/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-05",
    "list": true
   },
@@ -9414,7 +9344,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025060400117/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9425,7 +9355,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025070100045/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9436,7 +9366,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025093000032/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9447,7 +9377,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025110600023/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9458,7 +9388,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025110600030/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9469,7 +9399,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025120300029/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9490,7 +9420,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/soshiki/kikaku_dept/keikakuchosei/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9501,7 +9431,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025111700098/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9512,7 +9442,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025112000012/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9523,7 +9453,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025121500022/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9534,7 +9464,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2026010700080/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9545,7 +9475,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2026011600068/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9556,7 +9486,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2026012800047/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9567,7 +9497,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2026012700040/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9578,7 +9508,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2026020500090/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9589,7 +9519,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024071100016/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9600,7 +9530,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024091000013/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9611,7 +9541,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024110100038/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9622,7 +9552,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/soshiki/toshiken_dept/toshikeikaku/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9653,7 +9583,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024110800020/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9684,7 +9614,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024120500040/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9695,7 +9625,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025012400035/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9706,7 +9636,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2023032400028/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9737,7 +9667,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2023112100046/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9758,7 +9688,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2023111600011/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9769,7 +9699,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2023122000015/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9780,7 +9710,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024022100096/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9791,7 +9721,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024020200101/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9802,7 +9732,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024013000053/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9813,7 +9743,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024020500065/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9824,7 +9754,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024020200071/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9835,7 +9765,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022051000011/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9846,7 +9776,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022051100056/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9857,7 +9787,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022072500019/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9868,7 +9798,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022083100062/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9889,7 +9819,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022120700057/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9900,7 +9830,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022120700064/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9911,7 +9841,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2021060800025/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9942,7 +9872,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022010300015/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9953,7 +9883,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022020800062/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -9964,7 +9894,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2017112900058/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -10165,7 +10095,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031100569/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2025020700042/": {
@@ -10175,7 +10105,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2025020700042/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2024061400027/": {
@@ -10185,7 +10115,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024061400027/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2018031200045/": {
@@ -10195,7 +10125,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2018031200045/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011601390/": {
@@ -10205,7 +10135,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011601390/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014031200245/": {
@@ -10215,7 +10145,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031200245/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2019102300022/": {
@@ -10225,7 +10155,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2019102300022/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011700031/": {
@@ -10235,7 +10165,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011700031/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011601369/": {
@@ -10245,8 +10175,18 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011601369/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2014031900312/": {
+   "id": "2c1a6a5334",
+   "pref": "函館市",
+   "title": "函館圏都市計画図(現況図)出力規格一覧",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031900312/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011700741/": {
    "id": "fcf86fcae2",
@@ -10255,7 +10195,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011700741/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2023122800035/": {
@@ -10265,7 +10205,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2023122800035/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014012200042/": {
@@ -10275,7 +10215,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014012200042/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014012201094/": {
@@ -10285,7 +10225,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014012201094/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2020070700028/": {
@@ -10295,7 +10235,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2020070700028/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2018030200084/": {
@@ -10305,7 +10245,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2018030200084/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014031700165/": {
@@ -10315,8 +10255,18 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031700165/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2019032500035/": {
+   "id": "0c227cea9e",
+   "pref": "函館市",
+   "title": "都市計画の決定および変更一覧",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2019032500035/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2017101300012/": {
    "id": "ba80ab86b2",
@@ -10325,7 +10275,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2017101300012/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2021101900042/": {
@@ -10335,7 +10285,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2021101900042/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014031700141/": {
@@ -10345,7 +10295,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031700141/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2019081900015/": {
@@ -10355,7 +10305,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2019081900015/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014030600244/": {
@@ -10365,7 +10315,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014030600244/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011500761/": {
@@ -10375,7 +10325,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011500761/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014030600503/": {
@@ -10385,7 +10335,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014030600503/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011601321/": {
@@ -10395,7 +10345,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011601321/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2022031500098/": {
@@ -10405,7 +10355,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2022031500098/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2018030200053/": {
@@ -10415,7 +10365,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2018030200053/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011700079/": {
@@ -10425,7 +10375,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011700079/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014031900725/": {
@@ -10435,7 +10385,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031900725/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011700055/": {
@@ -10445,7 +10395,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011700055/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014031300723/": {
@@ -10455,7 +10405,7 @@
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031300723/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011700062/": {
@@ -10565,7 +10515,7 @@
    "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/26518.html",
    "start": "2026-08-20",
    "deadline": "2026-09-18",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/26045.html#439d097715": {
@@ -10575,7 +10525,7 @@
    "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/26045.html",
    "start": "2026-07-31",
    "deadline": "2026-08-28",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/26518.html": {
@@ -10737,7 +10687,7 @@
    "url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/koho_kocho/publiccomment/23132.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -10791,16 +10741,6 @@
    "checked": "2026-10-23",
    "first_seen": "2026-09-29"
   },
-  "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1047359.html#b8dc674461": {
-   "id": "c6de79c0ac",
-   "pref": "盛岡市",
-   "title": "盛岡市立病院経営強化プラン改定版(案)について",
-   "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1047359.html",
-   "start": "2026-09-18",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-23",
-   "first_seen": "2026-09-29"
-  },
   "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1058276.html#d0efd569aa": {
    "id": "7a53151d9c",
    "pref": "盛岡市",
@@ -10808,28 +10748,8 @@
    "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1058276.html",
    "start": "2026-09-18",
    "deadline": "2026-10-09",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
-  },
-  "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1047359.html": {
-   "id": "fe25365bbf",
-   "pref": "盛岡市",
-   "title": "盛岡市立病院経営強化プラン改定版(案)について",
-   "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1047359.html",
-   "start": "2026-09-18",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-13",
-   "first_seen": "2026-09-29",
-   "detail": {
-    "files": [
-     {
-      "name": "盛岡市立病院経営強化プラン改定版（案）",
-      "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/047/359/kyoukapurankaiteiban.pdf"
-     }
-    ],
-    "howto": "",
-    "contact": "市立病院\n〒020-0866 盛岡市本宮五丁目15-1\n電話番号:019-635-0101 ファクス番号:019-631-1661\n市立病院へのお問い合わせは専用フォームをご利用ください。"
-   }
   },
   "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1058276.html": {
    "id": "28b68b5b4a",
@@ -10886,7 +10806,7 @@
    "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1055246.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1055580.html": {
@@ -10916,7 +10836,7 @@
    "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1055593.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -11007,7 +10927,7 @@
    "url": "https://www.city.morioka.iwate.jp/shisei/public_comment/public_comment/1052781.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -11158,8 +11078,18 @@
    "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/pub802.html",
    "start": "2026-09-25",
    "deadline": "2026-10-26",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
+  },
+  "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/r804.html#c79f8510ff": {
+   "id": "fc7c9f5d5f",
+   "pref": "福島市",
+   "title": "第4期福島市中心市街地活性化基本計画",
+   "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/r804.html",
+   "start": "2026-10-23",
+   "deadline": "2026-11-24",
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/pub802.html": {
    "id": "e843f96681",
@@ -11205,6 +11135,30 @@
     "contact": ""
    }
   },
+  "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/r804.html": {
+   "id": "67ed38734f",
+   "pref": "福島市",
+   "title": "第4期福島市中心市街地活性化基本計画",
+   "url": "https://www.city.fukushima.fukushima.jp/soshiki/2/1001/7/pabukomebosyu/r804.html",
+   "start": "2026-10-23",
+   "deadline": "2026-11-24",
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24",
+   "detail": {
+    "files": [
+     {
+      "name": "第4期福島市中心市街地活性化基本計画(素案)の概要",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/3/pubkome804gaiyou.pdf"
+     },
+     {
+      "name": "第4期福島市中心市街地活性化基本計画(素案)",
+      "url": "https://www.city.fukushima.fukushima.jp/material/files/group/3/pubkome804soan.pdf"
+     }
+    ],
+    "howto": "と提出先\n住所、氏名、電話番号などを明記の上、上記閲覧場所へ各施設の開庁・開館時間内にお持ちいただくか、郵送・ファックス・電子メールのいずれかの方法でご提出ください。\n電話でのご意見は受付いたしませんので、ご了承願います。\nオンライン申請の場合\n意見受付フォームをご利用ください。\n郵送の場合\n住所、氏名、電話番号などを明記の上、閲覧場所に備え付けの意見提出用封筒(料金受取人払)を利用いただくか、以下へ郵送してください(意見提出期間内消印有効)。\n〒960-8601\n福島市五老内町3番1号\n福島市都市政策部都市計画課あて\n※封筒に「第4期福島市中心市街地活性化基本計画(素案)への意見」と明記してください。\nファクスの場合\n件名(第4期福島市中心市街地活性化基本計画(素案)への意見」)と住所、氏名、電話番号などを明記の上、ファックス番号:024-533-0026へお送りください(意見提出期間内受信有効)。",
+    "contact": ""
+   }
+  },
   "https://www.city.koriyama.lg.jp/site/yubinseikyu-portalsite/": {
    "id": "d0b81688b4",
    "pref": "郡山市",
@@ -11232,7 +11186,7 @@
    "url": "https://www.city.koriyama.lg.jp/soshiki/25/185504.html",
    "start": "2026-09-29",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.koriyama.lg.jp/soshiki/25/185504.html": {
@@ -11519,7 +11473,7 @@
    "url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1022621.html",
    "start": "2026-11-10",
    "deadline": "2026-12-10",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23"
   },
   "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1022176.html#ddd058bce1": {
@@ -11529,7 +11483,7 @@
    "url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1022176.html",
    "start": "2026-11-02",
    "deadline": "2026-12-01",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-21"
   },
   "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1023092.html#9f864a732f": {
@@ -11539,7 +11493,7 @@
    "url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1023092.html",
    "start": "2026-10-15",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1009008/1009016/1021111/1022621.html": {
@@ -11725,7 +11679,7 @@
    "url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/ikenbosyuu/ikenbosyuuanken/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -11892,7 +11846,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/1210/cof/471.html",
    "start": "2026-10-13",
    "deadline": "2026-11-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
   },
   "https://www.city.yokosuka.kanagawa.jp/shisei/koho/goiken/index.html": {
@@ -11932,7 +11886,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/1210/cof/jogai/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -12723,7 +12677,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9230.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9231.html": {
@@ -12733,7 +12687,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9231.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9223.html": {
@@ -12743,7 +12697,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9223.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9228.html": {
@@ -12753,7 +12707,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9228.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9233.html": {
@@ -12763,7 +12717,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9233.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9235.html": {
@@ -12773,7 +12727,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9235.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9237.html": {
@@ -12783,7 +12737,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9237.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9234.html": {
@@ -12793,7 +12747,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9234.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9239.html": {
@@ -12803,7 +12757,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9239.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9241.html": {
@@ -12813,7 +12767,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9241.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9232.html": {
@@ -12823,7 +12777,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9232.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9236.html": {
@@ -12833,7 +12787,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9236.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9240.html": {
@@ -12843,7 +12797,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9240.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9242.html": {
@@ -12853,7 +12807,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9242.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9238.html": {
@@ -12863,7 +12817,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9238.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9243.html": {
@@ -12873,7 +12827,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9243.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9247.html": {
@@ -12883,7 +12837,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9247.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9249.html": {
@@ -12893,7 +12847,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9249.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9252.html": {
@@ -12903,7 +12857,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9252.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9255.html": {
@@ -12913,7 +12867,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9255.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9256.html": {
@@ -12923,7 +12877,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9256.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9244.html": {
@@ -12933,7 +12887,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9244.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9248.html": {
@@ -12943,7 +12897,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9248.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9253.html": {
@@ -12953,7 +12907,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9253.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9257.html": {
@@ -12963,7 +12917,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9257.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9245.html": {
@@ -12973,7 +12927,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9245.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9246.html": {
@@ -12983,7 +12937,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9246.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9251.html": {
@@ -12993,7 +12947,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9251.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9254.html": {
@@ -13003,7 +12957,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9254.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9258.html": {
@@ -13013,7 +12967,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9258.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9250.html": {
@@ -13023,7 +12977,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9250.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9261.html": {
@@ -13033,7 +12987,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9261.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9266.html": {
@@ -13043,7 +12997,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9266.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9269.html": {
@@ -13053,7 +13007,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9269.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9260.html": {
@@ -13063,7 +13017,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9260.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9263.html": {
@@ -13073,7 +13027,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9263.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9265.html": {
@@ -13083,7 +13037,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9265.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9268.html": {
@@ -13093,7 +13047,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9268.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9270.html": {
@@ -13103,7 +13057,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9270.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9259.html": {
@@ -13113,7 +13067,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9259.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9262.html": {
@@ -13123,7 +13077,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9262.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9264.html": {
@@ -13133,7 +13087,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9264.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9267.html": {
@@ -13143,7 +13097,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9267.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9272.html": {
@@ -13153,7 +13107,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9272.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9275.html": {
@@ -13163,7 +13117,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9275.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9278.html": {
@@ -13173,7 +13127,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9278.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9281.html": {
@@ -13183,7 +13137,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9281.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9276.html": {
@@ -13193,7 +13147,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9276.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9279.html": {
@@ -13203,7 +13157,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9279.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9282.html": {
@@ -13213,7 +13167,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9282.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9271.html": {
@@ -13223,7 +13177,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9271.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9274.html": {
@@ -13233,7 +13187,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9274.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9277.html": {
@@ -13243,7 +13197,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9277.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9280.html": {
@@ -13253,7 +13207,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9280.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9283.html": {
@@ -13263,7 +13217,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9283.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9273.html": {
@@ -13273,7 +13227,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9273.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9287.html": {
@@ -13283,7 +13237,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9287.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9285.html": {
@@ -13293,7 +13247,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9285.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9290.html": {
@@ -13303,7 +13257,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9290.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9292.html": {
@@ -13313,7 +13267,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9292.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9297.html": {
@@ -13323,7 +13277,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9297.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9288.html": {
@@ -13333,7 +13287,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9288.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9291.html": {
@@ -13343,7 +13297,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9291.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9295.html": {
@@ -13353,7 +13307,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9295.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9286.html": {
@@ -13363,7 +13317,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9286.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9289.html": {
@@ -13373,7 +13327,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9289.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9293.html": {
@@ -13383,7 +13337,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9293.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9294.html": {
@@ -13393,7 +13347,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9294.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9296.html": {
@@ -13403,7 +13357,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9296.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9298.html": {
@@ -13413,7 +13367,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9298.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9299.html": {
@@ -13423,7 +13377,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9299.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9300.html": {
@@ -13433,7 +13387,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9300.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9302.html": {
@@ -13443,7 +13397,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9302.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9305.html": {
@@ -13453,7 +13407,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9305.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9309.html": {
@@ -13463,7 +13417,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9309.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9303.html": {
@@ -13473,7 +13427,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9303.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9306.html": {
@@ -13483,7 +13437,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9306.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9301.html": {
@@ -13493,7 +13447,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9301.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9304.html": {
@@ -13503,7 +13457,7 @@
    "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9304.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-03"
   },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9310.html": {
@@ -14303,7 +14257,7 @@
    "url": "https://www.city.toyama.lg.jp/shisei/koho/1010749/1018668/index.html",
    "start": "2026-10-13",
    "deadline": "2026-10-26",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-13"
   },
   "https://www.city.toyama.lg.jp/shisei/koho/1010749/1018668/index.html#8c246f61c6": {
@@ -14313,7 +14267,7 @@
    "url": "https://www.city.toyama.lg.jp/shisei/koho/1010749/1018668/index.html",
    "start": "2026-10-15",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.toyama.lg.jp/shisei/koho/1010749/1018668/1019332.html": {
@@ -14439,7 +14393,7 @@
    "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminkyodosuishinka/gyomuannai/1/1/pubcom8/32057.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
   },
   "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminkyodosuishinka/gyomuannai/1/1/pubcom8/32057.html": {
@@ -14577,7 +14531,7 @@
    "url": "https://www.city.kofu.yamanashi.jp/fukushi-somu/r8sukoyakapubliccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-23",
    "list": true
   },
@@ -14691,7 +14645,7 @@
    "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1041703.html",
    "start": "2026-10-01",
    "deadline": "2026-10-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
   },
   "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1040804.html#e6555cba16": {
@@ -14701,7 +14655,7 @@
    "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1040804.html",
    "start": "2026-08-03",
    "deadline": "2026-08-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1040820.html#00bc5d82d0": {
@@ -14711,7 +14665,7 @@
    "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1040820.html",
    "start": "2026-08-03",
    "deadline": "2026-08-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1041478.html#5ecb89a405": {
@@ -14721,7 +14675,7 @@
    "url": "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1041478.html",
    "start": "2026-09-16",
    "deadline": "2026-10-15",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.gifu.lg.jp/info/publiccomment/1008468/1041703.html": {
@@ -14903,7 +14857,7 @@
    "url": "https://www.city.toyohashi.lg.jp/65145.htm",
    "start": "2026-07-22",
    "deadline": "2026-08-21",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.toyohashi.lg.jp/64530.htm#7a13ceed28": {
@@ -14913,7 +14867,7 @@
    "url": "https://www.city.toyohashi.lg.jp/64530.htm",
    "start": "2026-07-06",
    "deadline": "2026-08-05",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.toyohashi.lg.jp/65145.htm": {
@@ -15272,18 +15226,8 @@
    "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045455.html",
    "start": "2026-10-01",
    "deadline": "2026-10-30",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-01"
-  },
-  "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html#5756379e7f": {
-   "id": "0827e335b6",
-   "pref": "吹田市",
-   "title": "吹田市バリアフリー推進構想(素案)",
-   "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-23",
-   "first_seen": "2026-09-29"
   },
   "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045347.html#7ad21d1c9a": {
    "id": "8e35f10c75",
@@ -15292,7 +15236,7 @@
    "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045347.html",
    "start": "2026-09-25",
    "deadline": "2026-10-26",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045455.html": {
@@ -15351,34 +15295,6 @@
     "contact": "地域教育部 放課後子ども育成室\n〒564-8550 大阪府吹田市泉町1丁目3番40号 (低層棟3階 311番窓口)\n電話番号:06-6384-1599 ファクス番号:06-6380-6771\nお問い合わせは専用フォームをご利用ください。\nご意見をお聞かせください\nこのページに問題点はありましたか?(複数回答可) 特にない 内容が分かりにくい ページを探しにくい 情報が少ない 文章量が多い"
    }
   },
-  "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html": {
-   "id": "744987633b",
-   "pref": "吹田市",
-   "title": "吹田市バリアフリー推進構想(素案)",
-   "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html",
-   "start": "2026-09-24",
-   "deadline": "2026-10-23",
-   "checked": "2026-10-13",
-   "first_seen": "2026-09-29",
-   "detail": {
-    "files": [
-     {
-      "name": "吹田市バリアフリー推進構想（素案）",
-      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/suitabarrierfree.pdf"
-     },
-     {
-      "name": "1.意見提出用紙",
-      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/ikensho.doc"
-     },
-     {
-      "name": "2.意見提出用紙",
-      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/ikensho.pdf"
-     }
-    ],
-    "howto": "意見提出できる人",
-    "contact": "土木部 総務交通室\n〒565-0855 大阪府吹田市佐竹台1丁目6番3号 (総合防災センター(DRC Suita) 7階)\n電話番号:\n【交通】(開発協議・仮ナンバー等) 06-6155-3531\n【交通】(市営自転車駐車場等) 06-6872-6136\n【交通】(シェアサイクル関係) 06-6872-6136\n【総務】 06-6872-1651\nファクス番号:06-6872-1652"
-   }
-  },
   "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045347.html": {
    "id": "e363c8c189",
    "pref": "吹田市",
@@ -15405,6 +15321,34 @@
     ],
     "howto": "意見提出できる人",
     "contact": "行政経営部 企画財政室\n〒564-8550 大阪府吹田市泉町1丁目3番40号(高層棟5階 502番窓口)\n電話番号:\n【企画調整・庶務グループ】 06-6384-1632\n【実施計画・財政グループ】 06-6384-1287\n【行政改革・管理グループ】 06-6384-1743\nファクス番号:06-6368-7343\nお問い合わせは専用フォームをご利用ください。"
+   }
+  },
+  "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html": {
+   "id": "744987633b",
+   "pref": "吹田市",
+   "title": "吹田市バリアフリー推進構想(素案)",
+   "url": "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1045358.html",
+   "start": "2026-09-24",
+   "deadline": "2026-10-23",
+   "checked": "2026-10-13",
+   "first_seen": "2026-09-29",
+   "detail": {
+    "files": [
+     {
+      "name": "吹田市バリアフリー推進構想（素案）",
+      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/suitabarrierfree.pdf"
+     },
+     {
+      "name": "1.意見提出用紙",
+      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/ikensho.doc"
+     },
+     {
+      "name": "2.意見提出用紙",
+      "url": "https://www.city.suita.osaka.jp/_res/projects/default_project/_page_/001/045/358/ikensho.pdf"
+     }
+    ],
+    "howto": "意見提出できる人",
+    "contact": "土木部 総務交通室\n〒565-0855 大阪府吹田市佐竹台1丁目6番3号 (総合防災センター(DRC Suita) 7階)\n電話番号:\n【交通】(開発協議・仮ナンバー等) 06-6155-3531\n【交通】(市営自転車駐車場等) 06-6872-6136\n【交通】(シェアサイクル関係) 06-6872-6136\n【総務】 06-6872-1651\nファクス番号:06-6872-1652"
    }
   },
   "https://www.city.suita.osaka.jp/shisei/1018939/1018943/1042104/1044923.html": {
@@ -15775,7 +15719,7 @@
    "url": "https://www.city.amagasaki.hyogo.jp/shisei/si_mirai/sprocess/1011552/pub_kakoanken/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -15912,7 +15856,7 @@
    "url": "http://www.city.nishinomiya.lg.jp/shisei/sankaku/publiccomment/ikenteishutsu.html",
    "start": "2026-09-18",
    "deadline": "2026-10-19",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-20"
   },
   "https://www.city.nara.lg.jp/site/ikenboshu/list507-1485.html": {
@@ -15922,7 +15866,7 @@
    "url": "https://www.city.nara.lg.jp/site/ikenboshu/list507-1485.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07",
    "list": true
   },
@@ -15953,7 +15897,7 @@
    "url": "https://www.city.nara.lg.jp/site/ikenboshu/list507.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-16",
    "list": true
   },
@@ -16054,8 +15998,8 @@
    "url": "https://www.city.tottori.lg.jp/life/sub/6/54/247/",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
-   "first_seen": "2026-10-23"
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24"
   },
   "https://www.city.matsue.lg.jp/gyoseijoho/koho_kocho/public_comment/public_comment_boshu/26602.html": {
    "id": "063b76a46d",
@@ -16218,54 +16162,6 @@
    "deadline": null,
    "checked": "2026-10-23",
    "first_seen": "2026-09-29"
-  },
-  "https://www.city.kure.lg.jp/soshiki/7/ikenkoubo.html": {
-   "id": "3d84548f38",
-   "pref": "呉市",
-   "title": "市民意見公募手続(パブリックコメント)",
-   "url": "https://www.city.kure.lg.jp/soshiki/7/ikenkoubo.html",
-   "start": "2026-09-24",
-   "deadline": "2026-09-24",
-   "checked": "2026-09-29",
-   "first_seen": "2026-09-29",
-   "detail": {
-    "files": [
-     {
-      "name": "制度の概要",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/1266.pdf"
-     },
-     {
-      "name": "呉市市民意見公募手続に関する要綱",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/1267.pdf"
-     },
-     {
-      "name": "要綱の考え方",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/1268.pdf"
-     },
-     {
-      "name": "第２次呉市地域福祉計画（素案）に対する意見募集について [PDFファイル／167KB]",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/114550.pdf"
-     },
-     {
-      "name": "第２次呉市地域福祉計画（素案）概要 [PDFファイル／436KB]",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/114551.pdf"
-     },
-     {
-      "name": "第２次呉市地域福祉計画（素案） [PDFファイル／1.39MB]",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/114552.pdf"
-     },
-     {
-      "name": "意見書 [PDFファイル／123KB]",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/114548.pdf"
-     },
-     {
-      "name": "意見書 [Excelファイル／78KB]",
-      "url": "https://www.city.kure.lg.jp/uploaded/attachment/114549.xls"
-     }
-    ],
-    "howto": "",
-    "contact": "現在,意見募集の結果を公表している案件はありません。\n<外部リンク>"
-   }
   },
   "https://www.city.fukuyama.hiroshima.jp/soshiki/zeisei/414229.html": {
    "id": "19e45f3588",
@@ -16459,6 +16355,51 @@
    "checked": "2026-10-23",
    "first_seen": "2026-09-29"
   },
+  "https://www.city.takamatsu.kagawa.jp/kurashi/shinotorikumi/public/boshuchu/boshuchu_ichiran.html": {
+   "id": "a6a4f1ae1c",
+   "pref": "高松市",
+   "title": "【一覧表】意見募集中のもの",
+   "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shinotorikumi/public/boshuchu/boshuchu_ichiran.html",
+   "start": "2026-10-22",
+   "deadline": "2026-10-22",
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-24",
+   "detail": {
+    "files": [],
+    "howto": "",
+    "contact": ""
+   }
+  },
+  "https://www.city.takamatsu.kagawa.jp/jigyosha/kankyo_eisei/haiki/ichiran/ippai_meibo/ippai_syuuun_kyoka.html": {
+   "id": "ec59c368bc",
+   "pref": "高松市",
+   "title": "高松市一般廃棄物処理業許可業者一覧について",
+   "url": "https://www.city.takamatsu.kagawa.jp/jigyosha/kankyo_eisei/haiki/ichiran/ippai_meibo/ippai_syuuun_kyoka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-23",
+   "first_seen": "2026-10-20"
+  },
+  "https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/yushi/sft/syouko_up20230930.html": {
+   "id": "6c72e5de5b",
+   "pref": "高松市",
+   "title": "セーフティネット保証制度について",
+   "url": "https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/yushi/sft/syouko_up20230930.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-21"
+  },
+  "https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/kansensho/antiinfectionplan/keikaku.html": {
+   "id": "1de9d3924e",
+   "pref": "高松市",
+   "title": "高松市新型インフルエンザ等対策行動計画",
+   "url": "https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/kansensho/antiinfectionplan/keikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-10-24",
+   "first_seen": "2026-10-09"
+  },
   "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/koutsu/bicycle/rental_cycle/rentapubcomme.html": {
    "id": "41926baff8",
    "pref": "高松市",
@@ -16483,36 +16424,6 @@
     "contact": ""
    }
   },
-  "https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/yushi/sft/syouko_up20230930.html": {
-   "id": "6c72e5de5b",
-   "pref": "高松市",
-   "title": "セーフティネット保証制度について",
-   "url": "https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/yushi/sft/syouko_up20230930.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-21",
-   "first_seen": "2026-10-21"
-  },
-  "https://www.city.takamatsu.kagawa.jp/jigyosha/kankyo_eisei/haiki/ichiran/ippai_meibo/ippai_syuuun_kyoka.html": {
-   "id": "ec59c368bc",
-   "pref": "高松市",
-   "title": "高松市一般廃棄物処理業許可業者一覧について",
-   "url": "https://www.city.takamatsu.kagawa.jp/jigyosha/kankyo_eisei/haiki/ichiran/ippai_meibo/ippai_syuuun_kyoka.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-23",
-   "first_seen": "2026-10-20"
-  },
-  "https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/kansensho/antiinfectionplan/keikaku.html": {
-   "id": "1de9d3924e",
-   "pref": "高松市",
-   "title": "高松市新型インフルエンザ等対策行動計画",
-   "url": "https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/kansensho/antiinfectionplan/keikaku.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-10-21",
-   "first_seen": "2026-10-09"
-  },
   "https://www.city.matsuyama.ehime.jp/bosyu/shisetsukanri.html#6a4c65691a": {
    "id": "685db8d402",
    "pref": "松山市",
@@ -16520,7 +16431,7 @@
    "url": "https://www.city.matsuyama.ehime.jp/bosyu/shisetsukanri.html",
    "start": "2026-07-29",
    "deadline": "2026-08-27",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.matsuyama.ehime.jp/bosyu/shisetsukanri.html": {
@@ -16560,7 +16471,7 @@
    "url": "https://www.city.kochi.kochi.jp/joho/html/pc____031701.htm",
    "start": "2026-10-15",
    "deadline": "2026-11-13",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kochi.kochi.jp/joho/html/pc____031701.htm": {
@@ -16594,7 +16505,7 @@
    "url": "https://www.city.kurume.fukuoka.jp/1500soshiki/9024shiminka/3010oshirase/2026-0623-1404-264t6.html",
    "start": "2026-08-01",
    "deadline": "2026-08-31",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kurume.fukuoka.jp/1100keikaku/": {
@@ -17155,7 +17066,7 @@
    "url": "https://www.city.oita.oita.jp/o204/zigohyouka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -17226,7 +17137,7 @@
    "url": "https://www.city.oita.oita.jp/o009/kyoujinnkakaitei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -17237,7 +17148,7 @@
    "url": "https://www.city.oita.oita.jp/o246/vision3publiccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -17258,7 +17169,7 @@
    "url": "https://www.city.oita.oita.jp/o212/syouboudanbijyon1.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -17269,7 +17180,7 @@
    "url": "https://www.city.oita.oita.jp/o144/shidoukeikakusyuuryou.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -17410,7 +17321,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kensetu/douro/gairoseibi/toshikeikakudourominaoshipabukomejisshikekka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kensetu/toshikeikaku/toshikeikan/yakan/public_kekka.html": {
@@ -17420,7 +17331,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kensetu/toshikeikaku/toshikeikan/yakan/public_kekka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kensetu/toshikeikaku/shimatiduku/machizukuri/kotsu/chusha/fuchigimupbc.html": {
@@ -17430,7 +17341,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kensetu/toshikeikaku/shimatiduku/machizukuri/kotsu/chusha/fuchigimupbc.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kyoiku/kyoiku/syogaigaku/kodomodokusyo/daigojisuisinkeikaku-pubcomekekka.html": {
@@ -17440,7 +17351,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kyoiku/kyoiku/syogaigaku/kodomodokusyo/daigojisuisinkeikaku-pubcomekekka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/keiei.html": {
@@ -17450,7 +17361,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/keiei.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15",
    "list": true
   },
@@ -17461,7 +17372,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kanshin/hirakawa-kinkouwankihonkousou-pabukome.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kan-senryaku/syukuhakuzei_pabukome.html": {
@@ -17471,7 +17382,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kan-senryaku/syukuhakuzei_pabukome.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kenkofukushi/hokenjo/hosei-soumu/pabukomekekka.html": {
@@ -17481,7 +17392,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kenkofukushi/hokenjo/hosei-soumu/pabukomekekka.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kikakuzaisei/zaisei/kanzai/r7sougoukanrikeikakupabukome.html": {
@@ -17491,7 +17402,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kikakuzaisei/zaisei/kanzai/r7sougoukanrikeikakupabukome.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kikakuzaisei/zaisei/kanzai/r7haititekiseikakeikakupabukome.html": {
@@ -17501,7 +17412,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kikakuzaisei/zaisei/kanzai/r7haititekiseikakeikakupabukome.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kyoiku/kanri/bunkazai/tiikikeikaku/r7paburikkukomennto.html": {
@@ -17511,7 +17422,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kyoiku/kanri/bunkazai/tiikikeikaku/r7paburikkukomennto.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/kotuseisaku/koutsuu_vision_public_comment.html": {
@@ -17521,7 +17432,7 @@
    "url": "https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/kotuseisaku/koutsuu_vision_public_comment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/soumu/ict/analogkisei_publiccomment.html": {
@@ -17531,7 +17442,7 @@
    "url": "https://www.city.kagoshima.lg.jp/soumu/ict/analogkisei_publiccomment.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/shimin/shiminbunka/shiminkyodo/machizukuri/kocho/sankaku/3anketo.html": {
@@ -17641,7 +17552,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/ferry-gaiyo.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/anzen-unko.html": {
@@ -17651,7 +17562,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/anzen-unko.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/kokoku.html": {
@@ -17661,7 +17572,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/kokoku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/80th_sakurajima-f_book.html": {
@@ -17671,7 +17582,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/80th_sakurajima-f_book.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/sakurajimaft_hinankakuho.html": {
@@ -17681,7 +17592,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/sakurajimaft_hinankakuho.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/terminal-guide.html": {
@@ -17691,7 +17602,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/terminal-guide.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/parking-lot.html": {
@@ -17701,7 +17612,7 @@
    "url": "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/parking-lot.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/sonota.html": {
@@ -17711,7 +17622,7 @@
    "url": "https://www.city.kagoshima.lg.jp/sakurajima-ferry/gaiyo/sonota.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/multipurpose_hall.html": {
@@ -17721,7 +17632,7 @@
    "url": "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/multipurpose_hall.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.kagoshima.lg.jp/kenkofukushi/hokenjo/kansen/pubcome3end.html": {
@@ -17907,7 +17818,7 @@
    "url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/shisaku.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07",
    "list": true
   },
@@ -17972,7 +17883,7 @@
    "url": "https://www.city.minato.tokyo.jp/kojinjouho/portal/kojinjoho.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-15"
   },
   "https://www.city.shinjuku.lg.jp/kusei/index13.html": {
@@ -18022,7 +17933,7 @@
    "url": "https://www.city.shinjuku.lg.jp/kusei/file14_00004.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -18043,7 +17954,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b013/p007583.html",
    "start": "2026-08-03",
    "deadline": "2026-09-01",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-06"
   },
   "https://www.city.bunkyo.lg.jp/b032/p007816.html#72fafbd6fa": {
@@ -18053,7 +17964,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b032/p007816.html",
    "start": "2026-10-19",
    "deadline": "2026-11-17",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-08"
   },
   "https://www.city.bunkyo.lg.jp/b026/p007620.html": {
@@ -18217,7 +18128,7 @@
    "url": "https://www.city.koto.lg.jp/kuse/kocho/iken/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -18420,7 +18331,7 @@
    "url": "https://www.city.shinagawa.tokyo.jp/kusei/kohokocho/1006648/1010855.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-21"
   },
   "https://www.city.shinagawa.tokyo.jp/kusei/shisakukeikaku/index.html": {
@@ -18430,7 +18341,7 @@
    "url": "https://www.city.shinagawa.tokyo.jp/kusei/shisakukeikaku/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-21"
   },
   "https://www.city.shinagawa.tokyo.jp/kusei/joreikisoku/index.html": {
@@ -18440,7 +18351,7 @@
    "url": "https://www.city.shinagawa.tokyo.jp/kusei/joreikisoku/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-21"
   },
   "https://www.city.shinagawa.tokyo.jp/kusei/kohokocho/1006648/1006650/1006651/1006653/1009856.html": {
@@ -18494,7 +18405,7 @@
    "url": "https://www.city.shinagawa.tokyo.jp/about/1006597.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-21",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-21"
   },
   "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/jyuumindaichou_hyouka.html": {
@@ -18614,7 +18525,7 @@
    "url": "https://www.city.setagaya.lg.jp/02082/34610.html",
    "start": "2026-09-08",
    "deadline": "2026-09-29",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-30"
   },
   "https://www.city.setagaya.lg.jp/02087/34867.html#2f3416c6b7": {
@@ -18624,7 +18535,7 @@
    "url": "https://www.city.setagaya.lg.jp/02087/34867.html",
    "start": "2026-09-08",
    "deadline": "2026-09-29",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-30"
   },
   "https://www.city.setagaya.lg.jp/02409/34851.html#35efab24c4": {
@@ -18634,7 +18545,7 @@
    "url": "https://www.city.setagaya.lg.jp/02409/34851.html",
    "start": "2026-09-15",
    "deadline": "2026-10-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.setagaya.lg.jp/02039/34282.html#4824734d8d": {
@@ -18644,7 +18555,7 @@
    "url": "https://www.city.setagaya.lg.jp/02039/34282.html",
    "start": "2026-09-15",
    "deadline": "2026-10-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.setagaya.lg.jp/01420/34158.html#ea4ce29ebc": {
@@ -18654,7 +18565,7 @@
    "url": "https://www.city.setagaya.lg.jp/01420/34158.html",
    "start": "2026-09-15",
    "deadline": "2026-10-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.setagaya.lg.jp/02245/35467.html#d5a6961d68": {
@@ -18664,7 +18575,7 @@
    "url": "https://www.city.setagaya.lg.jp/02245/35467.html",
    "start": "2026-09-15",
    "deadline": "2026-10-06",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.setagaya.lg.jp/02083/34329.html#898acc320e": {
@@ -18674,7 +18585,7 @@
    "url": "https://www.city.setagaya.lg.jp/02083/34329.html",
    "start": "2026-09-08",
    "deadline": "2026-10-07",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-08"
   },
   "https://www.city.setagaya.lg.jp/02083/34164.html#3d2aad5636": {
@@ -18684,7 +18595,7 @@
    "url": "https://www.city.setagaya.lg.jp/02083/34164.html",
    "start": "2026-09-08",
    "deadline": "2026-10-07",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-08"
   },
   "https://www.city.setagaya.lg.jp/02251/35468.html#b29b0f055b": {
@@ -18694,7 +18605,7 @@
    "url": "https://www.city.setagaya.lg.jp/02251/35468.html",
    "start": "2026-09-15",
    "deadline": "2026-10-08",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-09"
   },
   "https://www.city.setagaya.lg.jp/02036/22553.html#2effc024c7": {
@@ -18704,7 +18615,7 @@
    "url": "https://www.city.setagaya.lg.jp/02036/22553.html",
    "start": "2027-01-08",
    "deadline": "2027-02-09",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-30"
   },
   "https://www.city.setagaya.lg.jp/02013/27505.html#5c5db6ddf9": {
@@ -18714,7 +18625,7 @@
    "url": "https://www.city.setagaya.lg.jp/02013/27505.html",
    "start": "2026-09-15",
    "deadline": "2026-10-07",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-30"
   },
   "https://www.city.setagaya.lg.jp/01420/26787.html#20394dcea2": {
@@ -18724,7 +18635,7 @@
    "url": "https://www.city.setagaya.lg.jp/01420/26787.html",
    "start": "2026-09-15",
    "deadline": "2026-10-07",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-30"
   },
   "https://www.city.setagaya.lg.jp/01045/32958.html": {
@@ -19277,30 +19188,6 @@
     "contact": "お問い合わせフォーム(外部サイト)\nよくあるご質問\n申請・各種申し込み一覧\n施設案内\n戻る 進む URLをコピー プッシュ通知設定をオフにする通知設定\nURLがコピーされました\n現在のページのURLがコピーされました。\nリンクを適切な場所に貼りつけて、"
    }
   },
-  "https://www.city.shibuya.tokyo.jp/kusei/shisaku/public-comment-boshu/20260002.html": {
-   "id": "5f7d98c9df",
-   "pref": "渋谷区",
-   "title": "2026年10月1日パブリック・コメント「渋谷駅中心地区まちづくり指針2027」(案)について意見を募集します",
-   "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/public-comment-boshu/20260002.html",
-   "start": null,
-   "deadline": "2026-10-01",
-   "checked": "2026-10-07",
-   "first_seen": "2026-10-07",
-   "detail": {
-    "files": [
-     {
-      "name": "「渋谷駅中心地区まちづくり指針2027」（案）",
-      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/4ce8463b7c58432dac0950677ea12b56/public-comment-boshu_2026002.pdf"
-     },
-     {
-      "name": "意見提出用紙（参考）",
-      "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/237deb5c704b4a64b1cb71def02b133b/public-comment-boshu_2026002V1.docx"
-     }
-    ],
-    "howto": "郵送\n〒150-8010(住所不要)渋谷区役所本庁舎12階 渋谷駅中心五街区課\n持参\n区役所本庁舎12階 渋谷駅中心五街区課\n受付時間\n8時30分~17時15分(土曜日、日曜日、祝日除く。)\nメール\npublic-comments@shibuya.tokyo\nファクス\n03-5458-4918 渋谷駅中心五街区課あて\n区LINE公式アカウント\n@shibuyacity 詳しくは、LINEパブリック・コメントの使い方をご覧ください。",
-    "contact": "お問い合わせフォーム(外部サイト)\nよくあるご質問\n申請・各種申し込み一覧\n施設案内\n戻る 進む URLをコピー プッシュ通知設定をオフにする通知設定\nURLがコピーされました\n現在のページのURLがコピーされました。\nリンクを適切な場所に貼りつけて、"
-   }
-  },
   "https://www.city.shibuya.tokyo.jp/kusei/shisaku/shibuyaku-kodomo-plan/": {
    "id": "d4bbfa9cb8",
    "pref": "渋谷区",
@@ -19532,7 +19419,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1026096/1026148.html",
    "start": "2026-07-10",
    "deadline": "2026-08-14",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-10-07"
   },
   "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html#53ee1d9426": {
@@ -19542,7 +19429,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html",
    "start": "2026-12-01",
    "deadline": "2027-01-05",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html#2f75dbded9": {
@@ -19552,7 +19439,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html",
    "start": "2026-12-01",
    "deadline": "2027-01-05",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html#f84e78ccfb": {
@@ -19562,7 +19449,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html",
    "start": "2026-12-18",
    "deadline": "2027-01-25",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html#2a25099238": {
@@ -19572,7 +19459,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html",
    "start": "2026-12-18",
    "deadline": "2027-01-25",
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29"
   },
   "https://www.city.kita.lg.jp/city-information/feedback/1014238/1026096/1026148.html": {
@@ -19736,7 +19623,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/pubcom/boshu/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
@@ -19847,7 +19734,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/pubcom/oshirase/keikakusoan/index.html",
    "start": null,
    "deadline": null,
-   "checked": "2026-10-23",
+   "checked": "2026-10-24",
    "first_seen": "2026-09-29",
    "list": true
   },
