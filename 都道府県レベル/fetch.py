@@ -41,6 +41,7 @@ MAX_HUBS = 8         # 1つの県でたどる一覧ページの数の上限
 MAX_CASES = 80       # 1つの県で新しく開く案件ページの数の上限
 WAIT = 0.5           # 同じ県のサイトに続けてアクセスするときの間隔（秒）
 RECHECK_DAYS = 3     # 締切が読み取れなかったページを何日ごとに見直すか
+RECHECK_OPEN_DAYS = 7   # 締切がわかっている募集中の案件を、期間の変更がないか何日ごとに見直すか
 KEEP_DAYS = 90       # 締切から何日たった記録を捨てるか
 DEBUG = os.environ.get("DEBUG")   # DEBUG=1 で、どのページを見て何と判断したかを表示する
 
@@ -505,21 +506,34 @@ def crawl_prefecture(pref, cache, today, log):
             prev = None     # 以前まちがって案件として記録した一覧ページは、開き直して判定し直す
         # 前に「案件の一覧」として奥へ進んだページ（大阪市の「意見を受け付けている案件」など）は、
         # 新しい案件が載る場所なので毎日開き直す
+        recheck = None    # 締切がわかっている案件を、募集期間の変更（延長など）がないか見直すときの前回の記録
         if prev and not prev.get("list"):
             # 締切が過ぎたもの・最近見たものは開き直さない
             if prev.get("deadline") and prev["deadline"] < today_s:
                 results[url] = prev
                 return
-            if (prev.get("deadline") and "detail" in prev) or (not prev.get("deadline") and prev.get("checked", "") > (today - timedelta(days=RECHECK_DAYS)).isoformat()):
+            if prev.get("deadline") and "detail" in prev:
+                # 募集期間が延びることがあるので、週に1回と、締切の前日・当日には開き直す
+                near = prev["deadline"] <= (today + timedelta(days=1)).isoformat()
+                stale = prev.get("checked", "") <= (today - timedelta(days=RECHECK_OPEN_DAYS)).isoformat()
+                if prev.get("checked") == today_s or not (near or stale):
+                    results[url] = prev
+                    return
+                recheck = prev
+            elif not prev.get("deadline") and prev.get("checked", "") > (today - timedelta(days=RECHECK_DAYS)).isoformat():
                 results[url] = prev
                 return
         if stats["new_cases"] >= MAX_CASES:
+            if recheck:
+                results[url] = recheck
             return
         stats["new_cases"] += 1
         try:
             final, page_html = get(url)
         except Exception as e:
             log(f"    開けませんでした: {url}（{e}）")
+            if recheck:
+                results[url] = recheck     # 見直しで開けなかっただけなので、前回の記録を残す
             return
         page = read_page(page_html)
         body = page["text"]
@@ -539,6 +553,12 @@ def crawl_prefecture(pref, cache, today, log):
             start = end = None      # 一覧ページや、意見募集ではないページ（職員募集など）は案件として数えない
         if DEBUG:
             log(f"    案件? {end} {'' if end else '×'} {link_text[:50]} ({period_hits}) {url}")
+        if recheck and not end:
+            # 見直しで締切が読み取れなかったときは、案件を消さずに前回の記録を残す
+            results[url] = recheck
+            return
+        if recheck and DEBUG and end.isoformat() != recheck["deadline"]:
+            log(f"    締切が変わりました: {recheck['deadline']} → {end.isoformat()} {url}")
         results[url] = {
             "id": item_id(url),
             "pref": name,

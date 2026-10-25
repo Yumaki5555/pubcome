@@ -1,12 +1,16 @@
-"""data.json から公開用の一覧ページ（docs/index.html）を作る。
+"""data.json から公開用の一覧ページ（docs/index.html）と、案件ごとのスマホ用まとめ（docs/p/案件番号.html）を作る。
+ページの見た目と動きは、3つの版で共通の ui.py にまとめてある。
 
 使い方:  python build.py
 """
 import html
 import json
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+
+import ui
+from ui import SHARE_JS, effective_deadline, date_ja, updated_ja  # SHARE_JS は post.py などもここから使う
 
 HERE = Path(__file__).parent
 OUT_DIR = HERE / "docs"
@@ -56,21 +60,6 @@ def first_line(summary):
     return summary.strip().split("\n")[0] if summary else ""
 
 
-def summary_html(summary, source):
-    """スマホ用まとめに入れる「かんたん要約」の欄。要約がなければ空。"""
-    if not summary:
-        return ""
-    e = html.escape
-    lines = [x.strip() for x in summary.strip().split("\n") if x.strip()]
-    head = [x for x in lines if not x.startswith("・")]
-    bullets = [x[1:].strip() for x in lines if x.startswith("・")]
-    body = "".join(f"<p>{e(x)}</p>" for x in head)
-    if bullets:
-        body += "<ul>" + "".join(f"<li>{e(x)}</li>" for x in bullets) + "</ul>"
-    return (f'<section class="gist"><h2>📝 かんたん要約</h2>{body}'
-            f'<p class="sub">※{source}の資料をもとにAIがまとめたものです。正確な内容は下の資料でご確認ください。</p></section>')
-
-
 def display_title(item):
     """わかりやすい言い換えがあればそれを、なければ正式名称を短くしたものを使う。"""
     return item.get("plain") or short_title(item["title"])
@@ -82,9 +71,9 @@ def summary_path(item):
 
 
 def share_text(item, main_hashtag, hashtag_of, site_url):
-    """1件ごとの投稿の定型文（一覧ページの「Xでシェア」と投稿文ページで共通）。
-    リンク（23字として数える）込みで140字以内にする。"""
-    d = datetime.fromisoformat(item["deadline"])
+    """1件ごとの投稿の定型文（一覧ページの「Xで共有」と投稿文ページで共通）。
+    リンク（23字として数える）込みで140字以内にする。締切は実際に出せる最後の日（0時締切なら前の日）にする。"""
+    d = date.fromisoformat(effective_deadline(item["deadline"])[0])
     tags = " ".join([main_hashtag] + [hashtag_of[t] for t in item["tags"]])
     make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
                           f"「{title}」\n国（{item['ministry']}）\n\n"
@@ -95,27 +84,16 @@ def share_text(item, main_hashtag, hashtag_of, site_url):
     return make(title) + site_url + summary_path(item)
 
 
-SHARE_JS = r"""
-// スマホではXアプリを直接開く（アプリ内ブラウザで毎回ログインを求められないように）。
-// アプリが開かなかったときだけ、1.5秒後にブラウザ版Xを開く。
-function shareX(text){
-  const web = 'https://x.com/intent/post?text=' + encodeURIComponent(text);
-  if (!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) { window.open(web, '_blank', 'noopener'); return; }
-  const fallback = setTimeout(() => { if (!document.hidden) location.href = web; }, 1500);
-  document.addEventListener('visibilitychange', () => { if (document.hidden) clearTimeout(fallback); }, { once: true });
-  location.href = 'twitter://post?message=' + encodeURIComponent(text);
-}
-"""
-
-
 def main():
     config = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
     tags = json.loads((HERE / "keywords.json").read_text(encoding="utf-8"))["tags"]
     data = json.loads((HERE / "data.json").read_text(encoding="utf-8"))
 
-    now = datetime.now(JST).isoformat()
+    # 締切は「日付」で判定する（締切の当日は、時刻を過ぎても一覧に残し、画面で「受付終了」と示す）
+    today = datetime.now(JST).date().isoformat()
     excluded = load_excluded()
-    open_items = [it for it in data["items"] if it["deadline"] and it["deadline"] >= now and it["id"] not in excluded]
+    open_items = [it for it in data["items"] if it["deadline"] and effective_deadline(it["deadline"])[0] >= today
+                  and it["id"] not in excluded]
     hashtag_of = {t["name"]: t["hashtag"] for t in tags}
     plain = load_plain_titles()
     summaries = load_summaries()
@@ -124,29 +102,55 @@ def main():
             it["plain"] = plain[it["id"]]
         if summaries.get(it["id"]):
             it["summary"] = summaries[it["id"]]
-            it["gist"] = first_line(it["summary"])
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
         it["page"] = summary_path(it)
+    counts = ui.level_counts()
+    ui.write_shared(counts)
     build_summary_pages(open_items, tags, config)
+
+    items = []
+    for it in open_items:
+        day, clock = effective_deadline(it["deadline"])
+        gist, points = ui.split_summary(it.get("summary"))
+        title = display_title(it)
+        items.append({
+            "id": it["id"], "t": title, "o": it["title"] if it["title"] != title else "",
+            "body": it["ministry"], "cat": it.get("category") or "",
+            "since": (it.get("published") or "")[:10], "dl": day, "time": clock,
+            "url": it["url"], "page": it["page"], "share": it["share"],
+            "gist": gist, "pts": points, "tags": it["tags"],
+        })
     payload = {
+        "level": "national",
         "updated": data["updated"],
-        "items": [{k: v for k, v in it.items() if k not in ("detail", "summary")} for it in open_items],
-        "tags": [{"name": t["name"], "color": t["color"], "hashtag": t["hashtag"]} for t in tags],
-        "siteUrl": config["site_url"],
-        "mainHashtag": config["main_hashtag"],
-        "urgentDays": config["urgent_days"],
+        "items": items,
+        "tags": [{"name": t["name"], "color": t["color"]} for t in tags],
+        "counts": counts,
         "newDays": config.get("new_days", 7),
     }
-    page = TEMPLATE
-    for key, value in {
-        "__SITE_NAME__": html.escape(config["site_name"]),
-        "__SITE_DESC__": html.escape(config["site_description"]),
-        "__SITE_URL__": html.escape(config["site_url"]),
-        "__COUNT__": str(len(open_items)),
-        "__SHARE_JS__": SHARE_JS,
-        "__DATA__": json.dumps(payload, ensure_ascii=False).replace("</", "<\\/"),
-    }.items():
-        page = page.replace(key, value)
+    up = updated_ja(data["updated"])
+    info = f"""<section class="info" aria-labelledby="info-h"><h2 id="info-h">このページの情報について</h2><dl>
+<div><dt>出典</dt><dd>国の案件は、<a href="{ui.EGOV_TOP}" target="_blank" rel="noopener">e-Govパブリック・コメント</a>（国の公式の意見募集サイト）から集めています。各案件の「内容を見る」から、公式の資料を開けます。</dd></div>
+<div><dt>更新</dt><dd>毎朝、自動で更新しています（データ最終更新：{ui.esc(up)}）。締切の日を過ぎた案件は、自動で一覧から外れます。</dd></div>
+<div><dt>わかりやすい名前・要約</dt><dd>正式名称と公式の資料をもとに、AIが作ったものです。まちがいがある場合もあるので、正式な内容は必ず公式ページでご確認ください。</dd></div>
+<div><dt>テーマ</dt><dd>案件名・分野・省庁名に含まれる言葉で自動的に振り分けています。テーマが付いていても関係が薄い案件や、付いていなくても関係する案件があります。</dd></div>
+<div><dt>載っていない案件</dt><dd>e-Govに載っていない意見募集（各省庁が独自に行うものなど）は含まれません。</dd></div>
+</dl></section>"""
+    page = ui.list_page(
+        level="national",
+        title=f"{config['site_name']}｜いま意見を出せる国の案件一覧",
+        og_title=f"{config['site_name']}｜募集中のパブコメ {len(items)}件",
+        desc=config["site_description"], url=config["site_url"],
+        h1="国の意見募集（パブコメ）",
+        intro="国（各省庁）が、いま意見を募集している案件です（出典：e-Govパブリック・コメント）。",
+        placeholder="例：子ども、年金",
+        fields='<label class="field">担当省庁<select id="ministry"><option value="">すべての省庁</option></select></label>',
+        info=info,
+        footer=f'<p>出典：<a href="{ui.EGOV_TOP}" target="_blank" rel="noopener">e-Govパブリック・コメント</a>（毎朝自動で更新）</p>'
+               '<p>このサイトは国や自治体の公式サイトではありません。正式な内容は、必ず各公式ページでご確認ください。</p>',
+        updated=data["updated"], payload=payload,
+        noscript=f'<a href="{ui.EGOV_TOP}">e-Govパブリック・コメント</a>で直接お探しください。',
+    )
 
     OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / "index.html").write_text(page, encoding="utf-8")
@@ -168,353 +172,59 @@ def build_summary_pages(items, tag_defs, config):
                        for f in files)
 
     for it in items:
-        d = datetime.fromisoformat(it["deadline"])
+        day, clock = effective_deadline(it["deadline"])
         det = it.get("detail") or {}
         groups = [("まず読む：意見募集要領（出し方・提出先）", det.get("guide_files", [])),
                   ("案の中身", det.get("draft_files", [])),
                   ("関連資料", det.get("other_files", []))]
         files_html = "".join(f'<h3>{e(label)}</h3><ul class="files">{file_list(fs)}</ul>' for label, fs in groups if fs)
         n_files = sum(len(fs) for _, fs in groups[:2])
+        title = display_title(it)
+        deadline_text = f"{date_ja(day)} {clock}まで"
+        if it["deadline"][11:16] == "00:00":
+            raw = datetime.fromisoformat(it["deadline"])
+            deadline_text += f"<small>（e-Govの表記は「{raw.month}月{raw.day}日 0:00」）</small>"
+        warn = (f'<p class="warn">⚠️ e-Govでは、資料（この案件は{n_files}個）を<b>すべて一度開かないと</b>'
+                f'「確認しました」のチェックが入れられない仕組みです。</p>') if n_files else ""
+        howto = f"""<section class="box" aria-labelledby="how-h"><h2 id="how-h">✍️ 意見の出し方</h2>
+<ol class="steps">
+<li><b>資料を読む</b><span>下の「資料」で、どんな案かを確かめます（概要だけでも大丈夫です）。</span></li>
+<li><b>「意見を提出する」でe-Govを開く</b><span>e-Govのページで資料をひとつずつ開き、「確認しました」にチェックを入れて「意見入力へ」に進みます。</span></li>
+<li><b>意見を書いて送信する</b><span>短い意見でも送れます。</span></li>
+</ol>{warn}
+<h3>だれが出せる？</h3><p>国の意見公募は、広く一般から意見を受け付けています。氏名などの記入が必要か、郵送などほかの出し方があるかは案件ごとに違うので、「意見募集要領」でご確認ください。</p>
+<h3>出した意見はどうなる？</h3><p>寄せられた意見は、案を決める前に検討されます。結果と「意見に対する考え方」は、後日e-Govなどで公表されるのが一般的です。ただし、意見がそのまま採用されるとは限りません。</p>
+</section>"""
+        basic = [("担当", it["ministry"]), ("分野", it.get("category")),
+                 ("募集開始", date_ja(it["published"][:10]) if it.get("published") else ""),
+                 ("案の題名", det.get("rule_name")), ("根拠となる法律", det.get("law"))]
+        extra = ('<section class="box" aria-labelledby="basic-h"><h2 id="basic-h">🗂 基本情報（e-Govの記載）</h2><dl class="basic">'
+                 + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in basic if v) + "</dl></section>")
         note = e(det.get("note", "")).replace("\n", "<br>")
-        replace = {
-            "__TITLE__": e(display_title(it)),
-            "__OFFICIAL__": e(it["title"]),
-            "__TAGS__": "".join(f'<span class="tag" style="background:{color_of[t]}">{e(t)}</span>' for t in it["tags"]),
-            "__CATEGORY__": e(it.get("category") or ""),
-            "__MINISTRY__": e(it["ministry"]),
-            "__DEADLINE__": f"{d.year}年{d.month}月{d.day}日 {d.hour}:{d.minute:02d}",
-            "__DEADLINE_ISO__": e(it["deadline"]),
-            "__EGOV__": e(it["url"]),
-            "__FILES__": files_html or '<p class="sub">資料はe-Govのページでご確認ください。</p>',
-            "__N_FILES__": str(n_files),
-            "__CONTACT__": e(det.get("contact", "")).replace("\n", "<br>") or "e-Govのページでご確認ください。",
-            "__SUMMARY__": summary_html(it.get("summary"), "国"),
-            "__NOTE__": f"<section><h2>備考</h2><p>{note}</p></section>" if note else "",
-            "__SHARE__": json.dumps(it["share"], ensure_ascii=False).replace("</", "<\\/"),
-            "__SHARE_JS__": SHARE_JS,
-            "__SITE_NAME__": e(config["site_name"]),
-            "__PAGE_URL__": e(config["site_url"] + summary_path(it)),
-            "__DESC__": e(f"{d.month}/{d.day}まで意見募集中（{it['ministry']}）。ひとことからでも、誰でも意見を送れます。"),
-        }
-        page = SUMMARY_TEMPLATE
-        for k, v in replace.items():
-            page = page.replace(k, v)
+        if note:
+            extra += f'<section class="box" aria-labelledby="note-h"><h2 id="note-h">備考</h2><p>{note}</p></section>'
+        source = (f'<p>この案件の情報は、<a href="{e(it["url"])}" target="_blank" rel="noopener">e-Govパブリック・コメントの案件ページ</a>'
+                  f'から自動で集めています（毎朝更新）。</p>'
+                  '<p>わかりやすい名前と要約は当サイトがAIで作ったものです。正式な内容は必ずe-Govでご確認ください。</p>')
+        page = ui.detail_page(
+            level="national", root="../",
+            title=title, og_title=f"【パブコメ募集】{title}",
+            desc=f"{date.fromisoformat(day).month}/{date.fromisoformat(day).day}まで意見募集中（{it['ministry']}）。ひとことからでも、誰でも意見を送れます。",
+            page_url=config["site_url"] + summary_path(it),
+            who=f'国｜{e(it["ministry"])}' + (f'<span class="cat">分野：{e(it["category"])}</span>' if it.get("category") else ""),
+            official=ui.official_line(title, it["title"]),
+            deadline_text=deadline_text, dl=day, time=clock,
+            submit_url=it["url"], submit_note="e-Gov（国の公式ページ）で提出",
+            themes=ui.themes_line(it["tags"], color_of),
+            summary=ui.summary_block(it.get("summary"), "国"),
+            howto=howto,
+            files=files_html or '<p>資料はe-Govのページでご確認ください。</p>',
+            extra=extra,
+            contact=e(det.get("contact", "")).replace("\n", "<br>") or "e-Govのページでご確認ください。",
+            source=source, share=it["share"],
+        )
         (out / f"{it['id']}.html").write_text(page, encoding="utf-8")
 
-
-SUMMARY_TEMPLATE = r"""<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__TITLE__｜__SITE_NAME__</title>
-<meta name="description" content="__DESC__">
-<meta property="og:type" content="article">
-<meta property="og:title" content="【パブコメ募集】__TITLE__">
-<meta property="og:description" content="__DESC__">
-<meta property="og:url" content="__PAGE_URL__">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📣</text></svg>">
-<style>
-:root{--bg:#f6f5f2;--card:#fff;--ink:#1c1b19;--sub:#5f5c56;--line:#e3e0d9;--accent:#1d4ed8;--urgent:#dc2626;--urgent-bg:#fef2f2;--chip:#efede8}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#16161a;--card:#202026;--ink:#ecebe8;--sub:#a8a59f;--line:#34343c;--accent:#7aa2ff;--urgent:#f87171;--urgent-bg:#3a1e1e;--chip:#2c2c33}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic UI","Meiryo",sans-serif;line-height:1.7}
-a{color:var(--accent)}
-.wrap{max-width:640px;margin:0 auto;padding:12px 16px 40px}
-.back{font-size:.88rem;text-decoration:none}
-.meta{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 6px;font-size:.8rem}
-.tag{color:#fff;padding:1px 8px;border-radius:6px;font-weight:600}
-.cat{background:var(--chip);padding:1px 8px;border-radius:6px;color:var(--sub)}
-h1{font-size:1.35rem;line-height:1.5;margin:4px 0 6px}
-.official{font-size:.82rem;color:var(--sub);margin:0 0 14px}
-.deadline{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.left{font-weight:800;font-size:1.1rem;padding:2px 10px;border-radius:8px;background:var(--chip)}
-.left.urgent{background:var(--urgent-bg);color:var(--urgent)}
-.deadline small{color:var(--sub);display:block;font-size:.78rem}
-.btns{display:flex;flex-direction:column;gap:8px;margin:14px 0}
-.btn{display:block;text-align:center;text-decoration:none;border-radius:12px;padding:14px;font-size:1.05rem;font-weight:700;border:0;font-family:inherit;cursor:pointer;width:100%}
-.btn.go{background:var(--accent);color:#fff}
-.btn.sum{background:var(--chip);color:var(--ink)}
-.btn.x{background:var(--ink);color:var(--bg)}
-section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:12px 0}
-h2{font-size:1rem;margin:0 0 6px}
-h3{font-size:.88rem;margin:10px 0 4px;color:var(--sub)}
-ol{padding-left:1.3em;margin:4px 0}
-ol li{margin:4px 0}
-ul.files{list-style:none;padding:0;margin:0}
-ul.files li{margin:4px 0}
-ul.files a{display:block;padding:8px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none}
-.sub{color:var(--sub);font-size:.85rem}
-.warn{background:var(--urgent-bg);border-radius:8px;padding:8px 10px;font-size:.88rem;margin:8px 0 0}
-.gist p{margin:0 0 6px}
-.gist ul{margin:0;padding-left:1.2em}
-.gist li{margin:3px 0}
-.gist .sub{margin:8px 0 0}
-footer{font-size:.78rem;color:var(--sub);margin-top:20px}
-</style>
-</head>
-<body>
-<div class="wrap">
-<a class="back" href="../">← 募集中のパブコメ一覧（__SITE_NAME__）</a>
-<div class="meta">__TAGS__<span class="cat">__CATEGORY__</span><span class="cat">__MINISTRY__</span></div>
-<h1>__TITLE__</h1>
-<p class="official">正式名：__OFFICIAL__</p>
-
-<div class="deadline"><span class="left" id="left"></span><span><small>意見の締切</small>__DEADLINE__</span></div>
-
-<div class="btns">
-  <a class="btn go" href="__EGOV__" target="_blank" rel="noopener">e-Gov（国のページ）で意見を出す</a>
-  <button type="button" class="btn x" id="share">𝕏でシェアして広める</button>
-</div>
-
-__SUMMARY__
-
-<section>
-  <h2>✍️ 意見の出し方</h2>
-  <ol>
-    <li>下の「資料」を開いて、どんな案か読む（概要だけでもOK）</li>
-    <li>上の青いボタンでe-Govを開く</li>
-    <li>e-Govのページで、資料をひとつずつ開く</li>
-    <li>「全部を確認しました」にチェック →「意見入力へ」</li>
-    <li>意見を書いて送信（ひとことでも大丈夫）</li>
-  </ol>
-  <p class="warn">⚠️ e-Govでは、資料（この案件は__N_FILES__個）を<b>すべて一度開かないと</b>チェックが入れられない仕組みになっています。</p>
-</section>
-
-<section>
-  <h2>📚 資料</h2>
-  __FILES__
-</section>
-
-__NOTE__
-
-<section>
-  <h2>☎️ 問い合わせ先</h2>
-  <p>__CONTACT__</p>
-</section>
-
-<footer>このページは <a href="__EGOV__" target="_blank" rel="noopener">e-Govパブリック・コメント</a> の情報をスマホで読みやすくまとめたものです。わかりやすい名前は当サイトが付けたもので、正式な内容は必ず国の公式ページでご確認ください。</footer>
-</div>
-<script>
-__SHARE_JS__
-const ymd = d => Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
-const dl = Math.round((ymd(new Date('__DEADLINE_ISO__')) - ymd(new Date())) / 86400000);
-const left = document.getElementById('left');
-left.textContent = dl < 0 ? '募集終了' : dl === 0 ? '本日締切' : `あと${dl}日`;
-if (dl <= 7) left.classList.add('urgent');
-document.getElementById('share').onclick = () => shareX(__SHARE__);
-</script>
-</body>
-</html>
-"""
-
-
-TEMPLATE = r"""<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__SITE_NAME__｜いま意見を出せる国の案件一覧</title>
-<meta name="description" content="__SITE_DESC__">
-<meta property="og:type" content="website">
-<meta property="og:title" content="__SITE_NAME__｜募集中のパブコメ __COUNT__件">
-<meta property="og:description" content="__SITE_DESC__">
-<meta property="og:url" content="__SITE_URL__">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📣</text></svg>">
-<style>
-:root{
-  --bg:#f6f5f2;--card:#fff;--ink:#1c1b19;--sub:#5f5c56;--line:#e3e0d9;
-  --accent:#1d4ed8;--urgent:#dc2626;--urgent-bg:#fef2f2;--chip:#efede8;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#16161a;--card:#202026;--ink:#ecebe8;--sub:#a8a59f;--line:#34343c;
-    --accent:#7aa2ff;--urgent:#f87171;--urgent-bg:#3a1e1e;--chip:#2c2c33;
-  }
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);
-  font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic UI","Meiryo",sans-serif;line-height:1.6}
-a{color:var(--accent)}
-.wrap{max-width:860px;margin:0 auto;padding:0 16px}
-header{padding:28px 0 12px}
-h1{font-size:1.6rem;margin:0 0 4px;letter-spacing:.02em}
-.lead{color:var(--sub);margin:0 0 12px;font-size:.95rem}
-.stats{display:flex;gap:10px;flex-wrap:wrap;font-size:.85rem;color:var(--sub)}
-.stats b{color:var(--ink);font-size:1.1rem}
-details.howto{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:12px 0;font-size:.92rem}
-details.howto summary{cursor:pointer;font-weight:600}
-details.howto ol{margin:8px 0 4px;padding-left:1.3em}
-.filters{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)}
-.tagbar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
-.tagbtn{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;
-  padding:5px 12px;font-size:.88rem;cursor:pointer;font-family:inherit}
-.tagbtn .n{opacity:.7;margin-left:4px;font-size:.8em}
-.tagbtn[aria-pressed="true"]{color:#fff;border-color:transparent}
-.row{display:flex;gap:6px;flex-wrap:wrap}
-.row input,.row select{flex:1 1 180px;min-width:0;padding:7px 10px;border:1px solid var(--line);border-radius:8px;
-  background:var(--card);color:var(--ink);font-size:.92rem;font-family:inherit}
-.count{font-size:.85rem;color:var(--sub);margin:10px 0 4px}
-ul.list{list-style:none;padding:0;margin:0 0 40px}
-.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;
-  border-left:5px solid var(--line)}
-.item.focus{border-left-color:var(--tagc)}
-.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.8rem;color:var(--sub);margin-bottom:4px}
-.left{font-weight:700;padding:1px 8px;border-radius:6px;background:var(--chip);color:var(--ink)}
-.left.urgent{background:var(--urgent-bg);color:var(--urgent)}
-.new{font-weight:700;padding:1px 8px;border-radius:6px;background:#fef3c7;color:#b45309}
-.tagbtn.newbtn[aria-pressed="true"]{background:#d97706}
-.tag{color:#fff;padding:1px 8px;border-radius:6px;font-weight:600}
-.cat{background:var(--chip);padding:1px 8px;border-radius:6px}
-.item h2{font-size:1rem;margin:4px 0 8px;font-weight:600;line-height:1.5}
-.item h2 a{color:var(--ink);text-decoration:none}
-.item h2 a:hover{text-decoration:underline}
-.official{font-size:.8rem;color:var(--sub);margin:-4px 0 8px;line-height:1.5}
-.gist{font-size:.88rem;margin:0 0 8px;line-height:1.6}
-.foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;font-size:.82rem;color:var(--sub)}
-.actions{display:flex;gap:6px;flex-wrap:wrap}
-.btn{display:inline-block;border:0;cursor:pointer;font-family:inherit;text-decoration:none;border-radius:8px;padding:5px 12px;font-size:.82rem;font-weight:600}
-.btn.go{background:var(--accent);color:#fff}
-.btn.sum{background:var(--chip);color:var(--ink)}
-.btn.x{background:var(--ink);color:var(--bg)}
-.empty{text-align:center;color:var(--sub);padding:40px 0}
-footer{font-size:.8rem;color:var(--sub);padding:20px 0 40px;border-top:1px solid var(--line)}
-</style>
-</head>
-<body>
-<div class="wrap">
-<header>
-  <p style="font-size:.85rem;margin:0 0 10px"><b>🏛️ 国</b> ／ <a href="pref/">🗾 都道府県</a> ／ <a href="city/">🏙️ 市区町村</a>　｜　<a href="posts.html">📣 X投稿文ページ</a></p>
-  <h1>📣 __SITE_NAME__</h1>
-  <p class="lead">__SITE_DESC__</p>
-  <div class="stats"><span>募集中 <b id="total">__COUNT__</b> 件</span><span id="soon"></span><span id="updated"></span></div>
-  <details class="howto">
-    <summary>パブコメ（意見公募）ってなに？ 意見の出し方</summary>
-    <p>国が新しいルール（政令・省令など）を作る前に、国民から広く意見を聞く制度です。年齢や国籍を問わず誰でも無料で意見を出せます（氏名などの記入が任意の案件も多くあります）。</p>
-    <ol>
-      <li>気になる案件の「スマホ用まとめ」で内容と資料を確認（「e-Govへ」で国の公式ページに直接進むこともできます）</li>
-      <li>「意見募集要領」や「案の概要」を読む</li>
-      <li>ページ内の「意見を提出する」から、フォームに意見を書いて送信</li>
-    </ol>
-    <p>短い一言でも大丈夫です。締切を過ぎると受け付けられないので、お早めに。</p>
-  </details>
-</header>
-
-<div class="filters">
-  <div class="tagbar" id="tagbar" role="group" aria-label="注目テーマで絞り込み"></div>
-  <div class="row">
-    <input id="q" type="search" placeholder="キーワードで探す（例：年金、保育）">
-    <select id="ministry"><option value="">すべての省庁</option></select>
-    <select id="sort" aria-label="並び替え"><option value="deadline">締切が近い順</option><option value="new">新しく始まった順</option></select>
-  </div>
-</div>
-
-<p class="count" id="count"></p>
-<ul class="list" id="list"></ul>
-
-<footer>
-  出典：<a href="https://public-comment.e-gov.go.jp/" target="_blank" rel="noopener">e-Govパブリック・コメント</a>（毎日自動で更新）。
-  テーマ分けは案件名などに含まれる言葉で自動判定しているため、漏れや誤りがある場合があります。必ず公式ページで内容をご確認ください。
-</footer>
-</div>
-
-<script id="data" type="application/json">__DATA__</script>
-<script>
-const D = JSON.parse(document.getElementById('data').textContent);
-const tagColor = Object.fromEntries(D.tags.map(t => [t.name, t.color]));
-const now = new Date();
-const state = { tag: '', q: '', ministry: '', onlyNew: false, sort: 'deadline' };
-
-// 締切日と今日の「日付」の差（時刻は見ない）。今日が締切なら0
-function ymd(d){ return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()); }
-function daysLeft(iso){ return Math.round((ymd(new Date(iso)) - ymd(now)) / 86400000); }
-// 募集が始まってからの日数（新着の判定用）
-function daysSince(iso){ return Math.round((ymd(now) - ymd(new Date(iso))) / 86400000); }
-const isNew = i => i.published && daysSince(i.published) < D.newDays;
-function fmt(iso){ const d = new Date(iso); return `${d.getMonth()+1}/${d.getDate()}`; }
-function esc(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-
-// 省庁の選択肢
-[...new Set(D.items.map(i => i.ministry).filter(Boolean))].sort().forEach(m => {
-  const o = document.createElement('option'); o.value = o.textContent = m;
-  document.getElementById('ministry').appendChild(o);
-});
-
-// テーマボタン
-const tagbar = document.getElementById('tagbar');
-[{name:'', label:'すべて', color:'#444'}, ...D.tags.map(t => ({...t, label:t.name}))].forEach(t => {
-  const b = document.createElement('button');
-  b.className = 'tagbtn'; b.type = 'button';
-  const n = t.name ? D.items.filter(i => i.tags.includes(t.name)).length : D.items.length;
-  b.innerHTML = `${esc(t.label)}<span class="n">${n}</span>`;
-  b.dataset.tag = t.name; b.dataset.color = t.color;
-  b.onclick = () => { state.tag = t.name; render(); };
-  tagbar.appendChild(b);
-});
-// 新着だけ表示するボタン（テーマとは別に、重ねて使える）
-const newN = D.items.filter(isNew).length;
-const newBtn = document.createElement('button');
-newBtn.className = 'tagbtn newbtn'; newBtn.type = 'button';
-newBtn.innerHTML = `🆕 新着（${D.newDays}日以内）<span class="n">${newN}</span>`;
-newBtn.onclick = () => { state.onlyNew = !state.onlyNew; render(); };
-tagbar.appendChild(newBtn);
-document.getElementById('sort').onchange = e => { state.sort = e.target.value; render(); };
-
-document.getElementById('q').oninput = e => { state.q = e.target.value.trim(); render(); };
-document.getElementById('ministry').onchange = e => { state.ministry = e.target.value; render(); };
-
-const soonN = D.items.filter(i => daysLeft(i.deadline) <= D.urgentDays).length;
-document.getElementById('soon').innerHTML = `${D.urgentDays}日以内に締切 <b>${soonN}</b> 件　🆕 ${D.newDays}日以内の新着 <b>${newN}</b> 件`;
-document.getElementById('updated').textContent = '最終更新：' + D.updated.replace('T', ' ').slice(0, 16);
-
-function render(){
-  tagbar.querySelectorAll('.tagbtn').forEach(b => {
-    const on = b.dataset.tag === state.tag;
-    b.setAttribute('aria-pressed', on);
-    b.style.background = on ? b.dataset.color : '';
-  });
-  newBtn.setAttribute('aria-pressed', state.onlyNew);
-  const items = D.items.filter(i =>
-    (!state.onlyNew || isNew(i)) &&
-    (!state.tag || i.tags.includes(state.tag)) &&
-    (!state.ministry || i.ministry === state.ministry) &&
-    (!state.q || (i.title + (i.plain || '') + (i.gist || '') + i.category + i.ministry).includes(state.q))
-  );
-  if (state.sort === 'new') items.sort((a, b) => (b.published || '').localeCompare(a.published || '') || a.deadline.localeCompare(b.deadline));
-  document.getElementById('count').textContent = `${items.length} 件を表示中（${state.sort === 'new' ? '新しく始まった順' : '締切が近い順'}）`;
-  const list = document.getElementById('list');
-  if (!items.length){ list.innerHTML = '<li class="empty">条件に合う募集中の案件はありません</li>'; return; }
-  list.innerHTML = items.map(i => {
-    const dl = daysLeft(i.deadline);
-    const urgent = dl <= D.urgentDays;
-    const leftTxt = dl <= 0 ? '本日締切' : `あと${dl}日`;
-    const tagsHtml = i.tags.map(t => `<span class="tag" style="background:${tagColor[t]}">${esc(t)}</span>`).join('');
-    const first = i.tags[0];
-    return `<li class="item${first ? ' focus' : ''}" style="${first ? '--tagc:' + tagColor[first] : ''}">
-      <div class="meta"><span class="left${urgent ? ' urgent' : ''}">${leftTxt}</span>${isNew(i) ? '<span class="new">🆕 新着</span>' : ''}${tagsHtml}<span class="cat">${esc(i.category || '')}</span></div>
-      <h2><a href="${esc(i.page)}">${esc(i.plain || i.title)}</a></h2>
-      ${i.plain ? `<p class="official">正式名：${esc(i.title)}</p>` : ''}
-      ${i.gist ? `<p class="gist">📝 ${esc(i.gist)}</p>` : ''}
-      <div class="foot"><span>${esc(i.ministry)}｜${i.published ? fmt(i.published) + '開始・' : ''}締切 ${fmt(i.deadline)} ${new Date(i.deadline).toTimeString().slice(0,5)}</span>
-        <span class="actions"><a class="btn sum" href="${esc(i.page)}">スマホ用まとめ</a>
-        <a class="btn go" href="${esc(i.url)}" target="_blank" rel="noopener">e-Govへ</a>
-        <button type="button" class="btn x" data-id="${esc(i.id)}">𝕏でシェア</button></span></div>
-    </li>`;
-  }).join('');
-}
-render();
-__SHARE_JS__
-document.getElementById('list').addEventListener('click', e => {
-  const b = e.target.closest('button.x'); if (!b) return;
-  const i = D.items.find(x => x.id === b.dataset.id);
-  shareX(i.share);
-});
-</script>
-</body>
-</html>
-"""
 
 if __name__ == "__main__":
     main()

@@ -1,37 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja"><head><meta charset="utf-8">
+<html lang="ja" data-root="../">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>X投稿文｜パブコメ掲示板 都道府県版</title>
-<style>
-:root{--bg:#f6f5f2;--card:#fff;--ink:#1c1b19;--sub:#5f5c56;--line:#e3e0d9}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#16161a;--card:#202026;--ink:#ecebe8;--sub:#a8a59f;--line:#34343c}}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP","Meiryo",sans-serif}
-.wrap{max-width:640px;margin:0 auto;padding:16px}
-h1{font-size:1.3rem;margin:8px 0 2px}
-p{color:var(--sub);font-size:.88rem;margin:0 0 12px}
-section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0}
-h2{font-size:.95rem;margin:0 0 6px}
-h2 small{color:var(--sub);font-weight:400}
-pre{white-space:pre-wrap;word-break:break-all;font-family:inherit;font-size:.9rem;margin:0 0 10px;line-height:1.6}
-.btns{display:flex;gap:8px}
-.btns a,.btns button{flex:1;text-align:center;padding:9px;border-radius:8px;font-size:.9rem;font-weight:700;
-  text-decoration:none;border:1px solid var(--line);font-family:inherit;cursor:pointer}
-.x{background:var(--ink);color:var(--bg)}
-.tip{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
-button{background:var(--card);color:var(--ink)}
-</style></head>
-<body><div class="wrap">
-<h1>X投稿文（都道府県版）</h1>
-<p>投稿文ページ：<a href="../posts.html">🏛️ 国</a> ／ <a href="../pref/posts.html">🗾 都道府県</a> ／ <a href="../city/posts.html">🏙️ 市区町村</a></p>
-<p>2026-10-25 09:02 更新。「𝕏アプリで投稿」を押すと、文章が入った状態でXアプリの投稿画面が開きます。内容を確認してから投稿してください。</p>
-<p class="tip">💡 GitHubアプリなどの中で開くと、Xアプリに切り替わらないことがあります。うまくいかないときは、このページを <b>Safari や Chrome で開き</b>、「ホーム画面に追加」しておくと次から便利です。</p>
-<section><h2>今日のまとめ <small>112/140字</small></h2><pre>いま31の都道府県が「みんなの意見を聞かせて」と募集しているテーマが83件あります📣
+<title>X投稿文（都道府県）｜パブコメ掲示板</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📣</text></svg>">
+<link rel="stylesheet" href="../assets/site.css?v=39d77cbf">
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a><header class="site-head"><div class="wrap head-row"><a class="brand" href="../">📣 パブコメ掲示板</a><a class="xlink" href="../pref/posts.html" aria-current="page">X投稿文ページ</a></div><nav class="wrap levels" aria-label="国・都道府県・市区町村の切り替え"><a class="lv" href="../" data-base="../" data-level="national"><span class="lv-name">国</span><span class="lv-n">募集中 <b data-count="national">127</b>件</span></a><a class="lv" href="../pref/" data-base="../pref/" data-level="pref"><span class="lv-name">都道府県</span><span class="lv-n">募集中 <b data-count="pref">83</b>件</span></a><a class="lv" href="../city/" data-base="../city/" data-level="city"><span class="lv-name">市区町村</span><span class="lv-n">募集中 <b data-count="city">86</b>件</span></a></nav></header>
+<main id="main" class="wrap detail">
+<section class="intro">
+<h1>X投稿文（都道府県の案件）</h1>
+<div class="subtabs" role="group" aria-label="投稿文の種類"><a class="xlink" href="../posts.html">国</a><a class="xlink" href="../pref/posts.html" aria-current="page">都道府県</a><a class="xlink" href="../city/posts.html">市区町村</a></div>
+<p class="lead">2026年10月25日（日） 9:02 更新。「Xで投稿する」を押すと、文章が入った状態でXの投稿画面が開きます。内容を確かめてから投稿してください。</p>
+<p class="note">Xの画面が開かないとき（アプリの中のブラウザなど）は、「文章をコピー」を押してXアプリに貼り付けてください。締切が過ぎた案件の投稿文は、自動で隠します。</p>
+</section>
+<section class="post"><h2>今日のまとめ<small>112/140字</small></h2><pre>いま31の都道府県が「みんなの意見を聞かせて」と募集しているテーマが83件あります📣
 子育て・福祉・まちづくりなど、暮らしに身近な話も。
 ひとことからでも送れます🙆
 https://yumaki5555.github.io/pubcome/pref/
-#パブコメ</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜民泊 <small>125/140字</small></h2><pre>📣【パブコメ募集】11/13まで
+#パブコメ</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-13"><h2>新着｜民泊<small>125/140字</small></h2><pre>📣【パブコメ募集】11/13まで
 
 「旅館・ホテル営業に関する条例の改正案」
 兵庫県
@@ -40,8 +31,8 @@ https://yumaki5555.github.io/pubcome/pref/
 それ以外の方は案件ごとにご確認ください
 #パブコメ #兵庫県 #民泊
 
-https://yumaki5555.github.io/pubcome/pref/p/9abedcfe14.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜宮城県 <small>125/140字</small></h2><pre>📣【パブコメ募集】11/22まで
+https://yumaki5555.github.io/pubcome/pref/p/9abedcfe14.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-22"><h2>新着｜宮城県<small>125/140字</small></h2><pre>📣【パブコメ募集】11/22まで
 
 「山間部の地域を元気にするための基本方針(案)」
 宮城県
@@ -50,8 +41,8 @@ https://yumaki5555.github.io/pubcome/pref/p/9abedcfe14.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #宮城県
 
-https://yumaki5555.github.io/pubcome/pref/p/0aa92520c1.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜滋賀県 <small>121/140字</small></h2><pre>📣【パブコメ募集】11/22まで
+https://yumaki5555.github.io/pubcome/pref/p/0aa92520c1.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-22"><h2>新着｜滋賀県<small>121/140字</small></h2><pre>📣【パブコメ募集】11/22まで
 
 「県政に関する意見・情報の募集について」
 滋賀県
@@ -60,8 +51,8 @@ https://yumaki5555.github.io/pubcome/pref/p/0aa92520c1.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #滋賀県
 
-https://yumaki5555.github.io/pubcome/pref/p/f737d1eaf4.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜滋賀県 <small>123/140字</small></h2><pre>📣【パブコメ募集】11/22まで
+https://yumaki5555.github.io/pubcome/pref/p/f737d1eaf4.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-22"><h2>新着｜滋賀県<small>123/140字</small></h2><pre>📣【パブコメ募集】11/22まで
 
 「県の仕事の進め方を見直す次期方針(素案)」
 滋賀県
@@ -70,8 +61,8 @@ https://yumaki5555.github.io/pubcome/pref/p/f737d1eaf4.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #滋賀県
 
-https://yumaki5555.github.io/pubcome/pref/p/8886dccafd.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜福島県 <small>124/140字</small></h2><pre>📣【パブコメ募集】11/24まで
+https://yumaki5555.github.io/pubcome/pref/p/8886dccafd.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-24"><h2>新着｜福島県<small>124/140字</small></h2><pre>📣【パブコメ募集】11/24まで
 
 「会津・阿武隈川などの森林計画の見直し(案)」
 福島県
@@ -80,8 +71,8 @@ https://yumaki5555.github.io/pubcome/pref/p/8886dccafd.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #福島県
 
-https://yumaki5555.github.io/pubcome/pref/p/150b6e829f.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜モスク・宗教施設 <small>124/140字</small></h2><pre>📣【パブコメ募集】11/20まで
+https://yumaki5555.github.io/pubcome/pref/p/150b6e829f.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-20"><h2>新着｜モスク・宗教施設<small>124/140字</small></h2><pre>📣【パブコメ募集】11/20まで
 
 「公益法人の認定審査基準の見直し」
 千葉県
@@ -90,8 +81,8 @@ https://yumaki5555.github.io/pubcome/pref/p/150b6e829f.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #千葉県 #宗教施設
 
-https://yumaki5555.github.io/pubcome/pref/p/d902aa37f0.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>新着｜千葉県 <small>118/140字</small></h2><pre>📣【パブコメ募集】11/20まで
+https://yumaki5555.github.io/pubcome/pref/p/d902aa37f0.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-20"><h2>新着｜千葉県<small>118/140字</small></h2><pre>📣【パブコメ募集】11/20まで
 
 「公益信託の認可審査基準の見直し」
 千葉県
@@ -100,8 +91,8 @@ https://yumaki5555.github.io/pubcome/pref/p/d902aa37f0.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #千葉県
 
-https://yumaki5555.github.io/pubcome/pref/p/9bb1ce0a6d.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜京都府 <small>124/140字</small></h2><pre>📣【パブコメ募集】10/26まで
+https://yumaki5555.github.io/pubcome/pref/p/9bb1ce0a6d.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-26"><h2>締切間近｜京都府<small>124/140字</small></h2><pre>📣【パブコメ募集】10/26まで
 
 「カスタマーハラスメントを防ぐ条例（骨子案）」
 京都府
@@ -110,8 +101,8 @@ https://yumaki5555.github.io/pubcome/pref/p/9bb1ce0a6d.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #京都府
 
-https://yumaki5555.github.io/pubcome/pref/p/83805b2e08.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜京都府 <small>123/140字</small></h2><pre>📣【パブコメ募集】10/26まで
+https://yumaki5555.github.io/pubcome/pref/p/83805b2e08.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-26"><h2>締切間近｜京都府<small>123/140字</small></h2><pre>📣【パブコメ募集】10/26まで
 
 「移住の促進に関する条例の見直し（骨子案）」
 京都府
@@ -120,8 +111,8 @@ https://yumaki5555.github.io/pubcome/pref/p/83805b2e08.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #京都府
 
-https://yumaki5555.github.io/pubcome/pref/p/9633ff6d76.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜静岡県 <small>118/140字</small></h2><pre>📣【パブコメ募集】10/26まで
+https://yumaki5555.github.io/pubcome/pref/p/9633ff6d76.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-26"><h2>締切間近｜静岡県<small>118/140字</small></h2><pre>📣【パブコメ募集】10/26まで
 
 「高校教育の改革を進める実行計画」
 静岡県
@@ -130,8 +121,8 @@ https://yumaki5555.github.io/pubcome/pref/p/9633ff6d76.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #静岡県
 
-https://yumaki5555.github.io/pubcome/pref/p/abf3180cd2.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜山口県 <small>115/140字</small></h2><pre>📣【パブコメ募集】10/27まで
+https://yumaki5555.github.io/pubcome/pref/p/abf3180cd2.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-27"><h2>締切間近｜山口県<small>115/140字</small></h2><pre>📣【パブコメ募集】10/27まで
 
 「県立病院のこれからの目標」
 山口県
@@ -140,8 +131,8 @@ https://yumaki5555.github.io/pubcome/pref/p/abf3180cd2.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #山口県
 
-https://yumaki5555.github.io/pubcome/pref/p/51f3650cf6.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜徳島県 <small>125/140字</small></h2><pre>📣【パブコメ募集】10/27まで
+https://yumaki5555.github.io/pubcome/pref/p/51f3650cf6.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-27"><h2>締切間近｜徳島県<small>125/140字</small></h2><pre>📣【パブコメ募集】10/27まで
 
 「食育（食を通じた健康づくり）を進める県の計画」
 徳島県
@@ -150,8 +141,8 @@ https://yumaki5555.github.io/pubcome/pref/p/51f3650cf6.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #徳島県
 
-https://yumaki5555.github.io/pubcome/pref/p/7daacae7c8.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜愛媛県 <small>115/140字</small></h2><pre>📣【パブコメ募集】10/28まで
+https://yumaki5555.github.io/pubcome/pref/p/7daacae7c8.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-28"><h2>締切間近｜愛媛県<small>115/140字</small></h2><pre>📣【パブコメ募集】10/28まで
 
 「中川流域の水害対策の計画」
 愛媛県
@@ -160,8 +151,8 @@ https://yumaki5555.github.io/pubcome/pref/p/7daacae7c8.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #愛媛県
 
-https://yumaki5555.github.io/pubcome/pref/p/ca0acb16e6.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>締切間近｜神奈川県 <small>125/140字</small></h2><pre>📣【パブコメ募集】10/28まで
+https://yumaki5555.github.io/pubcome/pref/p/ca0acb16e6.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-28"><h2>締切間近｜神奈川県<small>125/140字</small></h2><pre>📣【パブコメ募集】10/28まで
 
 「県立高校の教育改革の実行計画（骨子案）」
 神奈川県
@@ -170,44 +161,67 @@ https://yumaki5555.github.io/pubcome/pref/p/ca0acb16e6.html</pre><div class="btn
 それ以外の方は案件ごとにご確認ください
 #パブコメ #神奈川県
 
-https://yumaki5555.github.io/pubcome/pref/p/27cd557312.html</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>テーマ紹介｜外国人政策 <small>121/140字</small></h2><pre>🌏外国人の受け入れやルールについて、都道府県が意見を募集している案が1件あります（埼玉県）。
+https://yumaki5555.github.io/pubcome/pref/p/27cd557312.html</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-30"><h2>テーマ紹介｜外国人政策<small>121/140字</small></h2><pre>🌏外国人の受け入れやルールについて、都道府県が意見を募集している案が1件あります（埼玉県）。
 いちばん近い締切は10/30。
 住んでいるまちの話か、のぞいてみませんか？
 https://yumaki5555.github.io/pubcome/pref/
-#パブコメ #外国人政策</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>テーマ紹介｜モスク・宗教施設 <small>141/140字</small></h2><pre>🏛️宗教施設や、建物・土地のルールについて、都道府県が意見を募集している案が6件あります（高知県・大阪府・神奈川県・島根県・千葉…）。
+#パブコメ #外国人政策</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-10-31"><h2>テーマ紹介｜モスク・宗教施設<small>141/140字</small></h2><pre>🏛️宗教施設や、建物・土地のルールについて、都道府県が意見を募集している案が6件あります（高知県・大阪府・神奈川県・島根県・千葉…）。
 いちばん近い締切は10/31。
 住んでいるまちの話か、のぞいてみませんか？
 https://yumaki5555.github.io/pubcome/pref/
-#パブコメ #宗教施設</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>テーマ紹介｜民泊 <small>113/140字</small></h2><pre>🏠民泊や宿泊施設について、都道府県が意見を募集している案が1件あります（兵庫県）。
+#パブコメ #宗教施設</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-13"><h2>テーマ紹介｜民泊<small>113/140字</small></h2><pre>🏠民泊や宿泊施設について、都道府県が意見を募集している案が1件あります（兵庫県）。
 いちばん近い締切は11/13。
 住んでいるまちの話か、のぞいてみませんか？
 https://yumaki5555.github.io/pubcome/pref/
-#パブコメ #民泊</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
-<section><h2>テーマ紹介｜社会保障 <small>123/140字</small></h2><pre>🏥年金・医療・介護について、都道府県が意見を募集している案が3件あります（大阪府・静岡県・千葉県）。
+#パブコメ #民泊</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+<section class="post" data-dl="2026-11-06"><h2>テーマ紹介｜社会保障<small>123/140字</small></h2><pre>🏥年金・医療・介護について、都道府県が意見を募集している案が3件あります（大阪府・静岡県・千葉県）。
 いちばん近い締切は11/6。
 住んでいるまちの話か、のぞいてみませんか？
 https://yumaki5555.github.io/pubcome/pref/
-#パブコメ #社会保障</pre><div class="btns"><button type="button" class="x" onclick="post(this)">𝕏アプリで投稿</button><button type="button" onclick="copy(this)">コピー</button></div></section>
+#パブコメ #社会保障</pre><div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button><button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>
+</main>
+<footer class="site-foot"><div class="wrap detail"><p>投稿文は毎朝自動で作り直しています。</p></div></footer>
+<dialog id="share-dialog" class="share-dlg" aria-labelledby="share-h">
+<div class="dlg-in">
+<h2 id="share-h">Xで共有する</h2>
+<p class="note">投稿する文章です。内容を確かめてから投稿してください。</p>
+<label class="sr" for="share-text">投稿する文章</label>
+<textarea id="share-text" rows="9" readonly></textarea>
+<div class="dlg-btns">
+<button type="button" class="btn primary" id="share-post">Xで投稿する</button>
+<button type="button" class="btn outline" id="share-copy">文章をコピー</button>
 </div>
+<p class="copy-msg" id="share-msg" role="status" aria-live="polite"></p>
+<p class="note">Xの画面が開かないときは「文章をコピー」を押して、Xアプリに貼り付けてください。</p>
+<button type="button" class="btn ghost" id="share-close">閉じる</button>
+</div>
+</dialog>
+<button type="button" class="totop" id="totop" aria-label="ページの上に戻る" hidden>▲<br>上へ</button>
+<script src="../assets/site.js?v=a34a93ee"></script>
 <script>
-
-// スマホではXアプリを直接開く（アプリ内ブラウザで毎回ログインを求められないように）。
-// アプリが開かなかったときだけ、1.5秒後にブラウザ版Xを開く。
-function shareX(text){
-  const web = 'https://x.com/intent/post?text=' + encodeURIComponent(text);
-  if (!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) { window.open(web, '_blank', 'noopener'); return; }
-  const fallback = setTimeout(() => { if (!document.hidden) location.href = web; }, 1500);
-  document.addEventListener('visibilitychange', () => { if (document.hidden) clearTimeout(fallback); }, { once: true });
-  location.href = 'twitter://post?message=' + encodeURIComponent(text);
-}
-
-function post(btn){ shareX(btn.closest('section').querySelector('pre').textContent); }
-function copy(btn){
-  const text = btn.closest('section').querySelector('pre').textContent;
-  navigator.clipboard.writeText(text).then(() => { btn.textContent = 'コピーしました'; setTimeout(() => btn.textContent = 'コピー', 1500); });
-}
+(function(){
+  PC.navCounts({"national": {"2026-10-25": 3, "2026-10-26": 4, "2026-10-27": 2, "2026-10-28": 1, "2026-10-29": 3, "2026-10-30": 10, "2026-10-31": 12, "2026-11-03": 2, "2026-11-04": 5, "2026-11-05": 4, "2026-11-06": 4, "2026-11-07": 8, "2026-11-08": 3, "2026-11-09": 2, "2026-11-11": 3, "2026-11-13": 12, "2026-11-14": 10, "2026-11-15": 1, "2026-11-16": 3, "2026-11-17": 5, "2026-11-18": 10, "2026-11-19": 3, "2026-11-20": 7, "2026-11-21": 3, "2026-11-23": 1, "2026-11-24": 4, "2026-11-28": 1, "2026-12-21": 1}, "pref": {"2026-10-26": 3, "2026-10-27": 2, "2026-10-28": 2, "2026-10-29": 1, "2026-10-30": 12, "2026-10-31": 3, "2026-11-02": 5, "2026-11-04": 1, "2026-11-05": 4, "2026-11-06": 5, "2026-11-07": 3, "2026-11-09": 9, "2026-11-10": 2, "2026-11-12": 2, "2026-11-13": 8, "2026-11-14": 2, "2026-11-16": 4, "2026-11-18": 5, "2026-11-19": 1, "2026-11-20": 5, "2026-11-22": 3, "2026-11-24": 1}, "city": {"2026-10-25": 2, "2026-10-26": 6, "2026-10-27": 2, "2026-10-28": 3, "2026-10-29": 1, "2026-10-30": 10, "2026-10-31": 9, "2026-11-02": 9, "2026-11-04": 4, "2026-11-05": 1, "2026-11-06": 8, "2026-11-09": 1, "2026-11-11": 2, "2026-11-12": 3, "2026-11-13": 7, "2026-11-16": 5, "2026-11-17": 1, "2026-11-18": 1, "2026-11-19": 2, "2026-11-20": 4, "2026-11-21": 1, "2026-11-24": 4}});
+  document.querySelectorAll('.post[data-dl]').forEach(sec => {
+    if (PC.days(sec.dataset.dl) < 0) {
+      sec.classList.add('gone');
+      sec.querySelector('pre').hidden = true;
+      sec.querySelector('.dlg-btns').hidden = true;
+      sec.insertAdjacentHTML('beforeend', '<p class="note">締切が過ぎたため、この投稿文は隠しています（次の更新で作り直されます）。</p>');
+    }
+  });
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-act]'); if (!b) return;
+    const text = b.closest('.post').querySelector('pre').textContent;
+    if (b.dataset.act === 'post') { shareX(text); return; }
+    PC.copyText(text).then(ok => {
+      b.textContent = ok ? 'コピーしました' : 'コピーできませんでした（文章を長押ししてコピー）';
+      setTimeout(() => { b.textContent = '文章をコピー'; }, 2500);
+    });
+  });
+})();
 </script>
-</body></html>
+</body>
+</html>
