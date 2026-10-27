@@ -1,29 +1,7 @@
 {
- "updated": "2026-10-27T10:09+09:00",
+ "updated": "2026-10-28T08:09+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "620126017",
-   "title": "一般送配電事業託送供給等約款料金算定規則の一部を改正する省令案等に対する意見公募要領",
-   "category": "工業",
-   "ministry": "資源エネルギー庁",
-   "published": "2026-06-30T23:59:00+09:00",
-   "deadline": "2026-07-29T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620126017&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "195260032",
-   "title": "南極環境影響評価実施要領の一部を改正する件（案）に対する意見の募集（パブリック・コメント）について",
-   "category": "環境保全",
-   "ministry": "環境省",
-   "published": "2026-06-30T23:59:00+09:00",
-   "deadline": "2026-07-30T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260032&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "235080088",
    "title": "食品表示基準の一部を改正する内閣府令（案）に関する意見募集について",
@@ -7327,6 +7305,49 @@
    }
   },
   {
+   "id": "145210792",
+   "title": "「電子政府における調達のために参照すべき暗号のリスト（CRYPTREC暗号リスト）」の改定（PQC対応）に対する意見募集",
+   "category": "IT社会化推進",
+   "ministry": "総務省",
+   "published": "2026-10-27T23:59:00+09:00",
+   "deadline": "2026-11-11T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210792&Mode=0",
+   "first_seen": "2026-10-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "電子政府における調達のために参照すべき暗号のリスト（CRYPTREC暗号リスト）",
+    "law": "ー",
+    "guide_files": [
+     {
+      "name": "意見公募要領【別添４】",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322931"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "CRYPTREC暗号リストの改定イメージ【別添２】",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322932"
+     },
+     {
+      "name": "改定イメージの考え方【別添３】",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322933"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "報道資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322934"
+     },
+     {
+      "name": "タスクフォース概要【別添１】",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322935"
+     }
+    ],
+    "note": "＜問い合わせ先＞総務省サイバーセキュリティ統括官室03-5253-5431デジタル庁デジタル社会共通機能グループ トラスト班03-6891-2720経済産業省商務情報政策局サイバーセキュリティ課03-3501-1253",
+    "contact": "総務省（サイバーセキュリティ統括官室）\nデジタル庁（デジタル社会共通機能グループ トラスト班）\n経済産業省（商務情報政策局サイバーセキュリティ課）"
+   }
+  },
+  {
    "id": "195260063",
    "title": "特定外来生物による生態系等に係る被害の防止に関する法律施行令の一部を改正する政令案等に対する意見の募集（パブリック・コメント）について",
    "category": "環境保全",
@@ -9641,7 +9662,7 @@
    "category": "環境保全",
    "ministry": "農林水産省",
    "published": "2026-10-27T23:59:00+09:00",
-   "deadline": "2026-11-25T00:00:00+09:00",
+   "deadline": "2026-11-25T23:59:00+09:00",
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004435&Mode=0",
    "first_seen": "2026-10-27",
    "tags": [],
@@ -9734,6 +9755,79 @@
    }
   },
   {
+   "id": "595320115",
+   "title": "冷凍保安規則等の一部を改正する省令（案）に対する意見募集",
+   "category": "国民生活の安全・安心の確保",
+   "ministry": "経済産業省",
+   "published": "2026-10-27T23:59:00+09:00",
+   "deadline": "2026-11-25T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320115&Mode=0",
+   "first_seen": "2026-10-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "冷凍保安規則等の一部を改正する省令（案）",
+    "law": "高圧ガス保安法（昭和26年法律第204号）",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323015"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "新旧対照表（冷凍保安規則等の一部を改正する省令（案））",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323016"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "（参考）概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323017"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省大臣官房産業保安・安全グループ高圧ガス保安室"
+   }
+  },
+  {
+   "id": "155261240",
+   "title": "「模擬飛行装置等認定要領」及び「模擬飛行装置等認定要領細則」の一部改正（案）について",
+   "category": "航空",
+   "ministry": "国土交通省",
+   "published": "2026-10-27T23:59:00+09:00",
+   "deadline": "2026-11-25T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261240&Mode=0",
+   "first_seen": "2026-10-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "「模擬飛行装置等認定要領」（国空航第1285号 国空機第1308号 国空乗第91号 平成14年３月28日）\n「模擬飛行装置等認定要領細則」（国空航第1417号 国空機第1462号 国空乗第2089号 平成14年4月23日）",
+    "law": "航空法施行規則（昭和27年運輸省令第56号) 第46条の2、第158条第3項、第159条第2項、第160条第2項、第161条第2項、第162条の14、第164条第3項（第164条の2第2項、第164条の3及び第164条の6第2項において準用する場合を含む。）、第164条の10第4項（第164条の11第2項及び第164条の12第2項において準用する場合を含む。）及び別表第2",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322956"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322957"
+     },
+     {
+      "name": "新旧対照表（要領）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322958"
+     },
+     {
+      "name": "新旧対照表（細則）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322959"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国土交通省航空局安全部安全政策課乗員政策室"
+   }
+  },
+  {
    "id": "195260073",
    "title": "遺伝子組換え生ワクチン（犬用）の第一種使用等に関する承認に先立っての意見募集について",
    "category": "環境保全",
@@ -9765,6 +9859,102 @@
     "other_files": [],
     "note": "－",
     "contact": "環境省自然環境局野生生物課外来生物対策室（03-5521-8344（直通））"
+   }
+  },
+  {
+   "id": "495260225",
+   "title": "「労働安全衛生規則及び労働安全衛生法及びこれに基づく命令に係る登録及び指定に関する省令の一部を改正する省令案」に関する御意見の募集について",
+   "category": "労働",
+   "ministry": "厚生労働省",
+   "published": "2026-10-27T23:59:00+09:00",
+   "deadline": "2026-11-26T13:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260225&Mode=0",
+   "first_seen": "2026-10-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "労働安全衛生規則及び労働安全衛生法及びこれに基づく命令に係る登録及び指定に関する省令の一部を改正する省令",
+    "law": "労働安全衛生法（昭和47年法律第57号）第57条の２第４項及び第５項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322929"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322930"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省労働基準局安全衛生部化学物質対策課化学物質評価室\n電話：03-5253-1111"
+   }
+  },
+  {
+   "id": "495260211",
+   "title": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-27T23:59:00+09:00",
+   "deadline": "2026-11-26T18:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260211&Mode=0",
+   "first_seen": "2026-10-28",
+   "tags": [
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令",
+    "law": "健康保険法等の一部を改正する法律（令和８年法律第31号）による改正後の健康保険法等の一部を改正する法律（令和８年法律第31号）第13条の10第１項柱書、同項第２号及び第３号、第２項第４号、第６項並びに第９項並びに第13条の13第１項",
+    "guide_files": [],
+    "draft_files": [
+     {
+      "name": "省令案の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322961"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医政局医療経営改革課"
+   }
+  },
+  {
+   "id": "145210788",
+   "title": "「MVNOに係る電気通信事業法及び電波法の適用関係に関するガイドライン」改定案に対する意見募集",
+   "category": "電気通信",
+   "ministry": "総務省",
+   "published": "2026-10-28T23:59:00+09:00",
+   "deadline": "2026-11-26T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210788&Mode=0",
+   "first_seen": "2026-10-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "MVNOに係る電気通信事業法及び電波法の適用関係に関するガイドライン",
+    "law": "・行政手続法（平成５年法律第88号）第36条\n・電気通信事業法（昭和59年法律第86号）第34条第３項第１号ロ及び第２号",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322882"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "「MVNOに係る電気通信事業法及び電波法の適用関係に関するガイドライン」改定案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322883"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322884"
+     },
+     {
+      "name": "報道資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322885"
+     }
+    ],
+    "note": "",
+    "contact": "総務省総合通信基盤局電気通信事業部料金サービス課\nTel：03-5253-5845"
    }
   },
   {
