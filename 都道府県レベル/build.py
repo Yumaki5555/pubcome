@@ -125,6 +125,7 @@ def main(base=HERE):
         "items": items,
         "tags": [{"name": t["name"], "color": t["color"]} for t in tags],
         "regions": groups,
+        "prefs": [n for _, names in REGIONS for n in names],   # 47都道府県（アドレスで指定された名前が都道府県かを確かめる）
         "officials": officials,
         "related": related,
         "counts": counts,

@@ -330,6 +330,7 @@ fieldset.chips legend .note{font-weight:400;margin-left:6px}
 .src{margin:0;font-size:.875rem;color:var(--sub)}
 .more-wrap{text-align:center;margin:18px 0 8px}
 .more-wrap .btn{min-width:min(100%,320px)}
+.more-wrap .btn[hidden]{display:none}
 
 /* 下の情報欄 */
 .info{margin:36px 0 0;border-top:1px solid var(--line);padding-top:12px}
@@ -644,8 +645,32 @@ LIST_JS = r"""
       names.forEach(n => g.appendChild(new Option(`${n}（${c[n] || 0}件）`, n)));
       selCity.appendChild(g);
     });
-    selCity.value = S.city;
-    S.city = selCity.value;
+    setSel(selCity, S.city);
+  }
+  // 選択肢にない地域（収集の対象外・知らない名前）は、空にして全件を出すのではなく、「対象外」として選んだ状態にする
+  function setSel(sel, v){
+    sel.value = v;
+    if (sel.value === v) return;
+    sel.insertBefore(new Option(`${v}（収集の対象外）`, v), sel.children[1] || null);
+    sel.value = v;
+  }
+  const PREFS = D.prefs || [];
+  const cityPref = {};   // 市区町村版：市区 → 都道府県
+  if (LV === 'city') D.regions.forEach(([p, names]) => names.forEach(n => { cityPref[n] = p; }));
+  // アドレスの地域名を選択肢の名前にそろえる（全角半角のゆれや、「東京」「横浜」のような短い名前も受け付ける）
+  const fixName = (v, names, ends) => {
+    v = String(v || '').normalize('NFKC').trim();
+    return !v || names.includes(v) ? v : (ends.map(e => v + e).find(n => names.includes(n)) || v);
+  };
+  // 指定された地域が、この版の収集対象外なら、その名前と理由を返す
+  function outside(){
+    const notPref = n => `都道府県の名前として「${esc(n)}」は見つかりませんでした。「東京都」のように、都道府県の名前で指定してください。`;
+    if (LV === 'pref' && S.pref && !PREFS.includes(S.pref)) return { name: `「${S.pref}」`, why: notPref(S.pref) };
+    if (LV !== 'city') return null;
+    if (S.pref && !PREFS.includes(S.pref)) return { name: `「${S.pref}」`, why: notPref(S.pref) };
+    if (S.city && !cityPref[S.city]) return { name: S.city, why: `市区町村版で集めているのは、政令指定都市・中核市・東京23区の計105か所だけです。${esc(S.city)}の意見募集は、公式ホームページでご確認ください。` };
+    if (S.pref && !D.regions.some(([p]) => p === S.pref)) return { name: `${S.pref}の市区町村`, why: `${esc(S.pref)}には、市区町村版で集めている市区（政令指定都市・中核市・東京23区）がありません。` };
+    return null;
   }
 
   // ---- テーマ・締切のボタン ----
@@ -663,12 +688,15 @@ LIST_JS = r"""
     S.due = ['3', '7', '30'].includes(p.get('due')) ? p.get('due') : '';
     S.onlyNew = p.get('new') === '1';
     S.sort = p.get('sort') === 'new' ? 'new' : 'deadline';
-    S.ministry = p.get('ministry') || ''; S.pref = p.get('pref') || ''; S.city = p.get('city') || '';
+    S.ministry = p.get('ministry') || '';
+    S.pref = fixName(p.get('pref'), PREFS, ['都', '道', '府', '県']);
+    S.city = fixName(p.get('city'), Object.keys(cityPref), ['市', '区']);
+    if (cityPref[S.city]) S.pref = cityPref[S.city];   // 都道府県は、指定された市区のある都道府県に合わせる
   }
   function sync(){
     $('#q').value = S.q; selSort.value = S.sort;
     if (selMin) { selMin.value = S.ministry; S.ministry = selMin.value; } else S.ministry = '';
-    if (selPref) { selPref.value = S.pref; S.pref = selPref.value; } else S.pref = '';
+    if (selPref) setSel(selPref, S.pref); else S.pref = '';
     if (selCity) fillCities(); else S.city = '';
   }
   function params(shared){
@@ -755,10 +783,15 @@ LIST_JS = r"""
       <p><button type="button" class="btn outline" data-clear>条件をクリア</button></p>${official}
       <p class="note">このサイトに載っていなくても、実際には募集している場合があります。</p></div>`;
   }
+  function outsideHTML(out){
+    return `<div class="empty"><p class="empty-h">${esc(out.name)}は収集の対象外です</p><p>${out.why}</p>
+      <p><button type="button" class="btn outline" data-clear>条件をクリア</button></p></div>`;
+  }
 
   function render(){
     const W = norm(S.q).split(/\s+/).filter(Boolean);
-    const hits = items.filter(i => test(i, W)).sort(S.sort === 'new' ? byNew : byDeadline);
+    const out = outside();
+    const hits = out ? [] : items.filter(i => test(i, W)).sort(S.sort === 'new' ? byNew : byDeadline);
     themeBox.querySelectorAll('[data-theme]').forEach(b => {
       const t = b.dataset.theme;
       b.setAttribute('aria-pressed', String(t === S.theme));
@@ -786,9 +819,9 @@ LIST_JS = r"""
     $('#active').innerHTML = conds.length ? `<span>しぼりこみ中：${conds.join('・')}</span><button type="button" class="btn outline" data-clear>条件をクリア</button>` : '';
     let rel = '';
     if (LV === 'pref' && S.pref && (D.related || []).includes(S.pref)) rel = `<a href="../city/?pref=${encodeURIComponent(S.pref)}">${esc(S.pref)}の市区（政令市・中核市・23区）の案件も見る →</a>`;
-    if (LV === 'city' && S.pref) rel = `<a href="../pref/?pref=${encodeURIComponent(S.pref)}">${esc(S.pref)}（都道府県）の案件も見る →</a>`;
+    if (LV === 'city' && PREFS.includes(S.pref)) rel = `<a href="../pref/?pref=${encodeURIComponent(S.pref)}">${esc(S.pref)}（都道府県）の案件も見る →</a>`;
     $('#related').innerHTML = rel;
-    if (!hits.length) { stateEl.innerHTML = emptyHTML(); list.innerHTML = ''; moreBtn.hidden = true; return; }
+    if (!hits.length) { stateEl.innerHTML = out ? outsideHTML(out) : emptyHTML(); list.innerHTML = ''; moreBtn.hidden = true; return; }
     stateEl.innerHTML = '';
     list.innerHTML = hits.slice(0, shown).map(card).join('');
     const left = hits.length - Math.min(shown, hits.length);
@@ -820,7 +853,11 @@ LIST_JS = r"""
   });
   selSort.onchange = () => { S.sort = selSort.value; update(); };
   if (selMin) selMin.onchange = () => { S.ministry = selMin.value; update(); };
-  if (selPref) selPref.onchange = () => { S.pref = selPref.value; fillCities(); update(); };
+  if (selPref) selPref.onchange = () => {
+    S.pref = selPref.value;
+    if (S.pref && cityPref[S.city] !== S.pref) S.city = '';   // ほかの都道府県の市区の指定は外す
+    fillCities(); update();
+  };
   if (selCity) selCity.onchange = () => { S.city = selCity.value; update(); };
   $('#clear').onclick = clearAll;
   document.addEventListener('click', e => { if (e.target.closest('[data-clear]')) clearAll(); });

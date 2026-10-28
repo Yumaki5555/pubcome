@@ -143,6 +143,7 @@ fieldset.chips legend .note{font-weight:400;margin-left:6px}
 .src{margin:0;font-size:.875rem;color:var(--sub)}
 .more-wrap{text-align:center;margin:18px 0 8px}
 .more-wrap .btn{min-width:min(100%,320px)}
+.more-wrap .btn[hidden]{display:none}
 
 /* 下の情報欄 */
 .info{margin:36px 0 0;border-top:1px solid var(--line);padding-top:12px}
