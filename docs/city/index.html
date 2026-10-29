@@ -10,11 +10,12 @@
 <meta property="og:description" content="大きな市（政令指定都市・中核市）と東京23区が、今まさに意見を募集している案件を、締切が近い順にまとめています。あなたの一言が、住んでいるまちのルールに届きます。">
 <meta property="og:url" content="https://yumaki5555.github.io/pubcome/city/">
 <meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📣</text></svg>">
-<link rel="stylesheet" href="../assets/site.css?v=f663c707">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=c92a0fd3">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="../assets/site.css?v=c3ebba4d">
 </head>
 <body>
-<a class="skip" href="#main">本文へ移動</a><header class="site-head"><div class="wrap head-row"><a class="brand" href="../">📣 パブコメ掲示板</a><a class="xlink" href="../city/posts.html">X投稿文ページ</a></div><nav class="wrap levels" aria-label="国・都道府県・市区町村の切り替え"><a class="lv" href="../" data-base="../" data-level="national"><span class="lv-name">国</span><span class="lv-n">募集中 <b data-count="national">141</b>件</span></a><a class="lv" href="../pref/" data-base="../pref/" data-level="pref"><span class="lv-name">都道府県</span><span class="lv-n">募集中 <b data-count="pref">86</b>件</span></a><a class="lv" href="../city/" data-base="../city/" data-level="city" aria-current="page"><span class="lv-name">市区町村</span><span class="lv-n">募集中 <b data-count="city">81</b>件</span></a></nav></header>
+<a class="skip" href="#main">本文へ移動</a><header class="site-head"><div class="wrap head-row"><a class="brand" href="../"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="currentColor"/><path fill="#fff" d="M17 11h30a8 8 0 0 1 8 8v18a8 8 0 0 1-8 8H32l-12 10V45h-3a8 8 0 0 1-8-8V19a8 8 0 0 1 8-8z"/><path fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" d="M20 22h24M20 34h14"/></svg>パブコメ掲示板</a><a class="xlink" href="../city/posts.html">X投稿文ページ</a></div><nav class="wrap levels" aria-label="国・都道府県・市区町村の切り替え"><a class="lv" href="../" data-base="../" data-level="national"><span class="lv-name">国</span><span class="lv-n">募集中 <b data-count="national">141</b>件</span></a><a class="lv" href="../pref/" data-base="../pref/" data-level="pref"><span class="lv-name">都道府県</span><span class="lv-n">募集中 <b data-count="pref">86</b>件</span></a><a class="lv" href="../city/" data-base="../city/" data-level="city" aria-current="page"><span class="lv-name">市区町村</span><span class="lv-n">募集中 <b data-count="city">81</b>件</span></a></nav></header>
 <main id="main" class="wrap">
 <section class="intro">
   <h1>市区町村の意見募集（パブコメ）</h1>
@@ -253,17 +254,17 @@
     const themes = i.tags.length ? `<p class="themes"><span class="note">テーマ（自動分類）：</span>` +
       i.tags.map(t => `<span class="t"><i class="dot" style="--c:${esc(tagColor[t])}" aria-hidden="true"></i>${esc(t)}</span>`).join('') + '</p>' : '';
     const submit = !i.url ? '' : due.closed
-      ? `<a class="btn primary" href="${esc(i.url)}" target="_blank" rel="noopener">公式ページを見る<small>受付時刻を過ぎています</small></a>`
+      ? `<a class="btn outline" href="${esc(i.url)}" target="_blank" rel="noopener">公式ページを見る<small>受付時刻を過ぎています</small></a>`
       : `<a class="btn primary" href="${esc(i.url)}" target="_blank" rel="noopener">意見を提出する<small>${LV === 'national' ? 'e-Gov（国の公式ページ）へ' : '公式ページで提出方法を確認'}</small></a>`;
     return `<li class="card ${due.cls}">
       <div class="card-top"><span class="due ${due.cls}">${esc(due.label)}</span>${isNew(i) ? '<span class="new">🆕 新着</span>' : ''}</div>
       <p class="who">${where}${i.cat ? `<span class="cat">分野：${esc(i.cat)}</span>` : ''}</p>
       <h3><a href="${esc(i.page)}">${esc(i.t)}</a></h3>
+      <p class="deadline"><span class="k">締切：</span><b>${PC.dateJa(i.dl)}<span class="nw">${i.time ? esc(i.time) : ''}まで</span></b></p>
       ${i.o ? `<p class="official">正式名称：${esc(i.o)}</p>` : ''}
-      <p class="deadline">締切：${PC.dateJa(i.dl)}<span class="nw">${i.time ? esc(i.time) : ''}まで</span></p>
       ${about}${how}${themes}
       <div class="actions">
-        <a class="btn primary" href="${esc(i.page)}">内容を見る</a>${submit}
+        <a class="btn outline" href="${esc(i.page)}">内容を見る</a>${submit}
         ${due.closed ? '' : `<button type="button" class="btn outline share" data-id="${esc(i.id)}">Xで共有</button>`}
       </div>
       <p class="src">出典：${LV === 'national' ? 'e-Govパブリック・コメント' : esc(i.body) + 'の公式ホームページ'}</p>
