@@ -186,9 +186,12 @@ SHARE_DIALOG = """<dialog id="share-dialog" class="share-dlg" aria-labelledby="s
 
 
 CSS = r"""
+/* 明るさは3段階：ページ（いちばん落ち着いた色）→ 上部・下部 → カード・検索欄。カードの中の説明欄はカードより一段落ち着かせる。
+   ブロンズはサイト名・主な操作のボタン・選択中の項目だけ。赤は締切の警告だけ。 */
 :root{
-  --bg:#f8f7f5;--card:#ffffff;--soft:#f7f6f3;--ink:#302f2c;--sub:#655e53;--line:#ded9d0;--field:#bdb5a8;
-  --bronze:#765623;--bronze-dk:#5c431b;--bronze-mid:#a07c4a;--pick:#f1e9da;--brown:#4b3a1f;
+  --bg:#edece8;--head:#f3f2ee;--card:#f8f7f4;--soft:#f0efeb;--input:#fdfcfa;
+  --ink:#34312c;--sub:#65615a;--line:#dad8d1;--field:#bdb5a8;--btn-line:#a99f90;
+  --bronze:#765623;--bronze-dk:#5c431b;--pick:#e6dfd3;--pick-line:#b5a07c;--brown:#4b3a1f;
   --red:#a11a10;--red-soft:#fdeceb;--orange:#9a4b00;--orange-soft:#fff1df;
   --focus:#1d4ed8;
   color-scheme:light;
@@ -197,42 +200,42 @@ CSS = r"""
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-size:16px;line-height:1.75;overflow-wrap:anywhere;
   font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic UI","Meiryo",sans-serif}
-a{color:var(--bronze)}
+a{color:var(--bronze-dk)}
 h1,h2,h3{line-height:1.45}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.skip{position:absolute;left:-9999px;top:8px;z-index:50;background:#fff;padding:10px 14px;border:2px solid var(--bronze)}
+.skip{position:absolute;left:-9999px;top:8px;z-index:50;background:var(--card);padding:10px 14px;border:2px solid var(--bronze)}
 .skip:focus{left:16px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
 .note{font-size:.875rem;color:var(--sub);margin:4px 0 0}
 
-/* 上部（白地。色はサイト名とアイコンだけ） */
-.site-head{background:var(--card);border-bottom:1px solid var(--line)}
+/* 上部（カードより一段落ち着いた地。色はサイト名とアイコン、選択中の項目だけ） */
+.site-head{background:var(--head);border-bottom:1px solid var(--line)}
 .head-row{display:flex;align-items:center;justify-content:space-between;gap:8px 12px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
 .brand{font-weight:800;font-size:1.1875rem;color:var(--bronze);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;gap:8px}
 .brand .logo{width:30px;height:30px;flex:none}
 .xlink{display:inline-flex;align-items:center;min-height:44px;padding:6px 14px;border:1.5px solid var(--line);border-radius:10px;
   background:var(--card);color:var(--brown);text-decoration:none;font-size:.9375rem;font-weight:700}
-.xlink:hover{border-color:var(--bronze-mid)}
-.xlink[aria-current]{background:var(--pick);border-color:var(--bronze-mid)}
+.xlink:hover{border-color:var(--pick-line)}
+.xlink[aria-current]{background:var(--pick);border-color:var(--pick-line);color:var(--bronze-dk)}
 .xlink[aria-current]::before{content:"✓ "}
 .levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding-bottom:14px}
 .lv{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:66px;padding:6px 4px;
-  border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--brown);text-decoration:none;text-align:center;line-height:1.35}
+  border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--brown);text-decoration:none;text-align:center;line-height:1.35}
 .lv-name{font-size:1.1875rem;font-weight:800}
 .lv-n{font-size:.9375rem;color:var(--sub)}
-.lv:hover{border-color:var(--bronze-mid)}
-.lv[aria-current]{background:var(--pick);border-color:var(--bronze-mid)}
+.lv:hover{border-color:var(--pick-line)}
+.lv[aria-current]{background:var(--pick);border-color:var(--pick-line);color:var(--bronze-dk)}
 .lv[aria-current] .lv-name::before{content:"✓ "}
 
-/* ボタン（塗りつぶしは主な操作だけ） */
+/* ボタン（ブロンズの塗りつぶしは主な操作だけ。ほかは落ち着いた枠線） */
 .btn{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-height:48px;padding:8px 14px;
   border:1.5px solid transparent;border-radius:10px;font:inherit;font-size:1rem;font-weight:700;line-height:1.35;text-align:center;
   text-decoration:none;cursor:pointer}
 .btn small{display:block;font-size:.875rem;font-weight:500;margin-top:2px}
 .btn.primary{background:var(--bronze);border-color:var(--bronze);color:#fff}
 .btn.primary:hover{background:var(--bronze-dk);border-color:var(--bronze-dk)}
-.btn.outline{background:var(--card);border-color:var(--bronze-mid);color:var(--bronze-dk)}
+.btn.outline{background:var(--card);border-color:var(--btn-line);color:var(--brown)}
 .btn.outline:hover{background:var(--pick)}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn[disabled]{opacity:.5;cursor:default}
@@ -243,38 +246,38 @@ h1,h2,h3{line-height:1.45}
 @media (min-width:600px){.intro h1{font-size:1.5rem}}
 .lead{margin:0 0 8px;font-size:1rem}
 .sub{color:var(--sub)}
-details.guide{border:1px solid var(--line);background:var(--soft);border-radius:12px;margin:8px 0 4px}
+details.guide{border:1px solid transparent;background:var(--card);border-radius:12px;margin:8px 0 4px}
 details.guide summary{cursor:pointer;font-weight:700;padding:10px 14px;min-height:44px;list-style-position:inside}
-.guide-body{padding:0 16px 12px;background:var(--card);border-radius:0 0 12px 12px;border-top:1px solid var(--line)}
+.guide-body{padding:0 16px 12px;border-top:1px solid var(--line)}
 .guide-body h3{font-size:1.0625rem;margin:14px 0 6px}
 .guide-body ul{padding-left:1.2em;margin:4px 0}
 .guide-body li{margin:6px 0}
 ol.steps{list-style:none;counter-reset:s;padding:0;margin:6px 0;display:grid;gap:8px}
 ol.steps li{counter-increment:s;display:grid;grid-template-columns:36px 1fr;column-gap:10px;align-items:start}
 ol.steps li::before{content:counter(s);grid-row:span 2;width:36px;height:36px;border-radius:50%;background:var(--pick);color:var(--brown);
-  border:1.5px solid var(--bronze-mid);font-weight:800;display:flex;align-items:center;justify-content:center}
+  font-weight:800;display:flex;align-items:center;justify-content:center}
 ol.steps li b{display:block}
 ol.steps li span{color:var(--sub)}
 
-/* 検索（白地。塗りつぶしは検索ボタンだけ） */
-.search{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px 16px;margin:14px 0 20px}
+/* 検索（ページより一段明るい地。入力欄だけ白に近くし、塗りつぶしは検索ボタンだけ） */
+.search{background:var(--card);border:1px solid transparent;border-radius:14px;padding:14px 16px 16px;margin:14px 0 20px}
 .search-label{display:block;font-weight:800;font-size:1.125rem;margin-bottom:6px}
 .qrow{display:flex;gap:8px}
-.qrow input{flex:1;min-width:0;min-height:52px;padding:10px 14px;border:1.5px solid var(--field);border-radius:10px;background:#fff;color:var(--ink);
+.qrow input{flex:1;min-width:0;min-height:52px;padding:10px 14px;border:1.5px solid var(--field);border-radius:10px;background:var(--input);color:var(--ink);
   font:inherit;font-size:1.0625rem}
 .qrow input:focus,select:focus{border-color:var(--bronze)}
 .qrow .btn{min-width:84px}
 .frow{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:10px;margin:14px 0 6px}
 .field{display:flex;flex-direction:column;gap:4px;font-weight:700;font-size:.9375rem}
-select{min-height:48px;width:100%;padding:8px 10px;border:1.5px solid var(--field);border-radius:10px;background:#fff;color:var(--ink);font:inherit;font-size:1rem}
+select{min-height:48px;width:100%;padding:8px 10px;border:1.5px solid var(--field);border-radius:10px;background:var(--input);color:var(--ink);font:inherit;font-size:1rem}
 fieldset.chips{border:0;margin:12px 0 0;padding:0;min-width:0}
 fieldset.chips legend{font-weight:700;font-size:.9375rem;padding:0;margin-bottom:6px}
 fieldset.chips legend .note{font-weight:400;margin-left:6px}
 .chip-row{display:flex;flex-wrap:wrap;gap:8px}
-.chip{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:6px 14px;border:1.5px solid var(--line);border-radius:999px;
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;
   background:var(--card);color:var(--ink);font:inherit;font-size:.9375rem;cursor:pointer}
-.chip:hover{border-color:var(--bronze-mid)}
-.chip[aria-pressed="true"]{background:var(--pick);border-color:var(--bronze-mid);color:var(--brown);font-weight:700}
+.chip:hover{border-color:var(--pick-line)}
+.chip[aria-pressed="true"]{background:var(--pick);border-color:var(--pick-line);color:var(--bronze-dk);font-weight:700}
 .chip[aria-pressed="true"]::before{content:"✓"}
 .chip .n{font-size:.875rem;color:var(--sub)}
 .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--c);flex:none}
@@ -291,17 +294,18 @@ fieldset.chips legend .note{font-weight:400;margin-left:6px}
 .active .btn{min-height:44px;padding:4px 12px}
 .related{margin:0 0 12px}
 .related:empty{display:none}
-.state{padding:18px;border-radius:12px;background:var(--card);border:1px solid var(--line);text-align:center}
+.state{padding:18px;border-radius:12px;background:var(--card);text-align:center}
 .state:empty{display:none}
 .error{background:var(--red-soft);color:var(--red);border-radius:12px;padding:14px 16px}
-.empty{text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.empty{text-align:left;background:var(--card);border-radius:14px;padding:16px 18px}
 .empty .empty-h{font-weight:800;font-size:1.125rem;margin:0 0 6px}
 .empty ul{margin:4px 0 10px;padding-left:1.2em}
 
-/* 案件カード：通常も締切間近も同じ形。急ぎかどうかは締切のバッジだけで示す */
-.cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+/* 案件カード：ページとの明るさの差と余白で区切る（太い線は使わない）。
+   通常も締切間近も同じ形で、急ぎかどうかは締切のバッジだけで示す */
+.cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
 @media (min-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.card{container-type:inline-size;display:flex;flex-direction:column;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;
+.card{container-type:inline-size;display:flex;flex-direction:column;gap:10px;background:var(--card);border:1px solid transparent;border-radius:14px;
   padding:16px 18px 14px}
 .card-top{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
 .due{display:inline-flex;align-items:center;font-weight:700;font-size:.9375rem;padding:3px 10px;border-radius:8px;background:var(--soft);color:var(--sub)}
@@ -319,7 +323,7 @@ fieldset.chips legend .note{font-weight:400;margin-left:6px}
 .deadline b{font-weight:700}
 .about{background:var(--soft);border-radius:10px;padding:12px 14px}
 .about .lbl{margin:0 0 2px;font-weight:700;font-size:.9375rem;color:var(--ink);display:flex;align-items:center;gap:6px}
-.about .lbl::before{content:"";width:4px;height:1em;border-radius:2px;background:var(--bronze-mid);flex:none}
+.about .lbl::before{content:"";width:4px;height:1em;border-radius:2px;background:var(--pick-line);flex:none}
 .about p{margin:0 0 8px;line-height:1.8}
 .about ul{margin:0 0 8px;padding-left:1.2em}
 .about li{margin:3px 0;line-height:1.75}
@@ -350,13 +354,13 @@ details.areas summary{cursor:pointer;font-weight:700;min-height:44px;display:fle
 .pgrid{display:flex;flex-wrap:wrap;gap:6px}
 .pchip{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:4px 12px;border:1px solid var(--line);border-radius:10px;
   background:var(--card);color:var(--ink);text-decoration:none;font-size:.9375rem}
-.pchip:hover{border-color:var(--bronze-mid)}
-.pchip .n{font-weight:700;color:var(--bronze)}
+.pchip:hover{border-color:var(--pick-line)}
+.pchip .n{font-weight:700;color:var(--brown)}
 .pchip.zero .n{color:var(--sub);font-weight:400}
 .pchip.err{border-style:dashed}
 .pchip .e{color:var(--red);font-size:.875rem}
 
-.site-foot{margin-top:36px;background:var(--card);border-top:1px solid var(--line);color:var(--sub);font-size:.9375rem;padding:18px 0 96px}
+.site-foot{margin-top:36px;background:var(--head);border-top:1px solid var(--line);color:var(--sub);font-size:.9375rem;padding:18px 0 96px}
 .site-foot p{margin:4px 0}
 
 /* 案件ページ */
@@ -365,7 +369,7 @@ details.areas summary{cursor:pointer;font-weight:700;min-height:44px;display:fle
 .back:hover{text-decoration:underline}
 .detail h1{font-size:1.5rem;margin:6px 0 4px}
 .detail .who{margin-top:6px}
-.dl-box{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;
+.dl-box{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;background:var(--card);border:1px solid transparent;border-radius:14px;
   padding:12px 16px;margin:14px 0}
 .dl-box .due{font-size:1.0625rem}
 .dl-main{font-size:1.125rem;font-weight:800}
@@ -374,7 +378,7 @@ details.areas summary{cursor:pointer;font-weight:700;min-height:44px;display:fle
 .big-actions{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin:14px 0}
 @media (min-width:600px){.big-actions{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}}
 .big-actions .btn{min-height:56px;font-size:1.0625rem}
-section.box{border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:16px 0;background:var(--card)}
+section.box{border:1px solid transparent;border-radius:14px;padding:14px 18px;margin:16px 0;background:var(--card)}
 section.box h2{font-size:1.1875rem;margin:0 0 8px}
 section.box h3{font-size:1rem;margin:14px 0 4px}
 section.box ul{padding-left:1.2em;margin:4px 0}
@@ -382,7 +386,7 @@ section.box li{margin:4px 0}
 ul.files{list-style:none;padding:0;margin:0}
 ul.files li{margin:6px 0}
 ul.files a{display:flex;align-items:center;min-height:48px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;text-decoration:none}
-ul.files a:hover{border-color:var(--bronze-mid);background:var(--soft)}
+ul.files a:hover{border-color:var(--pick-line);background:var(--soft)}
 .quote{border-left:4px solid var(--line);padding:4px 0 4px 12px;margin:8px 0}
 .warn{background:var(--orange-soft);border-radius:10px;padding:10px 12px;margin:10px 0 0}
 .basic{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0}
@@ -390,7 +394,7 @@ ul.files a:hover{border-color:var(--bronze-mid);background:var(--soft)}
 .basic dd{margin:0}
 
 /* 共有の小窓・上へ戻る */
-dialog.share-dlg{border:0;border-radius:16px;padding:0;width:min(520px,calc(100% - 24px));max-height:calc(100% - 24px);color:var(--ink)}
+dialog.share-dlg{border:0;border-radius:16px;padding:0;width:min(520px,calc(100% - 24px));max-height:calc(100% - 24px);background:var(--card);color:var(--ink)}
 dialog.share-dlg::backdrop{background:rgba(0,0,0,.5)}
 .dlg-in{padding:18px 18px 16px}
 .dlg-in h2{font-size:1.25rem;margin:0}
@@ -400,13 +404,13 @@ dialog.share-dlg::backdrop{background:rgba(0,0,0,.5)}
 .copy-msg{min-height:1.5em;margin:8px 0 0;font-weight:700;color:var(--bronze-dk)}
 .dlg-in .ghost{width:100%;margin-top:10px}
 .totop{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:20;width:56px;height:56px;padding:0;
-  border:1.5px solid var(--bronze-mid);border-radius:50%;background:#fff;color:var(--bronze-dk);font:inherit;font-size:.875rem;font-weight:700;line-height:1.2;
-  cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+  border:1.5px solid var(--btn-line);border-radius:50%;background:var(--card);color:var(--brown);font:inherit;font-size:.875rem;font-weight:700;line-height:1.2;
+  cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.1)}
 .totop[hidden]{display:none}
 
 /* X投稿文ページ */
 .subtabs{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
-.post{border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0;background:var(--card)}
+.post{border:1px solid transparent;border-radius:14px;padding:14px 16px;margin:12px 0;background:var(--card)}
 .post h2{font-size:1.0625rem;margin:0 0 6px}
 .post h2 small{font-weight:400;color:var(--sub);margin-left:6px}
 .post pre{white-space:pre-wrap;word-break:break-all;font-family:inherit;font-size:1rem;line-height:1.65;margin:0 0 10px;background:var(--soft);
@@ -541,7 +545,7 @@ def favicon_href(root):
 def asset_tags(root):
     """共通のアイコン・デザイン（site.css）と動き（site.js）を読み込むタグ。"""
     return (f'<link rel="icon" type="image/svg+xml" href="{favicon_href(root)}">\n'
-            '<meta name="theme-color" content="#ffffff">\n'
+            '<meta name="theme-color" content="#f3f2ee">\n'
             f'<link rel="stylesheet" href="{root}assets/site.css?v={_v(CSS)}">',
             f'<script src="{root}assets/site.js?v={_v(COMMON_JS)}"></script>')
 
