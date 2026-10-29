@@ -1,18 +1,7 @@
 {
- "updated": "2026-10-28T09:58+09:00",
+ "updated": "2026-10-29T10:33+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "235080088",
-   "title": "食品表示基準の一部を改正する内閣府令（案）に関する意見募集について",
-   "category": "国民生活の安全・安心の確保",
-   "ministry": "消費者庁",
-   "published": "2026-07-01T23:59:00+09:00",
-   "deadline": "2026-07-30T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=235080088&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "095260680",
    "title": "食品安全委員会が自ら行う食品健康影響評価（「自ら評価」）の案件候補の募集について",
@@ -9892,6 +9881,45 @@
    }
   },
   {
+   "id": "595320047",
+   "title": "工業用水道事業法施行令の一部を改正する政令案に関するパブリックコメントの募集について",
+   "category": "工業",
+   "ministry": "経済産業省",
+   "published": "2026-10-28T23:59:00+09:00",
+   "deadline": "2026-11-26T15:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320047&Mode=0",
+   "first_seen": "2026-10-29",
+   "tags": [],
+   "detail": {
+    "rule_name": "工業用水道事業法施行令の一部を改正する政令",
+    "law": "工業用水道事業法（昭和33年法律第84号）第19条",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322936"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "案文・理由",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322937"
+     },
+     {
+      "name": "新旧対照表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322938"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "概要紙",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322939"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省経済産業政策局地域産業基盤整備課"
+   }
+  },
+  {
    "id": "495260211",
    "title": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令案に関する御意見の募集について",
    "category": "厚生",
@@ -9985,6 +10013,235 @@
     "other_files": [],
     "note": "",
     "contact": "医薬局監視指導・麻薬対策課\n03-3595-2436（直通）"
+   }
+  },
+  {
+   "id": "595320045",
+   "title": "「計量法施行令の一部を改正する政令案」に対する意見公募について",
+   "category": "産業一般",
+   "ministry": "経済産業省",
+   "published": "2026-10-28T23:59:00+09:00",
+   "deadline": "2026-11-27T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320045&Mode=0",
+   "first_seen": "2026-10-29",
+   "tags": [],
+   "detail": {
+    "rule_name": "計量法施行令の一部を改正する政令",
+    "law": "計量法（平成４年法律第51号）第72条第2項及び第168条",
+    "guide_files": [
+     {
+      "name": "公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323053"
+     },
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323054"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "政令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323055"
+     },
+     {
+      "name": "政令案（新旧対照表）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323056"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "規制の事前評価書",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323057"
+     },
+     {
+      "name": "前回意見公募からの変更点",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323058"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省イノベーション・環境局計量行政室"
+   }
+  },
+  {
+   "id": "155261212",
+   "title": "「空港運用業務指針」の一部改正案に関する意見募集について",
+   "category": "航空",
+   "ministry": "国土交通省",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-27T23:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261212&Mode=0",
+   "first_seen": "2026-10-29",
+   "tags": [],
+   "detail": {
+    "rule_name": "空港運用業務指針",
+    "law": "航空法施行規則第９２条第２２号",
+    "guide_files": [
+     {
+      "name": "意見募集要領：空港運用業務指針",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323113"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "【新旧対照表】空港運用業務指針",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323114"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "【改正概要】空港運用業務指針の一部改正について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323115"
+     }
+    ],
+    "note": "",
+    "contact": "国土交通省航空局安全部安全政策課空港安全室"
+   }
+  },
+  {
+   "id": "240000133",
+   "title": "個人情報の保護に関する法律についてのガイドライン（通則編）の一部を改正する告示（案）等に関する意見募集について",
+   "category": "国民生活の安全・安心の確保",
+   "ministry": "個人情報保護委員会",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-27T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=240000133&Mode=0",
+   "first_seen": "2026-10-29",
+   "tags": [],
+   "detail": {
+    "rule_name": "個人情報の保護に関する法律についてのガイドライン（通則編）の一部を改正する告示\n特定個人情報の適正な取扱いに関するガイドライン（事業者編）の一部を改正する告示\n特定個人情報の適正な取扱いに関するガイドライン（行政機関等編）の一部を改正する告示",
+    "law": "個人情報の保護に関する法律（平成15年法律第57号）第４条、第８条、第９条、第11条第２項及び第131条\n行政手続における特定の個人を識別するための番号の利用等に関する法律第４条",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323101"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "個人情報の保護に関する法律についてのガイドライン（通則編）の一部を改正する告示（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323102"
+     },
+     {
+      "name": "特定個人情報の適正な取扱いに関するガイドライン（事業者編）の一部を改正する告示（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323103"
+     },
+     {
+      "name": "特定個人情報の適正な取扱いに関するガイドライン（行政機関等編）の一部を改正する告示（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323104"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323105"
+     },
+     {
+      "name": "個人情報の保護に関する法律についてのガイドライン（通則編）改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323106"
+     },
+     {
+      "name": "個人情報の保護に関する法律についてのガイドライン（通則編）更新案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323107"
+     },
+     {
+      "name": "個人情報の保護に関する法律についてのガイドライン（通則編）及びQAの対応関係",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323108"
+     },
+     {
+      "name": "特定個人情報の適正な取扱いに関するガイドライン（事業者編）改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323109"
+     },
+     {
+      "name": "特定個人情報の適正な取扱いに関するガイドライン（事業者編）更新案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323110"
+     },
+     {
+      "name": "特定個人情報の適正な取扱いに関するガイドライン（行政機関等編）改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323111"
+     },
+     {
+      "name": "特定個人情報の適正な取扱いに関するガイドライン（行政機関等編）更新案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323112"
+     }
+    ],
+    "note": "",
+    "contact": "個人情報保護委員会事務局（監視・監督室）\n03-6457-9680（代表）"
+   }
+  },
+  {
+   "id": "198026202",
+   "title": "原子炉等規制法等における許認可制度等及び国内保障措置制度の見直しの概要案に対する意見募集について",
+   "category": "工業",
+   "ministry": "原子力規制委員会",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-28T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=198026202&Mode=0",
+   "first_seen": "2026-10-29",
+   "tags": [],
+   "detail": {
+    "rule_name": "原子炉等規制法等における許認可制度等及び国内保障措置制度の見直しの概要案",
+    "law": "核原料物質、核燃料物質及び原子炉の規制に関する法律\n電気事業法",
+    "guide_files": [
+     {
+      "name": "意見募集要綱",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323091"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "原子炉等規制法等における許認可制度等及び国内保障措置制度の見直しの概要案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323092"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "意見提出用紙",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323093"
+     },
+     {
+      "name": "令和8年度第39回原子力規制委員会資料2",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323094"
+     }
+    ],
+    "note": "",
+    "contact": "長官官房制度改正審議室\n電話：03-5114-2158（直通）"
+   }
+  },
+  {
+   "id": "315000150",
+   "title": "出入国管理及び難民認定法施行規則の一部を改正する省令案に係る意見公募手続の実施について",
+   "category": "外事",
+   "ministry": "出入国在留管理庁",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-28T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=315000150&Mode=0",
+   "first_seen": "2026-10-29",
+   "tags": [
+    "外国人政策"
+   ],
+   "detail": {
+    "rule_name": "出入国管理及び難民認定法施行規則の一部を改正する省令",
+    "law": "出入国管理及び難民認定法（昭和２６年政令第３１９号）第６条第２項並びに第１４条の２第１項及び第２項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323088"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323089"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "改正の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323090"
+     }
+    ],
+    "note": "",
+    "contact": "出入国在留管理庁参事官室\n電話：045-370-9755（6922）"
    }
   },
   {
