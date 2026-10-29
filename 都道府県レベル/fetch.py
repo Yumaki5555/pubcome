@@ -632,6 +632,48 @@ def tag_item(item, tag_defs):
     return [t["name"] for t in tag_defs if any(k in item["title"] for k in t["keywords"])]
 
 
+# ---------- 同じ案件を1つにまとめる ----------
+
+# 題名から外す決まり文句。報道発表の日付・「募集開始のお知らせ」・「意見募集の実施について」など
+CASE_WORDS = re.compile(
+    r"(令和\s*(\d+|元)|平成\s*\d+|20\d\d)\s*年度?|\d{1,2}月\d{1,2}日"
+    r"|パブリック・?コメント|パブコメ|意見公募|意見提出手続(き)?|意見・情報|(御|ご)?意見|募集中|受付中|募集|公募|開始|お知らせ"
+    r"|実施|について|に関する|に対する|に係る|への|ページはこちら|案件|期間|一覧表|一覧|その他|現在"
+    r"|(県|都|道|府|市|区|町|村)?民の皆さん|皆さん|します|しています|素案|原案|中間案|案|[のをはが]"
+    r"|[「」『』()（）\[\]［］【】<>＜＞〈〉・、。,:：!！\s]")
+NOTICE = re.compile(r"^\s*\d{1,2}月\d{1,2}日|お知らせ")   # 報道発表・お知らせのページの題名
+
+
+def case_core(title):
+    """題名から決まり文句を外した「中身の名前」。一覧ページの題名（「令和8年度 パブリックコメント」など）は空になる。"""
+    return CASE_WORDS.sub("", unicodedata.normalize("NFKC", title))
+
+
+def merge_same_cases(items):
+    """同じ県・市区で募集期間が同じ案件のうち、中身の名前が同じもの（片方がもう片方の後ろの部分と同じものも含む）を1つにまとめる。
+    同じ案件が案件ページと報道発表・お知らせ・広報のページの両方から見つかったときや、
+    案件の一覧ページそのものを1件と読んでしまったとき（中身の名前が空になる）に、2件と数えないようにする。
+    「〜条例」と「〜条例施行規則」のように後ろが違うものは別の案件として残す。
+    残すのは、中身の名前がくわしいもの → 資料や出し方を読み取れたもの → 報道発表・お知らせでないもの → 先に見つけたもの。
+    戻り値: (残した案件, {外した案件番号: 残した案件番号})"""
+    def rank(it):
+        det = it.get("detail") or {}
+        return (-len(case_core(it["title"])), not det.get("howto"), -len(det.get("files", [])),
+                bool(NOTICE.search(it["title"])), it["first_seen"], it["id"])
+    items = list(items)
+    kept, merged = [], {}
+    for it in sorted(items, key=rank):
+        core = case_core(it["title"])
+        same = next((k for k in kept if k["pref"] == it["pref"] and k["deadline"] == it["deadline"]
+                     and (not k.get("start") or not it.get("start") or k["start"] == it["start"])
+                     and case_core(k["title"]).endswith(core)), None)
+        if same:
+            merged[it["id"]] = same["id"]
+        else:
+            kept.append(it)
+    return [it for it in items if it["id"] not in merged], merged   # 並びは元のまま
+
+
 def main(list_file=PREF_FILE, data_file=DATA_FILE):
     """list_file の一覧（都道府県や市区町村）を見回って data_file に保存する。
     市区町村版（../市区町村レベル/fetch.py）もこの関数を使う。記録の "pref" には県名・市区町村名が入る。"""
@@ -704,12 +746,15 @@ def main(list_file=PREF_FILE, data_file=DATA_FILE):
     uniq = {}
     for it in same_page.values():
         uniq.setdefault((it["pref"], it["deadline"], short_title(it)), it)
-    items = sorted(uniq.values(), key=lambda it: (it["deadline"], it["pref"]))
+    # 題名の言い回しが違う別のページ（報道発表・お知らせ・案件の一覧ページなど）からも見つかったとき
+    items, merged = merge_same_cases(uniq.values())
+    items.sort(key=lambda it: (it["deadline"], it["pref"]))
 
     DATA_FILE.write_text(json.dumps({
         "updated": now_jst().isoformat(timespec="minutes"),
         "status": status,
         "items": items,
+        "merged": merged,
         "pages": pages,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n合計 募集中 {len(items)} 件（{len({it['pref'] for it in items})} か所）")

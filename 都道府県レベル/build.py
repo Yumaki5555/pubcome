@@ -102,7 +102,7 @@ def main(base=HERE):
         })
     counts = ui.level_counts()
     ui.write_shared(counts)
-    build_summary_pages(open_items, tags, config, level, pref_of)
+    build_summary_pages(open_items, tags, config, level, pref_of, data.get("merged", {}))
     if "pref" in prefs[0]:
         # 市区町村版：都道府県ごとにまとめる（都道府県の並びは REGIONS の順）
         order = [n for _, names in REGIONS for n in names]
@@ -203,8 +203,9 @@ def words(page, config):
     return page.replace("__UNIT__", config.get("unit", "県")).replace("__AREA__", config.get("area_label", "都道府県"))
 
 
-def build_summary_pages(items, tag_defs, config, level, pref_of):
-    """案件ごとのスマホ用まとめページ（docs/p/番号.html）を作る。締切を過ぎたページは消す。"""
+def build_summary_pages(items, tag_defs, config, level, pref_of, merged):
+    """案件ごとのスマホ用まとめページ（docs/p/番号.html）を作る。締切を過ぎたページは消す。
+    merged（外した案件番号 → 残した案件番号）は、同じ案件を1つにまとめたときの対応。"""
     out = OUT_DIR / "p"
     out.mkdir(parents=True, exist_ok=True)
     for old in out.glob("*.html"):
@@ -266,6 +267,18 @@ def build_summary_pages(items, tag_defs, config, level, pref_of):
             source=source, share=it["share"],
         )
         (out / f"{it['id']}.html").write_text(page, encoding="utf-8")
+
+    # 同じ案件を1つにまとめたとき、外したほうのページ（Xなどで共有済みのことがある）から残したほうへ移す
+    shown = {it["id"]: it for it in items}
+    for old_id, new_id in merged.items():
+        if new_id in shown:
+            title = e(display_title(shown[new_id]))
+            (out / f"{old_id}.html").write_text(
+                '<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+                f'<meta http-equiv="refresh" content="0; url={new_id}.html">'
+                f'<link rel="canonical" href="{e(config["site_url"] + summary_path(shown[new_id]))}"><title>{title}</title></head>'
+                f'<body><p>このページは<a href="{new_id}.html">「{title}」のページ</a>に移りました。</p></body></html>',
+                encoding="utf-8")
 
 
 if __name__ == "__main__":

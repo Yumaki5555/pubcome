@@ -24,6 +24,10 @@
    - `python summary_tool.py read 国 案件番号 案件番号 …` のように、版と案件番号（いくつでも）を指定して資料の中身を読む。**要約を書くときは必ず前に `DEEP=1` をつけて**（例：`DEEP=1 python summary_tool.py read 国 案件番号`）、新旧対照表や案そのものまで読む（`LIMIT=1200` を前につけると1資料あたりの文字数を減らせる）。版は `国`・`都道府県`・`市区町村`。
    - 読んだ内容をもとに要約を書き、`summaries.json`（国）、`都道府県レベル/summaries.json`、`市区町村レベル/summaries.json` に `"案件番号": "要約"` として追加する。既にある項目は変更しない。
    - JSON として正しいか確認する（plain_titles.json と同じ方法）。
+5-3. 同じ名前になっている案件を直す（国・都道府県・市区町村すべて）。
+   - `python missing_plain.py`・`python 都道府県レベル/missing_plain.py`・`python 市区町村レベル/missing_plain.py` をもう一度実行し、最後の「同じ名前になっている案件」を見る。
+   - 正式名が同じでも中身は別の案件（対象の農薬・魚の種類・追加される法律などが違う）のことが多い。一覧で同じ名前が並ぶと「重複して載っている」と思われるので、要約や資料で違いを確かめ、**違いがわかる名前に書き直す**（例：「魚のとり方を管理する国の基本方針の見直し」×3 →「くろまぐろ（小型魚）の漁獲枠の配分方法の見直し」など）。この場合だけ、既にある項目を変更してよい。
+   - 本当に同じ案件が2回載っていた場合は、名前は変えずに、最後の報告に案件番号を書く。
 6. `python build.py && python post.py && python 都道府県レベル/build.py && python 市区町村レベル/build.py` を実行する。
 7. 変更があれば `git add plain_titles.json data.json docs posts.txt summaries.json 都道府県レベル/plain_titles.json 市区町村レベル/plain_titles.json 都道府県レベル/summaries.json 市区町村レベル/summaries.json exclude.json 都道府県レベル/exclude.json 市区町村レベル/exclude.json` → コミット（メッセージ例：`毎朝の言い換え追加 2026-10-01`）→ `git push origin main`。
    - 変更がなければ何もしない。
