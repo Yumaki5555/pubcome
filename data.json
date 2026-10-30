@@ -1,29 +1,7 @@
 {
- "updated": "2026-10-29T10:33+09:00",
+ "updated": "2026-10-30T10:33+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "095260680",
-   "title": "食品安全委員会が自ら行う食品健康影響評価（「自ら評価」）の案件候補の募集について",
-   "category": "国民生活の安全・安心の確保",
-   "ministry": "内閣府",
-   "published": "2026-07-01T23:59:00+09:00",
-   "deadline": "2026-07-31T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260680&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "155260002",
-   "title": "国土交通省の所管する法令に係る情報通信技術を利用する方法による国の歳入等の納付に関する法律施行規則の一部を改正する省令案に関する意見募集について",
-   "category": "IT社会化推進",
-   "ministry": "国土交通省",
-   "published": "2026-07-01T23:59:00+09:00",
-   "deadline": "2026-08-01T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260002&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "195260024",
    "title": "令和８年度国指定鳥獣保護区の変更等に関する意見の募集（パブリック・コメント）について",
@@ -10063,6 +10041,40 @@
    }
   },
   {
+   "id": "620340016",
+   "title": "液化石油ガスの保安の確保及び取引の適正化に関する法律施行規則（平成９年通商産業省令第１１号）の運用及び解釈の基準について（案）等に対する意見公募",
+   "category": "工業",
+   "ministry": "資源エネルギー庁",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-27T18:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620340016&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "液化石油ガスの保安の確保及び取引の適正化に関する法律施行規則（平成９年通商産業省令第１１号）の運用及び解釈の基準について\n液化石油ガスの小売営業における取引適正化指針",
+    "law": "‐",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323270"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "液化石油ガスの保安の確保及び取引の適正化に関する法律施行規則の運用及び解釈の基準について（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323271"
+     },
+     {
+      "name": "液化石油ガスの小売営業における取引適正化指針（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323272"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "資源エネルギー庁資源・燃料部 燃料流通政策室 パブリックコメント担当"
+   }
+  },
+  {
    "id": "155261212",
    "title": "「空港運用業務指針」の一部改正案に関する意見募集について",
    "category": "航空",
@@ -10169,6 +10181,41 @@
    }
   },
   {
+   "id": "300090077",
+   "title": "「情報通信技術の進展等に対応するための刑事訴訟法等の一部を改正する法律の施行に伴う関係政令の整備及び経過措置に関する政令案」について（意見募集）",
+   "category": "刑事",
+   "ministry": "法務省",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-27T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=300090077&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "情報通信技術の進展等に対応するための刑事訴訟法等の一部を改正する法律の施行に伴う関係政令の整備及び経過措置に関する政令",
+    "law": "○情報通信技術の進展等に対応するための刑事訴訟法等の一部を改正する法律（令和７年法律第３９号）附則第３条第１項○刑事訴訟法（昭和２３年法律第１３１号）第４９９条第１項及び第２項○検察審査会法（昭和２３年法律第１４７号）第３５条第２項○刑事事件における第三者所有物の没収手続に関する応急措置法（昭和３８年法律第１３８号）第２条第２項○犯罪被害者等の権利利益の保護を図るための刑事手続に付随する措置に関する法律（平成１２年法律第７５号）第６条第３項○性的な姿態を撮影する行為等の処罰及び押収物に記録された性的な姿態の影像に係る電磁的記録の消去等に関する法律（令和５年法律第６７号）第１７条第５項 等",
+    "guide_files": [
+     {
+      "name": "01-1_意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323211"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "01-2_政令案概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323212"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "01-3_新旧対照条文",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323213"
+     }
+    ],
+    "note": "",
+    "contact": "法務省刑事局刑事法制管理官室\n電話03-3580-4111（内線2536、2535）"
+   }
+  },
+  {
    "id": "198026202",
    "title": "原子炉等規制法等における許認可制度等及び国内保障措置制度の見直しの概要案に対する意見募集について",
    "category": "工業",
@@ -10245,6 +10292,40 @@
    }
   },
   {
+   "id": "670000139",
+   "title": "港則法施行規則の危険物の種類を定める告示の一部を改正する告示案に関するパブリックコメントの募集について",
+   "category": "海運",
+   "ministry": "海上保安庁",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-28T15:15:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=670000139&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "港則法施行規則の危険物の種類を定める告示",
+    "law": "港則法第２１条第２項\n港則法施行規則第１２条",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323225"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323226"
+     },
+     {
+      "name": "案文",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323227"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "海上保安庁交通部航行安全課（０３－３５９１－６３６１）"
+   }
+  },
+  {
    "id": "495260199",
    "title": "医療機器に係る日本産業規格の改正案に関する御意見の募集について",
    "category": "厚生",
@@ -10276,6 +10357,296 @@
     "other_files": [],
     "note": "",
     "contact": "厚生労働省医薬局医療機器審査管理課\n電話：03-5253-1111\n内線番号：4215"
+   }
+  },
+  {
+   "id": "410080069",
+   "title": "「法人税基本通達の制定について」（法令解釈通達）ほか１件の一部改正（案）に対する意見公募手続の実施について",
+   "category": "国税",
+   "ministry": "国税庁",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080069&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "「法人税基本通達の制定について」の一部改正について（法令解釈通達）\n「所得税基本通達の制定について」の一部改正について（法令解釈通達）",
+    "law": "法人税法第２条\n法人税法施行令第13条\n所得税法第２条\n所得税法施行令第６条",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323095"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "別紙（新旧対照表）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323096"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国税庁課税部法人課税課審理第一係"
+   }
+  },
+  {
+   "id": "495260219",
+   "title": "医薬部外品原料規格2021を改正する件（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-29T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260219&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "医薬部外品原料規格2021を改正する件",
+    "law": "－",
+    "guide_files": [
+     {
+      "name": "意見募集要項",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323174"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "改正案概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323175"
+     },
+     {
+      "name": "別添１",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323176"
+     },
+     {
+      "name": "別添２",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323177"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線２７７５）"
+   }
+  },
+  {
+   "id": "495260246",
+   "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則第二百十六条の二第一項の規定に基づき厚生労働大臣が指定する医薬品及び期間の一部を改正する件（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-29T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260246&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則第二百十六条の二第一項の規定に基づき厚生労働大臣が指定する医薬品及び期間の一部を改正する件",
+    "law": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則第二百十六条の二第一項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323328"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323329"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "医薬局 監視指導・麻薬対策課"
+   }
+  },
+  {
+   "id": "155260725",
+   "title": "「基礎ぐいを有する建築物の転倒に対する検証・改修指針（案）」に関する意見募集について",
+   "category": "建築、住宅",
+   "ministry": "国土交通省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-29T09:30:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260725&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "基礎ぐいを有する建築物の転倒に対する検証・改修指針",
+    "law": "建築基準法施行令第38条第１項、第３項及び第４項等",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323257"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "基礎ぐいを有する建築物の転倒に対する検証・改修指針",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323258"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国土交通省住宅局建築指導課"
+   }
+  },
+  {
+   "id": "195260074",
+   "title": "「廃棄物の処理及び清掃に関する法律施行令の一部を改正する政令案」に対する御意見の募集（パブリック・コメント）について",
+   "category": "環境保全",
+   "ministry": "環境省",
+   "published": "2026-10-29T23:59:00+09:00",
+   "deadline": "2026-11-29T13:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260074&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "廃棄物の処理及び清掃に関する法律施行令の一部を改正する政令",
+    "law": "廃棄物の処理及び清掃に関する法律第６条の２第２項及び第12条第１項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323059"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "廃棄物の処理及び清掃に関する法律施行令の一部を改正する政令案の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323060"
+     },
+     {
+      "name": "廃棄物の処理及び清掃に関する法律施行令の一部を改正する政令案の新旧対照表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323061"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "（参考）規制の事前評価書",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323062"
+     }
+    ],
+    "note": "－",
+    "contact": "環境省環境再生・資源循環局\n廃棄物適正処理推進課（03-5501-3154）\n廃棄物規制担当参事官室（03-5521-9274）"
+   }
+  },
+  {
+   "id": "410080068",
+   "title": "「酒類の地理的表示としてジャパニーズウイスキー（蒸留酒）を指定する件(案）」に対する意見募集について",
+   "category": "国税",
+   "ministry": "国税庁",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-30T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080068&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "酒類の地理的表示としてジャパニーズウイスキー（蒸留酒）を指定する件(案）",
+    "law": "酒税の保全及び酒類業組合等に関する法律第86条の６第１項\n酒類の地理的表示に関する表示基準第２項",
+    "guide_files": [
+     {
+      "name": "「酒類の地理的表示としてジャパニーズウイスキー（蒸留酒）を指定する件(案）」に対する意見募集について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323244"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "（別添）酒類の地理的表示としてジャパニーズウイスキー（蒸留酒）を指定する件(案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323245"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国税庁課税部酒税課酒類業振興・輸出促進室 地理的表示係03－3581－4161（内線3114）"
+   }
+  },
+  {
+   "id": "185001514",
+   "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律等の制定に伴う関係指針の一部改正等に関するパブリック・コメント（意見公募手続）の実施について",
+   "category": "産業一般",
+   "ministry": "文部科学省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-30T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001514&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "・ヒト受精胚を作成して行う研究に関する倫理指針の全部を改正する告示\n・ヒトES細胞の樹立に関する指針の一部を改正する告示\n・ヒトES細胞の分配機関に関する指針の一部を改正する告示\n・ヒトES細胞の使用に関する指針の一部を改正する告示\n・ヒト iPS 細胞等から生殖細胞又はヒト胚モデルの作成を行う研究に関する指針の一部を改正する告示\n・ヒト受精胚の提供を受けて行う遺伝情報改変技術等を用いる研究に関する倫理指針を廃止する告示",
+    "law": "行政手続法（平成５年法律第88号）第39条",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323313"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "「ヒト受精胚を作成して行う研究に関する倫理指針」条文（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323314"
+     },
+     {
+      "name": "「ヒト ES 細胞の樹立に関する指針」新旧対照条文（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323315"
+     },
+     {
+      "name": "「ヒト ES 細胞の分配機関に関する指針」新旧対照条文（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323316"
+     },
+     {
+      "name": "「ヒト ES 細胞の使用に関する指針」新旧対照条文（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323317"
+     },
+     {
+      "name": "「ヒト iPS 細胞等から生殖細胞又はヒト胚モデルの作成を行う研究に関する指針」新旧対照条文（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323318"
+     },
+     {
+      "name": "指針改正の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323319"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "文部科学省研究振興局ライフサイエンス課生命倫理・安全対策室\n03-5253-4111(内線4108)"
+   }
+  },
+  {
+   "id": "145210787",
+   "title": "ブロードバンドに関するユニバーサルサービス制度に基づく交付金の額及び交付方法の認可並びに負担金の額及び徴収方法の認可に対する意見募集",
+   "category": "電気通信",
+   "ministry": "総務省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-30T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210787&Mode=0",
+   "first_seen": "2026-10-30",
+   "tags": [],
+   "detail": {
+    "rule_name": "ー",
+    "law": "ー",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323237"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "第二種交付金の額及び交付方法の認可申請書",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323238"
+     },
+     {
+      "name": "第二種負担金の額及び徴収方法の認可申請書",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323239"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "申請概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323240"
+     },
+     {
+      "name": "報道資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323241"
+     }
+    ],
+    "note": "本件意見募集は、情報通信行政・郵政行政審議会において行われるものです。",
+    "contact": "総務省総合通信基盤局電気通信事業部基盤整備促進課\nTel：03-5253-5817"
    }
   },
   {
