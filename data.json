@@ -1,18 +1,7 @@
 {
- "updated": "2026-10-30T10:33+09:00",
+ "updated": "2026-10-31T08:09+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "195260024",
-   "title": "令和８年度国指定鳥獣保護区の変更等に関する意見の募集（パブリック・コメント）について",
-   "category": "環境保全",
-   "ministry": "環境省",
-   "published": "2026-07-03T23:59:00+09:00",
-   "deadline": "2026-08-02T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260024&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "145210740",
    "title": "「家庭用IoT機器を悪用するレジデンシャルプロキシの対策について（提言）」（案）に対する意見募集",
@@ -10390,6 +10379,195 @@
    }
   },
   {
+   "id": "595320118",
+   "title": "経済産業省関係産業競争力強化法施行規則の一部を改正する省令（案）に対する意見募集について",
+   "category": "経済財政政策",
+   "ministry": "経済産業省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320118&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "経済産業省関係産業競争力強化法施行規則の一部を改正する省令",
+    "law": "産業競争力強化法第56条第１項第１号",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323471"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "​経済産業省関係産業競争力強化法施行規則の一部を改正する省令（案）の概要について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323472"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "​経済産業省 ​​経済産業政策局 産業創造課​"
+   }
+  },
+  {
+   "id": "595320119",
+   "title": "経済産業省関係産業競争力強化法施行規則第二十九条第二項の規定に基づき認証紛争解決事業者が手続実施者に確認を求める事項の一部を改正する告示（案）に対する意見募集について",
+   "category": "経済財政政策",
+   "ministry": "経済産業省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320119&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "経済産業省関係産業競争力強化法施行規則第二十九条第二項の規定に基づき認証紛争解決事業者が手続実施者に確認を求める事項の一部を改正する告示",
+    "law": "産業競争力強化法第47条第１項第２号",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323469"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "告示（概要案文）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323470"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "経済産業省 経済産業政策局 産業創造課"
+   }
+  },
+  {
+   "id": "550004440",
+   "title": "トド管理基本方針の一部改正案についての意見・情報の募集について",
+   "category": "水産業",
+   "ministry": "農林水産省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004440&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "トド管理基本方針の一部改正案",
+    "law": "",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323337"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "トド管理基本方針の一部改正案 新旧対照表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323338"
+     },
+     {
+      "name": "トド管理基本方針（平成２６年８月６日、令和元年８月２７日、令和６年７月２３日一部改正)",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323339"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "トド管理基本方針の一部改正案概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323340"
+     }
+    ],
+    "note": "",
+    "contact": "水産庁増殖推進部漁場資源課生態系保全室環境調査班\n電話：03-3502-8111（内線6810）"
+   }
+  },
+  {
+   "id": "495260239",
+   "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行令（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260239&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行令",
+    "law": "ヒトゲノム編集胚等の取扱いの規制に関する法律（令和８年法律第70号）第２条第３号、第３条及び第６条第２項第１号",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323426"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323427"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省大臣官房厚生科学課"
+   }
+  },
+  {
+   "id": "495260240",
+   "title": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行規則（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260240&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "ヒトゲノム編集胚等の取扱いの規制に関する法律施行規則",
+    "law": "ヒトゲノム編集胚等の取扱いの規制に関する法律（令和８年法律第70号）第６条、第９条、第10条、第11条及び附則第３条",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323428"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323429"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省大臣官房厚生科学課"
+   }
+  },
+  {
+   "id": "495260241",
+   "title": "ヒトゲノム編集胚等の取扱いに関する指針（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-28T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260241&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "ヒトゲノム編集胚等の取扱いに関する指針（案）",
+    "law": "ヒトゲノム編集胚等の取扱いの規制に関する法律（令和８年法律第70号）第４条",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323430"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "案文",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323431"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省大臣官房厚生科学課"
+   }
+  },
+  {
    "id": "495260219",
    "title": "医薬部外品原料規格2021を改正する件（案）に関する御意見の募集について",
    "category": "厚生",
@@ -10455,6 +10633,41 @@
     "other_files": [],
     "note": "",
     "contact": "医薬局 監視指導・麻薬対策課"
+   }
+  },
+  {
+   "id": "155260729",
+   "title": "畜舎等の建築等及び利用の特例に関する法律施行規則の一部を改正する省令案に関する意見募集について",
+   "category": "建築、住宅",
+   "ministry": "国土交通省",
+   "published": "2026-10-30T23:59:00+09:00",
+   "deadline": "2026-11-29T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260729&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "畜舎等の建築等及び利用の特例に関する法律施行規則の一部を改正する省令",
+    "law": "畜舎等の建築等及び利用の特例に関する法律（令和３年法律第34号）第２条第３項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323446"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "案文",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323447"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323448"
+     }
+    ],
+    "note": "",
+    "contact": "国土交通省住宅局建築指導課"
    }
   },
   {
@@ -10647,6 +10860,45 @@
     ],
     "note": "本件意見募集は、情報通信行政・郵政行政審議会において行われるものです。",
     "contact": "総務省総合通信基盤局電気通信事業部基盤整備促進課\nTel：03-5253-5817"
+   }
+  },
+  {
+   "id": "145210794",
+   "title": "行政書士法施行規則の一部を改正する省令（案）に対する意見募集",
+   "category": "地方自治",
+   "ministry": "総務省",
+   "published": "2026-10-31T23:59:00+09:00",
+   "deadline": "2026-11-30T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210794&Mode=0",
+   "first_seen": "2026-10-31",
+   "tags": [],
+   "detail": {
+    "rule_name": "行政書士法施行規則の一部を改正する省令",
+    "law": "行政書士法施行規則（昭和26年総理府令第５号）第２条、第２条の10、第２条の11",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323266"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "行政書士法施行規則の一部を改正する省令（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323267"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "省令（案）概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323268"
+     },
+     {
+      "name": "報道資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323269"
+     }
+    ],
+    "note": "",
+    "contact": "総務省自治行政局行政課\nTEL:03-5253-5510\nFAX:03-5253-5511"
    }
   },
   {
