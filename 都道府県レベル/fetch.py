@@ -99,6 +99,9 @@ class PageReader(HTMLParser):
         self.skip = []          # 読み飛ばし中のタグ [タグ名, 入れ子の深さ]
         self.text = []
         self.links = []         # (href, 文字)
+        self.link_heads = []    # 各リンクの直前の太字（見出しより後のもの）と見出し（h2〜h4）
+        self.head = self.strong = ""
+        self._head_buf = self._strong_buf = None
         self.rows = []          # 表の各行 {"cells": [...], "links": [(href, 文字)]}
         self.row = None
         self.cell = None
@@ -142,6 +145,10 @@ class PageReader(HTMLParser):
             self.cell = ""
         if tag in ("title", "h1"):
             self._in = tag
+        if tag in ("h2", "h3", "h4"):
+            self._head_buf = ""
+        if tag == "strong":
+            self._strong_buf = ""
 
     def handle_endtag(self, tag):
         if self.skip:
@@ -154,6 +161,7 @@ class PageReader(HTMLParser):
             self.in_main -= 1
         if tag == "a" and self.cur_link:
             self.links.append((self.cur_link[0], squash(self.cur_link[1])))
+            self.link_heads.append([s for s in (self.strong, self.head) if s])
             if self.row is not None:
                 self.row["links"].append(self.links[-1])
             self.cur_link = None
@@ -163,6 +171,13 @@ class PageReader(HTMLParser):
         if tag == "tr" and self.row is not None:
             self.rows.append(self.row)
             self.row = None
+        if tag in ("h2", "h3", "h4") and self._head_buf is not None:
+            self.head = squash(self._head_buf)
+            self.strong = ""
+            self._head_buf = None
+        if tag == "strong" and self._strong_buf is not None:
+            self.strong = squash(self._strong_buf)
+            self._strong_buf = None
         if tag in BLOCK_TAGS:
             self.text.append("\n")
         if tag == self._in:
@@ -175,6 +190,10 @@ class PageReader(HTMLParser):
             return
         if self._in == "h1":
             self.h1 += data
+        if self._head_buf is not None:
+            self._head_buf += data
+        if self._strong_buf is not None:
+            self._strong_buf += data
         self.text.append(data)
         if self.cell is not None:
             self.cell += data
@@ -199,7 +218,8 @@ def read_page(page_html, lenient=False):
     text = re.sub(r"\n\s*\n+", "\n", text)
     rows = [{"cells": [unicodedata.normalize("NFKC", c) for c in row["cells"]], "links": row["links"]}
             for row in r.rows]
-    return {"title": squash(r.title), "h1": squash(r.h1), "text": text, "links": r.links, "rows": rows, "base": r.base}
+    return {"title": squash(r.title), "h1": squash(r.h1), "text": text, "links": r.links, "link_heads": r.link_heads,
+            "rows": rows, "base": r.base}
 
 
 def link_base(page, page_url):
@@ -315,11 +335,16 @@ RULE_CASE = re.compile(r"改正|改定|制定|廃止|[(（]案[)）]|案につ�
 # 「意見を受け付けている案件（予定を含む）」のような、募集中の一覧へのリンクは「予定」があっても飛ばさない（大阪市）
 OPEN_LIST = re.compile(r"募集中|受け?付け?ている|受付中")
 HUB_LINK = re.compile(r"募集中|募集している|実施中|現在|今年度|実施状況|実施案件|案件一覧|(意見|コメント|募集|案件).*一覧|一覧.*(意見|コメント)")
-YEAR_LINK = re.compile(r"(令和\s*(\d+|元)|20\d\d)\s*年度")
+# 「（8年度）」のように令和を省いた書き方もある（鹿児島市）
+YEAR_LINK = re.compile(r"(令和\s*(\d+|元)|(?<=\()(\d{1,2}|元)|20\d\d)\s*年度")
 CASE_LINK = re.compile(r"案|計画|条例|規則|方針|ビジョン|プラン|戦略|指針|構想|評価書|基準|意見|募集|改正|改定|見直し|について|コメント")
 # ページ名がこうなっていれば、1件の案件ではなく「案件の一覧ページ」（川口市の「〜意見募集 案件一覧」など）
 LIST_PAGE = re.compile(r"案件一覧|一覧\s*$")
 FILE_EXT = re.compile(r"\.(pdf|docx?|xlsx?|pptx?|zip|csv|jpg|png)(\?|#|$)", re.I)
+# 案件名は見出しや太字で書かれ、リンクの文字は「担当課ホームページ」（新宿区）「詳細はこちらをご覧ください。」（葛飾区）
+# だけ、という一覧
+GENERIC_LINK = re.compile(r"[\s>▶►→・※]*(((担当|所管)(課|部署|部局)の?)?(ホームページ|ページ|サイト|HP)|(詳細|詳しく|くわしく)(情報)?|こちら)"
+                          r"(は|を|へ|から)?(こちら)?(を|から)?(ご覧ください|ご確認ください)?[\s。]*")
 
 
 def base_domain(host):
@@ -335,14 +360,12 @@ def current_years(today):
 
 
 def is_current_year_link(text, today):
-    fys = current_years(today)
-    m = re.search(r"令和\s*(\d+|元)\s*年度", text)
-    if m and 2018 + (1 if m.group(1) == "元" else int(m.group(1))) not in fys:
-        return False
-    m = re.search(r"(20\d\d)\s*年度", text)
-    if m and int(m.group(1)) not in fys:
-        return False
-    return True
+    """「令和6年度」のように過ぎた年度だけが書かれたリンク（過去の実施状況など）は飛ばす。
+    これからの年度（新宿区の「〜計画（令和9年度〜令和11年度）（素案）」など）は飛ばさない。"""
+    years = [2018 + (1 if m.group(1) == "元" else int(m.group(1)))
+             for m in re.finditer(r"(?:令和\s*|(?<=\())(\d{1,2}|元)\s*年度", text)]
+    years += [int(m.group(1)) for m in re.finditer(r"(20\d\d)\s*年度", text)]
+    return not years or max(years) >= min(current_years(today))
 
 
 SECTION_NG = re.compile(r"案|計画|条例|規則|方針|ビジョン|プラン|戦略|指針|構想|評価書|基準|改正|改定|見直し")
@@ -358,15 +381,24 @@ def classify_links(page, page_url, today):
     host = base_domain(urllib.parse.urlparse(page_url).hostname or "")
     hubs, cases, seen = [], [], set()
     base = link_base(page, page_url)
-    for href, text in page["links"]:
+    heads = page.get("link_heads") or []
+    head_cases = {}     # 見出しを案件名にした案件の住所 → cases の何番目か
+    for n, (href, text) in enumerate(page["links"]):
         text = unicodedata.normalize("NFKC", text)
+        from_head = False
+        if GENERIC_LINK.fullmatch(text) and n < len(heads):
+            for h in heads[n]:
+                h = unicodedata.normalize("NFKC", h)
+                if len(h) >= 8 and (CASE_LINK.search(h) or HUB_LINK.search(h) or PUBCOME.search(h)):
+                    text, from_head = h, True
+                    break
         if href.startswith(("mailto:", "tel:", "javascript:", "#")) or len(text) < 5:
             continue
         url = urllib.parse.urljoin(base, html.unescape(href)).split("#")[0]
         u = urllib.parse.urlparse(url)
         if u.scheme not in ("http", "https") or base_domain(u.hostname or "") != host:
             continue
-        if FILE_EXT.search(u.path) or url in seen or url.rstrip("/") == page_url.rstrip("/"):
+        if FILE_EXT.search(u.path) or url.rstrip("/") == page_url.rstrip("/"):
             continue
         if not is_current_year_link(text, today):
             continue
@@ -375,11 +407,19 @@ def classify_links(page, page_url, today):
             continue
         if RULE_DOC.search(text) and not RULE_CASE.search(text):
             continue
+        if url in seen:
+            # 1つのページで2つの案件を募集しているとき（新宿区の民泊と旅館業）は、題名をつなげる
+            if from_head and url in head_cases and text not in cases[head_cases[url]][1]:
+                i = head_cases[url]
+                cases[i] = (url, cases[i][1] + "・" + text)
+            continue
         seen.add(url)
         if HUB_LINK.search(text) or (YEAR_LINK.search(text) and not re.search(r"案|について", text)) or is_section_link(text):
             hubs.append((url, text))
         elif CASE_LINK.search(text):
             cases.append((url, text))
+            if from_head:
+                head_cases[url] = len(cases) - 1
     return hubs, cases
 
 
