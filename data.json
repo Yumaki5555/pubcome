@@ -1,29 +1,7 @@
 {
- "updated": "2026-11-02T10:16+09:00",
+ "updated": "2026-11-03T08:09+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "145210740",
-   "title": "「家庭用IoT機器を悪用するレジデンシャルプロキシの対策について（提言）」（案）に対する意見募集",
-   "category": "電気通信",
-   "ministry": "総務省",
-   "published": "2026-07-22T23:59:00+09:00",
-   "deadline": "2026-08-04T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210740&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "155260604",
-   "title": "車道及び側帯の舗装の構造の基準に関する省令の全部を改正する省令案に関するパブリックコメントの募集について",
-   "category": "道路",
-   "ministry": "国土交通省",
-   "published": "2026-07-06T23:59:00+09:00",
-   "deadline": "2026-08-05T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260604&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "155261027",
    "title": "「船員法施行規則等の一部を改正する省令案」に関する意見募集について",
@@ -6770,42 +6748,6 @@
    }
   },
   {
-   "id": "155260411",
-   "title": "「景観行政団体及び景観計画に関する省令の一部を改正する省令案」に関する意見募集について",
-   "category": "都市計画",
-   "ministry": "国土交通省",
-   "published": "2026-10-09T23:59:00+09:00",
-   "deadline": "2026-11-07T09:30:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260411&Mode=0",
-   "first_seen": "2026-10-09",
-   "tags": [
-    "モスク・宗教施設"
-   ],
-   "detail": {
-    "rule_name": "景観行政団体及び景観計画に関する省令の一部を改正する省令",
-    "law": "都市再生特別措置法第62条の15第２項\n景観法第11条第３項\n景観法第98条第４項",
-    "guide_files": [
-     {
-      "name": "意見募集要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322211"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "【新旧対照表】景観行政団体及び景観計画に関する省令案",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322212"
-     },
-     {
-      "name": "【概要】景観行政団体及び景観計画に関する省令案",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322213"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "国土交通省都市局公園緑地・景観課"
-   }
-  },
-  {
    "id": "620340013",
    "title": "可燃性天然ガスに係る安定供給確保を図るための取組方針の改正案に対する意見公募",
    "category": "工業",
@@ -7019,6 +6961,42 @@
     "other_files": [],
     "note": "",
     "contact": "厚生労働省雇用環境・均等局雇用機会均等課\n電話：03-5253-1111（内線 7846）"
+   }
+  },
+  {
+   "id": "155260411",
+   "title": "「景観行政団体及び景観計画に関する省令の一部を改正する省令案」に関する意見募集について",
+   "category": "都市計画",
+   "ministry": "国土交通省",
+   "published": "2026-10-09T23:59:00+09:00",
+   "deadline": "2026-11-08T09:30:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260411&Mode=0",
+   "first_seen": "2026-10-09",
+   "tags": [
+    "モスク・宗教施設"
+   ],
+   "detail": {
+    "rule_name": "景観行政団体及び景観計画に関する省令の一部を改正する省令",
+    "law": "都市再生特別措置法第62条の15第２項\n景観法第11条第３項\n景観法第98条第４項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322211"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "【新旧対照表】景観行政団体及び景観計画に関する省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322212"
+     },
+     {
+      "name": "【概要】景観行政団体及び景観計画に関する省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322213"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国土交通省都市局公園緑地・景観課"
    }
   },
   {
@@ -10931,6 +10909,294 @@
     "other_files": [],
     "note": "",
     "contact": "厚生労働省職業安定局雇用政策課労働移動支援室\n代表番号：03-5253-1111（内線5787）"
+   }
+  },
+  {
+   "id": "595320120",
+   "title": "高圧ガス保安法に基づく指定完成検査機関等の指定について等の一部を改正する規程（案）に対する意見募集",
+   "category": "国民生活の安全・安心の確保",
+   "ministry": "経済産業省",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-01T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320120&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [],
+   "detail": {
+    "rule_name": "高圧ガス保安法に基づく指定完成検査機関等の指定について等の一部を改正する規程（案）",
+    "law": "高圧ガス保安法（昭和26年法律第204号）、高圧ガス保安法施行令（平成9年政令第20号）",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323563"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "新旧対照表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323564"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "（参考）概要資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323565"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省大臣官房産業保安・安全グループ高圧ガス保安室"
+   }
+  },
+  {
+   "id": "185001515",
+   "title": "「著作権法施行令の一部を改正する政令（案）」及び「著作権法施行規則の一部を改正する省令（案）」に関する意見募集の実施について",
+   "category": "文化",
+   "ministry": "文部科学省",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-01T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001515&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [],
+   "detail": {
+    "rule_name": "著作権法施行令の一部を改正する政令\n著作権法施行規則の一部を改正する省令",
+    "law": "著作権法の一部を改正する法律（令和８年法律第48号）附則第５条並びに同法による改正後の著作権法(昭和45年法律第48号）第95条の２第４項、第95条の３第４項、第97条の２第４項及び第97条の３第４項において準用する同法第95条第９項、並びに同法第95条の２第５項、第95条の３第５項、第97条の２第５項、第97条の３第５項及び第103条の８\n著作権法の一部を改正する法律（令和８年法律第48号）及び著作権法の一部を改正する政令（案）",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323483"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "「著作権法施行令の一部を改正する政令（案）」及び「著作権法施行規則の一部を改正する省令（案）」の概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323484"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "文化庁著作権課\n03-5253-4111（内線：4824）"
+   }
+  },
+  {
+   "id": "495260247",
+   "title": "「遺伝子治療等臨床研究に関する指針」を廃止する告示（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-01T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260247&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [],
+   "detail": {
+    "rule_name": "「遺伝子治療等臨床研究に関する指針」を廃止する告示",
+    "law": "ー",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323496"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323497"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省大臣官房厚生科学課"
+   }
+  },
+  {
+   "id": "141000244",
+   "title": "児童福祉施設の設備及び運営に関する基準の一部を改正する内閣府令案に関する御意見の募集について",
+   "category": "社会福祉",
+   "ministry": "こども家庭庁",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-01T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000244&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [
+    "子育て",
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "児童福祉施設の設備及び運営に関する基準の一部を改正する内閣府令",
+    "law": "児童福祉法第45条第２項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323544"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323545"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "こども家庭庁成育局保育政策課企画法令第一係"
+   }
+  },
+  {
+   "id": "141000245",
+   "title": "幼保連携型認定こども園の学級の編制、職員、設備及び運営に関する基準の一部を改正する命令案に関する御意見の募集について",
+   "category": "社会福祉",
+   "ministry": "こども家庭庁",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-01T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000245&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [
+    "子育て",
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "幼保連携型認定こども園の学級の編制、職員、設備及び運営に関する基準の一部を改正する命令",
+    "law": "就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律（平成18年法律第77号）第13条第２項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323547"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323548"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "こども家庭庁成育局保育政策課企画法令第一係"
+   }
+  },
+  {
+   "id": "141000246",
+   "title": "就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律第三条第二項及び第四項の規定に基づき内閣総理大臣及び文部科学大臣が定める施設の設備及び運営に関する基準の一部を改正する件案に関する御意見の募集について",
+   "category": "社会福祉",
+   "ministry": "こども家庭庁",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-01T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000246&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [
+    "子育て",
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律第三条第二項及び第四項の規定に基づき内閣総理大臣及び文部科学大臣が定める施設の設備及び運営に関する基準の一部を改正する件",
+    "law": "就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律（平成18年法律第77号）第３条第２項及び第４項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323550"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323551"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "こども家庭庁成育局保育政策課企画法令第一係"
+   }
+  },
+  {
+   "id": "145210791",
+   "title": "第一種指定電気通信設備接続料規則の一部を改正する省令案に対する意見募集",
+   "category": "電気通信",
+   "ministry": "総務省",
+   "published": "2026-11-03T23:59:00+09:00",
+   "deadline": "2026-12-02T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210791&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [],
+   "detail": {
+    "rule_name": "第一種指定電気通信設備接続料規則の一部を改正する省令",
+    "law": "電気通信事業法（昭和59年法律第86号）第33条第４項第２号",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323542"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "第一種指定電気通信設備接続料規則の一部を改正する省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323543"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "総務省総合通信基盤局電気通信事業部料金サービス課\n電話：０３－５２５３－５８４４"
+   }
+  },
+  {
+   "id": "495260248",
+   "title": "栄養士法施行規則の一部を改正する省令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-03T23:59:00+09:00",
+   "deadline": "2026-12-03T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260248&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [],
+   "detail": {
+    "rule_name": "栄養士法施行規則の一部を改正する省令案について（概要）",
+    "law": "栄養士法施行令第 21 条",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323504"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "栄養士法施行規則の一部を改正する省令案について（概要）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323505"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省健康・生活衛生局健康課\n代表番号：03-5253-1111（内線8125）"
+   }
+  },
+  {
+   "id": "155261034",
+   "title": "船舶安全法施行規則及び船舶設備規程等の一部を改正する省令の一部を改正する省令案に関する意見募集について",
+   "category": "海運",
+   "ministry": "国土交通省",
+   "published": "2026-11-02T23:59:00+09:00",
+   "deadline": "2026-12-03T16:30:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261034&Mode=0",
+   "first_seen": "2026-11-03",
+   "tags": [],
+   "detail": {
+    "rule_name": "船舶安全法施行規則及び船舶設備規程等の一部を改正する省令の一部を改正する省令",
+    "law": "船舶安全法（昭和８年法律第11号）第２条第１項、第５条第１項第３号、第28条第１項、第29条ノ３第１項及び第29条ノ８の規定",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323537"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323538"
+     },
+     {
+      "name": "省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323539"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国土交通省海事局安全政策課"
    }
   },
   {
