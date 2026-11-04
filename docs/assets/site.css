@@ -17,6 +17,9 @@ a{color:var(--bronze-dk)}
 h1,h2,h3{line-height:1.45}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.todokeru-links{display:flex;flex-wrap:wrap;gap:0 18px;margin:8px 0}
+.todokeru-links a{display:inline-flex;align-items:center;min-height:44px}
+.todokeru-links[hidden]{display:none}
 .skip{position:absolute;left:-9999px;top:8px;z-index:50;background:var(--card);padding:10px 14px;border:2px solid var(--bronze)}
 .skip:focus{left:16px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}

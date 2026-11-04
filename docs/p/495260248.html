@@ -12,10 +12,10 @@
 <meta name="twitter:card" content="summary">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=c92a0fd3">
 <meta name="theme-color" content="#f3f2ee">
-<link rel="stylesheet" href="../assets/site.css?v=ca0797e4">
+<link rel="stylesheet" href="../assets/site.css?v=2c002225">
 </head>
 <body>
-<a class="skip" href="#main">本文へ移動</a><header class="site-head"><div class="wrap head-row"><a class="brand" href="../"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="currentColor"/><path fill="#fff" d="M17 11h30a8 8 0 0 1 8 8v18a8 8 0 0 1-8 8H32l-12 10V45h-3a8 8 0 0 1-8-8V19a8 8 0 0 1 8-8z"/><path fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" d="M20 22h24M20 34h14"/></svg>パブコメ掲示板</a><a class="xlink" href="../posts.html">X投稿文ページ</a></div><nav class="wrap levels" aria-label="国・都道府県・市区町村の切り替え"><a class="lv" href="../" data-base="../" data-level="national" aria-current="page"><span class="lv-name">国</span><span class="lv-n" hidden>募集中 <b data-count="national"></b>件</span></a><a class="lv" href="../pref/" data-base="../pref/" data-level="pref"><span class="lv-name">都道府県</span><span class="lv-n" hidden>募集中 <b data-count="pref"></b>件</span></a><a class="lv" href="../city/" data-base="../city/" data-level="city"><span class="lv-name">市区町村</span><span class="lv-n" hidden>募集中 <b data-count="city"></b>件</span></a></nav></header>
+<a class="skip" href="#main">本文へ移動</a><style>nihon-site-nav:not(:defined){display:block;min-height:45px;padding:0 16px;background:#f4f6f6;border-bottom:1px solid #d5dcde;font:14px/44px system-ui,sans-serif}@media print{nihon-site-nav{display:none!important}}</style><nihon-site-nav><a href="https://yumaki5555.github.io/">日本を知る。</a></nihon-site-nav><script src="https://yumaki5555.github.io/shared/site-nav.js" data-place="manual" async></script><header class="site-head"><div class="wrap head-row"><a class="brand" href="../"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="currentColor"/><path fill="#fff" d="M17 11h30a8 8 0 0 1 8 8v18a8 8 0 0 1-8 8H32l-12 10V45h-3a8 8 0 0 1-8-8V19a8 8 0 0 1 8-8z"/><path fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" d="M20 22h24M20 34h14"/></svg>パブコメ掲示板</a><a class="xlink" href="../posts.html">X投稿文ページ</a></div><nav class="wrap levels" aria-label="国・都道府県・市区町村の切り替え"><a class="lv" href="../" data-base="../" data-level="national" aria-current="page"><span class="lv-name">国</span><span class="lv-n" hidden>募集中 <b data-count="national"></b>件</span></a><a class="lv" href="../pref/" data-base="../pref/" data-level="pref"><span class="lv-name">都道府県</span><span class="lv-n" hidden>募集中 <b data-count="pref"></b>件</span></a><a class="lv" href="../city/" data-base="../city/" data-level="city"><span class="lv-name">市区町村</span><span class="lv-n" hidden>募集中 <b data-count="city"></b>件</span></a></nav></header>
 <main id="main" class="wrap detail">
 <a class="back" id="back" href="../">← <span>一覧を見る（国の案件）</span></a>
 <p class="who">国｜厚生労働省<span class="cat">分野：厚生</span></p>
@@ -28,6 +28,7 @@
   <a class="btn primary" id="submit" href="https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=495260248&amp;Mode=0" target="_blank" rel="noopener">意見を提出する<small>e-Gov（国の公式ページ）で提出</small></a>
   <button type="button" class="btn outline" id="share">Xで共有</button>
 </div>
+<p class="todokeru-links"><a href="/todokeru/#/guide/public-comment" data-nihon-handoff data-item="栄養士の資格に関するルールの見直し">パブコメの書き方</a><a href="/todokeru/#/guide/public-comment?s=prompts" data-nihon-handoff data-item="栄養士の資格に関するルールの見直し">AIで意見を整理</a></p>
 
 <section class="box" aria-labelledby="gist-h"><h2 id="gist-h">📝 どんな案？（かんたん要約）</h2><p>栄養士の養成施設に、夜間部（夜間課程）の設置を認める省令改正案です。</p><h3>主な内容</h3><ul><li>これまで認められていなかった夜間課程の設置を可能にし、社会人など幅広い人材が学びやすくする</li><li>1クラスの人数は原則40人以下とするなど、教育の質を確保するための規定も設ける</li><li>施行は公布日から（公布は令和8年12月中旬予定）</li></ul><p class="note">※国の資料をもとにAIがまとめたものです。正確な内容は、下の「資料」や公式ページでご確認ください。</p></section>
 <section class="box" aria-labelledby="how-h"><h2 id="how-h">✍️ 意見の出し方</h2>
@@ -73,6 +74,7 @@
   const share = document.getElementById('share');
   if (due.closed) {
     document.getElementById('closed').hidden = false;
+    document.querySelectorAll('.todokeru-links').forEach(function(e){ e.hidden = true; });
     share.remove();
     const s = document.getElementById('submit');
     if (s) s.innerHTML = '公式ページを見る<small>受付は終了しています</small>';

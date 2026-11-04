@@ -121,6 +121,23 @@ def summary_block(summary, source):
 
 # ---------- 上部の切り替えボタン ----------
 
+# 全サイト共通メニュー（入口サイトの shared/site-nav.js）。読み込めないときは中のリンクがそのまま見える。印刷には出ない
+SITE_NAV = (
+    '<style>nihon-site-nav:not(:defined){display:block;min-height:45px;padding:0 16px;background:#f4f6f6;'
+    'border-bottom:1px solid #d5dcde;font:14px/44px system-ui,sans-serif}'
+    '@media print{nihon-site-nav{display:none!important}}</style>'
+    '<nihon-site-nav><a href="https://yumaki5555.github.io/">日本を知る。</a></nihon-site-nav>'
+    '<script src="https://yumaki5555.github.io/shared/site-nav.js" data-place="manual" async></script>')
+
+
+def todokeru_links(item=None):
+    """「声を届ける」の書き方マニュアルと、AIへの指示文へのリンク。戻り先は押したときに共通メニューの部品が足す"""
+    data = f' data-item="{esc(item)}"' if item else ''
+    return ('<p class="todokeru-links">'
+            f'<a href="/todokeru/#/guide/public-comment" data-nihon-handoff{data}>パブコメの書き方</a>'
+            f'<a href="/todokeru/#/guide/public-comment?s=prompts" data-nihon-handoff{data}>AIで意見を整理</a></p>')
+
+
 def nav_html(current, root, counts, posts=False):
     """全ページ共通の上部（サイト名・X投稿文ページへのリンク・国／都道府県／市区町村の切り替えボタン）。
     root はそのページから公開フォルダの一番上までの道のり（'' / '../' / '../../'）。
@@ -140,6 +157,7 @@ def nav_html(current, root, counts, posts=False):
     xcur = ' aria-current="page"' if posts else ""
     return (
         '<a class="skip" href="#main">本文へ移動</a>'
+        + SITE_NAV +
         '<header class="site-head"><div class="wrap head-row">'
         f'<a class="brand" href="{root or "./"}">{LOGO_SVG}パブコメ掲示板</a>'
         f'<a class="xlink" href="{root}{level_path}posts.html"{xcur}>X投稿文ページ</a></div>'
@@ -204,6 +222,9 @@ a{color:var(--bronze-dk)}
 h1,h2,h3{line-height:1.45}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.todokeru-links{display:flex;flex-wrap:wrap;gap:0 18px;margin:8px 0}
+.todokeru-links a{display:inline-flex;align-items:center;min-height:44px}
+.todokeru-links[hidden]{display:none}
 .skip{position:absolute;left:-9999px;top:8px;z-index:50;background:var(--card);padding:10px 14px;border:2px solid var(--bronze)}
 .skip:focus{left:16px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
@@ -584,6 +605,7 @@ __NAV__
   <h1>__H1__</h1>
   <p class="lead"><b>パブコメとは？</b> 国や自治体がルールや計画を決める前に、広くみんなの意見を聞く仕組みです。</p>
   __GUIDE__
+  __TODOKERU__
 </section>
 
 <form class="search" id="search" role="search" aria-label="案件をさがす">
@@ -913,6 +935,7 @@ def list_page(*, level, title, og_title, desc, url, h1, intro, placeholder, fiel
         "__ROOT__": root, "__ASSET_CSS__": asset_tags(root)[0], "__ASSET_JS__": asset_tags(root)[1],
         "__NAV__": nav_html(level, root, payload["counts"]),
         "__GUIDE__": GUIDE_HTML,
+        "__TODOKERU__": todokeru_links(),
         "__DIALOG__": SHARE_DIALOG,
         "__TITLE__": esc(title), "__OG_TITLE__": esc(og_title), "__DESC__": esc(desc), "__URL__": esc(url),
         "__H1__": esc(h1), "__INTRO__": intro, "__PLACEHOLDER__": esc(placeholder), "__FIELDS__": fields,
@@ -972,6 +995,7 @@ __OFFICIAL__
   __SUBMIT__
   <button type="button" class="btn outline" id="share">Xで共有</button>
 </div>
+__TODOKERU__
 __THEMES__
 __SUMMARY__
 __HOWTO__
@@ -994,6 +1018,7 @@ __ASSET_JS__
   const share = document.getElementById('share');
   if (due.closed) {
     document.getElementById('closed').hidden = false;
+    document.querySelectorAll('.todokeru-links').forEach(function(e){ e.hidden = true; });
     share.remove();
     const s = document.getElementById('submit');
     if (s) s.innerHTML = '公式ページを見る<small>受付は終了しています</small>';
@@ -1033,7 +1058,7 @@ def detail_page(*, level, root, title, og_title, desc, page_url, who, official, 
         "__BACK_LABEL__": f"一覧を見る（{LEVEL_NAME[level]}の案件）",
         "__WHO__": who, "__OFFICIAL__": official,
         "__DUE_TEXT__": "締切", "__DEADLINE__": deadline_text,
-        "__SUBMIT__": submit, "__THEMES__": themes, "__SUMMARY__": summary, "__HOWTO__": howto,
+        "__SUBMIT__": submit, "__TODOKERU__": todokeru_links(title), "__THEMES__": themes, "__SUMMARY__": summary, "__HOWTO__": howto,
         "__FILES__": files, "__EXTRA__": extra, "__CONTACT__": contact, "__SOURCE__": source,
         "__META__": json.dumps(meta, ensure_ascii=False).replace("</", "<\\/"),
     }.items():
