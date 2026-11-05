@@ -1,62 +1,7 @@
 {
- "updated": "2026-11-05T10:59+09:00",
+ "updated": "2026-11-06T08:10+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "155261028",
-   "title": "「標準運送約款等の一部を改正する告示案」に関する意見募集について",
-   "category": "海運",
-   "ministry": "国土交通省",
-   "published": "2026-07-09T23:59:00+09:00",
-   "deadline": "2026-08-07T14:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261028&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "155261221",
-   "title": "「部品等脱落防止措置に関する技術基準細則」の一部改正に関する意見募集について",
-   "category": "航空",
-   "ministry": "国土交通省",
-   "published": "2026-07-06T23:59:00+09:00",
-   "deadline": "2026-08-07T17:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261221&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "620226018",
-   "title": "ベースロード市場ガイドライン（案）に対する意見募集",
-   "category": "工業",
-   "ministry": "資源エネルギー庁",
-   "published": "2026-07-09T23:59:00+09:00",
-   "deadline": "2026-08-07T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620226018&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "195260040",
-   "title": "「生活環境動植物の被害防止に係る農薬登録基準値（案）」に対する御意見の募集（パブリックコメント）について",
-   "category": "環境保全",
-   "ministry": "環境省",
-   "published": "2026-07-09T23:59:00+09:00",
-   "deadline": "2026-08-08T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260040&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "195260041",
-   "title": "「水質汚濁に係る農薬登録基準値（案）」に対する御意見の募集（パブリックコメント）について",
-   "category": "環境保全",
-   "ministry": "環境省",
-   "published": "2026-07-09T23:59:00+09:00",
-   "deadline": "2026-08-08T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260041&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "060260727",
    "title": "「人身取引対策行動計画2026（仮称）」（案）に関する意見募集について",
@@ -11727,6 +11672,40 @@
    }
   },
   {
+   "id": "595320121",
+   "title": "情報処理の促進に関する法律施行令の一部を改正する政令（案）に対する意見募集について",
+   "category": "IT社会化推進",
+   "ministry": "経済産業省",
+   "published": "2026-11-05T23:59:00+09:00",
+   "deadline": "2026-12-04T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320121&Mode=0",
+   "first_seen": "2026-11-06",
+   "tags": [],
+   "detail": {
+    "rule_name": "情報処理の促進に関する法律施行令の一部を改正する政令",
+    "law": "情報処理の促進に関する法律（昭和四十五年法律第九十号）第五十一条第六項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323703"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "案文・理由",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323704"
+     },
+     {
+      "name": "新旧対照表",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323705"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "経済産業省 商務情報政策局 情報産業課"
+   }
+  },
+  {
    "id": "155261035",
    "title": "「次世代船舶の開発」プロジェクトに関する研究開発・社会実装計画（改定案）",
    "category": "海運",
@@ -11763,6 +11742,40 @@
     ],
     "note": "",
     "contact": "海事局海洋・環境政策課"
+   }
+  },
+  {
+   "id": "120260029",
+   "title": "「風俗営業等の規制及び業務の適正化等に関する法律施行令の一部を改正する政令案」に対する意見の募集について",
+   "category": "警察",
+   "ministry": "国家公安委員会・警察庁",
+   "published": "2026-11-06T23:59:00+09:00",
+   "deadline": "2026-12-05T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=120260029&Mode=0",
+   "first_seen": "2026-11-06",
+   "tags": [],
+   "detail": {
+    "rule_name": "風俗営業等の規制及び業務の適正化等に関する法律施行令の一部を改正する政令",
+    "law": "風俗営業等の規制及び業務の適正化等に関する法律（昭和23年法律第122号）第20条第８項及び第43条",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323706"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "案文・理由",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323707"
+     },
+     {
+      "name": "新旧対照条文",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323708"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "警察庁生活安全局保安課\n03-3581-0141（内線3192）"
    }
   },
   {
