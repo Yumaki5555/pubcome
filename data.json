@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:59+09:00",
+ "updated": "2026-11-07T08:09+09:00",
  "source": "list",
  "items": [
   {
@@ -620,7 +620,7 @@
   {
    "id": "550004384",
    "title": "平成30年農林水産省告示第576号（遺伝子組換え生物等の使用等の規制による生物の多様性の確保に関する法律第16条、遺伝子組換え生物等の使用等の規制による生物の多様性の確保に関する法律第24条第１項の規定により納付すべき手数料の額を定める政令並びに遺伝子組換え生物等の使用等の規制による生物の多様性の確保に関する法律施行規則第17条及び第22条の規定に基づき、農林水産大臣が生産又は流通を所管する検査対象生物である物についての同法第16条の主務大臣が指定する場合等を定める件）の一部を改正する告示案についての意見・情報の募集について",
-   "category": "農業",
+   "category": "環境保全",
    "ministry": "農林水産省",
    "published": "2026-07-31T23:59:00+09:00",
    "deadline": "2026-09-03T18:00:00+09:00",
@@ -11706,6 +11706,36 @@
    }
   },
   {
+   "id": "495260253",
+   "title": "再生医療等の安全性の確保等に関する法律施行令の一部を改正する政令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-06T23:59:00+09:00",
+   "deadline": "2026-12-05T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260253&Mode=0",
+   "first_seen": "2026-11-07",
+   "tags": [],
+   "detail": {
+    "rule_name": "再生医療等の安全性の確保等に関する法律施行令の一部を改正する政令案",
+    "law": "再生医療等の安全性の確保等に関する法律(平成25年法律第85号) 第２条第２項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323719"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323720"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医政局研究開発政策課"
+   }
+  },
+  {
    "id": "155261035",
    "title": "「次世代船舶の開発」プロジェクトに関する研究開発・社会実装計画（改定案）",
    "category": "海運",
@@ -11776,6 +11806,164 @@
     "other_files": [],
     "note": "",
     "contact": "警察庁生活安全局保安課\n03-3581-0141（内線3192）"
+   }
+  },
+  {
+   "id": "495260255",
+   "title": "予防接種法施行規則及び予防接種実施規則の一部を改正する省令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-06T23:59:00+09:00",
+   "deadline": "2026-12-06T12:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260255&Mode=0",
+   "first_seen": "2026-11-07",
+   "tags": [],
+   "detail": {
+    "rule_name": "予防接種法施行規則及び予防接種実施規則の一部を改正する省令案",
+    "law": "予防接種法（昭和23年法律第68号）第11条、第12条第１項、第14条第３項及び第23条第３項並びに予防接種法施行令（昭和23年政令第197号）第３条第２項",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323709"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323710"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省健康・生活衛生局感染症対策部予防接種課"
+   }
+  },
+  {
+   "id": "595320122",
+   "title": "電気工事士法施行令の一部を改正する政令（案）に対する意見公募について",
+   "category": "工業",
+   "ministry": "経済産業省",
+   "published": "2026-11-06T23:59:00+09:00",
+   "deadline": "2026-12-06T20:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595320122&Mode=0",
+   "first_seen": "2026-11-07",
+   "tags": [],
+   "detail": {
+    "rule_name": "電気工事士法施行令の一部を改正する政令",
+    "law": "電気工事士法第十条第一項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323738"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323739"
+     },
+     {
+      "name": "案文・理由（電気工事士法施行令）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323740"
+     },
+     {
+      "name": "新旧対照表（電気工事士法施行令）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323741"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "経済産業省産業保安・安全グループ電力安全課"
+   }
+  },
+  {
+   "id": "860202606",
+   "title": "危険物の規制に関する規則の一部を改正する省令（案）等に対する意見公募について",
+   "category": "消防",
+   "ministry": "消防庁",
+   "published": "2026-11-07T23:59:00+09:00",
+   "deadline": "2026-12-07T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=860202606&Mode=0",
+   "first_seen": "2026-11-07",
+   "tags": [],
+   "detail": {
+    "rule_name": "・危険物の規制に関する規則の一部を改正する省令（案）\n・危険物の規制に関する技術上の基準の細目を定める告示の一部を改正する件（案）\n・製造所等の泡消火設備の技術上の基準の細目を定める告示の一部を改正する件（案）",
+    "law": "・危険物の規制に関する政令（昭和34年政令第306号）第11条第１項第４号の２及び第20条第３項第１号\n・危険物の規制に関する規則（昭和34年総理府令第55号）第20条の８第２項から第４項まで、第22条の３の２第３項第５号ニ及び第38条の３",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323567"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "危険物の規制に関する規則の一部を改正する省令（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323568"
+     },
+     {
+      "name": "危険物の規制に関する技術上の基準の細目を定める告示の一部を改正する件（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323569"
+     },
+     {
+      "name": "製造所等の泡消火設備の技術上の基準の細目を定める告示の一部を改正する件（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323570"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "報道資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323571"
+     },
+     {
+      "name": "【概要】危険物の規制に関する規則の一部を改正する省令（案）等について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323572"
+     },
+     {
+      "name": "規制の事前評価書（特定屋外貯蔵タンクの保安検査に活用可能な試験の追加）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323573"
+     },
+     {
+      "name": "規制の事前評価書（リチウムイオン蓄電池の貯蔵等を行う屋内貯蔵所の消火設備に係る規制の見直し）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323574"
+     }
+    ],
+    "note": "",
+    "contact": "総務省消防庁予防課危険物保安室(03-5253-7524)"
+   }
+  },
+  {
+   "id": "145210795",
+   "title": "「移動系通信事業者が提供するインターネット接続サービスの実効速度計測手法及び利用者への情報提供手法等に関するガイドライン」の改正案に対する意見募集",
+   "category": "電気通信",
+   "ministry": "総務省",
+   "published": "2026-11-07T23:59:00+09:00",
+   "deadline": "2026-12-07T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210795&Mode=0",
+   "first_seen": "2026-11-07",
+   "tags": [],
+   "detail": {
+    "rule_name": "－",
+    "law": "－",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323696"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "ガイドライン改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323697"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "報道資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323698"
+     }
+    ],
+    "note": "「移動系通信事業者が提供するインターネット接続サービスの実効速度計測手法及び利用者への情報提供手法等に関するガイドライン」の改正案については、行政手続法第２条第８号に定める命令等には該当しませんが、任意で意見を募集するものです。",
+    "contact": "総合通信基盤局電気通信事業部データ通信課\n電 話：０３－５２５３－５８５３（直通）\n総合通信基盤局電気通信事業部料金サービス課消費者契約適正化推進室\n電 話：０３－５２５３－５４８８（直通）"
    }
   },
   {
