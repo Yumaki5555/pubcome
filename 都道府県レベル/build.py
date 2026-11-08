@@ -113,6 +113,12 @@ def main(base=HERE):
     status = data.get("status", {})
     officials = [{"name": p["name"], "url": p["url"], "pref": p.get("pref", ""),
                   "error": bool((status.get(p["name"]) or {}).get("error"))} for p in prefs]
+    # 市区町村版：対象の人口だが、ホームページの作りの都合で自動では集められない市（理由つき）
+    unsupported = [{"name": u["name"], "pref": u["pref"], "url": u["url"], "why": u["reason"]}
+                   for u in listed.get("unsupported", [])]
+    kinds = {}
+    for p in prefs:
+        kinds[p.get("kind", "")] = kinds.get(p.get("kind", ""), 0) + 1
     # 都道府県版で県を選んだとき「この県の市区の案件も見る」を出すため、市区町村版で見回っている都道府県を渡す
     related = []
     if level == "pref":
@@ -127,6 +133,8 @@ def main(base=HERE):
         "regions": groups,
         "prefs": [n for _, names in REGIONS for n in names],   # 47都道府県（アドレスで指定された名前が都道府県かを確かめる）
         "officials": officials,
+        "unsupported": unsupported,
+        "scope": CITY_SCOPE if level == "city" else "",
         "related": related,
         "counts": counts,
         "newDays": config.get("new_days", 7),
@@ -140,10 +148,10 @@ def main(base=HERE):
         og_title=f"{config['site_name']}｜募集中のパブコメ {len(items)}件",
         desc=config["site_description"], url=config["site_url"],
         h1=f"{config.get('area_label', '都道府県')}の意見募集（パブコメ）",
-        intro=INTRO[level],
+        intro=INTRO[level].format(scope=CITY_SCOPE, n=len(prefs)),
         placeholder="例：子ども、条例",
         fields=FIELDS[level],
-        info=info_html(level, data["updated"], groups, officials, count_of),
+        info=info_html(level, data["updated"], groups, officials, count_of, kinds, unsupported),
         footer=('<p>出典：各自治体の公式ホームページ（毎朝自動で更新）</p>'
                 '<p>このサイトは国や自治体の公式サイトではありません。正式な内容は、必ず各公式ページでご確認ください。</p>'),
         updated=data["updated"], payload=payload,
@@ -162,9 +170,12 @@ def main(base=HERE):
     pref_post.main(BASE)
 
 
+# 市区町村版で集めている範囲（人口は総務省「住民基本台帳に基づく人口」令和8年1月1日現在。areas.json の kind「一般市」）
+CITY_SCOPE = "政令指定都市・中核市・東京23区と、人口20万人以上の市"
+
 INTRO = {
     "pref": "47都道府県の公式ホームページから毎日自動で集めた、いま意見を募集している案件です。このサイトに載っていなくても、実際には募集していることがあります。",
-    "city": ("政令指定都市・中核市・東京23区（計105か所）の公式ホームページから毎日自動で集めた案件です。"
+    "city": ("{scope}（計{n}か所）の公式ホームページから毎日自動で集めた案件です。"
              "それ以外の市町村は、まだ自動収集の対象外です。このサイトに載っていなくても、実際には募集していることがあります。"),
 }
 
@@ -175,15 +186,22 @@ FIELDS = {
 }
 
 
-def info_html(level, updated, groups, officials, count_of):
+def info_html(level, updated, groups, officials, count_of, kinds=None, unsupported=()):
     """一覧ページの下の「このページの情報について」（出典・対象・注意・公式ページの一覧）。"""
     e = ui.esc
     if level == "pref":
         target = "47都道府県すべてです。"
         label = "都道府県"
     else:
-        target = ("政令指定都市20・中核市62・東京23区の計105か所です。"
-                  "<b>それ以外の市町村（約1,600）は、まだ自動収集の対象外です。</b>お住まいの市町村の公式ホームページでご確認ください。")
+        k = kinds or {}
+        target = (f"政令指定都市{k.get('政令市', 0)}・中核市{k.get('中核市', 0)}・東京23区と、"
+                  f"人口20万人以上の市{k.get('一般市', 0)}の計{len(officials)}か所です"
+                  "（人口は総務省「住民基本台帳に基づく人口」令和8年1月1日現在）。")
+        if unsupported:
+            names = "・".join(e(u["name"]) for u in unsupported)
+            target += (f"人口20万人以上の{names}は、ホームページの作りの都合で自動では集められないため、"
+                       "下の一覧から各市の公式ページをご確認ください。")
+        target += "<b>それ以外の市町村（約1,600）は、まだ自動収集の対象外です。</b>お住まいの市町村の公式ホームページでご確認ください。"
         label = "市区"
     return f"""<section class="info" aria-labelledby="info-h"><h2 id="info-h">このページの情報について</h2><dl>
 <div><dt>出典</dt><dd>各{label}の公式ホームページから、毎日自動で集めています。案件ごとに、元のページを「出典」として示しています。</dd></div>
@@ -194,7 +212,7 @@ def info_html(level, updated, groups, officials, count_of):
 <div><dt>わかりやすい名前・要約</dt><dd>正式名称と公式の資料をもとに、AIが作ったものです。まちがいがある場合もあるので、正式な内容は必ず公式ページでご確認ください。</dd></div>
 <div><dt>テーマ</dt><dd>案件名に含まれる言葉で自動的に振り分けています。テーマが付いていても関係が薄い案件や、付いていなくても関係する案件があります。</dd></div>
 </dl>
-{ui.area_list_html(groups, officials, count_of, "都道府県" if level == "pref" else "市区")}
+{ui.area_list_html(groups, officials, count_of, "都道府県" if level == "pref" else "市区", unsupported)}
 </section>"""
 
 

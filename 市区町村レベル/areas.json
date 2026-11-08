@@ -1,5 +1,5 @@
 {
- "_説明": "市区町村のパブリックコメント一覧ページの住所です（第1段：政令指定都市・中核市・東京23区）。取れなくなったら url を書き換えてください。",
+ "_説明": "市区町村のパブリックコメント一覧ページの住所です（政令指定都市・中核市・東京23区と、人口20万人以上の市＝総務省「住民基本台帳に基づく人口」令和8年1月1日現在）。取れなくなったら url を書き換えてください。unsupported は対象の人口だが自動で読めない市（理由つき）。",
  "areas": [
   {
    "name": "札幌市",
@@ -630,6 +630,200 @@
    "pref": "東京都",
    "kind": "特別区",
    "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/goiken/goikentoiawase.html"
+  },
+  {
+   "name": "つくば市",
+   "pref": "茨城県",
+   "kind": "一般市",
+   "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/seisakuinnovationbukikakukeieika/gyomuannai/5/1/15861.html"
+  },
+  {
+   "name": "伊勢崎市",
+   "pref": "群馬県",
+   "kind": "一般市",
+   "url": "https://www.city.isesaki.lg.jp/gyoseijoho/shiminsanka_minkankyodo/publiccomment/index.html"
+  },
+  {
+   "name": "太田市",
+   "pref": "群馬県",
+   "kind": "一般市",
+   "url": "https://www.city.ota.gunma.jp/life/6/43/197/"
+  },
+  {
+   "name": "所沢市",
+   "pref": "埼玉県",
+   "kind": "一般市",
+   "url": "https://www.city.tokorozawa.saitama.jp/shiseijoho/pubcom/index.html"
+  },
+  {
+   "name": "春日部市",
+   "pref": "埼玉県",
+   "kind": "一般市",
+   "url": "https://www.city.kasukabe.lg.jp/shiseijoho/shiminkatsudo/shiminsankatetsuzuki/4/index.html"
+  },
+  {
+   "name": "上尾市",
+   "pref": "埼玉県",
+   "kind": "一般市",
+   "url": "https://www.city.ageo.lg.jp/page/4-shiminkomento.html"
+  },
+  {
+   "name": "草加市",
+   "pref": "埼玉県",
+   "kind": "一般市",
+   "url": "https://www.city.soka.saitama.jp/li/060/050/010/030/index.html"
+  },
+  {
+   "name": "市川市",
+   "pref": "千葉県",
+   "kind": "一般市",
+   "url": "https://www.city.ichikawa.lg.jp/life/8/48/219/"
+  },
+  {
+   "name": "松戸市",
+   "pref": "千葉県",
+   "kind": "一般市",
+   "url": "https://www.city.matsudo.chiba.jp/shiminnokoe/pabu_come/anken/index.html"
+  },
+  {
+   "name": "流山市",
+   "pref": "千葉県",
+   "kind": "一般市",
+   "url": "https://www.city.nagareyama.chiba.jp/information/1008466/1008474/index.html"
+  },
+  {
+   "name": "八千代市",
+   "pref": "千葉県",
+   "kind": "一般市",
+   "url": "https://www.city.yachiyo.lg.jp/life/4/35/186/"
+  },
+  {
+   "name": "府中市",
+   "pref": "東京都",
+   "kind": "一般市",
+   "url": "https://www.city.fuchu.tokyo.jp/shiminnokoe/komento/index.html"
+  },
+  {
+   "name": "調布市",
+   "pref": "東京都",
+   "kind": "一般市",
+   "url": "https://www.city.chofu.lg.jp/shiseijouhou/shiminsanka/publiccomment/index.html"
+  },
+  {
+   "name": "町田市",
+   "pref": "東京都",
+   "kind": "一般市",
+   "url": "https://www.city.machida.tokyo.jp/shigo/kocyo/publiccomment/index.html"
+  },
+  {
+   "name": "西東京市",
+   "pref": "東京都",
+   "kind": "一般市",
+   "url": "https://www.city.nishitokyo.lg.jp/siseizyoho/pub/index.html"
+  },
+  {
+   "name": "平塚市",
+   "pref": "神奈川県",
+   "kind": "一般市",
+   "url": "https://www.city.hiratsuka.kanagawa.jp/kocho/page-c_02324.html"
+  },
+  {
+   "name": "藤沢市",
+   "pref": "神奈川県",
+   "kind": "一般市",
+   "url": "https://www.city.fujisawa.kanagawa.jp/shise/kocho/p-comment/index.html"
+  },
+  {
+   "name": "茅ヶ崎市",
+   "pref": "神奈川県",
+   "kind": "一般市",
+   "url": "https://www.city.chigasaki.kanagawa.jp/public/1007537/index.html"
+  },
+  {
+   "name": "厚木市",
+   "pref": "神奈川県",
+   "kind": "一般市",
+   "url": "https://www.city.atsugi.kanagawa.jp/shiseijoho/shiminsanka/1/index.html"
+  },
+  {
+   "name": "大和市",
+   "pref": "神奈川県",
+   "kind": "一般市",
+   "url": "https://www.city.yamato.lg.jp/gyosei/shiseijoho/shiminsanka/publiccomment/index.html"
+  },
+  {
+   "name": "長岡市",
+   "pref": "新潟県",
+   "kind": "一般市",
+   "url": "https://www.city.nagaoka.niigata.jp/shisei/cate07/public-comment/index.html"
+  },
+  {
+   "name": "富士市",
+   "pref": "静岡県",
+   "kind": "一般市",
+   "url": "https://www.city.fuji.shizuoka.jp/shiseijoho/kocho/publiccomment/index.html"
+  },
+  {
+   "name": "春日井市",
+   "pref": "愛知県",
+   "kind": "一般市",
+   "url": "https://www.city.kasugai.lg.jp/shisei/koho/ikenbosyu/index.html"
+  },
+  {
+   "name": "津市",
+   "pref": "三重県",
+   "kind": "一般市",
+   "url": "https://www.info.city.tsu.mie.jp/shisei/kouhou_kouchou_kouhou/1007591/1007599/index.html"
+  },
+  {
+   "name": "四日市市",
+   "pref": "三重県",
+   "kind": "一般市",
+   "url": "https://www.city.yokkaichi.lg.jp/www/genre/1000100000064/index.html"
+  },
+  {
+   "name": "伊丹市",
+   "pref": "兵庫県",
+   "kind": "一般市",
+   "url": "https://www.city.itami.lg.jp/SOSIKI/SHIMIN/MACHI/PUBLIC_COMMENT/index.html"
+  },
+  {
+   "name": "宝塚市",
+   "pref": "兵庫県",
+   "kind": "一般市",
+   "url": "https://www.city.takarazuka.hyogo.jp/1060687/1060724/publiccomment/index.html"
+  },
+  {
+   "name": "徳島市",
+   "pref": "徳島県",
+   "kind": "一般市",
+   "url": "https://www.city.tokushima.tokushima.jp/shisei/shimin_sanka/sanka_tetsuduki/public_comment.html"
+  },
+  {
+   "name": "佐賀市",
+   "pref": "佐賀県",
+   "kind": "一般市",
+   "url": "https://www.city.saga.lg.jp/shisei/koho-kocho/2/1/index.html"
+  }
+ ],
+ "unsupported": [
+  {
+   "name": "市原市",
+   "pref": "千葉県",
+   "url": "https://www.city.ichihara.chiba.jp/",
+   "reason": "ホームページが画面をその場で組み立てる作りのため、自動では読み取れません"
+  },
+  {
+   "name": "加古川市",
+   "pref": "兵庫県",
+   "url": "https://www.city.kakogawa.lg.jp/shiseijoho/kohokocho/paburikkukomento/index.html",
+   "reason": "市のパブリックコメントのページに募集中の案件が並ばず、各課のページに分かれているため、自動では見つけられません"
+  },
+  {
+   "name": "茨木市",
+   "pref": "大阪府",
+   "url": "https://www.city.ibaraki.osaka.jp/koe/1316146813227.html",
+   "reason": "市のパブリックコメントのページに募集中の案件が並ばず、各課のページに分かれているため、自動では見つけられません"
   }
  ]
 }

@@ -720,8 +720,10 @@ LIST_JS = r"""
     if (LV === 'pref' && S.pref && !PREFS.includes(S.pref)) return { name: `「${S.pref}」`, why: notPref(S.pref) };
     if (LV !== 'city') return null;
     if (S.pref && !PREFS.includes(S.pref)) return { name: `「${S.pref}」`, why: notPref(S.pref) };
-    if (S.city && !cityPref[S.city]) return { name: S.city, why: `市区町村版で集めているのは、政令指定都市・中核市・東京23区の計105か所だけです。${esc(S.city)}の意見募集は、公式ホームページでご確認ください。` };
-    if (S.pref && !D.regions.some(([p]) => p === S.pref)) return { name: `${S.pref}の市区町村`, why: `${esc(S.pref)}には、市区町村版で集めている市区（政令指定都市・中核市・東京23区）がありません。` };
+    const un = S.city && (D.unsupported || []).find(u => u.name === S.city);
+    if (un) return { name: S.city, head: `${S.city}の募集は自動では集められていません`, why:`${esc(S.city)}は集める対象（人口20万人以上の市）ですが、${esc(un.why)}。<a href="${esc(un.url)}" target="_blank" rel="noopener">${esc(S.city)}の公式ページ</a>でご確認ください。` };
+    if (S.city && !cityPref[S.city]) return { name: S.city, why: `市区町村版で集めているのは、${esc(D.scope)}の計${D.officials.length}か所だけです。${esc(S.city)}の意見募集は、公式ホームページでご確認ください。` };
+    if (S.pref && !D.regions.some(([p]) => p === S.pref)) return { name: `${S.pref}の市区町村`, why: `${esc(S.pref)}には、市区町村版で集めている市区（${esc(D.scope)}）がありません。` };
     return null;
   }
 
@@ -836,7 +838,7 @@ LIST_JS = r"""
       <p class="note">このサイトに載っていなくても、実際には募集している場合があります。</p></div>`;
   }
   function outsideHTML(out){
-    return `<div class="empty"><p class="empty-h">${esc(out.name)}は収集の対象外です</p><p>${out.why}</p>
+    return `<div class="empty"><p class="empty-h">${esc(out.head || out.name + 'は収集の対象外です')}</p><p>${out.why}</p>
       <p><button type="button" class="btn outline" data-clear>条件をクリア</button></p></div>`;
   }
 
@@ -870,7 +872,7 @@ LIST_JS = r"""
     $('#result-h').textContent = conds.length ? `${hits.length}件 見つかりました（募集中 ${items.length}件のうち）` : `募集中の案件 ${items.length}件`;
     $('#active').innerHTML = conds.length ? `<span>しぼりこみ中：${conds.join('・')}</span><button type="button" class="btn outline" data-clear>条件をクリア</button>` : '';
     let rel = '';
-    if (LV === 'pref' && S.pref && (D.related || []).includes(S.pref)) rel = `<a href="../city/?pref=${encodeURIComponent(S.pref)}">${esc(S.pref)}の市区（政令市・中核市・23区）の案件も見る →</a>`;
+    if (LV === 'pref' && S.pref && (D.related || []).includes(S.pref)) rel = `<a href="../city/?pref=${encodeURIComponent(S.pref)}">${esc(S.pref)}の主な市区（政令市・中核市・23区・人口20万人以上の市）の案件も見る →</a>`;
     if (LV === 'city' && PREFS.includes(S.pref)) rel = `<a href="../pref/?pref=${encodeURIComponent(S.pref)}">${esc(S.pref)}（都道府県）の案件も見る →</a>`;
     $('#related').innerHTML = rel;
     if (!hits.length) { stateEl.innerHTML = out ? outsideHTML(out) : emptyHTML(); list.innerHTML = ''; moreBtn.hidden = true; return; }
@@ -947,8 +949,9 @@ def list_page(*, level, title, og_title, desc, url, h1, intro, placeholder, fiel
     return page
 
 
-def area_list_html(regions, officials, counts_by_name, label):
-    """都道府県・市区町村ごとの公式ページの一覧（件数つき）。今日ページを開けなかったところは点線で、文字でも示す。"""
+def area_list_html(regions, officials, counts_by_name, label, unsupported=()):
+    """都道府県・市区町村ごとの公式ページの一覧（件数つき）。今日ページを開けなかったところは点線で、文字でも示す。
+    unsupported（自動では集められない市）は件数を出さず、その旨を文字で示して公式ページへつなぐ。"""
     by_name = {o["name"]: o for o in officials}
     blocks = []
     for group, names in regions:
@@ -960,6 +963,10 @@ def area_list_html(regions, officials, counts_by_name, label):
             err = '<span class="e">今日は取得できず</span>' if o.get("error") else ""
             href = esc(o.get("url")) if o.get("url") else "#"
             chips.append(f'<a class="{cls}" href="{href}" target="_blank" rel="noopener">{esc(n)}<span class="n">{c}件</span>{err}</a>')
+        for u in unsupported:
+            if u["pref"] == group:
+                chips.append(f'<a class="pchip zero" href="{esc(u["url"])}" target="_blank" rel="noopener" title="{esc(u["why"])}">'
+                             f'{esc(u["name"])}<span class="e">自動では集められず</span></a>')
         blocks.append(f'<div class="region"><b>{esc(group)}</b><div class="pgrid">{"".join(chips)}</div></div>')
     return (f'<details class="areas"><summary>{esc(label)}ごとの公式ページ（件数はこのサイトで見つけた募集中の数）</summary>'
             f'{"".join(blocks)}</details>')
