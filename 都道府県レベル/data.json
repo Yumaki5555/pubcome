@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-16T08:11+09:00",
+ "updated": "2026-11-16T10:36+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
    "error": null,
-   "open": 7,
+   "open": 8,
    "checked": "2026-11-16"
   },
   "青森県": {
@@ -40,7 +40,7 @@
   "福島県": {
    "url": "https://www.pref.fukushima.lg.jp/sec/01010e/koucho1-004.html",
    "error": null,
-   "open": 4,
+   "open": 6,
    "checked": "2026-11-16"
   },
   "茨城県": {
@@ -159,14 +159,14 @@
   },
   "大阪府": {
    "url": "https://www.pref.osaka.lg.jp/o070050/fumin/public/index.html",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 1,
    "checked": "2026-11-16"
   },
   "兵庫県": {
    "url": "https://web.pref.hyogo.lg.jp/kk12/ac09_000000032.html",
    "error": null,
-   "open": 1,
+   "open": 3,
    "checked": "2026-11-16"
   },
   "奈良県": {
@@ -255,7 +255,7 @@
   },
   "熊本県": {
    "url": "https://www.pref.kumamoto.jp/site/public-comment/",
-   "error": "<urlopen error [Errno 104] Connection reset by peer>",
+   "error": null,
    "open": 2,
    "checked": "2026-11-16"
   },
@@ -1938,6 +1938,88 @@
    "tags": []
   },
   {
+   "id": "c02f6ebbad",
+   "pref": "兵庫県",
+   "title": "住生活基本計画(兵庫県計画)の改定",
+   "url": "https://web.pref.hyogo.lg.jp/ks26/jyuseikatsu-r9_pc.html",
+   "start": "2026-11-13",
+   "deadline": "2026-12-03",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "住生活基本計画（兵庫県計画）案（概要）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/11_ju-plan_abstract.pdf"
+     },
+     {
+      "name": "住生活基本計画（兵庫県計画）案（本文）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/12_ju-plan_main.pdf"
+     },
+     {
+      "name": "住宅関連用語集",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/21_words.pdf"
+     },
+     {
+      "name": "諮問文",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/22_consultation.pdf"
+     },
+     {
+      "name": "兵庫県住宅審議会委員名簿",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/23_comissioners-list.pdf"
+     },
+     {
+      "name": "住生活基本法",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/24_law_housing.pdf"
+     },
+     {
+      "name": "住生活基本計画（全国計画）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/25_ju-plan_national.pdf"
+     },
+     {
+      "name": "様式例（ワード：318KB）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/40_iken-form.docx"
+     },
+     {
+      "name": "チラシ",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/30_flyer.pdf"
+     }
+    ],
+    "howto": "記載様式は自由です。\n電子メール、ファクシミリ等でご意見を提出される場合は、様式例(ワード:318KB)をご利用いただけると幸いです。\n提出いただいたご意見等の内容確認のため、こちらから照会させていただく場合がありますので、住所(所在地)、氏名(団体名)、電話番号のご記入をお願いします。\n下記の提出先まで、電子メール、ファクシミリ、郵送又は直接持参により送付してください。なお、お電話でのご意見等の提出はできませんので、あしからずご了承ください。",
+    "contact": "まちづくり部 住宅政策課\n窓口:住宅政策班(計画・調整担当)\n電話番号:078-362-3581\n内線:75529\nFAX:078-362-9458\nEメール:jutakuseisaku@pref.hyogo.lg.jp\n同じカテゴリから探す\n住宅・空き家活用"
+   },
+   "tags": []
+  },
+  {
+   "id": "39c7b5ee62",
+   "pref": "兵庫県",
+   "title": "「ひょうご県営住宅整備・管理計画」の改定",
+   "url": "https://web.pref.hyogo.lg.jp/ks27/koeiseibi_kanrikeikaku_publiccomment.html",
+   "start": "2026-11-13",
+   "deadline": "2026-12-03",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "ひょうご県営住宅整備・管理計画の改定（主なポイント）",
+      "url": "https://web.pref.hyogo.lg.jp/ks27/documents/keikaku_point.pdf"
+     },
+     {
+      "name": "ひょうご県営住宅整備・管理計画（パブリック・コメント案）",
+      "url": "https://web.pref.hyogo.lg.jp/ks27/documents/keikaku_an.pdf"
+     },
+     {
+      "name": "この様式（ワード：51KB）",
+      "url": "https://web.pref.hyogo.lg.jp/ks27/documents/keikaku_youshiki.docx"
+     }
+    ],
+    "howto": "記載様式は自由です(よろしければこの様式(ワード:51KB)をご利用ください。)。\n提出いただいたご意見等の内容確認のため、こちらから照会させていただく場合がありますので、住所(所在地)、氏名(団体名)、電話番号のご記入をお願いします。\n下記の提出先まで、電子メール、Fax、郵送又は直接持参により提出してください。なお、お電話でのご意見等の提出はご遠慮いただいておりますのでご理解ください。",
+    "contact": "まちづくり部 公営住宅整備課\n窓口:計画班\n電話番号:078-230-8455\n内線:79583\nFAX:078-230-8466\nEメール:juutakuseibi@pref.hyogo.lg.jp\nおすすめ記事\n現在、おすすめ記事はありません"
+   },
+   "tags": []
+  },
+  {
    "id": "a472cfc5bd",
    "pref": "岡山県",
    "title": "岡山県立高等学校入学者選抜制度の改善(素案)",
@@ -2544,6 +2626,39 @@
    "tags": []
   },
   {
+   "id": "564d8e526c",
+   "pref": "北海道",
+   "title": "農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画 (第2期)(素案)に係る道民意見(パブリックコメント)の募集について",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/midori/272400.html",
+   "start": "2026-11-16",
+   "deadline": "2026-12-15",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "道民意見提出手続の意見募集要領",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/3/9/3/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%98(%E8%BE%B2%E6%9E%97%E6%BC%81%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%92%B0%E5%A2%83%E8%B2%A0%E8%8D%B7%E4%BD%8E%E6%B8%9B%E4%BA%8B%E6%A5%AD%E6%B4%BB%E5%8B%95%E3%81%AE%E4%BF%83%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB).pdf"
+     },
+     {
+      "name": "・農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画 （第２期）（素案）",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/2/1/5/_/%E3%80%90%E7%B4%A0%E6%A1%88%E3%80%91%E7%AC%AC2%E6%9C%9F%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB.pdf"
+     },
+     {
+      "name": "・農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画 （第２期）（素案）概要",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/2/1/6/_/%E3%80%90%E7%B4%A0%E6%A1%88%E3%81%AE%E6%A6%82%E8%A6%81%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB.pdf"
+     },
+     {
+      "name": "意見募集様式(農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画) (DOCX 20KB)",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/2/2/3/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E6%A7%98%E5%BC%8F(%E8%BE%B2%E6%9E%97%E6%BC%81%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%92%B0%E5%A2%83%E8%B2%A0%E8%8D%B7%E4%BD%8E%E6%B8%9B%E4%BA%8B%E6%A5%AD%E6%B4%BB%E5%8B%95%E3%81%AE%E4%BF%83%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB).docx"
+     }
+    ],
+    "howto": "農政部食の安全・みどりの農業推進局食品政策課",
+    "contact": "農政部食の安全・みどりの農業推進局食品政策課\n〒060-8588札幌市中央区北3条西6丁目\n電話:\n011-204-5427\nFax:\n011-232-7334\nお問い合わせフォーム\n2026年11月16日"
+   },
+   "tags": []
+  },
+  {
    "id": "2846d27f52",
    "pref": "沖縄県",
    "title": "「第7次沖縄県男女共同参画計画~DEIGOプラン~(案)」に対する 意見募集",
@@ -2567,6 +2682,22 @@
     "howto": "(1)意見書様式(WORDファイル)に、住所、氏名(団体・グループの場合は団体・グループ名)及び連絡先を記入してください。",
     "contact": "沖縄県 こども未来部 女性力・ダイバーシティ推進課\n〒900-8570 沖縄県那覇市泉崎1-2-2 行政棟3階(北側)\n電話:098-866-2500 ファクス:098-866-2589\nお問い合わせは専用フォームをご利用ください。"
    }
+  },
+  {
+   "id": "d8c4277ed5",
+   "pref": "福島県",
+   "title": "福島県商工業振興基本計画(中間見直し案)について",
+   "url": "https://www.pref.fukushima.lg.jp/sec/32011a/chukan-minaoshi.html",
+   "start": "2026-11-16",
+   "deadline": "2026-12-15",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [],
+    "howto": "下記6にある「県⺠意見提出書」、又は下記[県⺠意見提出書]の形式により、次に掲げるいずれかの方法で提出してください。\n(1)郵送\n(2)FAX\n(3)電子メール(題名を「福島県商工業振興基本計画(中間見直し案)に関する意見」としてください。)",
+    "contact": ""
+   },
+   "tags": []
   },
   {
    "id": "36562dccf7",
@@ -2631,6 +2762,38 @@
   "f737d1eaf4": "8886dccafd"
  },
  "pages": {
+  "https://www.pref.hokkaido.lg.jp/ns/shs/midori/272400.html": {
+   "id": "564d8e526c",
+   "pref": "北海道",
+   "title": "農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画 (第2期)(素案)に係る道民意見(パブリックコメント)の募集について",
+   "url": "https://www.pref.hokkaido.lg.jp/ns/shs/midori/272400.html",
+   "start": "2026-11-16",
+   "deadline": "2026-12-15",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "道民意見提出手続の意見募集要領",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/3/9/3/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%98(%E8%BE%B2%E6%9E%97%E6%BC%81%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%92%B0%E5%A2%83%E8%B2%A0%E8%8D%B7%E4%BD%8E%E6%B8%9B%E4%BA%8B%E6%A5%AD%E6%B4%BB%E5%8B%95%E3%81%AE%E4%BF%83%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB).pdf"
+     },
+     {
+      "name": "・農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画 （第２期）（素案）",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/2/1/5/_/%E3%80%90%E7%B4%A0%E6%A1%88%E3%80%91%E7%AC%AC2%E6%9C%9F%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB.pdf"
+     },
+     {
+      "name": "・農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画 （第２期）（素案）概要",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/2/1/6/_/%E3%80%90%E7%B4%A0%E6%A1%88%E3%81%AE%E6%A6%82%E8%A6%81%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB.pdf"
+     },
+     {
+      "name": "意見募集様式(農林漁業における環境負荷低減事業活動の促進に関する北海道基本計画) (DOCX 20KB)",
+      "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/2/4/5/2/2/3/_/%E6%84%8F%E8%A6%8B%E5%8B%9F%E9%9B%86%E6%A7%98%E5%BC%8F(%E8%BE%B2%E6%9E%97%E6%BC%81%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%92%B0%E5%A2%83%E8%B2%A0%E8%8D%B7%E4%BD%8E%E6%B8%9B%E4%BA%8B%E6%A5%AD%E6%B4%BB%E5%8B%95%E3%81%AE%E4%BF%83%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%8C%97%E6%B5%B7%E9%81%93%E5%9F%BA%E6%9C%AC%E8%A8%88%E7%94%BB).docx"
+     }
+    ],
+    "howto": "農政部食の安全・みどりの農業推進局食品政策課",
+    "contact": "農政部食の安全・みどりの農業推進局食品政策課\n〒060-8588札幌市中央区北3条西6丁目\n電話:\n011-204-5427\nFax:\n011-232-7334\nお問い合わせフォーム\n2026年11月16日"
+   }
+  },
   "https://www.pref.hokkaido.lg.jp/ns/shs/yuki/274600.html": {
    "id": "5729fda47a",
    "pref": "北海道",
@@ -3230,6 +3393,16 @@
    "deadline": null,
    "checked": "2026-11-16",
    "first_seen": "2026-10-20"
+  },
+  "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0006/": {
+   "id": "d881796fe9",
+   "pref": "北海道",
+   "title": "押印・書面規制・対面規制の見直し",
+   "url": "https://www.pref.hokkaido.lg.jp/sm/gms/a0002/b0006/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
   },
   "https://www.pref.hokkaido.lg.jp/kn/tki/258428.html": {
    "id": "6929b79180",
@@ -4608,6 +4781,21 @@
     "contact": ""
    }
   },
+  "https://www.pref.fukushima.lg.jp/sec/32011a/chukan-minaoshi.html": {
+   "id": "d8c4277ed5",
+   "pref": "福島県",
+   "title": "福島県商工業振興基本計画(中間見直し案)について",
+   "url": "https://www.pref.fukushima.lg.jp/sec/32011a/chukan-minaoshi.html",
+   "start": "2026-11-16",
+   "deadline": "2026-12-15",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [],
+    "howto": "下記6にある「県⺠意見提出書」、又は下記[県⺠意見提出書]の形式により、次に掲げるいずれかの方法で提出してください。\n(1)郵送\n(2)FAX\n(3)電子メール(題名を「福島県商工業振興基本計画(中間見直し案)に関する意見」としてください。)",
+    "contact": ""
+   }
+  },
   "http://www.pref.fukushima.jp/sec/16005d/kotsuanzenkeikaku12.html#177efb77ac": {
    "id": "5c1a671bc3",
    "pref": "福島県",
@@ -4637,6 +4825,16 @@
    "deadline": "2026-11-24",
    "checked": "2026-11-16",
    "first_seen": "2026-10-23"
+  },
+  "https://www.pref.fukushima.lg.jp/sec/32011a/chukan-minaoshi.html#9fe1cee7b7": {
+   "id": "263574044d",
+   "pref": "福島県",
+   "title": "福島県商工業振興基本計画(中間見直し案)について",
+   "url": "https://www.pref.fukushima.lg.jp/sec/32011a/chukan-minaoshi.html",
+   "start": "2026-11-16",
+   "deadline": "2026-12-15",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
   },
   "https://www.pref.fukushima.lg.jp/sec/16035a/eia-jyourei-kaisei.html#784eace142": {
    "id": "3ffe809419",
@@ -9004,6 +9202,28 @@
    "first_seen": "2026-11-16",
    "list": true
   },
+  "https://www.pref.ishikawa.lg.jp/syoko/iot/ai-iot_h30-2.html": {
+   "id": "1c6360353e",
+   "pref": "石川県",
+   "title": "AI・IoTを活用した業務効率化・省力化支援事業(2次公募)について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/iot/ai-iot_h30-2.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/jouhou/shouryokuka_ai_iot.html": {
+   "id": "57c7e7cf24",
+   "pref": "石川県",
+   "title": "AI・IoTを活用した業務効率化・省力化支援事業について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/jouhou/shouryokuka_ai_iot.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "list": true
+  },
   "https://www.pref.fukui.lg.jp/doc/kouho/pabukome/publicjissi2.html": {
    "id": "68b09f22a6",
    "pref": "福井県",
@@ -10621,6 +10841,276 @@
     "contact": "大阪府都市整備部住宅建築局居住企画課 住宅施策推進グループ\n電話番号:06-6210-9706\nファクシミリ番号:06-6210-9712\n都市整備部住宅建築局居住企画課住宅施策推進グループ"
    }
   },
+  "https://www.pref.osaka.lg.jp/o130080/dorokankyo/koutaikaigi/12zikoukeian_pub_re.html": {
+   "id": "eec0b56b22",
+   "pref": "大阪府",
+   "title": "「第12次大阪府交通安全計画(案)」に対する府民意見等の募集について",
+   "url": "https://www.pref.osaka.lg.jp/o130080/dorokankyo/koutaikaigi/12zikoukeian_pub_re.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o070050/fumin/public/seido.html": {
+   "id": "5a4e510b0c",
+   "pref": "大阪府",
+   "title": "あなたの意見でより良い暮らしに!パブリックコメント制度を活用しよう!",
+   "url": "https://www.pref.osaka.lg.jp/o070050/fumin/public/seido.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "list": true
+  },
+  "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/shikyuuninteijimu/index.html": {
+   "id": "8781b66ced",
+   "pref": "大阪府",
+   "title": "自立支援医療費(精神通院)支給認定事務に関する個人情報保護評価書",
+   "url": "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/shikyuuninteijimu/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/dokushokankyouseibi/index.html": {
+   "id": "d53e4f6919",
+   "pref": "大阪府",
+   "title": "大阪府視覚障がい者等の読書環境の整備の推進に関する計画(案)に対する府民意見等の募集",
+   "url": "https://www.pref.osaka.lg.jp/fuseiunei/kouchou/publiccomment/dokushokankyouseibi/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "list": true
+  },
+  "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/followup.html": {
+   "id": "24104bd58d",
+   "pref": "大阪府",
+   "title": "政策条例のフォローアップについて",
+   "url": "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/followup.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/giinkensyu.html": {
+   "id": "3d4b892fd9",
+   "pref": "大阪府",
+   "title": "議員研修会について",
+   "url": "https://www.pref.osaka.lg.jp/o170030/gikai_giji/kaikaku/giinkensyu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o170010/gikai_giji/toppage/privacy.html": {
+   "id": "81112595df",
+   "pref": "大阪府",
+   "title": "個人情報の取り扱いについて",
+   "url": "https://www.pref.osaka.lg.jp/o170010/gikai_giji/toppage/privacy.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/tyuukannminaoshi.html": {
+   "id": "7012b3b8bb",
+   "pref": "大阪府",
+   "title": "「大阪府国民健康保険運営方針」の中間見直し",
+   "url": "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/tyuukannminaoshi.html",
+   "start": "2026-10-06",
+   "deadline": "2026-11-06",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "新旧対照表（ワード：1,663KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/00sinkyu.docx"
+     },
+     {
+      "name": "新旧対照表",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/00sinkyu.pdf"
+     },
+     {
+      "name": "参考（ワード：827KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/01soan.docx"
+     },
+     {
+      "name": "参考",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/01soan.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：44KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/ikenyoushi.doc"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.osaka.lg.jp/documents/139388/ikenyoushi.pdf"
+     }
+    ],
+    "howto": "※ご意見の募集は終了しました\nインターネット(電子申請)の場合\n大阪府行政オンラインシステム(外部サイトへリンク)(別ウィンドウで開きます)から提出してください。\nインターネットがご利用になれない場合\n意見提出様式(ワード:44KB) 意見提出様式(PDF:119KB)により、郵便又はファクシミリのいずれかで提出してください。\n≪郵便の場合≫\n〒540-8570 大阪市中央区大手前2丁目\n大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループあて\n≪ファクシミリの場合≫\nファクシミリ番号 06-6944-6684\n大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループあて\n※障がいのある方などで、上記方法によるご意見等の提出が困難な場合は、個別にお問い合わせください。",
+    "contact": "大阪府 健康医療部 健康推進室 国民健康保険課 事業推進グループ\n電話 06-6944-7049(直通)\nファクシミリ番号 06-6944-6684\n健康医療部健康推進室国民健康保険課事業推進グループ"
+   }
+  },
+  "https://www.pref.osaka.lg.jp/o140020/sokei/tochiriyou_keikaku/public_comment.html": {
+   "id": "d0bbb71ebd",
+   "pref": "大阪府",
+   "title": "「大阪府土地利用基本計画」の改定(素案)",
+   "url": "https://www.pref.osaka.lg.jp/o140020/sokei/tochiriyou_keikaku/public_comment.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o130210/ju_keikan/huminiken2026.html": {
+   "id": "72c0e24c72",
+   "pref": "大阪府",
+   "title": "「大阪府営住宅ストック総合活用計画(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o130210/ju_keikan/huminiken2026.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o130160/kyojyu/kyojyuanteikakuho/kyojyuanteikakuhokeikaku.html": {
+   "id": "f4855c7a1e",
+   "pref": "大阪府",
+   "title": "「大阪府居住安定確保計画(「大阪府賃貸住宅供給促進計画」及び「大阪府高齢者居住安定確保計画」)(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o130160/kyojyu/kyojyuanteikakuho/kyojyuanteikakuhokeikaku.html",
+   "start": "2026-09-17",
+   "deadline": "2026-10-19",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "大阪府居住安定確保計画（案）の改定の概要（PPT：149KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/04_kaiteinogaiyou_1.pptx"
+     },
+     {
+      "name": "資料",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/04_kaiteinogaiyou.pdf"
+     },
+     {
+      "name": "大阪府居住安定確保計画（案）の改定の概要（読み上げ用）（ワード：19KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/05_gaiyoutext.docx"
+     },
+     {
+      "name": "大阪府居住安定確保計画（案）本文（ワード：9,207KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/06_kyozyuanteikakuhokeikaku.docx"
+     },
+     {
+      "name": "資料",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/06_kyozyuanteikakuhokeikaku.pdf"
+     },
+     {
+      "name": "意見書提出様式（ワード：40KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/07_iken_yoshiki.doc"
+     },
+     {
+      "name": "資料",
+      "url": "https://www.pref.osaka.lg.jp/documents/138038/07_iken_yoshiki.pdf"
+     }
+    ],
+    "howto": "ご意見等の募集は終了いたしました。\n〇インターネット(電子申請)の場合\n大阪府行政オンラインシステムからご提出ください\n電子申請はコチラ(外部サイトへリンク)\n〇インターネットがご利用になれない場合\n意見書提出様式(ワード:40KB)、(PDF:91KB)により、郵送かファクシミリでご提出ください。\n《郵送の場合》\n〒559ー8555\n大阪府大阪市住之江区南港北1-14-16咲洲庁舎27階\n大阪府都市整備部住宅建築局居住企画課住宅施策推進グループあて\n《ファクシミリの場合》\nファクシミリ06-6210-9712大阪府都市整備部住宅建築局居住企画課住宅施策推進グループあて",
+    "contact": "大阪府都市整備部住宅建築局居住企画課住宅施策推進グループ\n電話06-6210-9707(直通)\nファクシミリ番号06-6210-9712\n都市整備部住宅建築局居住企画課住宅施策推進グループ"
+   }
+  },
+  "https://www.pref.osaka.lg.jp/o130160/kenso/sumauvision/visionr82.html": {
+   "id": "37a66a51ea",
+   "pref": "大阪府",
+   "title": "「住まうビジョン・大阪(「大阪府住生活基本計画」)(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o130160/kenso/sumauvision/visionr82.html",
+   "start": "2026-09-17",
+   "deadline": "2026-10-19",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "「住まうビジョン・大阪（「大阪府住生活基本計画」）（案）」概要",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/gaiyo.pdf"
+     },
+     {
+      "name": "「住まうビジョン・大阪（「大阪府住生活基本計画」）（案）」概要 （PPT：206KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/gaiyo.pptx"
+     },
+     {
+      "name": "「住まうビジョン・大阪（「大阪府住生活基本計画」）（案）」概要読み上げ用（ワード：21KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/gaiyoutext.docx"
+     },
+     {
+      "name": "「住まうビジョン・大阪（「大阪府住生活基本計画」）（案）」",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/honbun.pdf"
+     },
+     {
+      "name": "「住まうビジョン・大阪（「大阪府住生活基本計画」）（案）」（ワード：18,450KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/honbun.docx"
+     },
+     {
+      "name": "意見提出様式（ワード：46KB）",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/iken_yoshiki.doc"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.osaka.lg.jp/documents/138429/iken_yoshiki.pdf"
+     }
+    ],
+    "howto": "インターネット(電子申請)の場合\n大阪府行政オンラインシステムからご提出ください。\nご意見等の募集終了に伴い、リンクを削除しました。\nインターネットがご利用になれない場合\n意見提出様式により、郵便かファクシミリでご提出ください。\n意見提出様式(ワード:46KB) 意見提出様式(PDF:82KB)\n<郵便の場合>\n〒559-8555\n大阪市住之江区南港北1-14-16 大阪府咲洲庁舎27階\n大阪府都市整備部住宅建築局居住企画課 住宅企画グループ あて\n<ファクシミリの場合>\nファクシミリ番号:06-6210-9712 大阪府都市整備部住宅建築局居住企画課 住宅企画グループ あて",
+    "contact": "大阪府都市整備部住宅建築局居住企画課 住宅企画グループ\n電話番号:06-6210-9703(直通)\nファクシミリ番号:06-6210-9712\n都市整備部住宅建築局居住企画課住宅企画グループ"
+   }
+  },
+  "https://www.pref.osaka.lg.jp/o020090/kikikanri/kokuminnhogo/pabulic_comment_result.html": {
+   "id": "967f057fc4",
+   "pref": "大阪府",
+   "title": "「大阪府国民保護計画変更(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o020090/kikikanri/kokuminnhogo/pabulic_comment_result.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o180160/shigaku/index.html": {
+   "id": "2c5031f2cb",
+   "pref": "大阪府",
+   "title": "「大阪府私立専修学校・各種学校設置認可等に関する審査基準」",
+   "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o180160/shigaku/youchien/shinnsakijyunn_1.html": {
+   "id": "ce80536779",
+   "pref": "大阪府",
+   "title": "「大阪府私立幼稚園の設置認可等に関する審査基準」",
+   "url": "https://www.pref.osaka.lg.jp/o180160/shigaku/youchien/shinnsakijyunn_1.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o070070/toshimiryoku/toshimiryokusen/senryaku2030kekka.html": {
+   "id": "53ce719b39",
+   "pref": "大阪府",
+   "title": "「大阪都市魅力創造戦略2030(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o070070/toshimiryoku/toshimiryokusen/senryaku2030kekka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
+  "https://www.pref.osaka.lg.jp/o140030/daitoshimachi/yume-saki/publiccomment3-kekka.html": {
+   "id": "3c77777623",
+   "pref": "大阪府",
+   "title": "「夢洲第2期区域マスタープランVer.3.0(案)」",
+   "url": "https://www.pref.osaka.lg.jp/o140030/daitoshimachi/yume-saki/publiccomment3-kekka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
   "https://web.pref.hyogo.lg.jp/sr13/tabunka_pc.html": {
    "id": "b80e96180d",
    "pref": "兵庫県",
@@ -10649,25 +11139,85 @@
     "contact": "産業労働部国際局国際課\n窓口:地域国際化班\n電話番号:078-341-7711\nFAX:078-362-3961\nEメール:kokusaika@pref.hyogo.lg.jp\n同じカテゴリから探す\n外国人県民の暮らし\n「ひょうご多文化共生社会推進指針(案)」へのパブリック・コメントの実施"
    }
   },
-  "https://web.pref.hyogo.lg.jp/ks27/wd28_000000006.html": {
-   "id": "05c9be30a8",
+  "https://web.pref.hyogo.lg.jp/ks27/koeiseibi_kanrikeikaku_publiccomment.html": {
+   "id": "39c7b5ee62",
    "pref": "兵庫県",
    "title": "「ひょうご県営住宅整備・管理計画」の改定",
-   "url": "https://web.pref.hyogo.lg.jp/ks27/wd28_000000006.html",
-   "start": null,
-   "deadline": null,
+   "url": "https://web.pref.hyogo.lg.jp/ks27/koeiseibi_kanrikeikaku_publiccomment.html",
+   "start": "2026-11-13",
+   "deadline": "2026-12-03",
    "checked": "2026-11-16",
-   "first_seen": "2026-11-13"
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "ひょうご県営住宅整備・管理計画の改定（主なポイント）",
+      "url": "https://web.pref.hyogo.lg.jp/ks27/documents/keikaku_point.pdf"
+     },
+     {
+      "name": "ひょうご県営住宅整備・管理計画（パブリック・コメント案）",
+      "url": "https://web.pref.hyogo.lg.jp/ks27/documents/keikaku_an.pdf"
+     },
+     {
+      "name": "この様式（ワード：51KB）",
+      "url": "https://web.pref.hyogo.lg.jp/ks27/documents/keikaku_youshiki.docx"
+     }
+    ],
+    "howto": "記載様式は自由です(よろしければこの様式(ワード:51KB)をご利用ください。)。\n提出いただいたご意見等の内容確認のため、こちらから照会させていただく場合がありますので、住所(所在地)、氏名(団体名)、電話番号のご記入をお願いします。\n下記の提出先まで、電子メール、Fax、郵送又は直接持参により提出してください。なお、お電話でのご意見等の提出はご遠慮いただいておりますのでご理解ください。",
+    "contact": "まちづくり部 公営住宅整備課\n窓口:計画班\n電話番号:078-230-8455\n内線:79583\nFAX:078-230-8466\nEメール:juutakuseibi@pref.hyogo.lg.jp\nおすすめ記事\n現在、おすすめ記事はありません"
+   }
   },
-  "https://web.pref.hyogo.lg.jp/ks26/jyuseikatsu.html": {
-   "id": "b4c312d86f",
+  "https://web.pref.hyogo.lg.jp/ks26/jyuseikatsu-r9_pc.html": {
+   "id": "c02f6ebbad",
    "pref": "兵庫県",
    "title": "住生活基本計画(兵庫県計画)の改定",
-   "url": "https://web.pref.hyogo.lg.jp/ks26/jyuseikatsu.html",
-   "start": null,
-   "deadline": null,
+   "url": "https://web.pref.hyogo.lg.jp/ks26/jyuseikatsu-r9_pc.html",
+   "start": "2026-11-13",
+   "deadline": "2026-12-03",
    "checked": "2026-11-16",
-   "first_seen": "2026-11-13"
+   "first_seen": "2026-11-16",
+   "detail": {
+    "files": [
+     {
+      "name": "住生活基本計画（兵庫県計画）案（概要）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/11_ju-plan_abstract.pdf"
+     },
+     {
+      "name": "住生活基本計画（兵庫県計画）案（本文）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/12_ju-plan_main.pdf"
+     },
+     {
+      "name": "住宅関連用語集",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/21_words.pdf"
+     },
+     {
+      "name": "諮問文",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/22_consultation.pdf"
+     },
+     {
+      "name": "兵庫県住宅審議会委員名簿",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/23_comissioners-list.pdf"
+     },
+     {
+      "name": "住生活基本法",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/24_law_housing.pdf"
+     },
+     {
+      "name": "住生活基本計画（全国計画）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/25_ju-plan_national.pdf"
+     },
+     {
+      "name": "様式例（ワード：318KB）",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/40_iken-form.docx"
+     },
+     {
+      "name": "チラシ",
+      "url": "https://web.pref.hyogo.lg.jp/ks26/documents/30_flyer.pdf"
+     }
+    ],
+    "howto": "記載様式は自由です。\n電子メール、ファクシミリ等でご意見を提出される場合は、様式例(ワード:318KB)をご利用いただけると幸いです。\n提出いただいたご意見等の内容確認のため、こちらから照会させていただく場合がありますので、住所(所在地)、氏名(団体名)、電話番号のご記入をお願いします。\n下記の提出先まで、電子メール、ファクシミリ、郵送又は直接持参により送付してください。なお、お電話でのご意見等の提出はできませんので、あしからずご了承ください。",
+    "contact": "まちづくり部 住宅政策課\n窓口:住宅政策班(計画・調整担当)\n電話番号:078-362-3581\n内線:75529\nFAX:078-362-9458\nEメール:jutakuseisaku@pref.hyogo.lg.jp\n同じカテゴリから探す\n住宅・空き家活用"
+   }
   },
   "https://web.pref.hyogo.lg.jp/nk16/r8kukakugyojyokeikakuhenkousakutei.html": {
    "id": "c9996d34cc",
@@ -12587,6 +13137,16 @@
    "checked": "2026-11-16",
    "first_seen": "2026-09-29"
   },
+  "https://www.pref.kumamoto.jp/soshiki/85/270939.html#8d646be379": {
+   "id": "4267da90b7",
+   "pref": "熊本県",
+   "title": "熊本県農業振興地域整備基本方針(変更案)に関する意見募集について",
+   "url": "https://www.pref.kumamoto.jp/soshiki/85/270939.html",
+   "start": "2026-07-28",
+   "deadline": "2026-08-26",
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
+  },
   "https://www.pref.kumamoto.jp/soshiki/54/87654.html#d269e7ec49": {
    "id": "4607ecb6b7",
    "pref": "熊本県",
@@ -12594,7 +13154,7 @@
    "url": "https://www.pref.kumamoto.jp/soshiki/54/87654.html",
    "start": "2027-05-01",
    "deadline": "2027-05-30",
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "first_seen": "2026-10-29"
   },
   "https://www.pref.kumamoto.jp/soshiki/54/94639.html#3c2133d2d7": {
@@ -12604,8 +13164,18 @@
    "url": "https://www.pref.kumamoto.jp/soshiki/54/94639.html",
    "start": "2027-04-30",
    "deadline": "2027-05-29",
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "first_seen": "2026-09-29"
+  },
+  "https://www.pref.kumamoto.jp/soshiki/85/270939.html": {
+   "id": "33f8aae5b2",
+   "pref": "熊本県",
+   "title": "熊本県農業振興地域整備基本方針(変更案)に関する意見募集について",
+   "url": "https://www.pref.kumamoto.jp/soshiki/85/270939.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-16",
+   "first_seen": "2026-11-16"
   },
   "https://www.pref.oita.jp/life/sub/1/": {
    "id": "a0d7851a8a",
