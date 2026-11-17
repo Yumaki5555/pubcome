@@ -1,29 +1,7 @@
 {
- "updated": "2026-11-17T13:19+09:00",
+ "updated": "2026-11-18T08:08+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "155261226",
-   "title": "「性能評価センター機械施設保全業務における民間競争入札実施要項（案）」に係る意見募集について",
-   "category": "航空",
-   "ministry": "国土交通省",
-   "published": "2026-08-05T23:59:00+09:00",
-   "deadline": "2026-08-19T17:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261226&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "195260042",
-   "title": "小型家電リサイクル制度の施行状況の評価・検討に関する報告書（案）（パブリックコメント）について",
-   "category": "環境保全",
-   "ministry": "環境省",
-   "published": "2026-07-21T23:59:00+09:00",
-   "deadline": "2026-08-20T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260042&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "495260126",
    "title": "「ＯＴＣ類似薬の保険給付の見直しの実施に向けた中間とりまとめ」に関する意見公募の実施について",
@@ -11650,36 +11628,6 @@
    }
   },
   {
-   "id": "495260251",
-   "title": "がん登録等の推進に関する法律施行規則の一部を改正する省令案に関する御意見の募集について",
-   "category": "厚生",
-   "ministry": "厚生労働省",
-   "published": "2026-11-05T23:59:00+09:00",
-   "deadline": "2026-12-04T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260251&Mode=0",
-   "first_seen": "2026-11-05",
-   "tags": [],
-   "detail": {
-    "rule_name": "がん登録等の推進に関する法律施行規則の一部を改正する省令",
-    "law": "がん登録推進法第５条第１項第10号",
-    "guide_files": [
-     {
-      "name": "意見公募要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323647"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "概要",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323648"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "厚生労働省健康・生活衛生局がん・疾病対策課"
-   }
-  },
-  {
    "id": "595320121",
    "title": "情報処理の促進に関する法律施行令の一部を改正する政令（案）に対する意見募集について",
    "category": "IT社会化推進",
@@ -11780,6 +11728,36 @@
     ],
     "note": "",
     "contact": "海事局海洋・環境政策課"
+   }
+  },
+  {
+   "id": "495260251",
+   "title": "がん登録等の推進に関する法律施行規則の一部を改正する省令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-05T23:59:00+09:00",
+   "deadline": "2026-12-05T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260251&Mode=0",
+   "first_seen": "2026-11-05",
+   "tags": [],
+   "detail": {
+    "rule_name": "がん登録等の推進に関する法律施行規則の一部を改正する省令",
+    "law": "がん登録推進法第５条第１項第10号",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323647"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323648"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省健康・生活衛生局がん・疾病対策課"
    }
   },
   {
@@ -13116,6 +13094,41 @@
     "other_files": [],
     "note": "",
     "contact": "環境省水・大気環境局環境管理課水道水質・衛生管理室"
+   }
+  },
+  {
+   "id": "155261036",
+   "title": "船舶安全法施行規則の一部を改正する省令案に関する意見募集について",
+   "category": "海運",
+   "ministry": "国土交通省",
+   "published": "2026-11-18T23:59:00+09:00",
+   "deadline": "2026-12-17T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261036&Mode=0",
+   "first_seen": "2026-11-18",
+   "tags": [],
+   "detail": {
+    "rule_name": "船舶安全法施行規則の一部を改正する省令",
+    "law": "船舶安全法（昭和８年法律第11号）第10条ノ３",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324196"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324197"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324198"
+     }
+    ],
+    "note": "",
+    "contact": "国土交通省海事局内航課"
    }
   },
   {
