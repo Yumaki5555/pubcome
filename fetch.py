@@ -187,11 +187,17 @@ def main():
         source = "list"
     except Exception as e:  # 一覧ページが取れないときは RSS で補う
         print(f"一覧ページの取得に失敗しました（{e}）。RSSで代わりに取得します。", file=sys.stderr)
-        fetched = fetch_rss()
+        try:
+            fetched = fetch_rss()
+        except Exception as e2:  # RSS も取れないとき（e-Gov に一時的に拒否されたときなど）
+            print(f"RSSの取得にも失敗しました（{e2}）。", file=sys.stderr)
+            fetched = []
         source = "rss"
     if not fetched:
-        print("案件を1件も取得できませんでした。前回のデータをそのまま使います。", file=sys.stderr)
-        return 1
+        # ここで失敗として終わると、毎朝の手順の後ろ（都道府県・市区町村の見回り）まで止まってしまう。
+        # 国の分は前回のデータを書き換えずにそのまま使い、正常終了にして後ろの手順を続けさせる。
+        print("::warning::国のパブコメを1件も取得できませんでした。国の分は前回のデータをそのまま使います。", file=sys.stderr)
+        return 0
 
     today = now_jst().date().isoformat()
     merged = dict(old)
