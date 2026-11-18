@@ -103,6 +103,7 @@ def main():
         if summaries.get(it["id"]):
             it["summary"] = summaries[it["id"]]
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
+        it["reply"] = ui.reply_text(it.get("summary"))
         it["page"] = summary_path(it)
     counts = ui.level_counts()
     ui.write_shared(counts)
@@ -117,7 +118,7 @@ def main():
             "id": it["id"], "t": title, "o": it["title"] if it["title"] != title else "",
             "body": it["ministry"], "cat": it.get("category") or "",
             "since": (it.get("published") or "")[:10], "dl": day, "time": clock,
-            "url": it["url"], "page": it["page"], "share": it["share"],
+            "url": it["url"], "page": it["page"], "share": it["share"], "reply": it["reply"],
             "gist": gist, "pts": points, "tags": it["tags"],
         })
     payload = {
@@ -221,7 +222,7 @@ def build_summary_pages(items, tag_defs, config):
             files=files_html or '<p>資料はe-Govのページでご確認ください。</p>',
             extra=extra,
             contact=e(det.get("contact", "")).replace("\n", "<br>") or "e-Govのページでご確認ください。",
-            source=source, share=it["share"],
+            source=source, share=it["share"], reply=it["reply"],
         )
         (out / f"{it['id']}.html").write_text(page, encoding="utf-8")
 

@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import ui
-from build import load_plain_titles, share_text
+from build import load_plain_titles, load_summaries, share_text
 from ui import effective_deadline
 
 HERE = Path(__file__).parent
@@ -51,12 +51,14 @@ def main():
     new_since = (now - timedelta(days=NEW_DAYS)).isoformat()
     is_new = lambda it: (it.get("published") or "") >= new_since
     plain = load_plain_titles()
+    summaries = load_summaries()
     for it in open_items:
         if it["id"] in plain:
             it["plain"] = plain[it["id"]]
+    reply = lambda it: ui.reply_text(summaries.get(it["id"]))   # 返信用の要約（なければ空）
     focus = [it for it in open_items if it["tags"]]
 
-    posts = []  # (見出し, 本文, 関係する締切日：投稿文ページで、締切が過ぎたものを隠すのに使う)
+    posts = []  # (見出し, 本文, 関係する締切日：投稿文ページで、締切が過ぎたものを隠すのに使う[, 返信用の要約])
 
     # 1) 毎日のまとめ
     posts.append(("今日のまとめ", (
@@ -69,11 +71,11 @@ def main():
     # 2) 注目テーマの新着（1件ごとの定型文）
     hashtag_of = {t["name"]: t["hashtag"] for t in tag_defs}
     for it in sorted([it for it in focus if is_new(it)], key=lambda it: it["published"], reverse=True):
-        posts.append((f"新着｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of, site), last_day(it)))
+        posts.append((f"新着｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of, site), last_day(it), reply(it)))
 
     # 3) 注目テーマの締切間近（1件ごとの定型文）
     for it in sorted([it for it in focus if days_left(it) <= CLOSING_DAYS], key=lambda it: it["deadline"]):
-        posts.append((f"締切間近｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of, site), last_day(it)))
+        posts.append((f"締切間近｜{'・'.join(it['tags'])}", share_text(it, main_tag, hashtag_of, site), last_day(it), reply(it)))
 
     # 4) 注目テーマごとの紹介
     for t in tag_defs:
@@ -92,8 +94,10 @@ def main():
 
 def write_outputs(posts, updated, config):
     txt = [f"X投稿文（{updated[:16].replace('T', ' ')} 更新）", ""]
-    for i, (label, body, _) in enumerate(posts, 1):
+    for i, (label, body, _, *rest) in enumerate(posts, 1):
         txt += [f"===== {i}. {label}（{length(body)}/{LIMIT}字） =====", body, ""]
+        if rest and rest[0]:
+            txt += [f"----- 返信用の要約（{length(rest[0])}/{LIMIT}字） -----", rest[0], ""]
     (HERE / "posts.txt").write_text("\n".join(txt), encoding="utf-8")
 
     page = ui.posts_page(posts, level="national", updated=updated, counts=ui.level_counts(), length=length, limit=LIMIT)

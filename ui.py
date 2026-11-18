@@ -107,6 +107,28 @@ def split_summary(summary):
     return head, points
 
 
+def reply_text(summary, limit=140):
+    """X投稿の返信に使う「かんたん要約」の文章（140字以内）。要約がなければ空。
+    1行目のひとことを入れ、箇条書きは入るところまで入れる（途中で切れるものは「…」で終える）。"""
+    head, points = split_summary(summary)
+    if not head and not points:
+        return ""
+    text = "📝かんたん要約"
+    if head:
+        room = limit - len(text) - 1
+        text += "\n" + (head if len(head) <= room else head[:room - 1] + "…")
+    for x in points:
+        line = "\n・" + x
+        if len(text) + len(line) <= limit:
+            text += line
+            continue
+        room = limit - len(text) - 3          # 「改行・」と「…」のぶん
+        if room >= 12:
+            text += "\n・" + x[:room] + "…"
+        break
+    return text
+
+
 def summary_block(summary, source):
     """案件ページの「どんな案？」欄。要約がなければ空。"""
     head, points = split_summary(summary)
@@ -197,6 +219,14 @@ SHARE_DIALOG = """<dialog id="share-dialog" class="share-dlg" aria-labelledby="s
 </div>
 <p class="copy-msg" id="share-msg" role="status" aria-live="polite"></p>
 <p class="note">Xの画面が開かないときは「文章をコピー」を押して、Xアプリに貼り付けてください。</p>
+<div id="reply-box" class="reply-box" hidden>
+<h3>返信用の要約</h3>
+<p class="note">投稿したあと、自分の投稿に「返信」としてこの文章を貼り付けると、要約を続けて載せられます。</p>
+<label class="sr" for="reply-text">返信用の要約</label>
+<textarea id="reply-text" rows="6" readonly></textarea>
+<button type="button" class="btn outline" id="reply-copy">要約をコピー</button>
+<p class="copy-msg" id="reply-msg" role="status" aria-live="polite"></p>
+</div>
 <button type="button" class="btn ghost" id="share-close">閉じる</button>
 </div>
 </dialog>
@@ -423,6 +453,9 @@ dialog.share-dlg::backdrop{background:rgba(0,0,0,.5)}
   line-height:1.6;resize:vertical;background:var(--soft);color:var(--ink)}
 .dlg-btns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .copy-msg{min-height:1.5em;margin:8px 0 0;font-weight:700;color:var(--bronze-dk)}
+.reply-box{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.reply-box h3{font-size:1.0625rem;margin:0 0 4px}
+.reply-box .btn{width:100%}
 .dlg-in .ghost{width:100%;margin-top:10px}
 .totop{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:20;width:56px;height:56px;padding:0;
   border:1.5px solid var(--btn-line);border-radius:50%;background:var(--card);color:var(--brown);font:inherit;font-size:.875rem;font-weight:700;line-height:1.2;
@@ -438,6 +471,8 @@ dialog.share-dlg::backdrop{background:rgba(0,0,0,.5)}
   border-radius:10px;padding:10px 12px}
 .post .dlg-btns{margin-top:4px}
 .post.gone{background:var(--soft)}
+.post h3.reply-h{font-size:1rem;margin:14px 0 6px}
+.post h3.reply-h small{font-weight:400;color:var(--sub);margin-left:6px}
 """
 
 
@@ -499,8 +534,12 @@ const PC = (() => {
   const dlg = document.getElementById('share-dialog');
   const box = document.getElementById('share-text');
   const msg = document.getElementById('share-msg');
-  function openShare(text){
+  const rbox = document.getElementById('reply-box');
+  const rtext = document.getElementById('reply-text');
+  const rmsg = document.getElementById('reply-msg');
+  function openShare(text, reply){
     box.value = text; box.scrollTop = 0; msg.textContent = '';
+    if (rbox) { rbox.hidden = !reply; rtext.value = reply || ''; rtext.scrollTop = 0; rmsg.textContent = ''; }
     if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
     document.getElementById('share-post').focus();
   }
@@ -522,6 +561,10 @@ const PC = (() => {
     document.getElementById('share-copy').onclick = () => copyText(box.value).then(ok => {
       msg.textContent = ok ? 'コピーしました。Xアプリなどに貼り付けてください。' : 'コピーできませんでした。上の文章を長押し（または選択）してコピーしてください。';
       if (!ok) { box.focus(); box.select(); }
+    });
+    if (rbox) document.getElementById('reply-copy').onclick = () => copyText(rtext.value).then(ok => {
+      rmsg.textContent = ok ? 'コピーしました。自分の投稿の「返信」に貼り付けてください。' : 'コピーできませんでした。上の文章を長押し（または選択）してコピーしてください。';
+      if (!ok) { rtext.focus(); rtext.select(); }
     });
     document.getElementById('share-close').onclick = closeShare;
     dlg.addEventListener('click', e => { if (e.target === dlg) closeShare(); });
@@ -917,7 +960,7 @@ LIST_JS = r"""
   document.addEventListener('click', e => { if (e.target.closest('[data-clear]')) clearAll(); });
   list.addEventListener('click', e => {
     const b = e.target.closest('button.share'); if (!b) return;
-    const i = byId[b.dataset.id]; if (i) PC.openShare(i.share);
+    const i = byId[b.dataset.id]; if (i) PC.openShare(i.share, i.reply);
   });
   moreBtn.onclick = () => {
     const first = shown; shown += PAGE; render();
@@ -1030,7 +1073,7 @@ __ASSET_JS__
     const s = document.getElementById('submit');
     if (s) s.innerHTML = '公式ページを見る<small>受付は終了しています</small>';
   } else {
-    share.onclick = () => PC.openShare(M.share);
+    share.onclick = () => PC.openShare(M.share, M.reply);
   }
   // 「検索結果に戻る」：一覧で最後に使った検索条件のページへ戻る（一覧から来たときは、見ていた位置にも戻る）
   const saved = PC.ss.get('pubcome:list:' + M.level);
@@ -1049,13 +1092,13 @@ __ASSET_JS__
 
 
 def detail_page(*, level, root, title, og_title, desc, page_url, who, official, deadline_text, dl, time,
-                submit_url, submit_note, themes, summary, howto, files, extra, contact, source, share):
+                submit_url, submit_note, themes, summary, howto, files, extra, contact, source, share, reply=""):
     """案件ごとのページ（スマホ用まとめ）の HTML を作る。"""
     submit = ""
     if submit_url:
         submit = (f'<a class="btn primary" id="submit" href="{esc(submit_url)}" target="_blank" rel="noopener">'
                   f'意見を提出する<small>{esc(submit_note)}</small></a>')
-    meta = {"level": level, "dl": dl, "time": time, "share": share}
+    meta = {"level": level, "dl": dl, "time": time, "share": share, "reply": reply}
     page = DETAIL_TEMPLATE
     for key, value in {
         "__ROOT__": root, "__ASSET_CSS__": asset_tags(root)[0], "__ASSET_JS__": asset_tags(root)[1],
@@ -1120,18 +1163,19 @@ __ASSET_JS__
   document.querySelectorAll('.post[data-dl]').forEach(sec => {
     if (PC.days(sec.dataset.dl) < 0) {
       sec.classList.add('gone');
-      sec.querySelector('pre').hidden = true;
-      sec.querySelector('.dlg-btns').hidden = true;
+      sec.querySelectorAll('pre, .dlg-btns, .reply-h').forEach(x => { x.hidden = true; });
       sec.insertAdjacentHTML('beforeend', '<p class="note">締切が過ぎたため、この投稿文は隠しています（次の更新で作り直されます）。</p>');
     }
   });
   document.addEventListener('click', e => {
     const b = e.target.closest('[data-act]'); if (!b) return;
-    const text = b.closest('.post').querySelector('pre').textContent;
+    const reply = b.dataset.act === 'copy-reply';
+    const text = b.closest('.post').querySelector(reply ? 'pre.reply' : 'pre').textContent;
     if (b.dataset.act === 'post') { shareX(text); return; }
+    const label = b.textContent;
     PC.copyText(text).then(ok => {
       b.textContent = ok ? 'コピーしました' : 'コピーできませんでした（文章を長押ししてコピー）';
-      setTimeout(() => { b.textContent = '文章をコピー'; }, 2500);
+      setTimeout(() => { b.textContent = label; }, 2500);
     });
   });
 })();
@@ -1142,16 +1186,24 @@ __ASSET_JS__
 
 
 def posts_page(posts, *, level, updated, counts, length, limit):
-    """X投稿文ページの HTML を作る。posts は (見出し, 本文, 関係する締切日 'YYYY-MM-DD' または '') のリスト。"""
+    """X投稿文ページの HTML を作る。posts は (見出し, 本文, 関係する締切日 'YYYY-MM-DD' または ''[, 返信用の要約]) のリスト。"""
     root = "" if level == "national" else "../"
     cards = []
-    for label, body, dl in posts:
+    for label, body, dl, *rest in posts:
+        reply = rest[0] if rest else ""
         attr = f' data-dl="{esc(dl)}"' if dl else ""
+        extra = ""
+        if reply:
+            extra = (f'<h3 class="reply-h">↳ 返信用の要約<small>{length(reply)}/{limit}字</small></h3>'
+                     '<p class="note reply-h">投稿したあと、自分の投稿に「返信」として貼り付けてください。</p>'
+                     f'<pre class="reply">{esc(reply)}</pre>'
+                     '<div class="dlg-btns"><button type="button" class="btn outline" data-act="copy-reply">要約をコピー</button></div>')
         cards.append(
             f'<section class="post"{attr}><h2>{esc(label)}<small>{length(body)}/{limit}字</small></h2>'
             f'<pre>{esc(body)}</pre>'
             '<div class="dlg-btns"><button type="button" class="btn primary" data-act="post">Xで投稿する</button>'
-            '<button type="button" class="btn outline" data-act="copy">文章をコピー</button></div></section>')
+            '<button type="button" class="btn outline" data-act="copy">文章をコピー</button></div>'
+            f'{extra}</section>')
     tabs = []
     for key, name, path, _ in LEVELS:
         cur = ' aria-current="page"' if key == level else ""

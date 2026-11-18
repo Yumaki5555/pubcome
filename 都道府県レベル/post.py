@@ -36,6 +36,8 @@ def main(base=HERE):
     excluded = json.loads((base / "exclude.json").read_text(encoding="utf-8")) if (base / "exclude.json").exists() else {}
     items = [it for it in data["items"] if it["deadline"] >= today.isoformat() and it["id"] not in excluded]
     plain = pref_build.load_plain_titles()
+    summaries = pref_build.load_summaries(base)
+    reply = lambda it: ui.reply_text(summaries.get(it["id"]))   # 返信用の要約（なければ空）
     for it in items:
         if it["id"] in plain:
             it["plain"] = plain[it["id"]]
@@ -44,7 +46,7 @@ def main(base=HERE):
     is_new = lambda it: (it.get("start") or it.get("first_seen") or "") >= new_since
     share = lambda it: pref_build.share_text(it, main_tag, hashtag_of, site)
 
-    posts = []  # (見出し, 本文, 関係する締切日：投稿文ページで、締切が過ぎたものを隠すのに使う)
+    posts = []  # (見出し, 本文, 関係する締切日：投稿文ページで、締切が過ぎたものを隠すのに使う[, 返信用の要約])
 
     # 1) 毎日のまとめ
     n_area = len({it["pref"] for it in items})
@@ -58,12 +60,12 @@ def main(base=HERE):
     # 2) 新着（1件ごとの定型文）
     for it in sorted([it for it in items if is_new(it)], key=lambda it: it.get("start") or "", reverse=True):
         label = "・".join(it["tags"]) or it["pref"]
-        posts.append((f"新着｜{label}", share(it), it["deadline"]))
+        posts.append((f"新着｜{label}", share(it), it["deadline"], reply(it)))
 
     # 3) 締切間近（1件ごとの定型文）
     for it in sorted([it for it in items if days_left(it) <= CLOSING_DAYS], key=lambda it: it["deadline"]):
         label = "・".join(it["tags"]) or it["pref"]
-        posts.append((f"締切間近｜{label}", share(it), it["deadline"]))
+        posts.append((f"締切間近｜{label}", share(it), it["deadline"], reply(it)))
 
     # 4) 注目テーマごとの紹介
     for t in tag_defs:

@@ -53,8 +53,12 @@ const PC = (() => {
   const dlg = document.getElementById('share-dialog');
   const box = document.getElementById('share-text');
   const msg = document.getElementById('share-msg');
-  function openShare(text){
+  const rbox = document.getElementById('reply-box');
+  const rtext = document.getElementById('reply-text');
+  const rmsg = document.getElementById('reply-msg');
+  function openShare(text, reply){
     box.value = text; box.scrollTop = 0; msg.textContent = '';
+    if (rbox) { rbox.hidden = !reply; rtext.value = reply || ''; rtext.scrollTop = 0; rmsg.textContent = ''; }
     if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
     document.getElementById('share-post').focus();
   }
@@ -76,6 +80,10 @@ const PC = (() => {
     document.getElementById('share-copy').onclick = () => copyText(box.value).then(ok => {
       msg.textContent = ok ? 'コピーしました。Xアプリなどに貼り付けてください。' : 'コピーできませんでした。上の文章を長押し（または選択）してコピーしてください。';
       if (!ok) { box.focus(); box.select(); }
+    });
+    if (rbox) document.getElementById('reply-copy').onclick = () => copyText(rtext.value).then(ok => {
+      rmsg.textContent = ok ? 'コピーしました。自分の投稿の「返信」に貼り付けてください。' : 'コピーできませんでした。上の文章を長押し（または選択）してコピーしてください。';
+      if (!ok) { rtext.focus(); rtext.select(); }
     });
     document.getElementById('share-close').onclick = closeShare;
     dlg.addEventListener('click', e => { if (e.target === dlg) closeShare(); });

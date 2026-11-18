@@ -12,7 +12,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg?v=c92a0fd3">
 <meta name="theme-color" content="#f3f2ee">
-<link rel="stylesheet" href="../assets/site.css?v=2c002225">
+<link rel="stylesheet" href="../assets/site.css?v=221c6268">
 </head>
 <body>
 <a class="skip" href="#main">本文へ移動</a><style>nihon-site-nav:not(:defined){display:block;min-height:45px;padding:0 16px;background:#f4f6f6;border-bottom:1px solid #d5dcde;font:14px/44px system-ui,sans-serif}@media print{nihon-site-nav{display:none!important}}</style><nihon-site-nav><a href="https://yumaki5555.github.io/">日本を知る。</a></nihon-site-nav><script src="https://yumaki5555.github.io/shared/site-nav.js" data-place="manual" async></script><header class="site-head"><div class="wrap head-row"><a class="brand" href="../"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="currentColor"/><path fill="#fff" d="M17 11h30a8 8 0 0 1 8 8v18a8 8 0 0 1-8 8H32l-12 10V45h-3a8 8 0 0 1-8-8V19a8 8 0 0 1 8-8z"/><path fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" d="M20 22h24M20 34h14"/></svg>パブコメ掲示板</a><a class="xlink" href="../posts.html">X投稿文ページ</a></div><nav class="wrap levels" aria-label="国・都道府県・市区町村の切り替え"><a class="lv" href="../" data-base="../" data-level="national" aria-current="page"><span class="lv-name">国</span><span class="lv-n" hidden>募集中 <b data-count="national"></b>件</span></a><a class="lv" href="../pref/" data-base="../pref/" data-level="pref"><span class="lv-name">都道府県</span><span class="lv-n" hidden>募集中 <b data-count="pref"></b>件</span></a><a class="lv" href="../city/" data-base="../city/" data-level="city"><span class="lv-name">市区町村</span><span class="lv-n" hidden>募集中 <b data-count="city"></b>件</span></a></nav></header>
@@ -59,12 +59,20 @@
 </div>
 <p class="copy-msg" id="share-msg" role="status" aria-live="polite"></p>
 <p class="note">Xの画面が開かないときは「文章をコピー」を押して、Xアプリに貼り付けてください。</p>
+<div id="reply-box" class="reply-box" hidden>
+<h3>返信用の要約</h3>
+<p class="note">投稿したあと、自分の投稿に「返信」としてこの文章を貼り付けると、要約を続けて載せられます。</p>
+<label class="sr" for="reply-text">返信用の要約</label>
+<textarea id="reply-text" rows="6" readonly></textarea>
+<button type="button" class="btn outline" id="reply-copy">要約をコピー</button>
+<p class="copy-msg" id="reply-msg" role="status" aria-live="polite"></p>
+</div>
 <button type="button" class="btn ghost" id="share-close">閉じる</button>
 </div>
 </dialog>
 <button type="button" class="totop" id="totop" aria-label="ページの上に戻る" hidden>▲<br>上へ</button>
-<script id="meta" type="application/json">{"level": "national", "dl": "2026-12-04", "time": "21:00", "share": "📣【パブコメ募集】12/4まで\n\n「社会福祉に関する法律改正に合わせた政令の整備」\n国（厚生労働省）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ #社会保障\n\nhttps://yumaki5555.github.io/pubcome/p/495260233.html"}</script>
-<script src="../assets/site.js?v=a34a93ee"></script>
+<script id="meta" type="application/json">{"level": "national", "dl": "2026-12-04", "time": "21:00", "share": "📣【パブコメ募集】12/4まで\n\n「社会福祉に関する法律改正に合わせた政令の整備」\n国（厚生労働省）\n\nひとことからでも、誰でも送れます🙆\n#パブコメ #社会保障\n\nhttps://yumaki5555.github.io/pubcome/p/495260233.html", "reply": "📝かんたん要約\n介護が必要な人向けの有料老人ホームの新しい登録制度の開始に合わせて、関係する政令を整備する案です。\n・「登録有料老人ホーム事業」の対象となる入居者の要介護状態などの基準を政令で定める\n・施行時点で既にこの事業を行っている施設には、一定期間（最長1年6か月）登録を…"}</script>
+<script src="../assets/site.js?v=8dc3ee1b"></script>
 <script>
 (function(){
   const M = JSON.parse(document.getElementById('meta').textContent);
@@ -80,7 +88,7 @@
     const s = document.getElementById('submit');
     if (s) s.innerHTML = '公式ページを見る<small>受付は終了しています</small>';
   } else {
-    share.onclick = () => PC.openShare(M.share);
+    share.onclick = () => PC.openShare(M.share, M.reply);
   }
   // 「検索結果に戻る」：一覧で最後に使った検索条件のページへ戻る（一覧から来たときは、見ていた位置にも戻る）
   const saved = PC.ss.get('pubcome:list:' + M.level);

@@ -88,6 +88,7 @@ def main(base=HERE):
         if summaries.get(it["id"]):
             it["summary"] = summaries[it["id"]]
         it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
+        it["reply"] = ui.reply_text(it.get("summary"))
         gist, points = ui.split_summary(it.get("summary"))
         title = display_title(it)
         items.append({
@@ -96,7 +97,7 @@ def main(base=HERE):
             # 新着の判定用：募集開始日（わからなければ空）
             "since": it.get("start") or (it["first_seen"] if it["first_seen"] > first_crawl else ""),
             "dl": it["deadline"], "time": "",
-            "url": it["url"], "page": summary_path(it), "share": it["share"],
+            "url": it["url"], "page": summary_path(it), "share": it["share"], "reply": it["reply"],
             "gist": gist, "pts": points, "tags": it["tags"],
             "how": ui.submit_methods((it.get("detail") or {}).get("howto")),
         })
@@ -282,7 +283,7 @@ def build_summary_pages(items, tag_defs, config, level, pref_of, merged):
             files=f'<ul class="files">{files}</ul>' if files else f'<p>資料は{e(body)}の公式ページでご確認ください。</p>',
             extra=extra,
             contact=lines(det["contact"]) if det.get("contact") else f"{e(body)}の公式ページでご確認ください。",
-            source=source, share=it["share"],
+            source=source, share=it["share"], reply=it["reply"],
         )
         (out / f"{it['id']}.html").write_text(page, encoding="utf-8")
 
