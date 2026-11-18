@@ -46,14 +46,18 @@ def summary_path(item):
     return f"p/{item['id']}.html"
 
 
-def share_text(item, main_hashtag, hashtag_of, site_url):
-    """1件ごとの投稿の定型文（国版と同じ形）。リンク（23字として数える）込みで140字以内にする。"""
+def share_text(item, main_hashtag, hashtag_of, site_url, has_reply=False):
+    """1件ごとの投稿の定型文。リンク（23字として数える）込みで140字以内にする。
+    has_reply: 返信用の要約があるとき True（「要約はリプ欄へ」を入れる）。"""
     d = datetime.fromisoformat(item["deadline"])
     tags = " ".join([main_hashtag, "#" + item["pref"]] + [hashtag_of[t] for t in item["tags"]])
-    make = lambda title: (f"📣【パブコメ募集】{d.month}/{d.day}まで\n\n"
-                          f"「{title}」\n{item['pref']}\n\n"
-                          f"{item['pref']}関係者は、ひとことからでも送れます🙆\n"
-                          f"それ以外の方は案件ごとにご確認ください\n{tags}\n\n")
+    to_reply = "👇要約はリプ欄へ\n" if has_reply else ""
+    make = lambda title: (f"📢📢{item['pref']}の方～📢📢\n"
+                          f"【パブコメ募集】⏰{d.month}/{d.day}まで\n\n"
+                          f"📝「{title}」\n\n"
+                          f"👍賛成でも👎反対でも\n"
+                          f"ひとことからでも送れます🙆\n"
+                          f"{to_reply}\n{tags}\n\n")
     title = display_title(item)
     while len(make(title)) + 23 > 140 and len(title) > 8:
         title = title[:-2].rstrip("…") + "…"
@@ -87,8 +91,8 @@ def main(base=HERE):
             it["plain"] = plain[it["id"]]
         if summaries.get(it["id"]):
             it["summary"] = summaries[it["id"]]
-        it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"])
         it["reply"] = ui.reply_text(it.get("summary"))
+        it["share"] = share_text(it, config["main_hashtag"], hashtag_of, config["site_url"], bool(it["reply"]))
         gist, points = ui.split_summary(it.get("summary"))
         title = display_title(it)
         items.append({

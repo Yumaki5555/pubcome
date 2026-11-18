@@ -44,7 +44,7 @@ def main(base=HERE):
     days_left = lambda it: (datetime.fromisoformat(it["deadline"]).date() - today).days
     new_since = (today - timedelta(days=NEW_DAYS)).isoformat()
     is_new = lambda it: (it.get("start") or it.get("first_seen") or "") >= new_since
-    share = lambda it: pref_build.share_text(it, main_tag, hashtag_of, site)
+    share = lambda it: pref_build.share_text(it, main_tag, hashtag_of, site, bool(reply(it)))
 
     posts = []  # (見出し, 本文, 関係する締切日：投稿文ページで、締切が過ぎたものを隠すのに使う[, 返信用の要約])
 
