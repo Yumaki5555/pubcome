@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:40+09:00",
+ "updated": "2026-11-19T12:00+09:00",
  "status": {
   "札幌市": {
    "url": "https://www.city.sapporo.jp/somu/pub-comment/index.html",
@@ -94,7 +94,7 @@
   "岡山市": {
    "url": "https://www.city.okayama.jp/shisei/category/4-21-0-0-0-0-0-0-0-0.html",
    "error": null,
-   "open": 0,
+   "open": 1,
    "checked": "2026-11-19"
   },
   "広島市": {
@@ -124,7 +124,7 @@
   "函館市": {
    "url": "https://www.city.hakodate.hokkaido.jp/docs/2024011400039/#public",
    "error": null,
-   "open": 1,
+   "open": 2,
    "checked": "2026-11-19"
   },
   "旭川市": {
@@ -298,7 +298,7 @@
   "岡崎市": {
    "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/index.html",
    "error": null,
-   "open": 4,
+   "open": 6,
    "checked": "2026-11-19"
   },
   "一宮市": {
@@ -3945,6 +3945,17 @@
    }
   },
   {
+   "id": "289e318037",
+   "pref": "函館市",
+   "title": "函館市犯罪被害者等支援条例の骨子(案)",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2026110400019/",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "tags": []
+  },
+  {
    "id": "134c0af4b8",
    "pref": "松本市",
    "title": "第10期介護保険事業計画・高齢者福祉計画「安心・いきいきプラン松本(案)」 介護保険法及び老人福祉法の規定に基づき、3年を1期として策定します。 生産年齢人口の減少や高齢者人口の増加に伴い、介護サービスの需要や担い手の確保など、さまざまな課題への対応が求められます。こうした状況を踏まえ、2040年を",
@@ -7018,6 +7029,26 @@
    "checked": "2026-11-19",
    "first_seen": "2026-10-17"
   },
+  "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/seikatsu/ikenichiran/suidoukeikakuyouryou.html": {
+   "id": "942ecd52fb",
+   "pref": "横浜市",
+   "title": "横浜市専用水道水質検査計画策定指導要領等の一部改正について",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/seikatsu/ikenichiran/suidoukeikakuyouryou.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/jorei/gyose/kobotetsuzuki/index.html": {
+   "id": "793b22d2be",
+   "pref": "横浜市",
+   "title": "規則等に係る意見公募手続",
+   "url": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/jorei/gyose/kobotetsuzuki/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.yokohama.lg.jp/city-info/zaisei/fmsuishin/jigyohyoka/r08/reiwa8dai2kaiiinkai.html": {
    "id": "7317d8a12c",
    "pref": "横浜市",
@@ -7027,6 +7058,26 @@
    "deadline": null,
    "checked": "2026-11-17",
    "first_seen": "2026-10-30"
+  },
+  "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/seiketsu/recyclingbox.html": {
+   "id": "8369306c0a",
+   "pref": "横浜市",
+   "title": "自動販売機横リサイクルボックスの適正利用について",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/seiketsu/recyclingbox.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/seiketsu/kitsuen/index.html": {
+   "id": "f1131f2f5f",
+   "pref": "横浜市",
+   "title": "喫煙禁止地区について",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/seiketsu/kitsuen/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
   },
   "https://www.city.kawasaki.jp/templates/pubcom/0-Curr-20-20.html": {
    "id": "6529498e23",
@@ -9177,6 +9228,17 @@
    "checked": "2026-11-17",
    "first_seen": "2026-11-17"
   },
+  "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-26-0-0-0-0-0-0.html": {
+   "id": "686a589091",
+   "pref": "大阪市",
+   "title": "教育委員会事務局の行政への意見募集(パブリック・コメント)",
+   "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-26-0-0-0-0-0-0.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
+  },
   "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-26-1-0-0-0-0-0.html": {
    "id": "15a79354f8",
    "pref": "大阪市",
@@ -9196,6 +9258,17 @@
    "deadline": null,
    "checked": "2026-11-17",
    "first_seen": "2026-11-17"
+  },
+  "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-27-0-0-0-0-0-0.html": {
+   "id": "a1dc95ca71",
+   "pref": "大阪市",
+   "title": "行政委員会事務局の行政への意見募集(パブリック・コメント)",
+   "url": "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-27-0-0-0-0-0-0.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
   },
   "https://www.city.osaka.lg.jp/shisei/category/3065-1-5-27-1-0-0-0-0-0.html": {
    "id": "dca151ca16",
@@ -9628,6 +9701,46 @@
    "checked": "2026-11-19",
    "first_seen": "2026-11-10"
   },
+  "https://www.city.okayama.jp/shisei/0000086327.html": {
+   "id": "4ebe033883",
+   "pref": "岡山市",
+   "title": "岡山市男女共同参画社会の形成の促進に関する基本計画(第6次さんかくプラン)素案に対するパブリックコメント",
+   "url": "https://www.city.okayama.jp/shisei/0000086327.html",
+   "start": "2026-11-24",
+   "deadline": "2026-12-23",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "detail": {
+    "files": [
+     {
+      "name": "第1章",
+      "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000086/86327/soan1.pdf"
+     },
+     {
+      "name": "第2章",
+      "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000086/86327/soan2.pdf"
+     },
+     {
+      "name": "第3章",
+      "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000086/86327/soan3.pdf"
+     },
+     {
+      "name": "第4章",
+      "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000086/86327/soan4.pdf"
+     },
+     {
+      "name": "ワード形式(ワード形式、39.50KB)",
+      "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000086/86327/youshiki.doc"
+     },
+     {
+      "name": "PDF形式",
+      "url": "https://www.city.okayama.jp/shisei/cmsfiles/contents/0000086/86327/youshiki.pdf"
+     }
+    ],
+    "howto": "ご意見と住所、氏名、電話番号をご記入のうえ、募集期間内にホームページの意見提出フォーム、電子メール、ファクス、郵送又は持参のいずれかの方法により女性が輝くまちづくり推進課にご提出ください。\n(口頭または電話でのご意見は受付できませんので、ご了承ください。)\nご意見入力フォームはこちらから\n(入力可能期間:令和8年11月24日から令和8年12月23日)\nご意見記入様式\nワード形式(ワード形式、39.50KB)",
+    "contact": "市民協働局市民協働部女性が輝くまちづくり推進課\n所在地: 〒700-8544 岡山市北区大供一丁目1番1号 [所在地の地図]\n電話: 086-803-1115 ファクス: 086-803-1845\nお問い合わせフォーム\nPAGE\nTOP"
+   }
+  },
   "https://www.city.hiroshima.lg.jp/saigaiinfo/bousai-plan/index.html": {
    "id": "76c1f6d8f8",
    "pref": "広島市",
@@ -9993,30 +10106,6 @@
    "checked": "2026-11-19",
    "first_seen": "2026-11-19"
   },
-  "https://www.city.fukuoka.lg.jp/shisei/nouringyousougoukeikaku.html": {
-   "id": "816acbf4b1",
-   "pref": "福岡市",
-   "title": "「福岡市農林業総合計画(原案)」について市民意見を募集します 2026年10月20日",
-   "url": "https://www.city.fukuoka.lg.jp/shisei/nouringyousougoukeikaku.html",
-   "start": "2026-10-20",
-   "deadline": "2026-11-20",
-   "checked": "2026-11-19",
-   "first_seen": "2026-10-20",
-   "detail": {
-    "files": [
-     {
-      "name": "福岡市農林業総合計画（原案）",
-      "url": "https://www.city.fukuoka.lg.jp/shisei/documents/keikakugenan.pdf"
-     },
-     {
-      "name": "意見提出用紙（ワード：38KB）",
-      "url": "https://www.city.fukuoka.lg.jp/shisei/documents/ikenteisyutsuyoushi.doc"
-     }
-    ],
-    "howto": "「オンライン回答」、「電子メール」、「郵送」、「FAX」、「窓口への持参」のいずれかの方法で、必ず氏名と住所を記載の上、提出してください。\n注意事項\n回答様式は問いませんが、上記の「意見提出用紙」を使用しても構いません。\n電話や口頭による意見の受付は行っておりません。",
-    "contact": ""
-   }
-  },
   "https://www.city.fukuoka.lg.jp/nosui/suisanshinko/shisei/suisangyousougoukeikaku_12_public_comment.html": {
    "id": "96c079182a",
    "pref": "福岡市",
@@ -10132,6 +10221,16 @@
    "first_seen": "2026-11-17",
    "list": true
   },
+  "https://www.city.fukuoka.lg.jp/kankyo/keikaku/hp/sinjyunkannomatihukuokakihonkeikaku.html": {
+   "id": "e61f4f0ec7",
+   "pref": "福岡市",
+   "title": "「循環のまち・ふくおか推進プラン」の一部改定について 2026年3月19日",
+   "url": "https://www.city.fukuoka.lg.jp/kankyo/keikaku/hp/sinjyunkannomatihukuokakihonkeikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.fukuoka.lg.jp/soki/mizushigen/opinion/001.html": {
    "id": "68ea3ace45",
    "pref": "福岡市",
@@ -10151,6 +10250,30 @@
    "deadline": null,
    "checked": "2026-11-17",
    "first_seen": "2026-11-17"
+  },
+  "https://www.city.fukuoka.lg.jp/shisei/nouringyousougoukeikaku.html": {
+   "id": "816acbf4b1",
+   "pref": "福岡市",
+   "title": "「福岡市農林業総合計画(原案)」について市民意見を募集します 2026年10月20日",
+   "url": "https://www.city.fukuoka.lg.jp/shisei/nouringyousougoukeikaku.html",
+   "start": "2026-10-20",
+   "deadline": "2026-11-20",
+   "checked": "2026-11-19",
+   "first_seen": "2026-10-20",
+   "detail": {
+    "files": [
+     {
+      "name": "福岡市農林業総合計画（原案）",
+      "url": "https://www.city.fukuoka.lg.jp/shisei/documents/keikakugenan.pdf"
+     },
+     {
+      "name": "意見提出用紙（ワード：38KB）",
+      "url": "https://www.city.fukuoka.lg.jp/shisei/documents/ikenteisyutsuyoushi.doc"
+     }
+    ],
+    "howto": "「オンライン回答」、「電子メール」、「郵送」、「FAX」、「窓口への持参」のいずれかの方法で、必ず氏名と住所を記載の上、提出してください。\n注意事項\n回答様式は問いませんが、上記の「意見提出用紙」を使用しても構いません。\n電話や口頭による意見の受付は行っておりません。",
+    "contact": ""
+   }
   },
   "https://www.city.kumamoto.jp/kiji003283/index.html": {
    "id": "ebd04c17f3",
@@ -10207,6 +10330,16 @@
    "checked": "2026-11-19",
    "first_seen": "2026-11-10"
   },
+  "https://www.city.hakodate.hokkaido.jp/docs/2026110400019/#43fb8df07b": {
+   "id": "289e318037",
+   "pref": "函館市",
+   "title": "函館市犯罪被害者等支援条例の骨子(案)",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2026110400019/",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.hakodate.hokkaido.jp/docs/2014012301053/": {
    "id": "0093b12ff6",
    "pref": "函館市",
@@ -10227,6 +10360,16 @@
    "checked": "2026-11-19",
    "first_seen": "2026-11-10",
    "list": true
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2026110400019/": {
+   "id": "1e5e4f9a61",
+   "pref": "函館市",
+   "title": "函館市犯罪被害者等支援条例の骨子(案)",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2026110400019/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2026081400025/": {
    "id": "2d25765b51",
@@ -11002,6 +11145,16 @@
    "checked": "2026-11-19",
    "first_seen": "2026-10-14"
   },
+  "https://www.city.hakodate.hokkaido.jp/docs/2022042500025/": {
+   "id": "845f53bf61",
+   "pref": "函館市",
+   "title": "函館市まちなか店舗機能向上改修費補助金について",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2022042500025/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.hakodate.hokkaido.jp/docs/2014031100569/": {
    "id": "a376bb87be",
    "pref": "函館市",
@@ -11092,6 +11245,16 @@
    "checked": "2026-11-17",
    "first_seen": "2026-10-15"
   },
+  "https://www.city.hakodate.hokkaido.jp/docs/2014031900312/": {
+   "id": "2c1a6a5334",
+   "pref": "函館市",
+   "title": "函館圏都市計画図(現況図)出力規格一覧",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2014031900312/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.hakodate.hokkaido.jp/docs/2014011700741/": {
    "id": "fcf86fcae2",
    "pref": "函館市",
@@ -11161,6 +11324,16 @@
    "deadline": null,
    "checked": "2026-11-17",
    "first_seen": "2026-10-15"
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2019032500035/": {
+   "id": "0c227cea9e",
+   "pref": "函館市",
+   "title": "都市計画の決定および変更一覧",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2019032500035/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
   },
   "https://www.city.hakodate.hokkaido.jp/docs/2017101300012/": {
    "id": "ba80ab86b2",
@@ -11301,6 +11474,56 @@
    "deadline": null,
    "checked": "2026-11-17",
    "first_seen": "2026-10-15"
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2014011700062/": {
+   "id": "5c4a961add",
+   "pref": "函館市",
+   "title": "都市計画マスタープラン",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011700062/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2014011700086/": {
+   "id": "944a3b6a81",
+   "pref": "函館市",
+   "title": "函館市長期未着手都市計画道路の見直し方針",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2014011700086/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.hakodate.hokkaido.jp/docs/2015033000093/": {
+   "id": "027c579035",
+   "pref": "函館市",
+   "title": "第4次函館市一般廃棄物処理基本計画",
+   "url": "https://www.city.hakodate.hokkaido.jp/docs/2015033000093/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.hakodate.hokkaido.jp/tag/%E9%AB%98%E9%BD%A2%E8%80%85%E4%BF%9D%E5%81%A5%E7%A6%8F%E7%A5%89%E8%A8%88%E7%94%BB/": {
+   "id": "2de97c8b2c",
+   "pref": "函館市",
+   "title": "高齢者保健福祉計画",
+   "url": "https://www.city.hakodate.hokkaido.jp/tag/%E9%AB%98%E9%BD%A2%E8%80%85%E4%BF%9D%E5%81%A5%E7%A6%8F%E7%A5%89%E8%A8%88%E7%94%BB/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.hakodate.hokkaido.jp/tag/%E4%BB%8B%E8%AD%B7%E4%BF%9D%E9%99%BA%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB/": {
+   "id": "a72378d14b",
+   "pref": "函館市",
+   "title": "介護保険事業計画",
+   "url": "https://www.city.hakodate.hokkaido.jp/tag/%E4%BB%8B%E8%AD%B7%E4%BF%9D%E9%99%BA%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB/",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
   },
   "https://www.city.asahikawa.hokkaido.jp/1600/1601/index.html": {
    "id": "4d5d1cda18",
@@ -14635,6 +14858,796 @@
    "checked": "2026-11-19",
    "first_seen": "2026-10-04"
   },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9316.html": {
+   "id": "b86ebfb838",
+   "pref": "横須賀市",
+   "title": "外国人の受け入れ等について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9316.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9319.html": {
+   "id": "8b06b6d524",
+   "pref": "横須賀市",
+   "title": "福祉相談の対応について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9319.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9321.html": {
+   "id": "c87cd282e9",
+   "pref": "横須賀市",
+   "title": "衣笠十字路の歩行者交通のあり方に関する検討について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9321.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9312.html": {
+   "id": "66104afb26",
+   "pref": "横須賀市",
+   "title": "歩道に駐輪している自転車について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9312.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9313.html": {
+   "id": "8e8a6f2ce0",
+   "pref": "横須賀市",
+   "title": "違法駐車対策について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9313.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9318.html": {
+   "id": "4838e6a506",
+   "pref": "横須賀市",
+   "title": "市営住宅における携帯電話の電波状況の改善について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9318.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9311.html": {
+   "id": "87275947d0",
+   "pref": "横須賀市",
+   "title": "老人福祉センター代替施設の設置について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9311.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9315.html": {
+   "id": "c8a01d0e3a",
+   "pref": "横須賀市",
+   "title": "鷹取山公園崩落現場での早急な対策、措置の実施について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9315.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9317.html": {
+   "id": "b7fd91ad18",
+   "pref": "横須賀市",
+   "title": "男性合唱団の設立について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9317.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9320.html": {
+   "id": "7ddde95326",
+   "pref": "横須賀市",
+   "title": "ふれあいサポート券などについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9320.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9323.html": {
+   "id": "e358c0a01c",
+   "pref": "横須賀市",
+   "title": "後期高齢者医療制度における高額療養費精算の改善について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9323.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9326.html": {
+   "id": "c5e357278f",
+   "pref": "横須賀市",
+   "title": "ドラッグストアの非常時の避難対策について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9326.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9329.html": {
+   "id": "e38b5dafc0",
+   "pref": "横須賀市",
+   "title": "馬堀海岸公園の利用について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9329.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9333.html": {
+   "id": "54b2ba7188",
+   "pref": "横須賀市",
+   "title": "小児慢性特定疾病医療費医療受給者証について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9333.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9335.html": {
+   "id": "0b4ab5af5e",
+   "pref": "横須賀市",
+   "title": "口座振替変更の手続きについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9335.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9322.html": {
+   "id": "086c22270b",
+   "pref": "横須賀市",
+   "title": "花火大会の中止について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9322.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9325.html": {
+   "id": "8005cdfe5e",
+   "pref": "横須賀市",
+   "title": "浦賀ドック入口の案内板について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9325.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9328.html": {
+   "id": "ac465f82fb",
+   "pref": "横須賀市",
+   "title": "受動喫煙防止について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9328.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9332.html": {
+   "id": "4cd613daa1",
+   "pref": "横須賀市",
+   "title": "不入斗公園の駐車場について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9332.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9334.html": {
+   "id": "02c4668cae",
+   "pref": "横須賀市",
+   "title": "浦賀再開発の事業者選定について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9334.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9324.html": {
+   "id": "8c19e1cd3f",
+   "pref": "横須賀市",
+   "title": "学びの多様化学校の設置について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9324.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9327.html": {
+   "id": "8e4475f5b9",
+   "pref": "横須賀市",
+   "title": "横須賀市自然・人文博物館リニューアル基本計画(案)等について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9327.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9336.html": {
+   "id": "54371c646b",
+   "pref": "横須賀市",
+   "title": "孤独な育児の解消に必要な学びの場の開設について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9336.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9337.html": {
+   "id": "d15f28e27e",
+   "pref": "横須賀市",
+   "title": "モバイルバッテリーの廃棄について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9337.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9340.html": {
+   "id": "9e09ca3b58",
+   "pref": "横須賀市",
+   "title": "ごみのポイ捨てについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9340.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9343.html": {
+   "id": "ee5af633e6",
+   "pref": "横須賀市",
+   "title": "浦賀再開発について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9343.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9346.html": {
+   "id": "c8c245c53d",
+   "pref": "横須賀市",
+   "title": "屋内児童遊具施設について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9346.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9338.html": {
+   "id": "9010e94a4a",
+   "pref": "横須賀市",
+   "title": "トビの被害について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9338.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9341.html": {
+   "id": "231d05f52c",
+   "pref": "横須賀市",
+   "title": "子育て支援について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9341.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9344.html": {
+   "id": "9687ab7ab8",
+   "pref": "横須賀市",
+   "title": "不用品交換スポットの設置について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9344.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9339.html": {
+   "id": "7809575c32",
+   "pref": "横須賀市",
+   "title": "横須賀インター出口付近での駐停車に対する注意喚起について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9339.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9342.html": {
+   "id": "58882fa0d2",
+   "pref": "横須賀市",
+   "title": "陶芸教室で使用している窯の更新について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9342.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9345.html": {
+   "id": "534e770d46",
+   "pref": "横須賀市",
+   "title": "富浦公園の管理などについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9345.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9349.html": {
+   "id": "a69297e3c3",
+   "pref": "横須賀市",
+   "title": "浦賀再開発について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9349.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9352.html": {
+   "id": "637203c117",
+   "pref": "横須賀市",
+   "title": "自転車の歩道走行について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9352.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9347.html": {
+   "id": "bac95432cf",
+   "pref": "横須賀市",
+   "title": "中学校付近での喫煙について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9347.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9350.html": {
+   "id": "c27d0efa9e",
+   "pref": "横須賀市",
+   "title": "田浦地域のソーラーパネルについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9350.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9348.html": {
+   "id": "7905593803",
+   "pref": "横須賀市",
+   "title": "市内街路樹の根本の処置について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9348.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9351.html": {
+   "id": "af804c8175",
+   "pref": "横須賀市",
+   "title": "海岸のごみ拾い後のごみの処分について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9351.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9354.html": {
+   "id": "3024f054cf",
+   "pref": "横須賀市",
+   "title": "マイナンバーカードの個人番号の取扱いについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9354.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9357.html": {
+   "id": "1d711f59d9",
+   "pref": "横須賀市",
+   "title": "廃棄物処理手数料の払込方法について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9357.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9360.html": {
+   "id": "7753310b5f",
+   "pref": "横須賀市",
+   "title": "コミュニティバスについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9360.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9363.html": {
+   "id": "4053ae682c",
+   "pref": "横須賀市",
+   "title": "広報紙のマンション内配布について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9363.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9367.html": {
+   "id": "7ead4bd904",
+   "pref": "横須賀市",
+   "title": "道路反射鏡の撤去について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9367.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9353.html": {
+   "id": "4b07867ce0",
+   "pref": "横須賀市",
+   "title": "船越・田浦地区の活性化と再開発の促進について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9353.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9355.html": {
+   "id": "f5bd4eb9cc",
+   "pref": "横須賀市",
+   "title": "民法等の一部改正に伴うひとり親家庭への支援について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9355.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9358.html": {
+   "id": "74088bc834",
+   "pref": "横須賀市",
+   "title": "マイナンバーカードの利用について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9358.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9361.html": {
+   "id": "d0a38946af",
+   "pref": "横須賀市",
+   "title": "一般住宅外装塗装工事の補助について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9361.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9364.html": {
+   "id": "5594953d47",
+   "pref": "横須賀市",
+   "title": "道路や公園等の改善について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9364.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9368.html": {
+   "id": "3e924e6cfb",
+   "pref": "横須賀市",
+   "title": "スケートボードによる迷惑行為について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9368.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9369.html": {
+   "id": "d83d59bde6",
+   "pref": "横須賀市",
+   "title": "旧横須賀税務署の跡地利用について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9369.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9365.html": {
+   "id": "8884cd76e4",
+   "pref": "横須賀市",
+   "title": "障害者の賃金が低すぎることと納税の督促などについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9365.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9356.html": {
+   "id": "cb63000395",
+   "pref": "横須賀市",
+   "title": "学校給食メニューの見直し・改善について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9356.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9359.html": {
+   "id": "fc702ecaef",
+   "pref": "横須賀市",
+   "title": "普及のための感震ブレーカー設置に関する施策について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9359.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9362.html": {
+   "id": "a0d952136f",
+   "pref": "横須賀市",
+   "title": "県・市広報紙発行形態などの見直しについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9362.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9366.html": {
+   "id": "2113fb0770",
+   "pref": "横須賀市",
+   "title": "新たに計画されている公園施設としての「大屋根」について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9366.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9372.html": {
+   "id": "f4d18c8105",
+   "pref": "横須賀市",
+   "title": "電気自動車購入の補助制度について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9372.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9375.html": {
+   "id": "b6779a4696",
+   "pref": "横須賀市",
+   "title": "保育費の補助について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9375.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9377.html": {
+   "id": "b03e91e3dd",
+   "pref": "横須賀市",
+   "title": "学校用務員の年齢制限について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9377.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9380.html": {
+   "id": "8adc5ce0ff",
+   "pref": "横須賀市",
+   "title": "住民票の写しに関する住民票コードの記載について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9380.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9371.html": {
+   "id": "e2e04e579a",
+   "pref": "横須賀市",
+   "title": "道路反射鏡の改善について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9371.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9374.html": {
+   "id": "202143191b",
+   "pref": "横須賀市",
+   "title": "行政センターへのWi-Fi設置について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9374.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9370.html": {
+   "id": "52cd3119be",
+   "pref": "横須賀市",
+   "title": "「ハマちゃんバス」停留所の新設について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9370.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9376.html": {
+   "id": "37fa81534f",
+   "pref": "横須賀市",
+   "title": "保育士の処遇改善に関する施策について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9376.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9378.html": {
+   "id": "9522dac7b6",
+   "pref": "横須賀市",
+   "title": "市営住宅退去時の原状回復について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9378.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9379.html": {
+   "id": "83f0151c47",
+   "pref": "横須賀市",
+   "title": "陶芸設備利用について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9379.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9381.html": {
+   "id": "cfc01e5a39",
+   "pref": "横須賀市",
+   "title": "非常放送設備の早急な整備と避難訓練マニュアルの作成について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9381.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9383.html": {
+   "id": "ab5d15b99e",
+   "pref": "横須賀市",
+   "title": "日産自動車追浜工場の跡地活用について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9383.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9386.html": {
+   "id": "24b8e5acc7",
+   "pref": "横須賀市",
+   "title": "マイナンバーカード更新時の再発行手数料について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9386.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9388.html": {
+   "id": "e2c76e66d0",
+   "pref": "横須賀市",
+   "title": "南体育会館内の折りたたみイスについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9388.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9390.html": {
+   "id": "90d395c41d",
+   "pref": "横須賀市",
+   "title": "児童相談所の監督機能設置について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9390.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9387.html": {
+   "id": "b0bceb9d15",
+   "pref": "横須賀市",
+   "title": "不用品回収業者への対応について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9387.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9382.html": {
+   "id": "909a4b8efd",
+   "pref": "横須賀市",
+   "title": "郵便物持参時の窓口対応等について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9382.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9385.html": {
+   "id": "944b7debab",
+   "pref": "横須賀市",
+   "title": "駐輪場の利用配置区分ほかについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9385.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9391.html": {
+   "id": "461caf4783",
+   "pref": "横須賀市",
+   "title": "岩戸コミュニティセンターの体育室の床について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9391.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9384.html": {
+   "id": "0429038e1c",
+   "pref": "横須賀市",
+   "title": "ジェネリック医薬品の通知について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9384.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9389.html": {
+   "id": "d747eead51",
+   "pref": "横須賀市",
+   "title": "小学校のトイレについて",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9389.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9392.html": {
+   "id": "b675130f3b",
+   "pref": "横須賀市",
+   "title": "喫煙者に対する規制について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9392.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.yokosuka.kanagawa.jp/voicebank/9394.html": {
+   "id": "794288f809",
+   "pref": "横須賀市",
+   "title": "デモ活動に伴う市民生活への影響について",
+   "url": "https://www.city.yokosuka.kanagawa.jp/voicebank/9394.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.yokosuka.kanagawa.jp/voicebank/9393.html": {
    "id": "c3b5a36fad",
    "pref": "横須賀市",
@@ -16074,6 +17087,16 @@
    "checked": "2026-11-19",
    "first_seen": "2026-09-29"
   },
+  "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/1014953/1017274.html#64ccf3945b": {
+   "id": "302d04b0d7",
+   "pref": "岡崎市",
+   "title": "岡崎市住生活基本計画(案)",
+   "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/1014953/1017274.html",
+   "start": "2026-12-07",
+   "deadline": "2027-01-07",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/1014953/1016858.html#acdedbb776": {
    "id": "800792ba56",
    "pref": "岡崎市",
@@ -16103,6 +17126,30 @@
    "deadline": "2026-11-09",
    "checked": "2026-11-19",
    "first_seen": "2026-10-27"
+  },
+  "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/1014953/1017274.html": {
+   "id": "793b46cc1c",
+   "pref": "岡崎市",
+   "title": "岡崎市住生活基本計画(案)",
+   "url": "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/1014953/1017274.html",
+   "start": "2026-12-07",
+   "deadline": "2027-01-07",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "detail": {
+    "files": [
+     {
+      "name": "岡崎市住生活基本計画【概要版】 中間見直し（案）",
+      "url": "https://www.city.okazaki.lg.jp/_res/projects/default_project/_page_/001/017/274/gaiyouan.pdf"
+     },
+     {
+      "name": "岡崎市住生活基本計画 中間見直し（案）",
+      "url": "https://www.city.okazaki.lg.jp/_res/projects/default_project/_page_/001/017/274/keikakuan.pdf"
+     }
+    ],
+    "howto": "直接持ち込み\n都市政策部住環境政策課(西庁舎1階)\n郵送\n〒444-8601 岡崎市十王町二丁目9番地\n都市政策部住環境政策課\nファクス\n0564-23-7528\n電子メール\njukankyo@city.okazaki.lg.jp\n電子申請総合窓口\nあいち電子申請・届出システム(外部リンク)\n※案件名・住所・氏名・連絡先を明記のうえ、日本語で提出してください。",
+    "contact": "都市政策部 住環境政策課\n〒444-8601 岡崎市十王町2丁目9番地(西庁舎1階)\n電話:0564-23-6709 ファクス:0564-23-7528\n都市政策部 住環境政策課へのお問い合わせは専用のフォームをご利用ください\nチャットでお問い合わせ"
+   }
   },
   "https://www.city.okazaki.lg.jp/shisei/koho/1006242/1006246/1014953/1016858.html": {
    "id": "105188abef",
@@ -16790,6 +17837,46 @@
    "deadline": null,
    "checked": "2026-11-19",
    "first_seen": "2026-09-29"
+  },
+  "https://www.city.himeji.lg.jp/kurashi/0000033158.html#b5ec475c62": {
+   "id": "55972b7fc6",
+   "pref": "姫路市",
+   "title": "第12次姫路市交通安全計画(案)",
+   "url": "https://www.city.himeji.lg.jp/kurashi/0000033158.html",
+   "start": "2026-09-24",
+   "deadline": "2026-10-23",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.himeji.lg.jp/shisei/0000032838.html": {
+   "id": "a387848f82",
+   "pref": "姫路市",
+   "title": "第3期姫路市官民データ活用推進計画(案)",
+   "url": "https://www.city.himeji.lg.jp/shisei/0000032838.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.himeji.lg.jp/kurashi/0000033393.html": {
+   "id": "c9c45af43e",
+   "pref": "姫路市",
+   "title": "姫路市公衆浴場法基準条例の一部を改正する条例(案)",
+   "url": "https://www.city.himeji.lg.jp/kurashi/0000033393.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.city.himeji.lg.jp/kurashi/0000033179.html": {
+   "id": "027655c053",
+   "pref": "姫路市",
+   "title": "姫路市旅館業法施行条例の一部を改正する条例(案)",
+   "url": "https://www.city.himeji.lg.jp/kurashi/0000033179.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
   },
   "https://www.city.amagasaki.hyogo.jp/shisei/siyakusyo/index.html": {
    "id": "c6efde0692",
@@ -22880,26 +23967,6 @@
    "deadline": null,
    "checked": "2026-11-19",
    "first_seen": "2026-11-16"
-  },
-  "https://www.city.nishitokyo.lg.jp/faq/about/senkyo/tohyo.html": {
-   "id": "650e91a56e",
-   "pref": "西東京市",
-   "title": "投票所入場整理券について",
-   "url": "https://www.city.nishitokyo.lg.jp/faq/about/senkyo/tohyo.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-19"
-  },
-  "https://www.city.nishitokyo.lg.jp/faq/about/shisei/situmonjyouhou.html": {
-   "id": "f294f77d23",
-   "pref": "西東京市",
-   "title": "情報公開制度について",
-   "url": "https://www.city.nishitokyo.lg.jp/faq/about/shisei/situmonjyouhou.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-17",
-   "first_seen": "2026-11-17"
   },
   "https://www.city.nishitokyo.lg.jp/siseizyoho/pub/jian/2026/202611181217.html": {
    "id": "579e24b4b9",

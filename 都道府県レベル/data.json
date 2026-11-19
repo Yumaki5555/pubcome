@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:37+09:00",
+ "updated": "2026-11-19T11:58+09:00",
  "status": {
   "北海道": {
    "url": "https://www.pref.hokkaido.lg.jp/public.html",
@@ -46,7 +46,7 @@
   "茨城県": {
    "url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/category/public-comment.html",
    "error": null,
-   "open": 4,
+   "open": 5,
    "checked": "2026-11-19"
   },
   "栃木県": {
@@ -273,14 +273,14 @@
   },
   "鹿児島県": {
    "url": "https://www.pref.kagoshima.jp/kohokocho/public/index.html",
-   "error": null,
+   "error": "Remote end closed connection without response",
    "open": 2,
    "checked": "2026-11-19"
   },
   "沖縄県": {
    "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/index.html",
    "error": null,
-   "open": 2,
+   "open": 4,
    "checked": "2026-11-19"
   }
  },
@@ -3032,6 +3032,51 @@
    }
   },
   {
+   "id": "b78e2a3160",
+   "pref": "沖縄県",
+   "title": "沖縄県外来種対策指針等の改訂に対する意見募集",
+   "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041941.html",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "tags": [],
+   "detail": {
+    "files": [
+     {
+      "name": "意見書様式",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/ikensho.docx"
+     },
+     {
+      "name": "01_沖縄県外来種対策指針改訂（案）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/01_sisinan.pdf"
+     },
+     {
+      "name": "02_沖縄県外来種対策行動計画改訂（案）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/02_keikakuan.pdf"
+     },
+     {
+      "name": "03_新旧対照表（沖縄県外来種対策指針その1）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/3_sinkyu_sisin1.pdf"
+     },
+     {
+      "name": "03_新旧対照表（沖縄県外来種対策指針その2）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/3_sinkyu_sisin2.pdf"
+     },
+     {
+      "name": "04_新旧対照表（沖縄県外来種対策行動計画その1）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/4_sinkyu_keikaku1.pdf"
+     },
+     {
+      "name": "04_新旧対照表（沖縄県外来種対策行動計画その2）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/4_sinkyu_keikaku2.pdf"
+     }
+    ],
+    "howto": "(1)意見書様式(Wordファイル)に、住所、氏名(団体・グループの場合は団体・グループ名)及び連絡先を記入してください。",
+    "contact": "沖縄県 環境部 自然保護課\n〒900-8570 沖縄県那覇市泉崎1-2-2 行政棟4階(北側)\n電話:098-866-2243 ファクス:098-866-2855\nお問い合わせは専用フォームをご利用ください。"
+   }
+  },
+  {
    "id": "eea6789c2f",
    "pref": "秋田県",
    "title": "旧雄物川流域水害対策計画",
@@ -3040,6 +3085,39 @@
    "deadline": "2026-12-18",
    "checked": "2026-11-16",
    "first_seen": "2026-11-09",
+   "tags": []
+  },
+  {
+   "id": "976daaa712",
+   "pref": "茨城県",
+   "title": "霞ケ浦に係る湖沼水質保全計画(第9期)の策定に関する意見募集について",
+   "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/kasumi_plan9_public_comment.html",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "detail": {
+    "files": [
+     {
+      "name": "（1）霞ケ浦に係る湖沼水質保全計画（第9期）（案）概要",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/kasumi_plan9_an_gaiyou.pdf"
+     },
+     {
+      "name": "（2）霞ケ浦に係る湖沼水質保全計画（第9期）（案）",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/kasumi_plan9_an.pdf"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/youshiki_kasumi_plan9.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：22KB）",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/youshiki_kasumi_plan9.docx"
+     }
+    ],
+    "howto": "郵送、FAX、電子メール、いばらき電子申請・届出サービスのいずれかの方法で提出してください。\n(3)ご意見の送付先\n(ア)郵送による場合(※令和8年12月18日消印有効)\n〒310-8555 水戸市笠原町978-6\n茨城県県民生活環境部環境対策課水環境室霞ケ浦対策グループあて\n(イ)FAXによる場合(※令和8年12月18日必着)\nFAX:029-301-2997\n茨城県県民生活環境部環境対策課水環境室霞ケ浦対策グループあて\n(ウ)電子メールによる場合(※令和8年12月18日必着)\nE-mail:lake@pref.ibaraki.lg.jp\n茨城県県民生活環境部環境対策課水環境室霞ケ浦対策グループあて\n※件名に「霞ケ浦に係る湖沼水質保全計画(第9期)(案)への意見」と記載してください。",
+    "contact": "県民生活環境部環境対策課水環境室-霞ケ浦対策\n〒310-8555 茨城県水戸市笠原町978番6\n電話番号:029-301-2968\nFAX番号:029-301-2997\nお問い合わせフォーム"
+   },
    "tags": []
   },
   {
@@ -5734,6 +5812,38 @@
     "contact": "福祉部福祉政策課人権施策推進室\n〒310-8555 茨城県水戸市笠原町978番6\n電話番号:029-301-3135\nFAX番号:029-301-6200\nお問い合わせフォーム"
    }
   },
+  "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/kasumi_plan9_public_comment.html": {
+   "id": "976daaa712",
+   "pref": "茨城県",
+   "title": "霞ケ浦に係る湖沼水質保全計画(第9期)の策定に関する意見募集について",
+   "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/kasumi_plan9_public_comment.html",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "detail": {
+    "files": [
+     {
+      "name": "（1）霞ケ浦に係る湖沼水質保全計画（第9期）（案）概要",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/kasumi_plan9_an_gaiyou.pdf"
+     },
+     {
+      "name": "（2）霞ケ浦に係る湖沼水質保全計画（第9期）（案）",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/kasumi_plan9_an.pdf"
+     },
+     {
+      "name": "意見提出様式",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/youshiki_kasumi_plan9.pdf"
+     },
+     {
+      "name": "意見提出様式（ワード：22KB）",
+      "url": "https://www.pref.ibaraki.jp/seikatsukankyo/kantai/kasumigaura/lake/documents/youshiki_kasumi_plan9.docx"
+     }
+    ],
+    "howto": "郵送、FAX、電子メール、いばらき電子申請・届出サービスのいずれかの方法で提出してください。\n(3)ご意見の送付先\n(ア)郵送による場合(※令和8年12月18日消印有効)\n〒310-8555 水戸市笠原町978-6\n茨城県県民生活環境部環境対策課水環境室霞ケ浦対策グループあて\n(イ)FAXによる場合(※令和8年12月18日必着)\nFAX:029-301-2997\n茨城県県民生活環境部環境対策課水環境室霞ケ浦対策グループあて\n(ウ)電子メールによる場合(※令和8年12月18日必着)\nE-mail:lake@pref.ibaraki.lg.jp\n茨城県県民生活環境部環境対策課水環境室霞ケ浦対策グループあて\n※件名に「霞ケ浦に係る湖沼水質保全計画(第9期)(案)への意見」と記載してください。",
+    "contact": "県民生活環境部環境対策課水環境室-霞ケ浦対策\n〒310-8555 茨城県水戸市笠原町978番6\n電話番号:029-301-2968\nFAX番号:029-301-2997\nお問い合わせフォーム"
+   }
+  },
   "https://www.pref.ibaraki.jp/bugai/koho/kocho/data/sodan/kensei.html": {
    "id": "47ac775c5e",
    "pref": "茨城県",
@@ -7766,6 +7876,576 @@
    "checked": "2026-11-19",
    "first_seen": "2026-09-28"
   },
+  "https://www.pref.chiba.lg.jp/soumu/iken/2025/gyoukakukeikaku.html": {
+   "id": "3c1576dc66",
+   "pref": "千葉県",
+   "title": "千葉県行財政改革計画(改訂素案)",
+   "url": "https://www.pref.chiba.lg.jp/soumu/iken/2025/gyoukakukeikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/suisan/iken/r7/namako.html": {
+   "id": "754efb3a81",
+   "pref": "千葉県",
+   "title": "なまこ漁業の制限措置及び許可を申請すべき期間(案)",
+   "url": "https://www.pref.chiba.lg.jp/suisan/iken/r7/namako.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kyouiku/shougaku/iken/2025/r7dokushoplaniken.html": {
+   "id": "d09843c322",
+   "pref": "千葉県",
+   "title": "千葉県子どもの読書活動推進計画(第五次)(案)",
+   "url": "https://www.pref.chiba.lg.jp/kyouiku/shougaku/iken/2025/r7dokushoplaniken.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kyouiku/seisaku/iken/2025/3rd-plan-2nd-iken.html": {
+   "id": "7dd93d23f9",
+   "pref": "千葉県",
+   "title": "県立高校改革推進プラン・第2次実施プログラム(案)",
+   "url": "https://www.pref.chiba.lg.jp/kyouiku/seisaku/iken/2025/3rd-plan-2nd-iken.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/gyoshigen/iken/2025/keikakukijun.html": {
+   "id": "fc69522824",
+   "pref": "千葉県",
+   "title": "千葉県における漁場改善計画の認定基準(案)",
+   "url": "https://www.pref.chiba.lg.jp/gyoshigen/iken/2025/keikakukijun.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/suisan/iken/r7/azisababoukeami.html": {
+   "id": "7e326fa438",
+   "pref": "千葉県",
+   "title": "あじ・さば棒受網漁業の制限措置及び許可又は起業の認可を申請すべき期間(案)",
+   "url": "https://www.pref.chiba.lg.jp/suisan/iken/r7/azisababoukeami.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/suisan/iken/r7/kakouriyousaba.html": {
+   "id": "e16c70e5d8",
+   "pref": "千葉県",
+   "title": "火光利用さば漁業の制限措置及び許可又は起業の認可を申請すべき期間(案)",
+   "url": "https://www.pref.chiba.lg.jp/suisan/iken/r7/kakouriyousaba.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2024/kanrikisoku2.html": {
+   "id": "8d4bedb14a",
+   "pref": "千葉県",
+   "title": "県立高等学校管理規則の一部を改正する規則(案)等",
+   "url": "https://www.pref.chiba.lg.jp/kyouiku/syokuin/iken/2024/kanrikisoku2.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/senkan/iken/2025/senkankaisei.html": {
+   "id": "11482949d1",
+   "pref": "千葉県",
+   "title": "千葉県選挙管理委員会の所管する事務に係る行政手続等における情報通信の技術の利用に関する規程の一部を改正する規程(案)",
+   "url": "https://www.pref.chiba.lg.jp/senkan/iken/2025/senkankaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/shigen/iken/2025/kaigan-keikaku.html": {
+   "id": "4059f15830",
+   "pref": "千葉県",
+   "title": "千葉県海岸漂着物対策地域計画の改定案",
+   "url": "https://www.pref.chiba.lg.jp/shigen/iken/2025/kaigan-keikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/gyoshigen/iken/2025/r7-unagi.html": {
+   "id": "4bf6f9a0df",
+   "pref": "千葉県",
+   "title": "うなぎ稚魚漁業の制限措置及び許可を申請すべき期間(案)",
+   "url": "https://www.pref.chiba.lg.jp/gyoshigen/iken/2025/r7-unagi.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/eishi/iken/2025/r7iken-seikatsu1.html": {
+   "id": "9fc99e20e5",
+   "pref": "千葉県",
+   "title": "千葉県旅館業衛生等管理指導指針改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/eishi/iken/2025/r7iken-seikatsu1.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/gakuji/iken/2024/saisoku.html": {
+   "id": "9f77576889",
+   "pref": "千葉県",
+   "title": "私立学校関係法施行細則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/gakuji/iken/2024/saisoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/taiki/iken/2025/s-kokujikaisei.html": {
+   "id": "2139a72ae5",
+   "pref": "千葉県",
+   "title": "騒音規制法、振動規制法及び悪臭防止法に基づく規制地域の指定等に係る告示の改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/taiki/iken/2025/s-kokujikaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/seisaku/iken/2025/sougoukeikaku.html": {
+   "id": "e675241160",
+   "pref": "千葉県",
+   "title": "新「千葉県総合計画」素案",
+   "url": "https://www.pref.chiba.lg.jp/seisaku/iken/2025/sougoukeikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/suisan/iken/r6/teguri3-boshuu.html": {
+   "id": "91635aa983",
+   "pref": "千葉県",
+   "title": "手繰第3種漁業の制限措置及び許可又は起業の認可を申請すべき期間(案)",
+   "url": "https://www.pref.chiba.lg.jp/suisan/iken/r6/teguri3-boshuu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/suiho/iken/r7/osendojoyoukou.html": {
+   "id": "6271a8c169",
+   "pref": "千葉県",
+   "title": "千葉県汚染土壌処理施設の設置及び維持管理に関する指導要綱の改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/suiho/iken/r7/osendojoyoukou.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/teikihoukoku.html": {
+   "id": "ddecea3606",
+   "pref": "千葉県",
+   "title": "千葉県建築基準法施行細則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/teikihoukoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/youchi/iken/2025/r7-pubcom.html": {
+   "id": "4aeaa8fc63",
+   "pref": "千葉県",
+   "title": "国土利用計画法第23条の規定による届出の様式を定める規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/youchi/iken/2025/r7-pubcom.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kaiku/iken/r6/kaikuiken.html": {
+   "id": "9a06bf4aa4",
+   "pref": "千葉県",
+   "title": "遊漁者等によるがざみ類の採捕の制限に係る委員会指示(案)",
+   "url": "https://www.pref.chiba.lg.jp/kaiku/iken/r6/kaikuiken.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/jyoureikaisetsu2025.html": {
+   "id": "58d6652592",
+   "pref": "千葉県",
+   "title": "千葉県建築基準法施行条例とその解説2025年版(案)",
+   "url": "https://www.pref.chiba.lg.jp/kenchiku/iken/r07/jyoureikaisetsu2025.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kouhou/iken/r7/tyuusya-kyoka.html": {
+   "id": "265539e9bf",
+   "pref": "千葉県",
+   "title": "道路交通法(駐車の許可)に係る審査基準の一部改正",
+   "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r7/tyuusya-kyoka.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kouhou/iken/r7/koutu-saisoku.html": {
+   "id": "fdc9458437",
+   "pref": "千葉県",
+   "title": "千葉県道路交通法施行細則の一部を改正する規則",
+   "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r7/koutu-saisoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/jinji/ninyou/iken/2025/digital-kaisei.html": {
+   "id": "594914a4f6",
+   "pref": "千葉県",
+   "title": "千葉県人事委員会の所管する事務に係る行政手続等における情報通信の技術の利用に関する規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/jinji/ninyou/iken/2025/digital-kaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/haishi/iken/2025/izikanriyoukou.html": {
+   "id": "5bb71811b8",
+   "pref": "千葉県",
+   "title": "千葉県廃棄物処理施設の設置及び維持管理に関する指導要綱の改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/haishi/iken/2025/izikanriyoukou.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/jika/iken/2025/kihonkeikakuminaoshi.html": {
+   "id": "2df8ed3d51",
+   "pref": "千葉県",
+   "title": "千葉県こどもを虐待から守る基本計画見直し(案)",
+   "url": "https://www.pref.chiba.lg.jp/jika/iken/2025/kihonkeikakuminaoshi.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/chiroui/iken/2025/roui-jyouhou-kisoku.html": {
+   "id": "5feb8bb1c2",
+   "pref": "千葉県",
+   "title": "千葉県労働委員会の所管する事務に係る行政手続等における情報通信の技術の利用に関する規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/chiroui/iken/2025/roui-jyouhou-kisoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kaiku/iken/r7/kaikukaisei.html": {
+   "id": "66d92c281b",
+   "pref": "千葉県",
+   "title": "千葉海区漁業調整委員会の所管する事務に係る行政手続等における情報通信の技術の利用に関する規程の一部を改正する規程(案)",
+   "url": "https://www.pref.chiba.lg.jp/kaiku/iken/r7/kaikukaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kaiku/iken/r7/naisuikaisei.html": {
+   "id": "4a46bf83ba",
+   "pref": "千葉県",
+   "title": "千葉県内水面漁場管理委員会の所管する事務に係る行政手続等における情報通信の技術の利用に関する規程の一部を改正する規程(案)",
+   "url": "https://www.pref.chiba.lg.jp/kaiku/iken/r7/naisuikaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/bunshin/iken/2025/r7kaikankisokukaisei.html": {
+   "id": "dafd635999",
+   "pref": "千葉県",
+   "title": "千葉県立文化会館管理規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/bunshin/iken/2025/r7kaikankisokukaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/suisan/umigyo-kihonkousou/umigyoukihonkousou-boshuu.html": {
+   "id": "f01f399ebb",
+   "pref": "千葉県",
+   "title": "千葉県海業推進基本構想(案)",
+   "url": "https://www.pref.chiba.lg.jp/suisan/umigyo-kihonkousou/umigyoukihonkousou-boshuu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kenshidou/iken/2024/fukushihoushinan.html": {
+   "id": "d19bcca4de",
+   "pref": "千葉県",
+   "title": "千葉県福祉人材確保・定着推進方針(案)",
+   "url": "https://www.pref.chiba.lg.jp/kenshidou/iken/2024/fukushihoushinan.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/yard/iken/2024/zandosinsakizyun.html": {
+   "id": "bff233fd10",
+   "pref": "千葉県",
+   "title": "千葉県土砂等の埋立て等による土壌の汚染及び災害の発生の防止に関する条例に基づく許可申請に係る審査基準(案)等",
+   "url": "https://www.pref.chiba.lg.jp/yard/iken/2024/zandosinsakizyun.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/dantai/iken/2022/engankaizenshikin2022.html": {
+   "id": "4a38bc7341",
+   "pref": "千葉県",
+   "title": "千葉県沿岸漁業改善資金貸付規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/dantai/iken/2022/engankaizenshikin2022.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/shinrin/iken/r6/kizyun-sisinkaisei.html": {
+   "id": "62f6e6a114",
+   "pref": "千葉県",
+   "title": "「千葉県林地開発許可審査基準」及び「千葉県林地開発行為等に関する行政指導指針」の一部改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/shinrin/iken/r6/kizyun-sisinkaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/shizen/iken/2024/shikkoukaisei2.html": {
+   "id": "c05db23254",
+   "pref": "千葉県",
+   "title": "千葉県立自然公園事業執行認可等の取扱要綱の一部改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/shizen/iken/2024/shikkoukaisei2.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kkbunka/iken/2024/iken2024.html": {
+   "id": "6adeee8819",
+   "pref": "千葉県",
+   "title": "特定非営利活動促進法施行条例施行規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/kkbunka/iken/2024/iken2024.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/taiki/iken/2024/voc-iken-boshu.html": {
+   "id": "5df2a6551a",
+   "pref": "千葉県",
+   "title": "千葉県揮発性有機化合物の排出及び飛散の抑制のための取組の促進に関する条例施行規則の一部を改正する規則案",
+   "url": "https://www.pref.chiba.lg.jp/taiki/iken/2024/voc-iken-boshu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/shoufuku/iken/2024/gambleplaniken.html": {
+   "id": "3add2a0745",
+   "pref": "千葉県",
+   "title": "千葉県ギャンブル等依存症対策推進計画(中間見直し)(試案)",
+   "url": "https://www.pref.chiba.lg.jp/shoufuku/iken/2024/gambleplaniken.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/zeimu/iken/2024/202502/202502.html": {
+   "id": "f10895c8ba",
+   "pref": "千葉県",
+   "title": "千葉県県税条例施行規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/zeimu/iken/2024/202502/202502.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kosodate/iken/2024/kodomokeikaku.html": {
+   "id": "0cbb4fcbc4",
+   "pref": "千葉県",
+   "title": "千葉県こども・若者みらいプラン(原案)",
+   "url": "https://www.pref.chiba.lg.jp/kosodate/iken/2024/kodomokeikaku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/dejisui/iken/2024/digital-kikai.html": {
+   "id": "dff571f2cd",
+   "pref": "千葉県",
+   "title": "知事等の所管する事務に係る行政手続等における情報通信の技術の利用に関する規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/dejisui/iken/2024/digital-kikai.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/shoubou/iken/2024/kouikika.html": {
+   "id": "50aea020eb",
+   "pref": "千葉県",
+   "title": "「千葉県消防広域化推進計画」改訂(案)",
+   "url": "https://www.pref.chiba.lg.jp/shoubou/iken/2024/kouikika.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kouhou/iken/r6/juhotouken-syobun.html": {
+   "id": "ea0f996cf5",
+   "pref": "千葉県",
+   "title": "銃砲刀剣類所持等取締法に係る処分基準の改定",
+   "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r6/juhotouken-syobun.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kouen/iken/2024/kisokukaisei.html": {
+   "id": "400277187e",
+   "pref": "千葉県",
+   "title": "千葉県屋外広告物条例施行規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/kouen/iken/2024/kisokukaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/seihou/iken/r6/bunshokan-ikenboshuu.html": {
+   "id": "c29b3f5b1e",
+   "pref": "千葉県",
+   "title": "千葉県文書館管理運営規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/seihou/iken/r6/bunshokan-ikenboshuu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/sanjin/iken/2024/syougai-kisokukaisei.html": {
+   "id": "b40ba8f127",
+   "pref": "千葉県",
+   "title": "千葉県立障害者テクノスクール設置管理条例施行規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/sanjin/iken/2024/syougai-kisokukaisei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kouhou/iken/r6/fuzoku-kisoku.html": {
+   "id": "4c27d4ca7d",
+   "pref": "千葉県",
+   "title": "千葉県風俗案内業の規制に関する条例施行規則の一部改正",
+   "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r6/fuzoku-kisoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kouhou/iken/r6/kouan-kisoku.html": {
+   "id": "76c4983a28",
+   "pref": "千葉県",
+   "title": "千葉県公安委員会等の所管する事務に係る行政手続等における情報通信の技術の利用に関する規則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/kouhou/iken/r6/kouan-kisoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/seihou/iken/r6/koueki-ikenboshuu.html": {
+   "id": "69cbc2488b",
+   "pref": "千葉県",
+   "title": "公益認定等に関する審査基準の改定案",
+   "url": "https://www.pref.chiba.lg.jp/seihou/iken/r6/koueki-ikenboshuu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridosekousaisoku.html": {
+   "id": "11d1c6b68c",
+   "pref": "千葉県",
+   "title": "宅地造成等規制法施行細則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridosekousaisoku.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridokyokashinsakijunn.html": {
+   "id": "15f87fff09",
+   "pref": "千葉県",
+   "title": "千葉県宅地造成等の工事に関する許可審査基準(案)",
+   "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridokyokashinsakijunn.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridogyouseishidoushishinn.html": {
+   "id": "158f507ba1",
+   "pref": "千葉県",
+   "title": "千葉県宅地造成等の工事に関する行政指導指針(案)",
+   "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/moridogyouseishidoushishinn.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatusaisokukaisei2024.html": {
+   "id": "5bd4c7e4b7",
+   "pref": "千葉県",
+   "title": "千葉県開発行為等規制細則の一部を改正する規則(案)",
+   "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatusaisokukaisei2024.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatukaisetukaisei2024.html": {
+   "id": "ca51b2553d",
+   "pref": "千葉県",
+   "title": "開発許可制度の解説(都市計画法編)のうち、審査基準の改正(案)",
+   "url": "https://www.pref.chiba.lg.jp/tokei/iken/2024/kaihatukaisetukaisei2024.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/index.html": {
+   "id": "eb8f893a93",
+   "pref": "千葉県",
+   "title": "建築基準法関係",
+   "url": "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/iken-index.html": {
+   "id": "98b13807e9",
+   "pref": "千葉県",
+   "title": "建築基準法関連規程に関する意見募集",
+   "url": "https://www.pref.chiba.lg.jp/kenchiku/jigyousha/kenchiku/kijunhou/iken-index.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.pref.chiba.lg.jp/suisan/iken/r8/baikago.html#07c597b641": {
    "id": "2533579187",
    "pref": "千葉県",
@@ -8321,17 +9001,6 @@
    "first_seen": "2026-10-20",
    "list": true
   },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702": {
-   "id": "392a29e670",
-   "pref": "東京都",
-   "title": "東京都国民健康保険運営方針中間見直し案について御意見を募集します 「東京都国民健康保険運営方針中間見直し案について御意見を募集します」へのジャンプページです。 https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702 保健医療局 健康・医療 意見募集",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/information/press/2026/09/2026090702",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15",
-   "list": true
-  },
   "https://www.my.metro.tokyo.lg.jp/w/000-20261116-279177392": {
    "id": "c461798b46",
    "pref": "東京都",
@@ -8391,66 +9060,6 @@
    "deadline": null,
    "checked": "2026-11-19",
    "first_seen": "2026-10-16"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/basic": {
-   "id": "7105da006b",
-   "pref": "東京都",
-   "title": "計画・審議会",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/basic",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info": {
-   "id": "c19b155e58",
-   "pref": "東京都",
-   "title": "感染症情報案内",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/taisaku": {
-   "id": "ba2bc4b72a",
-   "pref": "東京都",
-   "title": "東京都の対策・計画等",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/taisaku",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kankyo-eisei": {
-   "id": "196c1e1b8a",
-   "pref": "東京都",
-   "title": "大気汚染医療費助成制度のご案内",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kankyo-eisei",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kaso": {
-   "id": "4072be0f97",
-   "pref": "東京都",
-   "title": "火葬場に係る検討について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kankyo/kaso",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15"
-  },
-  "https://www.hokeniryo.metro.tokyo.lg.jp/policy/kojin_hogo": {
-   "id": "229bc3dacd",
-   "pref": "東京都",
-   "title": "個人情報の保護について",
-   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/policy/kojin_hogo",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-11-15"
   },
   "https://www.pref.kanagawa.jp/docs/u2h/pub/c7167192.html": {
    "id": "67cedc535c",
@@ -9298,6 +9907,102 @@
    "deadline": null,
    "checked": "2026-11-19",
    "first_seen": "2026-11-10",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/koubo/suisochousa.html": {
+   "id": "c3a4fde33f",
+   "pref": "石川県",
+   "title": "「石川県における民間主導による水素供給設備整備促進に向けた調査」業務委託プロポーザルの実施について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/koubo/suisochousa.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/healthcare/kyogikai/20211018.html": {
+   "id": "3ea3023952",
+   "pref": "石川県",
+   "title": "「石川県における水素導入・利活用等アクションプラン策定業務」業務委託プロポーザルの実施について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/healthcare/kyogikai/20211018.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/shouhinkikaku/bosyu.html": {
+   "id": "e0e0467c64",
+   "pref": "石川県",
+   "title": "石川県新商品企画事業「Session石川」の実施について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/shouhinkikaku/bosyu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/corona/setsubi/2020.html": {
+   "id": "23326f6e9e",
+   "pref": "石川県",
+   "title": "コロナ時代に適応する設備導入支援事業について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/corona/setsubi/2020.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/corona/shinseihin/2020.html": {
+   "id": "8ab668ae57",
+   "pref": "石川県",
+   "title": "新たな需要を取り込む新技術・新製品開発支援事業について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/corona/shinseihin/2020.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/kenkoukeiei.html": {
+   "id": "47104fe057",
+   "pref": "石川県",
+   "title": "「コロナ時代だからこそ取り組む健康経営」講演会について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/kenkoukeiei.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/keieijizokusienkin/puropozaru.html": {
+   "id": "377f3bd200",
+   "pref": "石川県",
+   "title": "「石川県経営持続支援金及び石川県版家賃支援給付金管理運営事業」業務委託先の公募について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/keieijizokusienkin/puropozaru.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/jouhou/documents/gihukenrenkei_shisatsu.html": {
+   "id": "819d1c786e",
+   "pref": "石川県",
+   "title": "岐阜県IoT活用先進企業視察ツアーの参加者募集について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/jouhou/documents/gihukenrenkei_shisatsu.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "list": true
+  },
+  "https://www.pref.ishikawa.lg.jp/syoko/jouhou/documents/gihukenrenkeiseminer.html": {
+   "id": "7f927c1d3d",
+   "pref": "石川県",
+   "title": "AI・IoT導入セミナー・交流会(岐阜県・石川県企業交流会)参加企業の募集について",
+   "url": "https://www.pref.ishikawa.lg.jp/syoko/jouhou/documents/gihukenrenkeiseminer.html",
+   "start": null,
+   "deadline": null,
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
    "list": true
   },
   "https://www.pref.fukui.lg.jp/doc/kouho/pabukome/publicjissi2.html": {
@@ -13535,36 +14240,6 @@
    "checked": "2026-11-19",
    "first_seen": "2026-09-28"
   },
-  "https://www.pref.kagoshima.jp/site.html": {
-   "id": "7989dc948e",
-   "pref": "鹿児島県",
-   "title": "このサイトについて",
-   "url": "https://www.pref.kagoshima.jp/site.html",
-   "start": null,
-   "deadline": null,
-   "checked": "2026-11-19",
-   "first_seen": "2026-10-29"
-  },
-  "https://www.pref.kagoshima.jp/af04/12thpubliccomment.html#da3871fff7": {
-   "id": "6e84c791b2",
-   "pref": "鹿児島県",
-   "title": "第12次鹿児島県職業能力開発計画骨子(案)",
-   "url": "https://www.pref.kagoshima.jp/af04/12thpubliccomment.html",
-   "start": "2026-10-09",
-   "deadline": "2026-11-09",
-   "checked": "2026-11-19",
-   "first_seen": "2026-10-09"
-  },
-  "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html#d770440eb5": {
-   "id": "a60998a946",
-   "pref": "鹿児島県",
-   "title": "「『かごしま茶』振興ビジョン(仮称)」骨子案",
-   "url": "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html",
-   "start": "2026-10-09",
-   "deadline": "2026-11-10",
-   "checked": "2026-11-19",
-   "first_seen": "2026-10-10"
-  },
   "https://www.pref.kagoshima.jp/ah07/kasen/ryuuikisuigaitaisaku.html#2bf1fb14fc": {
    "id": "c804409344",
    "pref": "鹿児島県",
@@ -13574,102 +14249,6 @@
    "deadline": "2026-12-09",
    "checked": "2026-11-19",
    "first_seen": "2026-11-07"
-  },
-  "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/suiseiseibuturuikeisitei2026.html": {
-   "id": "edf9d02ae1",
-   "pref": "鹿児島県",
-   "title": "大隅半島東部海域における水生生物の保全に係る水質環境基準の類型指定(案)",
-   "url": "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/suiseiseibuturuikeisitei2026.html",
-   "start": "2026-10-01",
-   "deadline": "2026-11-02",
-   "checked": "2026-11-02",
-   "first_seen": "2026-10-09",
-   "detail": {
-    "files": [
-     {
-      "name": "大隅半島東部海域における水生生物の保全に係る水質環境基準の類型指定（案）について",
-      "url": "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/documents/129990_20260910151934-1.pdf"
-     },
-     {
-      "name": "（参考資料1）水生生物の保全に係る水質環境基準の類型指定について",
-      "url": "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/documents/129990_20260909111148-1.pdf"
-     },
-     {
-      "name": "（参考資料2）大隅半島東部海域における類型指定を行うために必要な情報の整理について",
-      "url": "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/documents/129990_20260909111215-1.pdf"
-     },
-     {
-      "name": "意見提出用紙（WORD：42KB）",
-      "url": "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/documents/129990_20260910152230-1.doc"
-     },
-     {
-      "name": "意見提出用紙",
-      "url": "https://www.pref.kagoshima.jp/ad05/kurashi-kankyo/kankyo/suishitu/odakuboshi/documents/129990_20260910152251-1.pdf"
-     }
-    ],
-    "howto": "以下添付の意見提出用紙に氏名、住所、連絡先、意見を記入の上、郵送、FAX又は電子メールのいずれかの方法で提出してください。\nなお、氏名、住所、連絡先、意見を明記していただければ、任意の様式により提出いただいてもかまいません。\n電子申請システムにより意見を提出する場合は、直接、意見を入力してください。\n意見を正確に把握するため、電話や口頭による意見の受付はいたしませんので、御了承ください。\n意見提出用紙(WORD:42KB)\n意見提出用紙(PDF:46KB)\n(1)郵送の場合\n〒890-8577\n鹿児島市鴨池新町10-1\n鹿児島県環境林務部環境保全課水質係\n(2)FAXの場合\nFAX:099-286-5548",
-    "contact": "環境林務部環境保全課\n電話番号:099-286-2629\n2:ふつう"
-   }
-  },
-  "https://www.pref.kagoshima.jp/af04/12thpubliccomment.html": {
-   "id": "5e2066dcb5",
-   "pref": "鹿児島県",
-   "title": "第12次鹿児島県職業能力開発計画骨子(案)",
-   "url": "https://www.pref.kagoshima.jp/af04/12thpubliccomment.html",
-   "start": "2026-10-09",
-   "deadline": "2026-11-09",
-   "checked": "2026-11-09",
-   "first_seen": "2026-10-09",
-   "detail": {
-    "files": [
-     {
-      "name": "第12次鹿児島県職業能力開発計画骨子（案）【令和8～12年度】（概要）",
-      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20261001164928-1.pdf"
-     },
-     {
-      "name": "第12次鹿児島県職業能力開発計画骨子（案）",
-      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20261001161126-1.pdf"
-     },
-     {
-      "name": "意見提出用紙（WORD：18KB）",
-      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20260930163713-1.docx"
-     },
-     {
-      "name": "意見提出用紙",
-      "url": "https://www.pref.kagoshima.jp/af04/documents/130827_20260930164126-1.pdf"
-     }
-    ],
-    "howto": "御意見を出される方は,次の(1)から(4)までのいずれかの方法により提出してください。\nまた,御意見の内容を確認させていただく場合がありますので,住所,氏名,及び連絡先(電話番号,メールアドレス等)を必ず明記してください。\nなお,御意見の内容を正確に把握するため,お電話での御意見はお受けいたしませんので,あらかじめ御了承ください。\n意見提出用紙(WORD:18KB)\n意見提出用紙(PDF:44KB)\n(1)郵送の場合\n県のホームページからダウンロード又は閲覧場所に備え付けてある意見提出用紙に御記入の上,以下のあて先に郵送してください。\n〒890-8577\n鹿児島市鴨池新町10番1号\n鹿児島県商工労働水産部雇用労政課公共訓練係あて\n(2)FAXの場合\n県のホームページからダウンロード又は閲覧場所に備え付けてある意見提出用紙に御記入の上,以下のFAX番号に送信してください。",
-    "contact": "商工労働水産部雇用労政課\n2:ふつう"
-   }
-  },
-  "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html": {
-   "id": "33b4dcf71b",
-   "pref": "鹿児島県",
-   "title": "「『かごしま茶』振興ビジョン(仮称)」骨子案",
-   "url": "https://www.pref.kagoshima.jp//ag06/chagyoshinkou/koshian2026.html",
-   "start": "2026-10-09",
-   "deadline": "2026-11-10",
-   "checked": "2026-11-10",
-   "first_seen": "2026-10-10",
-   "detail": {
-    "files": [
-     {
-      "name": "「かごしま茶」振興ビジョン（仮称）骨子案",
-      "url": "https://www.pref.kagoshima.jp/ag06/chagyoshinkou/documents/130984_20261009102951-1.pdf"
-     },
-     {
-      "name": "意見書提出用紙",
-      "url": "https://www.pref.kagoshima.jp/ag06/chagyoshinkou/documents/130984_20261009112718-1.pdf"
-     },
-     {
-      "name": "意見書提出用紙（WORD：25KB）",
-      "url": "https://www.pref.kagoshima.jp/ag06/chagyoshinkou/documents/130984_20261009112739-1.docx"
-     }
-    ],
-    "howto": "(1)郵送、(2)FAX、(3)電子メール、(4)電子申請システムのいずれかの方法により提出してください。\n御意見の内容を確認させていただく場合がありますので、氏名、住所、電話番号等の連絡先を必ず明記くださいますようお願いします。\n御意見の内容を正確に把握するため、電話、窓口での口頭による御意見はお受けしておりませんので、御了承ください。\n(1)郵送の場合\n「意見提出用紙」を県ホームページよりダウンロードまたは上記閲覧場所で入手の上、必要事項を記入いただき、下記のあて先に郵送してください。\n〒890-8577鹿児島市鴨池新町10番1号鹿児島県農政部農産園芸課あて\n(2)FAXの場合\n「意見提出用紙」を県ホームページよりダウンロードまたは上記閲覧場所で入手の上、必要事項を記入いただき、下記のあて先にFAXしてください。\nFAX番号:099-286-5595(鹿児島県農政部農産園芸課あて)\n(3)電子メールの場合",
-    "contact": "農政部農産園芸課\n2:ふつう"
-   }
   },
   "https://www.pref.kagoshima.jp/ah07/kasen/ryuuikisuigaitaisaku.html": {
    "id": "06836c6aa5",
@@ -13777,6 +14356,16 @@
    "checked": "2026-11-19",
    "first_seen": "2026-11-16"
   },
+  "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041941.html#a9974aa8a1": {
+   "id": "b78e2a3160",
+   "pref": "沖縄県",
+   "title": "沖縄県外来種対策指針等の改訂に対する意見募集",
+   "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041941.html",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19"
+  },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040871.html#1e65296491": {
    "id": "1058583515",
    "pref": "沖縄県",
@@ -13859,6 +14448,50 @@
     ],
     "howto": "(1)意見書様式(WORDファイル)に、住所、氏名(団体・グループの場合は団体・グループ名)及び連絡先を記入してください。",
     "contact": "沖縄県 こども未来部 女性力・ダイバーシティ推進課\n〒900-8570 沖縄県那覇市泉崎1-2-2 行政棟3階(北側)\n電話:098-866-2500 ファクス:098-866-2589\nお問い合わせは専用フォームをご利用ください。"
+   }
+  },
+  "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041941.html": {
+   "id": "3663de3aea",
+   "pref": "沖縄県",
+   "title": "沖縄県外来種対策指針等の改訂に対する意見募集",
+   "url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1041941.html",
+   "start": "2026-11-19",
+   "deadline": "2026-12-18",
+   "checked": "2026-11-19",
+   "first_seen": "2026-11-19",
+   "detail": {
+    "files": [
+     {
+      "name": "意見書様式",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/ikensho.docx"
+     },
+     {
+      "name": "01_沖縄県外来種対策指針改訂（案）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/01_sisinan.pdf"
+     },
+     {
+      "name": "02_沖縄県外来種対策行動計画改訂（案）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/02_keikakuan.pdf"
+     },
+     {
+      "name": "03_新旧対照表（沖縄県外来種対策指針その1）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/3_sinkyu_sisin1.pdf"
+     },
+     {
+      "name": "03_新旧対照表（沖縄県外来種対策指針その2）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/3_sinkyu_sisin2.pdf"
+     },
+     {
+      "name": "04_新旧対照表（沖縄県外来種対策行動計画その1）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/4_sinkyu_keikaku1.pdf"
+     },
+     {
+      "name": "04_新旧対照表（沖縄県外来種対策行動計画その2）",
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/941/4_sinkyu_keikaku2.pdf"
+     }
+    ],
+    "howto": "(1)意見書様式(Wordファイル)に、住所、氏名(団体・グループの場合は団体・グループ名)及び連絡先を記入してください。",
+    "contact": "沖縄県 環境部 自然保護課\n〒900-8570 沖縄県那覇市泉崎1-2-2 行政棟4階(北側)\n電話:098-866-2243 ファクス:098-866-2855\nお問い合わせは専用フォームをご利用ください。"
    }
   },
   "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1014936/1039425/1040827.html": {
