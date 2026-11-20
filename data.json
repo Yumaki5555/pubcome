@@ -1,40 +1,7 @@
 {
- "updated": "2026-11-19T11:56+09:00",
+ "updated": "2026-11-20T11:50+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "155261227",
-   "title": "「東京国際空港外７か所機械設備保全業務における民間競争入札実施要項（案）」に係る意見募集について",
-   "category": "航空",
-   "ministry": "国土交通省",
-   "published": "2026-08-07T23:59:00+09:00",
-   "deadline": "2026-08-21T17:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261227&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "595126111",
-   "title": "高圧ガス保安法に基づく高圧ガス製造保安責任者試験等に関する規則及び液化石油ガスの保安の確保及び取引の適正化に関する法律施行規則の一部を改正する省令（案）等に対する意見公募",
-   "category": "国民生活の安全・安心の確保",
-   "ministry": "経済産業省",
-   "published": "2026-07-22T23:59:00+09:00",
-   "deadline": "2026-08-21T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595126111&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "198026102",
-   "title": "運転責任者に係る基準等に関する規程の改正案に対する意見公募について",
-   "category": "工業",
-   "ministry": "原子力規制委員会",
-   "published": "2026-07-23T23:59:00+09:00",
-   "deadline": "2026-08-22T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=198026102&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "120260021",
    "title": "「警察官職務執行法第六条の二第八項の規定に基づく管理者への通知等に関する規則案」に対する意見の募集について",
@@ -9383,38 +9350,6 @@
    }
   },
   {
-   "id": "495260238",
-   "title": "確定拠出年金法施行規則の一部を改正する省令案に関する御意見の募集について",
-   "category": "社会保険",
-   "ministry": "厚生労働省",
-   "published": "2026-10-26T23:59:00+09:00",
-   "deadline": "2026-11-24T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260238&Mode=0",
-   "first_seen": "2026-10-27",
-   "tags": [
-    "社会保障"
-   ],
-   "detail": {
-    "rule_name": "確定拠出年金法施行規則の一部を改正する省令",
-    "law": "確定拠出年金法（平成13年法律第88号）第33条第１項及び第116条",
-    "guide_files": [
-     {
-      "name": "意見募集要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322879"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "概要",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322880"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "厚生労働省年金局企業年金・個人年金課"
-   }
-  },
-  {
    "id": "195260071",
    "title": "「水道水中における農薬類の分類の見直し（案）」に関する御意見の募集について",
    "category": "厚生",
@@ -9442,6 +9377,38 @@
     "other_files": [],
     "note": "",
     "contact": "環境省水・大気環境局環境管理課水道水質・衛生管理室"
+   }
+  },
+  {
+   "id": "495260238",
+   "title": "確定拠出年金法施行規則の一部を改正する省令案に関する御意見の募集について",
+   "category": "社会保険",
+   "ministry": "厚生労働省",
+   "published": "2026-10-26T23:59:00+09:00",
+   "deadline": "2026-11-25T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260238&Mode=0",
+   "first_seen": "2026-10-27",
+   "tags": [
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "確定拠出年金法施行規則の一部を改正する省令",
+    "law": "確定拠出年金法（平成13年法律第88号）第33条第１項及び第116条",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322879"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000322880"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省年金局企業年金・個人年金課"
    }
   },
   {
@@ -11616,36 +11583,6 @@
    }
   },
   {
-   "id": "495260253",
-   "title": "再生医療等の安全性の確保等に関する法律施行令の一部を改正する政令案に関する御意見の募集について",
-   "category": "厚生",
-   "ministry": "厚生労働省",
-   "published": "2026-11-06T23:59:00+09:00",
-   "deadline": "2026-12-05T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260253&Mode=0",
-   "first_seen": "2026-11-07",
-   "tags": [],
-   "detail": {
-    "rule_name": "再生医療等の安全性の確保等に関する法律施行令の一部を改正する政令案",
-    "law": "再生医療等の安全性の確保等に関する法律(平成25年法律第85号) 第２条第２項",
-    "guide_files": [
-     {
-      "name": "意見公募要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323719"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "概要",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323720"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "厚生労働省医政局研究開発政策課"
-   }
-  },
-  {
    "id": "155261035",
    "title": "「次世代船舶の開発」プロジェクトに関する研究開発・社会実装計画（改定案）",
    "category": "海運",
@@ -11787,6 +11724,36 @@
    }
   },
   {
+   "id": "495260253",
+   "title": "再生医療等の安全性の確保等に関する法律施行令の一部を改正する政令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-06T23:59:00+09:00",
+   "deadline": "2026-12-07T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260253&Mode=0",
+   "first_seen": "2026-11-07",
+   "tags": [],
+   "detail": {
+    "rule_name": "再生医療等の安全性の確保等に関する法律施行令の一部を改正する政令案",
+    "law": "再生医療等の安全性の確保等に関する法律(平成25年法律第85号) 第２条第２項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323719"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323720"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医政局研究開発政策課"
+   }
+  },
+  {
    "id": "495260255",
    "title": "予防接種法施行規則及び予防接種実施規則の一部を改正する省令案に関する御意見の募集について",
    "category": "厚生",
@@ -11904,36 +11871,6 @@
     ],
     "note": "「移動系通信事業者が提供するインターネット接続サービスの実効速度計測手法及び利用者への情報提供手法等に関するガイドライン」の改正案については、行政手続法第２条第８号に定める命令等には該当しませんが、任意で意見を募集するものです。",
     "contact": "総合通信基盤局電気通信事業部データ通信課\n電 話：０３－５２５３－５８５３（直通）\n総合通信基盤局電気通信事業部料金サービス課消費者契約適正化推進室\n電 話：０３－５２５３－５４８８（直通）"
-   }
-  },
-  {
-   "id": "495260250",
-   "title": "医療法施行規則の一部を改正する省令案に関する御意見の募集について",
-   "category": "厚生",
-   "ministry": "厚生労働省",
-   "published": "2026-11-09T23:59:00+09:00",
-   "deadline": "2026-12-08T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260250&Mode=0",
-   "first_seen": "2026-11-10",
-   "tags": [],
-   "detail": {
-    "rule_name": "医療法施行規則の一部を改正する省令",
-    "law": "医療法（昭和23年法律第205号）第４条の３第１項、第16条の４及び第22条の３",
-    "guide_files": [
-     {
-      "name": "意見公募要領",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323847"
-     }
-    ],
-    "draft_files": [
-     {
-      "name": "概要",
-      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323848"
-     }
-    ],
-    "other_files": [],
-    "note": "",
-    "contact": "厚生労働省医政局研究開発政策課"
    }
   },
   {
@@ -12116,6 +12053,36 @@
     "other_files": [],
     "note": "",
     "contact": "厚生労働省 医薬局 監視指導・麻薬対策課"
+   }
+  },
+  {
+   "id": "495260250",
+   "title": "医療法施行規則の一部を改正する省令案に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-09T23:59:00+09:00",
+   "deadline": "2026-12-10T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260250&Mode=0",
+   "first_seen": "2026-11-10",
+   "tags": [],
+   "detail": {
+    "rule_name": "医療法施行規則の一部を改正する省令",
+    "law": "医療法（昭和23年法律第205号）第４条の３第１項、第16条の４及び第22条の３",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323847"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000323848"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医政局研究開発政策課"
    }
   },
   {
@@ -13183,6 +13150,38 @@
    }
   },
   {
+   "id": "141000248",
+   "title": "母子保健法施行規則の一部を改正する内閣府令（案）に関する御意見の募集について",
+   "category": "厚生",
+   "ministry": "こども家庭庁",
+   "published": "2026-11-19T23:59:00+09:00",
+   "deadline": "2026-12-18T17:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=141000248&Mode=0",
+   "first_seen": "2026-11-20",
+   "tags": [
+    "子育て"
+   ],
+   "detail": {
+    "rule_name": "母子保健法施行規則の一部を改正する内閣府令",
+    "law": "母子保健法（昭和40年法律第141号）第16条第３項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324372"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324373"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "こども家庭庁成育局母子保健課"
+   }
+  },
+  {
    "id": "860202607",
    "title": "非常勤消防団員等に係る損害補償の基準を定める政令の一部を改正する政令案に対する意見募集",
    "category": "消防",
@@ -13330,6 +13329,38 @@
    }
   },
   {
+   "id": "495260269",
+   "title": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令案について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-19T23:59:00+09:00",
+   "deadline": "2026-12-18T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260269&Mode=0",
+   "first_seen": "2026-11-20",
+   "tags": [
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令",
+    "law": "地域における医療及び介護の総合的な確保の促進に関する法律第 38 条第２項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324391"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "命令等の案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324392"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省政策統括官付医療情報連携担当参事官室"
+   }
+  },
+  {
    "id": "155260936",
    "title": "道路運送車両の保安基準等の一部を改正する省令案、道路運送車両の保安基準の細目を定める告示等の一部を改正する告示案及び走行環境条件の付与の実施要領について（依命通達）の一部を改正する案について",
    "category": "陸運",
@@ -13365,6 +13396,144 @@
     "other_files": [],
     "note": "",
     "contact": "国土交通省物流・自動車局車両基準・国際課"
+   }
+  },
+  {
+   "id": "495260270",
+   "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第二十三条の二の二十三第一項の規定により厚生労働大臣が基準を定めて指定する医療機器の一部を改正する件（案）に係る御意見の募集について",
+   "category": "厚生",
+   "ministry": "厚生労働省",
+   "published": "2026-11-19T23:59:00+09:00",
+   "deadline": "2026-12-19T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260270&Mode=0",
+   "first_seen": "2026-11-20",
+   "tags": [],
+   "detail": {
+    "rule_name": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第二十三条の二の二十三第一項の規定により厚生労働大臣が基準を定めて指定する医療機器の一部を改正する件",
+    "law": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第23条の２の23第１項",
+    "guide_files": [
+     {
+      "name": "御意見の募集について",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324375"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "改正概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324376"
+     },
+     {
+      "name": "改正案文",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324377"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省医薬局医療機器審査管理課\n電話：03-5253-1111\n内線番号：4215"
+   }
+  },
+  {
+   "id": "195260084",
+   "title": "「水質汚濁防止法施行規則等の一部を改正する省令の一部を改正する省令案」に関する意見募集（パブリック・コメント）について",
+   "category": "環境保全",
+   "ministry": "環境省",
+   "published": "2026-11-20T23:59:00+09:00",
+   "deadline": "2026-12-20T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260084&Mode=0",
+   "first_seen": "2026-11-20",
+   "tags": [],
+   "detail": {
+    "rule_name": "水質汚濁防止法施行規則等の一部を改正する省令の一部を改正する省令",
+    "law": "・水質汚濁防止法第三条第一項、第二十七条",
+    "guide_files": [
+     {
+      "name": "【意見募集要領】水質汚濁防止法施行規則等の一部を改正する省令の一部を改正する省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324410"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "【概要】水質汚濁防止法施行規則等の一部を改正する省令の一部を改正する省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324411"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "【参考１】 六価クロム化合物に係る暫定排水基準の見直しについて（概要）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324412"
+     },
+     {
+      "name": "【参考２】 六価クロム化合物に係る暫定排水基準の見直しについて",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324413"
+     }
+    ],
+    "note": "－",
+    "contact": "環境省水・大気環境局環境管理課環境汚染対策室"
+   }
+  },
+  {
+   "id": "620340104",
+   "title": "特定放射性廃棄物の最終処分に関する法律第十一条第三項の単位数量当たりの第一種最終処分業務に必要な金額及び同法第十一条の二第三項の単位数量当たりの第二種最終処分業務に必要な金額を定める省令の一部を改正する省令（案）に対する意見募集について",
+   "category": "その他",
+   "ministry": "資源エネルギー庁",
+   "published": "2026-11-20T23:59:00+09:00",
+   "deadline": "2026-12-21T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620340104&Mode=0",
+   "first_seen": "2026-11-20",
+   "tags": [],
+   "detail": {
+    "rule_name": "特定放射性廃棄物の最終処分に関する法律第十一条第三項の単位数量当たりの第一種最終処分業務に必要な金額及び同法第十一条の二第三項の単位数量当たりの第二種最終処分業務に必要な金額を定める省令の一部を改正する省令",
+    "law": "特定放射性廃棄物の最終処分に関する法律第十一条第三項及び同法第十一条の二第三項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324202"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "改正省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324203"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "参考資料",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324204"
+     }
+    ],
+    "note": "",
+    "contact": "経済産業省 資源エネルギー庁 電力・ガス事業部 放射性廃棄物対策課\n電話：０３－３５０１－１９９２"
+   }
+  },
+  {
+   "id": "145210797",
+   "title": "携帯音声通信事業者による契約者等の本人確認等及び携帯音声通信役務の不正な利用の防止に関する法律の一部を改正する法律の施行に伴う関係政令の整備に関する政令案に対する意見募集",
+   "category": "電気通信",
+   "ministry": "総務省",
+   "published": "2026-11-20T23:59:00+09:00",
+   "deadline": "2026-12-21T23:59:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210797&Mode=0",
+   "first_seen": "2026-11-20",
+   "tags": [],
+   "detail": {
+    "rule_name": "携帯音声通信事業者による契約者等の本人確認等及び携帯音声通信役務の不正な利用の防止に関する法律の一部を改正する法律の施行に伴う関係政令の整備に関する政令",
+    "law": "携帯音声通信事業者による契約者等の本人確認等及び携帯音声通信役務の不正な利用の防止に関する法律の一部を改正する法律（令和８年法律第25号）及び携帯通信事業者による契約者等の本人確認等及び携帯通信役務の不正な利用の防止に関する法律（平成17年法律第31号）第８条第１項第２号",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324348"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "政令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324349"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "総務省総合通信基盤局電気通信事業部\n利用環境課\nTEL:03-5253-5487（直通）\n警察庁刑事局捜査支援分析管理官\nパブリックコメント担当\nTEL:03-3581-0141（内線：4346）"
    }
   },
   {
