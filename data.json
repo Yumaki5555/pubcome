@@ -1,62 +1,7 @@
 {
- "updated": "2026-11-26T12:57+09:00",
+ "updated": "2026-11-27T08:09+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "550004385",
-   "title": "「主要食糧の需給及び価格の安定に関する法律施行令の一部を改正する政令案」、「主要食糧の需給及び価格の安定に関する法律の一部を改正する法律の施行に伴う経過措置に関する政令案」及び「平成七年三月二十七日農林水産省告示第四百五十七号（主要食糧の需給及び価格の安定に関する法律の施行に関する件）の一部を改正する件」についての意見・情報の募集について",
-   "category": "農業",
-   "ministry": "農林水産省",
-   "published": "2026-07-30T23:59:00+09:00",
-   "deadline": "2026-08-28T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004385&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "495260097",
-   "title": "医療機器に係る日本産業規格の改正案に関する御意見の募集について",
-   "category": "厚生",
-   "ministry": "厚生労働省",
-   "published": "2026-06-29T23:59:00+09:00",
-   "deadline": "2026-08-28T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260097&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "198026103",
-   "title": "試験研究の用に供する原子炉等の設置、運転等に関する規則等の一部を改正する規則（案）等に対する意見公募について",
-   "category": "工業",
-   "ministry": "原子力規制委員会",
-   "published": "2026-07-30T23:59:00+09:00",
-   "deadline": "2026-08-29T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=198026103&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "198026201",
-   "title": "国立研究開発法人日本原子力研究開発機構高速増殖原型炉もんじゅの廃止措置計画の認可の審査に関する考え方の全部を改正する規程（案）等に対する意見公募について",
-   "category": "工業",
-   "ministry": "原子力規制委員会",
-   "published": "2026-07-30T23:59:00+09:00",
-   "deadline": "2026-08-29T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=198026201&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "155260924",
-   "title": "道路運送法等違反に対する行政処分等の基準の改正案に関する意見募集について",
-   "category": "陸運",
-   "ministry": "国土交通省",
-   "published": "2026-07-30T23:59:00+09:00",
-   "deadline": "2026-08-29T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260924&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "550004386",
    "title": "「主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令案」、「財務省・農林水産省関係主要食糧の需給及び価格の安定に関する法律施行規則案」及び「財務省及び農林水産省の所管する法令に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則案」についての意見の募集について",
@@ -13977,6 +13922,38 @@
    }
   },
   {
+   "id": "495260276",
+   "title": "介護保険事業に係る保険給付の円滑な実施を確保するための基本的な指針の全部を改正する件（案）に関する御意見の募集について",
+   "category": "社会福祉",
+   "ministry": "厚生労働省",
+   "published": "2026-11-26T23:59:00+09:00",
+   "deadline": "2026-12-26T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260276&Mode=0",
+   "first_seen": "2026-11-27",
+   "tags": [
+    "社会保障"
+   ],
+   "detail": {
+    "rule_name": "介護保険事業に係る保険給付の円滑な実施を確保するための基本的な指針の全部を改正する件（案）",
+    "law": "介護保険法第116条第１項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324601"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "概要",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324602"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "厚生労働省老健局介護保険計画課\n電話：03-3595-2890"
+   }
+  },
+  {
    "id": "495260273",
    "title": "労働者災害補償保険法等の一部を改正する法律の施行に伴う厚生労働省関係省令の整備に関する省令案に関する御意見の募集について",
    "category": "労働",
@@ -14004,6 +13981,118 @@
     "other_files": [],
     "note": "",
     "contact": "労働基準局労災管理課\n電話：03-3502-6292"
+   }
+  },
+  {
+   "id": "155261234",
+   "title": "無人航空機の登録講習機関及び登録更新講習機関に関する省令の一部改正（案）に関する意見募集について",
+   "category": "航空",
+   "ministry": "国土交通省",
+   "published": "2026-11-27T23:59:00+09:00",
+   "deadline": "2026-12-28T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261234&Mode=0",
+   "first_seen": "2026-11-27",
+   "tags": [],
+   "detail": {
+    "rule_name": "無人航空機の登録講習機関及び登録更新講習機関に関する省令の一部改正",
+    "law": "航空法第百三十二条の七十一第二項（第百三十二条の八十三において準用する場合を含む。）において準用する百三十二条の七十第一項後段及び第三項第五号並びに第百三十二条の七十二（第百三十二条の八十三において準用する場合を含む。）",
+    "guide_files": [
+     {
+      "name": "意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324613"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "【概要】意見募集要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324614"
+     },
+     {
+      "name": "【新旧】無人航空機の登録講習機関及び登録更新講習機関に関する省令",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324615"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "国土交通省航空局安全部無人航空機安全課 意見募集担当"
+   }
+  },
+  {
+   "id": "095260960",
+   "title": "人工衛星等の打上げ及び人工衛星の管理に関する法律等の一部を改正する法律（令和八年法律第三十九号）の施行に伴う人工衛星等の打上げ及び人工衛星の管理に関する法律施行規則及び宇宙資源の探査及び開発に関する事業活動の促進に関する法律施行規則の一部を改正する内閣府令（案）等に係る意見募集について",
+   "category": "その他",
+   "ministry": "内閣府",
+   "published": "2026-11-27T23:59:00+09:00",
+   "deadline": "2026-12-28T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260960&Mode=0",
+   "first_seen": "2026-11-27",
+   "tags": [],
+   "detail": {
+    "rule_name": "別紙１のとおり",
+    "law": "別紙２のとおり",
+    "guide_files": [
+     {
+      "name": "意見募集要項",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324678"
+     },
+     {
+      "name": "別紙１ 定めようとする命令などの題名",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324679"
+     },
+     {
+      "name": "別紙２ 根拠法令条項",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324680"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "(1)宇宙活動法施行規則及び宇宙資源法施行規則の一部を改正する内閣府令（案）.",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324681"
+     },
+     {
+      "name": "(2)令和３年内閣府告示第121号の一部を改正する告示（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324682"
+     },
+     {
+      "name": "(3)宇宙活動法に基づく審査基準・標準処理期間の改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324683"
+     },
+     {
+      "name": "(4)人工衛星等の打上げに係る許可に関するガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324684"
+     },
+     {
+      "name": "(5)人工衛星の打上げ用ロケットの型式認定に関するガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324685"
+     },
+     {
+      "name": "(6)打上げ施設の適合認定に関するガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324686"
+     },
+     {
+      "name": "(7)人工衛星の管理に係る許可に関するガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324687"
+     },
+     {
+      "name": "(8)搭載前人工衛星等の適合認定に関するガイドライン（案）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324688"
+     },
+     {
+      "name": "(9)人工衛星等との衝突防止に係るガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324689"
+     },
+     {
+      "name": "(10)軌道上サービスを実施する人工衛星の管理に係る許可に関するガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324690"
+     },
+     {
+      "name": "(11)宇宙活動法に基づく第三者損害賠償制度に関するガイドラインの改正案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324691"
+     }
+    ],
+    "other_files": [],
+    "note": "",
+    "contact": "内閣府宇宙開発戦略推進事務局 宇宙活動法担当\n電話：03-6205-7036"
    }
   }
  ]
