@@ -1,40 +1,7 @@
 {
- "updated": "2026-11-27T12:56+09:00",
+ "updated": "2026-11-28T08:09+09:00",
  "source": "list",
  "items": [
-  {
-   "id": "550004386",
-   "title": "「主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令案」、「財務省・農林水産省関係主要食糧の需給及び価格の安定に関する法律施行規則案」及び「財務省及び農林水産省の所管する法令に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則案」についての意見の募集について",
-   "category": "農業",
-   "ministry": "農林水産省",
-   "published": "2026-07-31T23:59:00+09:00",
-   "deadline": "2026-08-29T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004386&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "495260120",
-   "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備等に関する省令案に関する御意見の募集について",
-   "category": "厚生",
-   "ministry": "厚生労働省",
-   "published": "2026-07-31T23:59:00+09:00",
-   "deadline": "2026-08-29T23:59:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260120&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
-  {
-   "id": "495260125",
-   "title": "労働政策審議会職業安定分科会における「2025年度評価 評価シート」に対する意見の募集について",
-   "category": "労働",
-   "ministry": "厚生労働省",
-   "published": "2026-07-31T23:59:00+09:00",
-   "deadline": "2026-08-30T00:00:00+09:00",
-   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260125&Mode=0",
-   "first_seen": "2026-09-28",
-   "tags": []
-  },
   {
    "id": "155260309",
    "title": "「建設業者の不正行為等に対する監督処分の基準について」の一部改正案に関する意見募集について",
@@ -3710,7 +3677,7 @@
   },
   {
    "id": "300110056",
-   "title": "「保護司及び保護司会連合会に関する規則の一部を改正する省令案」に関する意見募集について",
+   "title": "「保護司会及び保護司会連合会に関する規則の一部を改正する省令案」に関する意見募集について",
    "category": "刑事",
    "ministry": "法務省",
    "published": "2026-09-18T23:59:00+09:00",
@@ -13984,6 +13951,31 @@
    }
   },
   {
+   "id": "225026072",
+   "title": "「金融庁関係国家戦略特別区域法第二十六条に規定する政令等規制事業に係る内閣府令の特例に関する措置を定める内閣府令の一部を改正する内閣府令（案）」に対するパブリックコメントの実施について",
+   "category": "金融、保険",
+   "ministry": "金融庁",
+   "published": "2026-11-27T23:59:00+09:00",
+   "deadline": "2026-12-27T17:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=225026072&Mode=0",
+   "first_seen": "2026-11-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "金融庁関係国家戦略特別区域法第二十六条に規定する政令等規制事業に係る内閣府令の特例に関する措置を定める内閣府令の一部を改正する内閣府令",
+    "law": "国家戦略特別区域法（平成二十五年法律第百七号）第二十六条",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324709"
+     }
+    ],
+    "draft_files": [],
+    "other_files": [],
+    "note": "",
+    "contact": "電話受付\n受付時間：平日10時00分〜17時00分\n電話番号：０５７０－０１６８１１（ＩＰ電話からは０３－５２５１－６８１１）\n企画市場局市場課（庁内用：3609、2639）"
+   }
+  },
+  {
    "id": "155261234",
    "title": "無人航空機の登録講習機関及び登録更新講習機関に関する省令の一部改正（案）に関する意見募集について",
    "category": "航空",
@@ -14093,6 +14085,41 @@
     "other_files": [],
     "note": "",
     "contact": "内閣府宇宙開発戦略推進事務局 宇宙活動法担当\n電話：03-6205-7036"
+   }
+  },
+  {
+   "id": "145210803",
+   "title": "無線局の免許等関連手続の電子申請義務化に係る制度改正案に対する意見募集（電波法施行規則の一部を改正する省令案）",
+   "category": "電気通信",
+   "ministry": "総務省",
+   "published": "2026-11-28T23:59:00+09:00",
+   "deadline": "2026-12-28T00:00:00+09:00",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210803&Mode=0",
+   "first_seen": "2026-11-28",
+   "tags": [],
+   "detail": {
+    "rule_name": "電波法施行規則の一部を改正する省令",
+    "law": "電波法（昭和25年法律第131号）第百二条の十九第一項",
+    "guide_files": [
+     {
+      "name": "意見公募要領",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324625"
+     }
+    ],
+    "draft_files": [
+     {
+      "name": "【新旧対照表】電波法施行規則の一部改正省令案",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324626"
+     }
+    ],
+    "other_files": [
+     {
+      "name": "関係省令の改正案（概要）",
+      "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000324627"
+     }
+    ],
+    "note": "",
+    "contact": "総務省総合通信基盤局\n電波部電波政策課\n電話：03-5253-5874"
    }
   }
  ]
